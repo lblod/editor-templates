@@ -1,0 +1,38 @@
+<div class="annotation-snippet" resource="http://data.lblod.info/ontslagbesluiten/${generateUuid()}" typeof="mandaat:OntslagBesluit">
+  <div class="annotation-structure">
+    <h5 class="h4 u-spacer" property="eli:title"> Kennisname ontslag </h5>
+    <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" />
+  </div>
+  <div property="besluit:motivering" xml:lang="nl">
+    <div class="annotation-structure annotation-structure--active">
+      <h6 class="h5">Feiten en context</h6>
+      <ul class="bullet-list bullet-list--spaced--small u-spacer">
+        <li>&lt;Feit/context&gt;</li>
+      </ul>
+    </div>
+    <div class="annotation-structure">
+      <h6 class="h5">Juridische gronden</h6>
+      <ul class="bullet-list bullet-list--spaced--small u-spacer">
+        <li>&lt;Juridische grond&gt;</li>
+      </ul>
+    </div>
+  </div>
+  <div class="annotation-structure">
+    <h6 class="h5">Besluit</h6>
+    <ol class="li--besluit u-spacer" property="prov:value">
+      <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+        <div class="grid">
+          <div class="col--3-12">
+            <span class="annotation" property="eli:number">Enig artikel.</span>
+          </div>
+          <div class="col--9-12">
+            <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" />
+            <div class="annotation" property="prov:value">
+              De gemeenteraad neemt kennis van het ontslag van &lt;mandataris&gt; met ingang van &lt;datum&gt;.
+            </div>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </div>
+</div>
