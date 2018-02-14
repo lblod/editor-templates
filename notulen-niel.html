@@ -1,23 +1,23 @@
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/zittingen/${generateUuid()}">
-  <div class="annotation-structure" id="documentinformatie">
+  <div class="annotation-structure">
     <!-- meta zitting -->
     <h2 class="h1">Notulen van de
-      <span class="annotation annotation--organ" property="besluit:isGehoudenDoor" resource="https://data.lblod.info/id/bestuursorganen-classificaties/GE">Gemeenteraad Niel</span>, zitting van 21 februari 2018</h2>
+      <span class="annotation" property="besluit:isGehoudenDoor" resource="https://data.lblod.info/id/bestuursorganen-classificaties/GE">Gemeenteraad Niel</span>, zitting van 21 februari 2018</h2>
     <p>
-      <span class="annotation annotation--location" property="prov:atLocation" resource="http://data.vlaanderen.be/id/gemeentenaam/11030">Locatie Gemeente Niel</span>
+      <span class="annotation" property="prov:atLocation" resource="http://data.vlaanderen.be/id/gemeentenaam/11030">Locatie Gemeente Niel</span>
     </p>
     <p>
       Woensdag 21 februari 2018,
-      <span property="prov:startedAtTime" value="2018-02-21T19:00:00+01:00" class="annotation annotation--time">>19:00</span> tot <span property="prov:endedAtTime" value="2018-02-21T23:12:00+01:00" class="annotation annotation--time">>23:12</span></span>
+      <span property="prov:startedAtTime" value="2018-02-21T19:00:00+01:00" class="annotation">19:00</span> tot <span property="prov:endedAtTime" value="2018-02-21T23:12:00+01:00" class="annotation">23:12</span>
     </p>
   </div>
   <!-- opening -->
-  <div class="annotation-structure" id="opening">
+  <div class="annotation-structure">
     <h3 class="h2">Opening</h3>
     <p>De gemeenteraad-voorzitter verklaart de zitting open om 19:00 uur en deelt mee dat
   </div>
   <!-- aanwezigen-->
-  <div class="annotation-structure" id="aanwezigen">
+  <div class="annotation-structure">
     <h3 class="h2">Aanwezigen</h3>
     <ul class="bullet-list">
       <li class="u-spacer--small">
@@ -95,15 +95,15 @@
     </ul>
   </div>
   <!-- Agenda overzicht-->
-  <div class="annotation-structure" id="agendaoverzicht">
+  <div class="annotation-structure" property="besluit:heeftAgenda" resource="http://data.lblod.info/agendas/${generateUuid()}" typeof="besluit:Agenda">
     <h3 class="h2">Agenda overzicht</h3>
     <ul class="clickable-list">
       <li>
-        <h4 class="h3">Open agendapunten</h4>
+        <h4 class="h3" property="http://mu.semte.ch/vocabularies/ext/noHighlight" typeof="http://mu.semte.ch/vocabularies/ext/NoHighlight">Open agendapunten</h4>
       </li>
       <li>agendapunt</li>
       <li>
-        <h4 class="h3">Besloten agendapunten</h4>
+        <h4 class="h3" property="http://mu.semte.ch/vocabularies/ext/noHighlight" typeof="http://mu.semte.ch/vocabularies/ext/NoHighlight">Besloten agendapunten</h4>
       </li>
       <li>agendapunt</li>
       </li>
@@ -111,25 +111,24 @@
   </div>
 
   <!-- Agenda overzicht -->
-  <div class="annotation-structure" id="agendapunten">
+  <div class="annotation-structure">
     <h3 class="h2">Agendapunten</h3>
-    <h4 class="h3" id="agendaopen">Open agendapunten</h4>
-    <ul>
-      <li class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
+    <h4 class="h3">Open zitting</h4>
+    <ol class="agendapunt__list">
+      <li>
         besluit
       </li>
-    <li>
-      <h4 class="h3">Besloten agendapunten</h4>
-    </li>
-    <li>
-      <span class="annotation annotation--agendapunt annotation--agendapunt--besloten">
+    </ol>    
+    <h4 class="h3">Besloten zitting</h4>
+    <ol class="agendapunt__list">
+      <li>
         besluit
-    </li>
-    </ul>
+      </li>
+    </ol>    
   </div>
 
   <!-- Sluiting zitting-->
-  <div class="annotation-structure" id="sluiting">
+  <div class="annotation-structure">
     <h3 class="h2">Sluiting van de zitting</h3>
     <p>De voorzitter sluit de zitting.</p>
   </div>
