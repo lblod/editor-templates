@@ -1,11 +1,12 @@
-<div property="ext:behandelt" resource="http://data.lblod.info/behandelingen-van-agendapunten/${generateUuid()}" typeof="besluit:behandelingVanAgendaPunt">
-  <div class="annotation-snippet" resource="http://data.lblod.info/aanstellingsbesluiten/${generateUuid()}" typeof="mandaat:AanstellingsBesluit">
+<div property="ext:behandelt" resource="http://data.lblod.info/behandelingen-van-agendapunten/${generateUuid()}" typeof="besluit:BehandelingVanAgendapunt">
+  <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/aanstellingsbesluiten/${generateUuid()}" typeof="mandaat:AanstellingsBesluit besluit:Besluit">
     <div class="annotation-structure">
       <h5 class="h4 u-spacer" property="eli:title"> Mededeling benoeming en eedaflegging </h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" />
     </div>
 
     <div class="annotation-structure">
+      <div class="annotation" property="eli:title"> &lt;Titel van het besluit.&gt;</div>      
       <div class="annotation" property="eli:description"> &lt;Geef een korte samenvatting van het besluit op.&gt;</div>
     </div>
 
