@@ -1,36 +1,46 @@
-<div class="annotation-snippet" resource="http://data.lblod.info/besluiten/${generateUuid()}" typeof="mandaat:Besluit">
-  <div class="annotation-structure">
-    <h5 class="h4 u-spacer" property="eli:title"> &lt;Titel&gt; </h5>
-    <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" />
-  </div>
-  <div property="besluit:motivering" xml:lang="nl">
-    <div class="annotation-structure annotation-structure--active">
-      <h6 class="h5">Feiten en context</h6>
-      <ul class="bullet-list bullet-list--spaced--small u-spacer">
-        <li>Gelet op </li>
-      </ul>
+<div property="ext:behandelt" resource="http://data.lblod.info/behandelingen-van-agendapunten/${generateUuid()}" typeof="besluit:behandelingVanAgendaPunt">
+  <div class="annotation-snippet" resource="http://data.lblod.info/besluiten/${generateUuid()}" typeof="mandaat:Besluit">
+    <div class="annotation-structure">
+      <h5 class="h4 u-spacer" property="eli:title"> &lt;Titel&gt; </h5>
+      <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" />
+    </div>
+
+    <div class="annotation-structure">
+      <div class="annotation" property="eli:description"> &lt;Geef een korte samenvatting van het besluit op.&gt;</div>
+    </div>
+
+    <div property="besluit:motivering" xml:lang="nl">
+      <div class="annotation-structure annotation-structure--active">
+        <h6 class="h5">Feiten en context</h6>
+        <ul class="bullet-list bullet-list--spaced--small u-spacer">
+          <li>Gelet op </li>
+        </ul>
+      </div>
+      <div class="annotation-structure">
+        <h6 class="h5">Juridische gronden</h6>
+        <ul class="bullet-list bullet-list--spaced--small u-spacer">
+          <li>Gelet op </li>
+        </ul>
+      </div>
     </div>
     <div class="annotation-structure">
-      <h6 class="h5">Juridische gronden</h6>
-      <ul class="bullet-list bullet-list--spaced--small u-spacer">
-        <li>Gelet op </li>
-      </ul>
+      <h6 class="h5">Besluit</h6>
+      <ol class="li--besluit u-spacer" property="prov:value">
+        <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+          <div class="grid">
+            <div class="col--3-12">
+              <span class="annotation" property="eli:number">Artikel 1.</span>
+            </div>
+            <div class="col--9-12">
+              <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" />
+              <div class="annotation" property="prov:value"> &lt;inhoud hier&gt; </div>
+            </div>
+          </div>
+        </li>
+      </ol>
     </div>
   </div>
-  <div class="annotation-structure">
-    <h6 class="h5">Besluit</h6>
-    <ol class="li--besluit u-spacer" property="prov:value">
-      <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-        <div class="grid">
-          <div class="col--3-12">
-            <span class="annotation" property="eli:number">Artikel 1.</span>
-          </div>
-          <div class="col--9-12">
-            <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" />
-            <div class="annotation" property="prov:value"> &lt;inhoud hier&gt; </div>
-          </div>
-        </div>
-      </li>
-    </ol>
-  </div>
+
+  Gevolg van de stemming: <div class="annotation" property="besluit:gevolg">Aanvaard/Niet Aanvaard</div>
+
 </div>
