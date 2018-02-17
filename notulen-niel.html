@@ -1,8 +1,9 @@
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/zittingen/${generateUuid()}">
   <div class="annotation-structure">
+
     <!-- meta zitting -->
     <h2 class="h1">Notulen van de
-      <span class="annotation" property="besluit:isGehoudenDoor" resource="https://data.lblod.info/id/bestuursorganen-classificaties/GE">Gemeenteraad Niel</span>, zitting van 
+      <span class="annotation" property="besluit:isGehoudenDoor" resource="https://data.lblod.info/id/bestuursorganen-classificaties/GE">Gemeenteraad Niel</span>, zitting van
       <span class="annotation" property="besluit:geplandeStart" value="2018-02-21" datatype="xsd:date">21 februari 2018</span>
     </h2>
     <p>
@@ -13,11 +14,13 @@
       <span property="prov:startedAtTime" value="2018-02-21T19:00:00+01:00" datatype="xsd:dateTime" class="annotation">19:00</span> tot <span property="prov:endedAtTime" value="2018-02-21T23:12:00+01:00" datatype="xsd:dateTime" class="annotation">23:12</span>
     </p>
   </div>
+
   <!-- opening -->
   <div class="annotation-structure">
     <h3 class="h2">Opening</h3>
     <p>De gemeenteraad-voorzitter verklaart de zitting open om 19:00 uur en deelt mee dat
   </div>
+
   <!-- aanwezigen-->
   <div class="annotation-structure">
     <h3 class="h2">Aanwezigen</h3>
@@ -93,9 +96,9 @@
           Tiffany Van den Berge (Gemeenteraadslid)
         </span>
       </li>
-
     </ul>
   </div>
+
   <!-- Agenda overzicht-->
   <div class="annotation-structure" property="besluit:heeftAgenda" resource="http://data.lblod.info/agendas/${generateUuid()}" typeof="besluit:Agenda">
     <h3 class="h2">Agenda overzicht</h3>
@@ -116,22 +119,32 @@
   <div class="annotation-structure">
     <h3 class="h2">Agendapunten</h3>
     <h4 class="h3">Open zitting</h4>
-    <ol class="agendapunt__list">
+    <ul>
       <li>
         besluit
       </li>
-    </ol>    
+    </ul>
     <h4 class="h3">Besloten zitting</h4>
-    <ol class="agendapunt__list">
+    <ul>
       <li>
         besluit
       </li>
-    </ol>    
+    </ul>
   </div>
 
   <!-- Sluiting zitting-->
   <div class="annotation-structure">
     <h3 class="h2">Sluiting van de zitting</h3>
     <p>De voorzitter sluit de zitting.</p>
+  </div>
+
+  <!-- Authenticatie -->
+  <div style="height: 15rem;">
+    <p>&lt;Mandataris&gt;</p>
+    <p>Stadssecretaris</p>
+  </div>
+  <div style="height: 15rem;">
+    <p>&lt;Mandataris&gt;</p>
+    <p>Voorzitter</p>
   </div>
 </div>
