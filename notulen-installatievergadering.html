@@ -178,6 +178,57 @@
   <div property="ext:intentionUri" content="http://agendapunt-8/ref">a</div>
   <div property="ext:variableState" content="initialized">initialized</div>
 </div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-1')}">a</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-2')}">a</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-3')}">a</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-4')}">a</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-5')}">a</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('bestuurseenheid-1')}">a</div>
+  <div property="ext:intentionUri" content="http://zitting/bestuurseenheid">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('bestuurseenheid-2')}">a</div>
+  <div property="ext:intentionUri" content="http://zitting/bestuurseenheid">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('bestuurseenheid-3')}">a</div>
+  <div property="ext:intentionUri" content="http://zitting/bestuurseenheid">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-aanstelling-1')}">a</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-aanstelling">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-aanstelling-2')}">a</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-aanstelling">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+
 
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid()}">
   <div class="annotation-structure">
@@ -186,7 +237,7 @@
       Notulen van de &lt;Gemeenteraad Naam&gt; [TODO: variable]</span>, zitting van <span class="annotation" property="besluit:geplandeStart" datatype="xsd:date" content=""><span typeOf="ext:currentDate">&nbsp;</span></span>​ (installatievergadering)
     </h2>
     <p>
-      Locatie: &lt;Naam Gemeente&gt; [TODO variable]</span>, &lt;Naam zaal&gt;
+      Locatie: <span id="${generateBoundUuid('bestuurseenheid-1')}">&lt;Naam Gemeente&gt; [TODO variable]</span>, &lt;Naam zaal&gt;
     </p>
     <p>
       van <span id="${generateBoundUuid('startAtTime-1')}"><span property="prov:startedAtTime" content="" datatype="xsd:dateTime" class="annotation"><span typeOf="ext:currentDate">&nbsp;</span></span></span> tot <span property="prov:endedAtTime" content="" datatype="xsd:dateTime" class="annotation"><span typeOf="ext:currentDate">&nbsp;</span></span>
@@ -347,7 +398,7 @@
       <br>
       <br>
 
-      <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid()}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
+      <div resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid()}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
         <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
         <div property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}"><span id="${generateBoundUuid('bva-nr-2')}">Agendapunt 2</span></div>
         <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
@@ -368,9 +419,9 @@
               <div class="annotation-structure">
                 <!-- <h6 class="h5">Juridische gronden</h6> -->
                 <ul class="bullet-list bullet-list--spaced--small u-spacer">
-                  <li>Gelet op <a class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">[TODO: link cite and RDFA article] het decreet van 22 december 2017 over het lokaal bestuur, de artikelen <span class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">58</span> tot <span class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">62</span></a>;</li>
+                  <li>Gelet op <a class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">[TODO: link cite and RDFA article] het decreet van 22 december 2017 over het lokaal bestuur, de artikelen <span class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:cites">58</span> tot <span class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:cites">62</span></a>;</li>
 
-                  <li>Gelet op <a class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">[TODO: link cite] het Ministerieel besluit van &lt;datum&gt;</a> houdende de benoeming van <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="burgemeester">&lt;persoon (Mandaat)&gt; [TODO: variable]</span> tot burgemeester van de gemeente <span class="annotation" property="prov:atLocation" resource="http://data.vlaanderen.be/id/gemeentenaam/11030">&lt;Naam Gemeente&gt; [TODO variable]</span>;</li>
+                  <li>Gelet op <a class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">[TODO: link cite] het Ministerieel besluit van &lt;datum&gt;</a> houdende de benoeming van <span class="annotation" id="${generateBoundUuid('burgemeester-persoon-1')}">&lt;Naam&gt;</span> tot burgemeester van <span id="${generateBoundUuid('bestuurseenheid-2')}">&lt;Naam Gemeente&gt; [TODO variable]</span>;</li>
 
                   <li>Gelet op <a class="annotation" href="http://codex.opendata.api.vlaanderen.be/api/TODO" property="eli:cites">de omzendbrief BA-2012/2 van 19 oktober 2012 – Start van de lokale en provinciale bestuursperiode [TODO check datum en nummer bij Domien + RDFA verwijzing]</a>;</li>
                 </ul>
@@ -378,11 +429,11 @@
               <div class="annotation-structure">
                 <!-- <h6 class="h5">Feiten en context</h6> -->
                 <ul class="bullet-list bullet-list--spaced--small u-spacer">
-                  <li>Overwegende dat <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="burgemeester">&lt;persoon (Mandaat)&gt; [TODO: variable]</span> een ontvankelijke akte van voordracht heeft ingediend;</li>
+                  <li>Overwegende dat <span id="${generateBoundUuid('burgemeester-persoon-2')}">&lt;Naam&gt;</span> een ontvankelijke akte van voordracht heeft ingediend;</li>
 
-                  <li>Overwegende dat <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="burgemeester">&lt;persoon (Mandaat)&gt; [TODO: variable]</span> de decretaal voorziene eed heeft afgelegd in de handen van <span class="annotation" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Gouverneur">&lt;persoon (Gouverneur)&gt; [TODO: variable, properties, typeof, ...]</span> op &lt;datum&gt;, zoals bevestigd door de akte van eedaflegging;</li>
+                  <li>Overwegende dat <span id="${generateBoundUuid('burgemeester-persoon-3')}">&lt;Naam&gt;</span> de decretaal voorziene eed heeft afgelegd in de handen van &lt;Gouverneur&gt; [TODO: URI] op <span content="2019-01-01" type="xsd:date">1 januari 2019, zoals bevestigd door de akte van eedaflegging;</li>
 
-                  <li>Overwegende dat <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="burgemeester">&lt;persoon (Mandaat)&gt; [TODO: variable]</span> aldus met ingang van &lt;datum [TODO: data koppelen van ABB / manueel invullen + variable]&gt; het ambt van burgemeester heeft opgenomen;</li>
+                    <li>Overwegende dat <span id="${generateBoundUuid('burgemeester-persoon-4')}">&lt;Naam&gt;</span> aldus met ingang van <span id="${generateBoundUuid('burgemeester-aanstelling-1')}" content="2019-01-01" type="xsd:date">1 januari 2019 [TODO: data koppelen van ABB / manueel invullen + variable]</span> het ambt van burgemeester heeft opgenomen;</li>
 
                   <li>Overwegende dat de akte van voordracht van de kandidaat-burgemeester geen melding maakt van de einddatum van het mandaat en aldus geen melding maakt van diegene die hem zal opvolgen voor de resterende duurtijd van het mandaat [TODO: Vragen aan Domien voor ander scenario (opvolger)];</li>
                 </ul>
@@ -394,7 +445,7 @@
             <p class="u-spacer--small">Neemt akte van, [TODO: Vragen aan Domien voor ander scenario (burgemeester buiten de raad, geen burgemeester aangesteld, ...]</p>
 
             <div class="annotation-structure" property="prov:value">
-                <p property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:AktenameTODO">De benoeming en eedaflegging van de <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="burgemeester">&lt;persoon (Mandaat)&gt; [TODO: variable]</span> tot burgemeester van de gemeente <span class="annotation" property="prov:atLocation" resource="http://data.vlaanderen.be/id/gemeentenaam/11030">&lt;Naam Gemeente&gt; [TODO variable]</span> met ingang van &lt;datum [TODO: data koppelen van ABB / manueel invullen + variable]&gt;.</p>
+              <p>De benoeming en eedaflegging van de <span id="${generateBoundUuid('burgemeester-persoon-5')}">&lt;Naam&gt;</span> tot burgemeester van <span id="${generateBoundUuid('bestuurseenheid-3')}">&lt;Naam Gemeente&gt; [TODO variable]</span> met ingang van <span id="${generateBoundUuid('burgemeester-aanstelling-2')}" content="2019-01-01" type="xsd:date">1 januari 2019 [TODO: data koppelen van ABB / manueel invullen + variable]</span></p>
             </div>
           </div>
         </div>
