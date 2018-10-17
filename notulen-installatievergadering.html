@@ -225,6 +225,13 @@
   </div>
 
   <br>
+  <div class="ext_tasklist_data" typeof="ext:TasklistData" resource="http://data.lblod.info/id/tasklistsdata/${generateBoundUuid('tasklistData')}">
+    <div property="ext:idInSnippet" content=${generateBoundUuid('tasklist')}>${generateBoundUuid('tasklist')}</div>
+    <meta property="ext:tasklistDataTasklist" resource="http://data.lblod.info/id/tasklists/66a18951-71d5-434a-9fa6-b0b5965a754b" typeof="ext:Tasklist"/>
+    <div property="ext:tasklistDataState" content="initialized">initialized</div>
+  </div>
+  <div id="${generateBoundUuid('tasklist')}" property="ext:tasklistDataHintText">Takenlijst installatievergadering.</div>
+  <br>
   <!-- opening -->
   <div class="annotation-structure">
     <p>De uittredend gemeenteraad-voorzitter zit de installatievergadering voor op <span id="${generateBoundUuid('startAtTime-2')}"></span> en deelt mee dat er een opname gemaakt wordt ingevolge schriftelijke uitnodiging vanwege de Algemeen Directeur dienstdoend <span class="annotation" property="besluit:TODO" datatype="xsd:date" content="datum">&lt;datum&gt; [TODO: RDFA]</span>​.</p>
