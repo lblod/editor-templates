@@ -341,8 +341,13 @@
 
   <br>
 
+  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+    <div property="ext:scrollToLogicalName" content="datum installatievergadering">datum installatievergadering</div>
+    <div property="ext:idInSnippet" content="${generateBoundUuid('datum installatievergadering')}">${generateBoundUuid('datum installatievergadering')}</div>
+  </div>
+
   <!-- Agenda behandeling -->
-  <div class="annotation-structure">
+  <div id="${generateBoundUuid('datum installatievergadering')}" class="annotation-structure">
     <h3 class="h2">Agendapunten</h3>
     <h4 class="h3">Open zitting</h4>
 
@@ -667,7 +672,13 @@
       <br>
       <br>
 
-      <div resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-4')}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
+
+      <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+        <div property="ext:scrollToLogicalName" content="voordrachtsakte algemeen directeur">voordrachtsakte algemeen directeur</div>
+        <div property="ext:idInSnippet" content="${generateBoundUuid('voordrachtsakte algemeen directeur')}">${generateBoundUuid('voordrachtsakte algemeen directeur')}</div>
+      </div>
+      
+      <div id="${generateBoundUuid('voordrachtsakte algemeen directeur')}" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-4')}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
         <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-3')}">
         <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
         <div property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}"><span id="${generateBoundUuid('bva-nr-4')}">Agendapunt 4</span></div>
