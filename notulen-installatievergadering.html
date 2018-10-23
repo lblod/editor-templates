@@ -19,6 +19,11 @@
   <div property="ext:variableState" content="initialized">initialized</div>
 </div>
 <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('verkiezingsdatum-3')}">a</div>
+  <div property="ext:intentionUri" content="http://installatie/verkiezingsdatum">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
   <div property="ext:idInSnippet" content="${generateBoundUuid('ap-1')}">a</div>
   <div property="ext:intentionUri" content="http://agendapunt-1/title">a</div>
   <div property="ext:variableState" content="initialized">initialized</div>
@@ -203,44 +208,54 @@
   <div property="ext:intentionUri" content="http://installatie/burgemeester-aanstelling">a</div>
   <div property="ext:variableState" content="initialized">initialized</div>
 </div>
+<div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+  <div property="ext:scrollToLogicalName" content="voordrachtsakte algemeen directeur">voordrachtsakte algemeen directeur</div>
+  <div property="ext:idInSnippet" content="${generateBoundUuid('voordrachtsakte algemeen directeur')}">${generateBoundUuid('voordrachtsakte algemeen directeur')}</div>
+</div>
+<div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+  <div property="ext:scrollToLogicalName" content="datum installatievergadering">datum installatievergadering</div>
+  <div property="ext:idInSnippet" content="${generateBoundUuid('datum installatievergadering')}">${generateBoundUuid('datum installatievergadering')}</div>
+</div>
+
+
 
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid()}">
   <!--START TAKENLIJSTEN (please keep on top because else something not 100% with hints above it) -->
   &nbsp;
-  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource=http://data.lblod.info/id/tasklistsdata/${generateBoundUuid("tasklistData-1")}>
-    <div property="ext:idInSnippet" content=${generateBoundUuid("tasklist-1")}>${generateBoundUuid("tasklist-1")}</div>
+  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource="http://data.lblod.info/id/tasklistsdata/${generateBoundUuid('tasklistData-1')}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('tasklist-1')}">${generateBoundUuid('tasklist-1')}</div>
     <meta property="ext:tasklistDataTasklist" resource="http://data.lblod.info/id/tasklists/84b51f9bc40aaf2c9973b950a4e50ff3378b6096139a63d174c89eaa5ed3305d" typeof="ext:Tasklist"/>
     <div property="ext:tasklistDataState" content="initialized">initialized</div>
   </div>
-  <p id=${generateBoundUuid("tasklist-1")} property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>Installatievergadering datum bepalen</strong></p>
+  <p id="${generateBoundUuid('tasklist-1')}" property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>Installatievergadering datum bepalen</strong></p>
 
-  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource=http://data.lblod.info/id/tasklistsdata/${generateBoundUuid("tasklistData-2")}>
-    <div property="ext:idInSnippet" content=${generateBoundUuid("tasklist-2")}>${generateBoundUuid("tasklist-2")}</div>
+  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource="http://data.lblod.info/id/tasklistsdata/${generateBoundUuid('tasklistData-2')}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('tasklist-2')}">${generateBoundUuid('tasklist-2')}</div>
     <meta property="ext:tasklistDataTasklist" resource="http://data.lblod.info/id/tasklists/a299a730333cb29122e818466194b0a2bfcbe4762580c42779288cd60b91fc8a" typeof="ext:Tasklist"/>
     <div property="ext:tasklistDataState" content="initialized">initialized</div>
   </div>
-  <p id=${generateBoundUuid("tasklist-2")} property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>Voorbereidende werkzaamheden na het bepalen van de installatievergadering</strong></p>
+  <p id="${generateBoundUuid('tasklist-2')}" property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>Voorbereidende werkzaamheden na het bepalen van de installatievergadering</strong></p>
 
-  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource=http://data.lblod.info/id/tasklistsdata/${generateBoundUuid("tasklistData-3")}>
-    <div property="ext:idInSnippet" content=${generateBoundUuid("tasklist-3")}>${generateBoundUuid("tasklist-3")}</div>
+  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource="http://data.lblod.info/id/tasklistsdata/${generateBoundUuid('tasklistData-3')}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('tasklist-3')}">${generateBoundUuid('tasklist-3')}</div>
     <meta property="ext:tasklistDataTasklist" resource="http://data.lblod.info/id/tasklists/4a98f3467c6bcc7c0713a70b117ea3688263c3e8b3a1c2ec9cb721a191ba91d3" typeof="ext:Tasklist"/>
     <div property="ext:tasklistDataState" content="initialized">initialized</div>
   </div>
-  <p id=${generateBoundUuid("tasklist-3")} property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>De installatievergadering</strong></p>
+  <p id="${generateBoundUuid('tasklist-3')}" property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>De installatievergadering</strong></p>
 
-  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource=http://data.lblod.info/id/tasklistsdata/${generateBoundUuid("tasklistData-4")}>
-    <div property="ext:idInSnippet" content=${generateBoundUuid("tasklist-4")}>${generateBoundUuid("tasklist-4")}</div>
+  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource="http://data.lblod.info/id/tasklistsdata/${generateBoundUuid('tasklistData-4')}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('tasklist-4')}">${generateBoundUuid('tasklist-4')}</div>
     <meta property="ext:tasklistDataTasklist" resource="http://data.lblod.info/id/tasklists/74fd11344fa1a41b4b9dfaddf7713bb870b8b024faa6ddc8dd537ab544fbff88" typeof="ext:Tasklist"/>
     <div property="ext:tasklistDataState" content="initialized">initialized</div>
   </div>
-  <p id=${generateBoundUuid("tasklist-4")} property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>Na de installatievergadering van de gemeenteraad</strong></p>
+  <p id="${generateBoundUuid('tasklist-4')}" property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>Na de installatievergadering van de gemeenteraad</strong></p>
 
-  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource=http://data.lblod.info/id/tasklistsdata/${generateBoundUuid("tasklistData-5")}>
-    <div property="ext:idInSnippet" content=${generateBoundUuid("tasklist-5")}>${generateBoundUuid("tasklist-5")}</div>
+  <div class="ext_tasklist_data u-spacer" typeof="ext:TasklistData" resource="http://data.lblod.info/id/tasklistsdata/${generateBoundUuid('tasklistData-5')}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('tasklist-5')}">${generateBoundUuid('tasklist-5')}</div>
     <meta property="ext:tasklistDataTasklist" resource="http://data.lblod.info/id/tasklists/986f6c9d4f1f6fc02c5e667150dfb583748c8de6f771ba1e8a4ccc2604519271" typeof="ext:Tasklist"/>
     <div property="ext:tasklistDataState" content="initialized">initialized</div>
   </div>
-  <p id=${generateBoundUuid("tasklist-5")} property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>Andere beslissingen</strong></p>
+  <p id="${generateBoundUuid('tasklist-5')}" property="ext:tasklistDataHintText">Er is een takenlijst beschikbaar: <br> <strong>Andere beslissingen</strong></p>
   <!--END TAKENLIJSTEN-->
   <br>
   <br>
@@ -269,7 +284,7 @@
     <ul class="bullet-list">
       <li><span class="annotation" property="besluit:heeftVoorzitter" resource="http://data.lblod.info/id/personen/4ba9f6fc0fa9c7319bd8d0bf6408a0967527d3855f702ff85b959be9f2687e2f">Roger VANHOVE (Voorzitter)</span>,</li>
       <li><span class="annotation" property="besluit:heeftSecretaris" resource="http://data.lblod.info/id/personen/45313719-fb4d-457b-a803-72db863d04b7">Jo Sclep (Algemeen Directeur)</span>,</li>
-      <li><span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/03e34d8b-8cd2-4a66-ab04-cf23b290731c">Wouter VAN ELSACKER</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/b4fc7b01-59a3-4c8a-b4c0-2ca03f5c9924">Wesley KOLEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/7a9b985e-0ed2-4e58-be8a-adb635e40c5b">Liliane HINOUL</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/c4038cf6-653b-42ba-ba12-dca3560720e2">Davy PUT</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/271c5a47-51c3-4dd9-8239-a2115a2fe134">Sigrid CORNELISSEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/27dd3f98-ff3d-4571-a8b9-473d8a12e961">Ria PLASSCHAERT</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/214409fd-8f14-4f12-bcad-58501aadb1d2">Kathleen SOORS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/eeeba21e-2f5d-4864-80eb-4a0f1a485c1b">Guido MAES</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/b9ddd004-6470-4ea0-ab99-e6c25d2ebd57">Patrick MEYSEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/c7cf2fe4-efb8-4bef-836a-706196b2d80f">Steven MATHEÏ</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/ef3aca4b-7db7-4d1c-b4e3-e64d3e46e007">Liesbeth DILIËN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/2be37f0e-13a9-45b8-911c-2450789ac8b3">Raf NELIS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/a1a86c1c-bbac-4aa3-a309-2eb008a00083">Bram GEERITS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/beb88cbf-a257-4469-a334-b9f06f0ba523">Steven BROEKX</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/3b1efc30-97e3-43df-8f74-099bc09417e3">Koen WINTERS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/ab9b6413-6809-4a57-8065-981166e761b1">Lutgarde CEYSSENS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/e86b137a-2577-40b5-bd17-a6c918a8e16f">Dirk COLAERS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/31c1c47b-f125-40dc-b945-429eeaa79362">Toon VAN GEYSEGHEM</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/85a083c9-1cb7-49d3-93b2-c01bde14e7bd">Tine BRAEKEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/1e7a48d0-e19d-4a48-aa26-efbca8c933a8">Nico LENAERTS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/64adece2-93a9-40f5-9043-5ebd8d74e778">Mia SOORS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/87ef6d8b-2149-4e0b-bb5c-77c69ab4678c">Eddy SCHROOTEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/952cf5f8-decb-4ff0-ae93-1f42e091d4b8">Hilde VAN LIMPT</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/5fe70548-f562-4ae2-8b50-1174ba4ea8fc">Yosh GORDIJN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/619e2fa3-a157-41b3-8eda-9edf69b0c54d">Elle REUMERS</span></li>
+      <li><span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/03e34d8b-8cd2-4a66-ab04-cf23b290731c">Wouter VAN ELSACKER</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/b4fc7b01-59a3-4c8a-b4c0-2ca03f5c9924">Wesley KOLEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/7a9b985e-0ed2-4e58-be8a-adb635e40c5b">Liliane HINOUL</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/c4038cf6-653b-42ba-ba12-dca3560720e2">Davy PUT</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/271c5a47-51c3-4dd9-8239-a2115a2fe134">Sigrid CORNELISSEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/27dd3f98-ff3d-4571-a8b9-473d8a12e961">Ria PLASSCHAERT</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/214409fd-8f14-4f12-bcad-58501aadb1d2">Kathleen SOORS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/eeeba21e-2f5d-4864-80eb-4a0f1a485c1b">Guido MAES</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/b9ddd004-6470-4ea0-ab99-e6c25d2ebd57">Patrick MEYSEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/c7cf2fe4-efb8-4bef-836a-706196b2d80f">Steven MATHEI</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/ef3aca4b-7db7-4d1c-b4e3-e64d3e46e007">Liesbeth DILIEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/2be37f0e-13a9-45b8-911c-2450789ac8b3">Raf NELIS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/a1a86c1c-bbac-4aa3-a309-2eb008a00083">Bram GEERITS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/beb88cbf-a257-4469-a334-b9f06f0ba523">Steven BROEKX</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/3b1efc30-97e3-43df-8f74-099bc09417e3">Koen WINTERS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/ab9b6413-6809-4a57-8065-981166e761b1">Lutgarde CEYSSENS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/e86b137a-2577-40b5-bd17-a6c918a8e16f">Dirk COLAERS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/31c1c47b-f125-40dc-b945-429eeaa79362">Toon VAN GEYSEGHEM</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/85a083c9-1cb7-49d3-93b2-c01bde14e7bd">Tine BRAEKEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/1e7a48d0-e19d-4a48-aa26-efbca8c933a8">Nico LENAERTS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/64adece2-93a9-40f5-9043-5ebd8d74e778">Mia SOORS</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/87ef6d8b-2149-4e0b-bb5c-77c69ab4678c">Eddy SCHROOTEN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/952cf5f8-decb-4ff0-ae93-1f42e091d4b8">Hilde VAN LIMPT</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/5fe70548-f562-4ae2-8b50-1174ba4ea8fc">Yosh GORDIJN</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/619e2fa3-a157-41b3-8eda-9edf69b0c54d">Elle REUMERS</span></li>
     </ul>
   </div>
   <br>
@@ -326,11 +341,6 @@
   </div>
 
   <br>
-
-  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-    <div property="ext:scrollToLogicalName" content="datum installatievergadering">datum installatievergadering</div>
-    <div property="ext:idInSnippet" content="${generateBoundUuid('datum installatievergadering')}">${generateBoundUuid('datum installatievergadering')}</div>
-  </div>
 
   <!-- Agenda behandeling -->
   <div id="${generateBoundUuid('datum installatievergadering')}" class="annotation-structure">
@@ -400,7 +410,7 @@
             <p class="u-spacer--small">Neemt akte van,</p>
 
             <div class="annotation-structure" property="prov:value">
-              <p>De goedkeuring van de resultaten van de gemeenteraadsverkiezingen van <span id="${generateBoundUuid('verkiezingsdatum-1')}" class="annotation" property="ext:datumVerkiezing" datatype="xsd:date" content="2018-10-14"> 14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen.</p>
+              <p>De goedkeuring van de resultaten van de gemeenteraadsverkiezingen van <span id="${generateBoundUuid('verkiezingsdatum-2')}" class="annotation" property="ext:datumVerkiezing" datatype="xsd:date" content="2018-10-14"> 14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen.</p>
             </div>
           </div>
         </div>
@@ -467,7 +477,7 @@
           </div>
 
           <div class="annotation-structure">
-            <p class="u-spacer--small">Neemt akte van,<!--  <em>[TODO: Vragen aan Domien voor ander scenario (burgemeester buiten de raad, geen burgemeester aangesteld, ...] --></em></p>
+            <p class="u-spacer--small">Neemt akte van,<!--  <em>[TODO: Vragen aan Domien voor ander scenario (burgemeester buiten de raad, geen burgemeester aangesteld, ...] </em>--></p>
 
             <div class="annotation-structure" property="prov:value">
               <p>De benoeming en eedaflegging van&nbsp;
@@ -538,10 +548,9 @@
               <div class="annotation-structure">
                 <!-- <h6 class="h5">Feiten en context</h6> -->
                 <ul class="bullet-list bullet-list--spaced--small u-spacer">
-
                   <li>
                     Overwegende dat de resultaten van de gemeenteraadsverkiezingen van&nbsp;
-                    <span id="${generateBoundUuid('verkiezingsdatum-1')}" class="annotation" property="ext:datumVerkiezing" datatype="xsd:date" content="2018-10-14">14 oktober 2018</span>&nbsp;
+                    <span id="${generateBoundUuid('verkiezingsdatum-3')}" class="annotation" property="ext:datumVerkiezing" datatype="xsd:date" content="2018-10-14">14 oktober 2018</span>&nbsp;
                     door de Raad voor Verkiezingsbetwistingen op&nbsp;
                     <span class="annotation" property="ext:datumGoedkeuringVerkiezing" datatype="xsd:date" content="2018-11-27">27 november 2018 werden</span>&nbsp;
                     goedgekeurd.</li>
@@ -561,7 +570,7 @@
                   <li>Overwegende dat niemand verklaard heeft zich in een situatie van onverenigbaarheid te bevinden;
                     <!--ander scenario <br>
                     OF
-                    <br>
+                    <br></li>
 
                     <li>Overwegende dat <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span>, <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span> en <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span> verklaard hebben zich in een situatie van onverenigbaarheid te bevinden; [TODO: ander scenario visualiseren]</li>
 
@@ -696,11 +705,6 @@
       <br>
       <br>
 
-      <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-        <div property="ext:scrollToLogicalName" content="voordrachtsakte algemeen directeur">voordrachtsakte algemeen directeur</div>
-        <div property="ext:idInSnippet" content="${generateBoundUuid('voordrachtsakte algemeen directeur')}">${generateBoundUuid('voordrachtsakte algemeen directeur')}</div>
-      </div>
-
       <div id="${generateBoundUuid('voordrachtsakte algemeen directeur')}"  property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-4')}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
         <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-3')}">
         <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
@@ -740,13 +744,13 @@
                     OF
                     <br>
                     <br>
-                    Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-voorzitter de melding maakt van de einddatum van het mandaat op <span class="annotation" property="besluit:TODO" datatype="xsd:date" content="datum">&lt;datum&gt; [TODO: RDFA]</span>​, met als opvolger <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="voorzitter">&lt;persoon&gt; [TODO: variable]</span> voor de resterende duurtijd van het mandaat;
+                    Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-voorzitter de melding maakt van de einddatum van het mandaat op <span class="annotation" property="besluit:TODO" datatype="xsd:date" content="datum">&lt;datum&gt; [TODO: RDFA]</span>​, met als opvolger <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="voorzitter-1">&lt;persoon&gt; [TODO: variable]</span> voor de resterende duurtijd van het mandaat;
                     <br>
                     <br>
                     OF
                     <br>
                     <br>
-                    Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-voorzitter de melding maakt van de einddatum van het mandaat op <span class="annotation" property="besluit:TODO" datatype="xsd:date" content="datum">&lt;datum&gt; [TODO: RDFA]</span>​, met als opvolger <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="voorzitter">&lt;persoon&gt; [TODO: variable]</span> tot <span class="annotation" property="besluit:TODO" datatype="xsd:date" content="datum">&lt;datum&gt; [TODO: RDFA]</span>​, met als opvolger <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="voorzitter">&lt;persoon&gt; [TODO: variable]</span> voor de resterende duurtijd van het mandaat; <em>Is dit scenario nodig?</em>
+                    Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-voorzitter de melding maakt van de einddatum van het mandaat op <span class="annotation" property="besluit:TODO" datatype="xsd:date" content="datum">&lt;datum&gt; [TODO: RDFA]</span>​, met als opvolger <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="voorzitter-2">&lt;persoon&gt; [TODO: variable]</span> tot <span class="annotation" property="besluit:TODO" datatype="xsd:date" content="datum">&lt;datum&gt; [TODO: RDFA]</span>​, met als opvolger <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="voorzitter-3">&lt;persoon&gt; [TODO: variable]</span> voor de resterende duurtijd van het mandaat; <em>Is dit scenario nodig?</em>
                     <br>
                     <br>
                     <em>[TODO: Ander scenario visualiseren: einddatum vermeld en vermelding [PERSOON] opvolger]</em>
@@ -826,10 +830,9 @@
                     <span class="annotation" property="besluit:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;<!--  [TODO: RDFA] --></span>​<!--  [TODO: RDFA] --> een afschrift van de gezamenlijke akte van voordracht aan de burgemeester heeft bezorgd;</li>
 
                   <li>Overwegende dat alle kandidaat-schepenen de eed als gemeenteraadslid hebben afgelegd;</li>
-
                   <li>
                     Overwegende dat&nbsp;
-                    <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="voorzitter">&lt;persoon&gt;<!--  [TODO: variable] --></span> tot voorzitter van de gemeenteraad werd verkozen tijdens de installatievergadering van&nbsp;
+                    <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" id="voorzitter-4">&lt;persoon&gt;<!--  [TODO: variable] --></span> tot voorzitter van de gemeenteraad werd verkozen tijdens de installatievergadering van&nbsp;
                     <span class="annotation" property="besluit:geplandeStart" datatype="xsd:date" content="2018-01-02">2 januari 2019<!--  [TODO: variable] --></span> en na zijn/ installatie de gemeenteraad voorzit;</li>
 
                   <li>Overwegende dat de (waarnemend) algemeen directeur de gezamenlijke akte van voordracht van de kandidaat-schepenen ter zitting heeft overhandigd aan de voorzitter van de gemeenteraad;</li>
@@ -914,11 +917,11 @@
                 <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
                   <span class="annotation article-number" property="eli:number">Artikel 4</span>
                   <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                  <span class="annotation article-content" property="prov:value">Akte te nemen van de rangorde waarin de schepenen werden geïnstalleerd:
+                  <div class="annotation article-content" property="prov:value">Akte te nemen van de rangorde waarin de schepenen werden geïnstalleerd:
                     <ul class="bullet-list">
                       <li>Eerste schepen: <span class="annotation" property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;<!--  [TODO: variable feiten en context kandidaat schepenen] --></span></li>
                     </ul>
-                  </span>
+                  </div>
                 </li>
                 <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
                   <span class="annotation article-number" property="eli:number">Artikel 5</span>
