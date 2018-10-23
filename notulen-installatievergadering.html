@@ -208,6 +208,16 @@
   <div property="ext:intentionUri" content="http://installatie/burgemeester-aanstelling">a</div>
   <div property="ext:variableState" content="initialized">initialized</div>
 </div>
+<div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+  <div property="ext:scrollToLogicalName" content="voordrachtsakte algemeen directeur">voordrachtsakte algemeen directeur</div>
+  <div property="ext:idInSnippet" content="${generateBoundUuid('voordrachtsakte algemeen directeur')}">${generateBoundUuid('voordrachtsakte algemeen directeur')}</div>
+</div>
+<div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+  <div property="ext:scrollToLogicalName" content="datum installatievergadering">datum installatievergadering</div>
+  <div property="ext:idInSnippet" content="${generateBoundUuid('datum installatievergadering')}">${generateBoundUuid('datum installatievergadering')}</div>
+</div>
+
+
 
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid()}">
   <!--START TAKENLIJSTEN (please keep on top because else something not 100% with hints above it) -->
@@ -329,11 +339,6 @@
   </div>
 
   <br>
-
-  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-    <div property="ext:scrollToLogicalName" content="datum installatievergadering">datum installatievergadering</div>
-    <div property="ext:idInSnippet" content="${generateBoundUuid('datum installatievergadering')}">${generateBoundUuid('datum installatievergadering')}</div>
-  </div>
 
   <!-- Agenda behandeling -->
   <div id="${generateBoundUuid('datum installatievergadering')}" class="annotation-structure">
@@ -659,11 +664,6 @@
 
       <br>
       <br>
-
-      <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-        <div property="ext:scrollToLogicalName" content="voordrachtsakte algemeen directeur">voordrachtsakte algemeen directeur</div>
-        <div property="ext:idInSnippet" content="${generateBoundUuid('voordrachtsakte algemeen directeur')}">${generateBoundUuid('voordrachtsakte algemeen directeur')}</div>
-      </div>
 
       <div id="${generateBoundUuid('voordrachtsakte algemeen directeur')}"  property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-4')}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
         <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-3')}">
