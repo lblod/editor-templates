@@ -307,9 +307,14 @@
     <h2 class="h1" property="dc:title">
       Notulen van <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, zitting van <span class="annotation" property="besluit:geplandeStart" datatype="xsd:date" content=""><span typeOf="ext:currentDate">&nbsp;</span></span>​ (installatievergadering)
     </h2>
-    <p>
+    <p id="${generateBoundUuid('datum installatievergadering')}">
       Locatie: &lt;Naam locatie&gt;, &lt;Naam zaal&gt;
     </p>
+    <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+      <div property="ext:scrollToLogicalName" content="datum installatievergadering">datum installatievergadering</div>
+      <div property="ext:idInSnippet" content="${generateBoundUuid('datum installatievergadering')}">${generateBoundUuid('datum installatievergadering')}</div>
+    </div>
+
     <!--     <p>
          van <span id="${generateBoundUuid('startAtTime-1')}" property="prov:startedAtTime" content="" datatype="xsd:dateTime" class="annotation"><span typeOf="ext:currentDate">&nbsp;</span></span> tot <span property="prov:endedAtTime" content="" datatype="xsd:dateTime" class="annotation"><span typeOf="ext:currentDate">&nbsp;</span></span>
          </p> -->
@@ -867,11 +872,23 @@
             <div class="annotation-structure">
               <!-- <h6 class="h5">Feiten en context</h6> -->
               <ul class="bullet-list bullet-list--spaced--small u-spacer">
-                <li>
+                <li id="${generateBoundUuid('datum bezorging akte van voordracht schepenen')">
+                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht schepenen">
+                      datum bezorging akte van voordracht schepenen
+                    </div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht schepenen')}">
+                      ${generateBoundUuid('datum bezorging akte van voordracht schepenen')}
+                    </div>
+                  </div>
                   Overwegende dat een gezamenlijke akte van voordracht van de kandidaat-schepenen werd overhandigd aan de (waarnemend) algemeen directeur op&nbsp;
                   <span class="annotation" property="Datum" datatype="xsd:date" content="datum">&lt;datum&gt;<!--  [TODO: RDFA] --></span>​<!--  [TODO: RDFA] -->, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
 
-                <li>
+                <li id="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}">
+                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht kandidaat-voorzitter">datum bezorging akte van voordracht kandidaat-voorzitter</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}">${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}</div>
+                  </div>
                   Overwegende dat de (waarnemend) algemeen directeur op datum van&nbsp;
                   <span class="annotation" property="Datum" datatype="xsd:date" content="datum">&lt;datum&gt;<!--  [TODO: RDFA] --></span>​<!--  [TODO: RDFA] --> een afschrift van de gezamenlijke akte van voordracht aan de burgemeester heeft bezorgd;</li>
 
@@ -895,7 +912,12 @@
                 <li>Overwegende dat de gezamenlijke akte van voordracht van kandidaat-schepenen voldoet aan de decretaal voorziene ontvankelijkheidsvereisten;</li>
 
                 <li>Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-schepenen geen melding maakt van de einddatum van een schepenmandaat;<!-- <em>ander scenario voorzien?</em> --></li>
-                <li>Overwegende dat door de indiening van een geldige voordrachtsakte het aantal schepenen voor de rest van de legislatuur bepaald is, zijnde <span class="annotation">&lt;aantal schepenen&gt;<!--  [TODO: variable artikel 5 &amp; RDFA] --></span>;</li>
+                <li id="${generateBoundUuid('aantal schepenen')}">
+                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                    <div property="ext:scrollToLogicalName" content="aantal schepenen">aantal schepenen</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('aantal schepenen')}">${generateBoundUuid('aantal schepenen')}</div>
+                  </div>
+                Overwegende dat door de indiening van een geldige voordrachtsakte het aantal schepenen voor de rest van de legislatuur bepaald is, zijnde <span class="annotation">&lt;aantal schepenen&gt;<!--  [TODO: variable artikel 5 &amp; RDFA] --></span>;</li>
                 <li>Overwegende dat de voorzitter van de gemeenteraad dit aantal ter zitting meedeelt aan de gemeenteraad;</li>
                 <li>Overwegende dat de rangorde van de schepenen is bepaald door de rangorde zoals deze op de ontvankelijke voordrachtsakte bepaald;</li>
                 <li>Overwegende dat de voorzitter van de gemeenteraad deze volgorde ter zitting meedeelt aan de gemeenteraad;</li>
