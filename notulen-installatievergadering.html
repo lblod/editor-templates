@@ -418,11 +418,9 @@
           <div property="besluit:motivering" lang="nl">
             <div>
               <!-- <h6 class="h5">Juridische gronden</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
-
+              <ul class="bullet-list">
                 <li>Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">6</span></a>;</li>
-
                 <li>Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het decreet van 8 juli 2011 houdende de organisatie van de lokale en provinciale verkiezingen</a>&nbsp;
                   en houdende wijziging van&nbsp;
@@ -432,16 +430,16 @@
                     <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">203</span>&nbsp;
                     en&nbsp;
                     <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">204</span></a>;</li>
-
                 <li>
                   Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het decreet van 4 april 2014 betreffende de organisatie en rechtspleging van sommige Vlaamse bestuursrechtcolleges, artikel&nbsp;
                     <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">28</span></a>;</li>
               </ul>
             </div>
+            <br>
             <div>
               <!-- <h6 class="h5">Feiten en context</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>
                   Overwegende dat de resultaten van de gemeenteraadsverkiezingen van&nbsp;
                   <span id="${generateBoundUuid('verkiezingsdatum-1')}" property="ext:datumVerkiezing" datatype="xsd:date" content="2018-10-14">14 oktober 2018</span>&nbsp;
@@ -453,6 +451,8 @@
             </div>
           </div>
         </div>
+
+        <br>
 
         <div>
           <p class="u-spacer--small">Neemt akte van,</p>
@@ -486,7 +486,7 @@
 
           <div property="besluit:motivering" lang="nl">
             <div>
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur, de artikelen&nbsp;
                     <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">58</span> tot&nbsp;
@@ -499,8 +499,9 @@
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">de omzendbrief BA-2018/2</a> van <span id="${generateBoundUuid('omzendbriefdatum-1')}" property="ext:datumOmzendbrief" datatype="xsd:date" content="2018-10-19">19 oktober 2018<!-- <em>uitgevonden RDFA en ID</em> --></span> – Start van de lokale en provinciale bestuursperiode;</li>
               </ul>
             </div>
+            <br>
             <div>
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>
                   Overwegende dat&nbsp;
                   <span id="${generateBoundUuid('burgemeester-persoon-2')}">&lt;Naam&gt;</span>&nbsp;
@@ -512,7 +513,7 @@
                   Overwegende dat &nbsp;
                   <span id="${generateBoundUuid('burgemeester-persoon-3')}">&lt;Naam&gt;</span>&nbsp;
                   aldus met ingang van&nbsp;
-                  <span id="${generateBoundUuid('burgemeester-aanstelling-1')}" content="2019-01-01" type="xsd:date">1 januari 2019</span>&nbsp;
+                  <span id="${generateBoundUuid('burgemeester-aanstelling-1')}" content="2019-01-01" datatype="xsd:date">1 januari 2019</span>&nbsp;
                   het ambt van burgemeester heeft opgenomen;</li>
 
                 <li>Overwegende dat de akte van voordracht van de kandidaat-burgemeester geen melding maakt van de einddatum van het mandaat en aldus geen melding maakt van diegene die hem zal opvolgen voor de resterende duurtijd van het mandaat<!-- <em>[TODO: Vragen aan Domien voor ander scenario (opvolger)]</em> -->;</li>
@@ -526,7 +527,7 @@
 
           <div property="prov:value">
             <span property="ext:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateUuid()}" typeOf="mandaat:Mandataris">
-              De benoeming en eedaflegging van, &lt;naam&gt;, tot <span property="org:holds" resource="http://data.lblod.info/id/mandaten/35844b6120c6294bcea8d8b65399dfc9c73456954c67f8c2716674c54c4fef4c">burgemeester</span> van&nbsp; <span id="${generateBoundUuid('bestuurseenheid-2')}"><span property="ext:setStandAloneCurrentBestuurseenheid">huidig bestuurseenheid</span></span>&nbsp; met ingang van <span property="mandaat:start" content="2019-01-01" type="xsd:date">1 januari 2019</span></span>.
+              De benoeming en eedaflegging van, &lt;naam&gt;, tot <span property="org:holds" resource="http://data.lblod.info/id/mandaten/35844b6120c6294bcea8d8b65399dfc9c73456954c67f8c2716674c54c4fef4c">burgemeester</span> van&nbsp; <span id="${generateBoundUuid('bestuurseenheid-2')}"><span property="ext:setStandAloneCurrentBestuurseenheid">huidig bestuurseenheid</span></span>&nbsp; met ingang van <span property="mandaat:start" content="2019-01-01" datatype="xsd:date">1 januari 2019</span></span>.
             </span>
           </div>
         </div>
@@ -555,7 +556,7 @@
           <div property="besluit:motivering" lang="nl">
             <div>
               <!-- <h6 class="h5">Juridische gronden</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
 
                 <li>Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur, de artikelen&nbsp;
@@ -586,9 +587,10 @@
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="Omzendbrief">de omzendbrief BA-2018/2</a> van <span id="${generateBoundUuid('omzendbriefdatum-2')}" property="ext:datumOmzendbrief" datatype="xsd:date" content="2018-10-19">19 oktober 2018<!-- <em>uitgevonden RDFA en ID</em> --></span> – Start van de lokale en provinciale bestuursperiode;</li>
               </ul>
             </div>
+            <br>
             <div>
               <!-- <h6 class="h5">Feiten en context</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>
                   Overwegende dat de resultaten van de gemeenteraadsverkiezingen van&nbsp;
                   <span id="${generateBoundUuid('verkiezingsdatum-3')}" property="ext:datumVerkiezing" datatype="xsd:date" content="2018-10-14">14 oktober 2018</span>&nbsp;
@@ -635,7 +637,7 @@
           <br>
           <div>
             <!-- <h6 class="h5">Besluit</h6> -->
-            <ul class="article-list bullet-list u-spacer--small" property="prov:value">
+            <ul class="article-list bullet-list" property="prov:value">
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
                 <span class="annotation article-number" property="eli:number">Artikel 1</span>
                 <meta content="meta-content-10" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -764,7 +766,7 @@
 
           <div property="besluit:motivering" lang="nl">
             <div>
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">6</span> en  <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">7</span></a>;</li>
 
@@ -773,7 +775,7 @@
               </ul>
             </div>
             <div>
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Overwegende dat een gezamenlijke akte van voordracht van kandidaat-voorzitter op naam van &lt;persoon&gt; werd overhandigd aan de (waarnemend) algemeen directeur op &lt;datum&gt;<!--  [TODO: RDFA] -->, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
 
                 <li>Overwegende dat de (waarnemend) algemeen directeur de gezamenlijke akte van voordracht van kandidaat-voorzitter ter zitting overhandigd heeft aan de voorzitter van de installatievergadering;<!-- <em>[TODO: Ander scenario vragen aan Domien?]</em> --></li>
@@ -849,7 +851,7 @@
           <div property="besluit:motivering" lang="nl">
             <div>
               <!-- <h6 class="h5">Juridische gronden</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">6</span> en  <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">7</span></a>;</li>
                 <li>Gelet op&nbsp;
@@ -859,7 +861,7 @@
 
             <div>
               <!-- <h6 class="h5">Feiten en context</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li id="${generateBoundUuid('datum bezorging akte van voordracht schepenen')">
                   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
                     <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht schepenen">
@@ -920,7 +922,7 @@
 
           <div>
             <!-- <h6 class="h5">Besluit</h6> -->
-            <ul class="article-list bullet-list u-spacer--small" property="prov:value">
+            <ul class="article-list bullet-list" property="prov:value">
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
                 <span class="annotation article-number" property="eli:number">Artikel 1</span>
                 <meta content="meta-content-21" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -1012,7 +1014,7 @@
           <div property="besluit:motivering" lang="nl">
             <div>
               <!-- <h6 class="h5">Juridische gronden</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">36</span></a>;</li>
                 <li>Gelet op&nbsp;
@@ -1021,7 +1023,7 @@
             </div>
             <div>
               <!-- <h6 class="h5">Feiten en context</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Overwegende dat gemeenteraadsleden die op eenzelfde lijst verkozen zijn in principe één fractie vormen;</li>
                 <li>Overwegende dat geen enkele lijst de wens heeft uitgedrukt om te splitsen in twee fracties, noch de wens hebben uitgedrukt om zich te verenigen in één fractie met een andere lijst;<!--  [TODO: vraag Domien hoe ander scenario er uit ziet: wel splitswens of vereniging] --></li>
               </ul>
@@ -1034,7 +1036,7 @@
 
           <div>
             <!-- <h6 class="h5">Besluit</h6> -->
-            <ul class="article-list bullet-list u-spacer--small" property="prov:value">
+            <ul class="article-list bullet-list" property="prov:value">
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
                 <span class="annotation article-number" property="eli:number">Enig artikel.</span>
                 <meta content="meta-content-28" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -1068,7 +1070,7 @@
           <div property="besluit:motivering" lang="nl">
             <div>
               <!-- <h6 class="h5">Juridische gronden</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Gelet op&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">de wet van 7 december 1998 tot organisatie van een geïntegreerde politiedienst, gestructureerd op twee niveaus</a>;</li>
                 <li>Gelet op&nbsp;
@@ -1078,7 +1080,7 @@
 
             <div>
               <!-- <h6 class="h5">Feiten en context</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Overwegende dat&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het koninklijk besluit van 20 december 2000 betreffende de verkiezing in elke gemeenteraad van de leden van de politieraad artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">18</span></a> bepaalt dat de verkiezing van de leden van de politieraad plaatsheeft tijdens de openbare zitting waarop de gemeenteraad wordt geïnstalleerd of ten laatste binnen tien dagen; Indien die laatste dag een zaterdag, een zondag of een wettelijke feestdag is, wordt die termijn verlengd tot en met de eerstvolgende dag die geen zaterdag, zondag of wettelijke feestdag is;</li>
 
@@ -1095,7 +1097,7 @@
 
             <div>
               <!-- <h6 class="h5">Juridische gronden</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Gelet op de voordrachtakten ten getale van&nbsp;
                   <span>&lt;aantal leden&gt;<!--  [TODO: variable aantal leden &amp; RDFA] --></span> ingediend overeenkomstig&nbsp;
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">het koninklijk besluit van 20 december 2000, de artikelen&nbsp;
@@ -1107,7 +1109,7 @@
 
             <div>
               <!-- <h6 class="h5">Feiten en context</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Overwegende dat, respectievelijk deze akten de hierna vermelde kandidaten voordragen en ondertekend zijn door de volgende verkozenen voor de gemeenteraad:
                   <p class="u-font--italic smaller">Hier, uit elke voordrachtakte, de namen van de kandidaten effectieve leden en hun kandidaten-opvolgers vermelden, alsmede de namen van de verkozenen voor de gemeenteraad die de voordracht deden.</p>
                   <ul class="numbered-list">
@@ -1119,7 +1121,7 @@
 
             <div>
               <!-- <h6 class="h5">Juridische gronden</h6> -->
-              <ul class="bullet-list bullet-list--spaced--small u-spacer">
+              <ul class="bullet-list">
                 <li>Gelet op de kandidatenlijst door de burgemeester opgemaakt, overeenkomstig <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">[TODO: link cite &amp; RDFA article] het voornoemd<!--  ? --> koninklijk besluit op grond van gezegde<!--  ? --> voordrachtakten, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">7</span></a>, en luidend als volgt:
                   <ul class="numbered-list">
                     <li><span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;<!--  [TODO: variable feiten en context hiervoor] --></span> (effectief), <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;<!--  [TODO: variable feiten en context hiervoor] --></span>   (1ste opvolger), <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;<!--  [TODO: variable feiten en context hiervoor] --></span> (2de opvolger)</li>
@@ -1129,6 +1131,7 @@
             </div>
           </div>
         </div>
+        <br>
 
         <div>
           <p>Stelt vast dat&nbsp;
@@ -1145,7 +1148,7 @@
 
         <!-- <div>
              <h6 class="h5">Besluit</h6>
-             <ul class="article-list bullet-list u-spacer--small" property="prov:value">
+             <ul class="article-list bullet-list" property="prov:value">
              <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
              <span class="annotation article-number" property="eli:number">Enig artikel.</span>
              <meta content="meta-content-31 property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -1217,7 +1220,7 @@
 
         <div>
           <!-- <h6 class="h5">Juridische gronden</h6> -->
-          <ul class="bullet-list bullet-list--spaced--small u-spacer">
+          <ul class="bullet-list">
             <li>Gelet op --concreet geval van <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO" property="eli:cites">de wet van 7 december 1998, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/TODO/ARTIKEL" property="eli:artikel">18 eerste lid</span></a>, wordt voorrang verleend aan--<!--  [TODO: vragen aan Domien welke info hier moet komen --></li>
           </ul>
         </div>
