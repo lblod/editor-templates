@@ -302,24 +302,25 @@
 <!--END TASKLISTS-->
 
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid()}">
-  <!-- meta zitting -->
-  <h2 class="h1" property="dc:title">
-    Notulen van <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, zitting van <span property="besluit:geplandeStart" datatype="xsd:date" content=""><span typeOf="ext:currentDate">&nbsp;</span></span>​ (installatievergadering)
-  </h2>
-  <p id="${generateBoundUuid('datum installatievergadering')}">
-    Locatie: &lt;Naam locatie&gt;, &lt;Naam zaal&gt;
-  </p>
 
   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-    <div property="ext:scrollToLogicalName" content="datum installatievergadering">datum installatievergadering</div>
-    <div property="ext:idInSnippet" content="${generateBoundUuid('datum installatievergadering')}">${generateBoundUuid('datum installatievergadering')}</div>
+    <div property="ext:scrollToLogicalName" content="datum en locatie installatievergadering">datum en locatie installatievergadering</div>
+    <div property="ext:idInSnippet" content="${generateBoundUuid('datum en locatie installatievergadering')}">${generateBoundUuid('datum en locatie installatievergadering')}</div>
   </div>
 
-  <!--     <p>
-       van <span id="${generateBoundUuid('startAtTime-1')}" property="prov:startedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span> tot <span property="prov:endedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span>
-       </p> -->
-
+  <!-- meta zitting -->
+  <h2 class="h1" property="dc:title" id="${generateBoundUuid('datum en locatie installatievergadering')}">
+    Notulen van <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, zitting van <span property="besluit:geplandeStart" datatype="xsd:date" content=""><span typeOf="ext:currentDate">&nbsp;</span></span>​ (installatievergadering)
+  </h2>
   <br>
+
+  <p>
+    Locatie: &lt;Naam locatie&gt;, &lt;Naam zaal&gt;
+  </p>
+  <br>
+
+<!--   <p> van <span id="${generateBoundUuid('startAtTime-1')}" property="prov:startedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span> tot <span property="prov:endedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span></p>
+  <br> -->
 
   <!-- opening -->
   <p>De uittredend voorzitter van de gemeenteraad <span property="besluit:heeftVoorzitter" var="ext:TODO" resource="http://data.lblod.info/id/personen/4ba9f6fc0fa9c7319bd8d0bf6408a0967527d3855f702ff85b959be9f2687e2f">Roger VANHOVE (Voorzitter)</span> zit de installatievergadering voor <!-- op <span id="${generateBoundUuid('startAtTime-2')}" content="" datatype="xsd:dateTime" ><span typeOf="ext:currentDate">&nbsp;</span></span> --> en deelt mee dat er een video-opname gemaakt wordt van de zitting<!--  ingevolge schriftelijke uitnodiging vanwege de Algemeen Directeur dienstdoend <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​ -->.</p>
@@ -394,7 +395,7 @@
   <br>
 
   <!-- Agenda behandeling -->
-  <div id="${generateBoundUuid('datum installatievergadering')}">
+  <div id="${generateBoundUuid('datum en locatie installatievergadering')}">
     <h3 class="h2">Agendapunten</h3>
     <h4 class="h3">Open zitting</h4>
 
@@ -937,7 +938,7 @@
                     <li>Voornaam en familienaam: <span property="ext:TODO" var="ext:TODO">&lt;persoon&gt;</span> <!-- variable van voorgedragen kandidaat-schepenen -->
                       <ul class="bullet-list">
                         <li>Mandaat: &lt;rangorde&gt; schepen</li>
-                        <li>Einddatum: &lt;datum&gt;</li>
+                        <li>Einddatum: <span property="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​</li>
                         <li>Naam opvolger(s): geen</li>
                       </ul>
                     </li>
@@ -1096,7 +1097,12 @@
               </ul>
             </div>
 
-            <div>
+            <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+              <div property="ext:scrollToLogicalName" content="Datum voordrachtsakten politieraadsleden">Datum voordrachtsakten politieraadsleden</div>
+              <div property="ext:idInSnippet" content="${generateBoundUuid('Datum voordrachtsakten politieraadsleden')}">${generateBoundUuid('Datum voordrachtsakten politieraadsleden')}</div>
+            </div>
+
+            <div id="${generateBoundUuid('Datum voordrachtsakten politieraadsleden')}">
               <!-- <h6 class="h5">Juridische gronden</h6> -->
               <ul class="bullet-list">
                 <li>Gelet op de voordrachtakten ten getale van&nbsp;
@@ -1104,7 +1110,7 @@
                   <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het koninklijk besluit van 20 december 2000, de artikelen&nbsp;
                     <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">2</span>,&nbsp;
                     <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">4</span> en&nbsp;
-                    <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">5</span>, betreffende de verkiezing in elke gemeenteraad van de leden van de politieraad;</a></li>
+                    <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">5</span>, betreffende de verkiezing in elke gemeenteraad van de leden van de politieraad</a> op <span property="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​.</li>
               </ul>
             </div>
 
@@ -1112,7 +1118,7 @@
               <!-- <h6 class="h5">Feiten en context</h6> -->
               <ul class="bullet-list">
                 <li>Overwegende dat, respectievelijk deze akten de hierna vermelde kandidaten voordragen en ondertekend zijn door de volgende verkozenen voor de gemeenteraad:
-                  <p class="u-font--italic smaller">Hier, uit elke voordrachtakte, de namen van de kandidaten effectieve leden en hun kandidaten-opvolgers vermelden, alsmede de namen van de verkozenen voor de gemeenteraad die de voordracht deden.</p>
+                  <!-- <p class="u-font--italic smaller">Hier, uit elke voordrachtakte, de namen van de kandidaten effectieve leden en hun kandidaten-opvolgers vermelden, alsmede de namen van de verkozenen voor de gemeenteraad die de voordracht deden.</p> -->
                   <ul class="numbered-list">
                     <li><span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" var="ext:TODO">&lt;persoon&gt;<!--  [variable juridische gronden] --></span> (effectief), <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" var="ext:TODO">&lt;persoon&gt;<!--  [variable juridische gronden] --></span>   (1ste opvolger), <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" var="ext:TODO">&lt;persoon&gt;<!--  [variable juridische gronden] --></span> (2de opvolger)</li>
                   </ul>
@@ -1206,7 +1212,7 @@
           <br>
 
           <div>
-            <p property="ext:TODO">Stelt vast dat de stemmen werden uitgebracht op naam van regelmatig voorgedragen kandidaten effectieve leden.<!--  [TO ASK ander scenario vragen aan Domien -->.</p>
+            <p property="ext:TODO">Stelt vast dat de stemmen werden uitgebracht op naam van regelmatig voorgedragen kandidaten effectieve leden.<!--  [TO ASK ander scenario vragen aan Domien --></p>
             <!-- <p class="u-font--italic smaller">Nagaan of de stemmen uitsluitend werden uitgebracht op naam van personen vermeld op de kandidatenlijst. In tegenovergesteld geval moet dit worden vastgesteld en mag de betrokkene niet verkozen worden verklaard.</p> -->
           </div>
 
@@ -1222,7 +1228,7 @@
         <div>
           <!-- <h6 class="h5">Juridische gronden</h6> -->
           <ul class="bullet-list">
-            <li>Gelet op --concreet geval van <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de wet van 7 december 1998, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">18 eerste lid</span></a>, wordt voorrang verleend aan--<!--  [TO ASK: vragen aan Domien welke info hier moet komen --></li>
+            <li>Gelet op <!-- --concreet geval van --> <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de wet van 7 december 1998, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">18 eerste lid</span></a>, wordt voorrang verleend aan <!--  [TO ASK: vragen aan Domien welke info hier moet komen --></li>
           </ul>
         </div>
 
@@ -1317,21 +1323,24 @@
               <!-- <p class="u-font--italic smaller">Eventueel: met uitzondering van <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span> die de voorwaarde van <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de wet van 7 december 1998 artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">14</span></a> van niet vervult;</p> -->
             </li>
           </ul>
+          <br>
 
           <p class="u-spacer--small">Stelt vast dat:</p>
           <ul class="bullet-list">
-            <li>geen enkel effectief lid zich bevindt in een van de gevallen van onverenigbaarheid bepaald in <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span> die de voorwaarde van <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de wet van 7 december 1998 artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">15</span></a>;</li>
+            <li>geen enkel effectief lid zich bevindt in een van de gevallen van onverenigbaarheid bepaald in <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span> die de voorwaarde van <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de wet van 7 december 1998 artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">15</span></a>; <!-- [TO ASK: ander scenario] --></li>
           </ul>
+          <br>
 
-          <p>Dit proces-verbaal zal overeenkomstig <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de wet van 7 december 1998, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">18bis</span></a> en
+<!--           <p>Dit proces-verbaal zal overeenkomstig <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de wet van 7 december 1998, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">18bis</span></a> en
 
-            <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het koninklijk besluit van 20 december 2000 betreffende de verkiezing in elke gemeenteraad van de leden van de politieraad, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">15</span> <!-- [TO ASK: ander scenario] -->;</a> in dubbel exemplaar naar de bestendige deputatie (of het college bedoeld <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de bijzondere wet van 12 januari 1989 met betrekking tot de Brusselse Instellingen, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">83quinquies</span>, § 2</a>) worden gezonden.</p>
-        </div>
+            <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het koninklijk besluit van 20 december 2000 betreffende de verkiezing in elke gemeenteraad van de leden van de politieraad, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">15</span>;</a> in dubbel exemplaar naar de bestendige deputatie (of het college bedoeld <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de bijzondere wet van 12 januari 1989 met betrekking tot de Brusselse Instellingen, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">83quinquies</span>, § 2</a>) worden gezonden.</p>
+        </div> -->
 
         <div property="prov:value">
           <p>Dit proces-verbaal zal overeenkomstig&nbsp;
             <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de wet van 7 december 1998 artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">18bis</span></a> en&nbsp;
-            <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het koninklijk besluit van 20 december 2000 betreffende de verkiezing in elke gemeenteraad van de leden van de politieraad artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">15</span></a> in dubbel exemplaar naar de  deputatie (of het college bedoeld <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de bijzondere wet van 12 januari 1989 met betrekking tot de Brusselse Instellingen, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">83quinquies</span>, § 2</a>) worden gezonden.</p>
+            <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het koninklijk besluit van 20 december 2000 betreffende de verkiezing in elke gemeenteraad van de leden van de politieraad artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">15</span></a> in dubbel exemplaar naar de  deputatie (of het college bedoeld <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">de bijzondere wet van 12 januari 1989 met betrekking tot de Brusselse Instellingen, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">83quinquies</span>, § 2</a>) worden gezonden. <!-- [TO ASK: ander scenario] --></p>
+          <br>
           <p>Origineel werd getekend door:</p>
           <ul class="bullet-list">
             <li><span id="${generateBoundUuid('burgemeester-persoon-6')}" property="ext:TODO">&lt;Typ naam&gt;</span>, burgemeester</li>
