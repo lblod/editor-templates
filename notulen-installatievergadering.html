@@ -322,8 +322,13 @@
 <!--   <p> van <span id="${generateBoundUuid('startAtTime-1')}" property="prov:startedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span> tot <span property="prov:endedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span></p>
   <br> -->
 
+  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+    <div property="ext:scrollToLogicalName" content="Naam voorzitter gemeenteraad">Naam voorzitter gemeenteraad</div>
+    <div property="ext:idInSnippet" content="${generateBoundUuid('Naam voorzitter gemeenteraad')}">${generateBoundUuid('Naam voorzitter gemeenteraad')}</div>
+  </div>
+
   <!-- opening -->
-  <p>De uittredend voorzitter van de gemeenteraad <span property="besluit:heeftVoorzitter" var="ext:TODO" resource="http://data.lblod.info/id/personen/4ba9f6fc0fa9c7319bd8d0bf6408a0967527d3855f702ff85b959be9f2687e2f">Roger VANHOVE (Voorzitter)</span> zit de installatievergadering voor <!-- op <span id="${generateBoundUuid('startAtTime-2')}" content="" datatype="xsd:dateTime" ><span typeOf="ext:currentDate">&nbsp;</span></span> --> en deelt mee dat er een video-opname gemaakt wordt van de zitting<!--  ingevolge schriftelijke uitnodiging vanwege de Algemeen Directeur dienstdoend <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​ -->.</p>
+  <p id="${generateBoundUuid('Naam voorzitter gemeenteraad')}">De uittredend voorzitter van de gemeenteraad <span property="besluit:heeftVoorzitter" var="ext:TODO" resource="http://data.lblod.info/id/personen/4ba9f6fc0fa9c7319bd8d0bf6408a0967527d3855f702ff85b959be9f2687e2f">Roger VANHOVE (Voorzitter)</span> zit de installatievergadering voor <!-- op <span id="${generateBoundUuid('startAtTime-2')}" content="" datatype="xsd:dateTime" ><span typeOf="ext:currentDate">&nbsp;</span></span> --> en deelt mee dat er een video-opname gemaakt wordt van de zitting<!--  ingevolge schriftelijke uitnodiging vanwege de Algemeen Directeur dienstdoend <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​ -->.</p>
 
   <br>
   <!-- aanwezigen -->
@@ -590,6 +595,7 @@
               </ul>
             </div>
             <br>
+
             <div>
               <!-- <h6 class="h5">Feiten en context</h6> -->
               <ul class="bullet-list">
@@ -600,7 +606,12 @@
                   <span property="ext:datumGoedkeuringVerkiezing" datatype="xsd:date" content="2018-11-27">27 november 2018</span> werden&nbsp;
                   goedgekeurd.</li>
 
-                <li>Overwegende dat er geen afstanden van mandaat ingediend werden bij de uittredende voorzitter voor de installatievergadering.</li>
+                <li id="${generateBoundUuid('afstand van mandaat')}">
+                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                    <div property="ext:scrollToLogicalName" content="afstand van mandaat">afstand van mandaat</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('afstand van mandaat')}">${generateBoundUuid('afstand van mandaat')}</div>
+                  </div>
+                  Overwegende dat er geen afstanden van mandaat ingediend werden bij de uittredende voorzitter voor de installatievergadering.</li>
 
                 <!--TO ASK: ander scenario <li> <em>[Aanduiden dat dit optioneel is]</em>Overwegende dat een afstand van mandaat schriftelijk, gedagtekend en behoorlijk ondertekend is ingediend bij de uittredende voorzitter voor de installatievergadering door:
                      <ul>
@@ -608,7 +619,12 @@
                      </ul>
                      </li> -->
 
-                <li>Overwegende dat alle geloofsbrieven behoorlijk en tijdig werden ingediend, en dat deze ter inzage werden gelegd met respect voor de decretale bepalingen ter zake;<!-- [TO ASK: Vragen aan Domien voor ander scenario's (niet op tijd ingediend etc)] --></li>
+                <li id="${generateBoundUuid('onderzoek geloofsbrieven')}">
+                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                    <div property="ext:scrollToLogicalName" content="onderzoek geloofsbrieven">onderzoek geloofsbrieven</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('onderzoek geloofsbrieven')}">${generateBoundUuid('onderzoek geloofsbrieven')}</div>
+                  </div>
+                  Overwegende dat alle geloofsbrieven behoorlijk en tijdig werden ingediend, en dat deze ter inzage werden gelegd met respect voor de decretale bepalingen ter zake;<!-- [TO ASK: Vragen aan Domien voor ander scenario's (niet op tijd ingediend etc)] --></li>
 
                 <li>Overwegende dat uit het onderzoek van de geloofsbrieven van de verkozen gemeenteraadsleden door de gemeenteraad, zoals voorgeschreven in <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur in artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">6, §3</span> en artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:artikel">9</span></a>, blijkt dat alle verkozenen en hun respectieve opvolgers die worden uitgenodigd heden de eed af te leggen, voldoen aan de verkiesbaarheidsvoorwaarden;</li>
 
@@ -637,7 +653,12 @@
             <p>met eenparigheid van stemmen:<!-- <em>(moet dit altijd eenparig zijn? [indien niet altijd eenparig: TO ASK ander scenario]</em> --> <span property="besluit:heeftVoorzitter" var="ext:TODO" resource="http://data.lblod.info/id/personen/4ba9f6fc0fa9c7319bd8d0bf6408a0967527d3855f702ff85b959be9f2687e2f">Roger VANHOVE (Voorzitter)</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/03e34d8b-8cd2-4a66-ab04-cf23b290731c">Wouter VAN ELSACKER</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/b4fc7b01-59a3-4c8a-b4c0-2ca03f5c9924">Wesley KOLEN</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/7a9b985e-0ed2-4e58-be8a-adb635e40c5b">Liliane HINOUL</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/c4038cf6-653b-42ba-ba12-dca3560720e2">Davy PUT</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/271c5a47-51c3-4dd9-8239-a2115a2fe134">Sigrid CORNELISSEN</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/27dd3f98-ff3d-4571-a8b9-473d8a12e961">Ria PLASSCHAERT</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/214409fd-8f14-4f12-bcad-58501aadb1d2">Kathleen SOORS</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/eeeba21e-2f5d-4864-80eb-4a0f1a485c1b">Guido MAES</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/b9ddd004-6470-4ea0-ab99-e6c25d2ebd57">Patrick MEYSEN</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/c7cf2fe4-efb8-4bef-836a-706196b2d80f">Steven MATHEÏ</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/ef3aca4b-7db7-4d1c-b4e3-e64d3e46e007">Liesbeth DILIËN</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/2be37f0e-13a9-45b8-911c-2450789ac8b3">Raf NELIS</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/a1a86c1c-bbac-4aa3-a309-2eb008a00083">Bram GEERITS</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/beb88cbf-a257-4469-a334-b9f06f0ba523">Steven BROEKX</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/3b1efc30-97e3-43df-8f74-099bc09417e3">Koen WINTERS</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/ab9b6413-6809-4a57-8065-981166e761b1">Lutgarde CEYSSENS</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/e86b137a-2577-40b5-bd17-a6c918a8e16f">Dirk COLAERS</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/31c1c47b-f125-40dc-b945-429eeaa79362">Toon VAN GEYSEGHEM</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/85a083c9-1cb7-49d3-93b2-c01bde14e7bd">Tine BRAEKEN</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/1e7a48d0-e19d-4a48-aa26-efbca8c933a8">Nico LENAERTS</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/64adece2-93a9-40f5-9043-5ebd8d74e778">Mia SOORS</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/87ef6d8b-2149-4e0b-bb5c-77c69ab4678c">Eddy SCHROOTEN</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/952cf5f8-decb-4ff0-ae93-1f42e091d4b8">Hilde VAN LIMPT</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/5fe70548-f562-4ae2-8b50-1174ba4ea8fc">Yosh GORDIJN</span>, <span property="besluit:heeftAanwezige" resource="http://data.lblod.info/id/personen/619e2fa3-a157-41b3-8eda-9edf69b0c54d">Elle REUMERS</span></p>
           </div>
           <br>
-          <div>
+          <br>
+          <div id="${generateBoundUuid('aan en afwezigen')}">
+            <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+              <div property="ext:scrollToLogicalName" content="aan en afwezigen">aan en afwezigen</div>
+              <div property="ext:idInSnippet" content="${generateBoundUuid('aan en afwezigen')}">${generateBoundUuid('aan en afwezigen')}</div>
+            </div>
             <!-- <h6 class="h5">Besluit</h6> -->
             <ul class="article-list bullet-list">
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
@@ -734,7 +755,11 @@
                 </span>
               </li>
 
-              <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
+              <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel" id="${generateBoundUuid('rangorde gemeenteraadsleden')}">
+                <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                  <div property="ext:scrollToLogicalName" content="rangorde gemeenteraadsleden">rangorde gemeenteraadsleden</div>
+                  <div property="ext:idInSnippet" content="${generateBoundUuid('rangorde gemeenteraadsleden')}">${generateBoundUuid('rangorde gemeenteraadsleden')}</div>
+                </div>
                 <span class="annotation article-number" property="eli:number">Artikel 5</span>
                 <meta content="meta-content-14" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
                 <span class="annotation article-content" property="prov:value"> De rangorde van de gemeenteraadsleden als volgt vast te stellen:<br>
@@ -746,6 +771,9 @@
         </div>
       </div>
     </div>
+
+
+
 
     <br>
     <br>
@@ -778,7 +806,13 @@
             </div>
             <div>
               <ul class="bullet-list">
-                <li>Overwegende dat een gezamenlijke akte van voordracht van kandidaat-voorzitter op naam van <span property="ext:TODO" var="ext:TODO">&lt;persoon&gt;</span> werd overhandigd aan de (waarnemend) algemeen directeur op <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
+
+                <li id="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}">
+                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht kandidaat-voorzitter">datum bezorging akte van voordracht kandidaat-voorzitter</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}">${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}</div>
+                  </div>
+                  Overwegende dat een gezamenlijke akte van voordracht van kandidaat-voorzitter op naam van <span property="ext:TODO" var="ext:TODO">&lt;persoon&gt;</span> werd overhandigd aan de (waarnemend) algemeen directeur op <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
 
                 <li>Overwegende dat de (waarnemend) algemeen directeur de gezamenlijke akte van voordracht van kandidaat-voorzitter ter zitting overhandigd heeft aan de voorzitter van de installatievergadering;<!-- <em>[TO ASK: Ander scenario vragen aan Domien?]</em> --></li>
                 <li>Overwegende dat de gezamenlijke akte van voordracht van kandidaat-voorzitter voldoet aan de decretaal voorziene ontvankelijkheidsvereisten;<!--  <em>[TO ASK: Ander scenario vragen aan Domien van niet-voldoen]</em> --></li>
@@ -866,21 +900,16 @@
               <ul class="bullet-list">
                 <li id="${generateBoundUuid('datum bezorging akte van voordracht schepenen')">
                   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-                    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht schepenen">
-                      datum bezorging akte van voordracht schepenen
-                    </div>
-                    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht schepenen')}">
-                      ${generateBoundUuid('datum bezorging akte van voordracht schepenen')}
-                    </div>
+                    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht schepenen">datum bezorging akte van voordracht schepenen</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht schepenen')}">${generateBoundUuid('datum bezorging akte van voordracht schepenen')}</div>
                   </div>
                   Overwegende dat een gezamenlijke akte van voordracht van de kandidaat-schepenen werd overhandigd aan de (waarnemend) algemeen directeur op&nbsp;
                   <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
 
-                <li id="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}">
-
+                <li id="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-schepenen')}">
                   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-                    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht kandidaat-voorzitter">datum bezorging akte van voordracht kandidaat-voorzitter</div>
-                    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}">${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}</div>
+                    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht kandidaat-schepenen">datum bezorging akte van voordracht kandidaat-schepenen</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-schepenen')}">${generateBoundUuid('datum bezorging akte van voordracht kandidaat-schepenen')}</div>
                   </div>
 
                   Overwegende dat de (waarnemend) algemeen directeur op datum van&nbsp;
@@ -897,7 +926,7 @@
                 <li>Overwegende dat de voorzitter van de gemeenteraad vaststelt dat de gezamenlijke akte van voordracht van de kandidaat-schepenen uiterlijk acht dagen voor de installatievergadering van de gemeenteraad aan de (waarnemend) algemeen directeur is overhandigd;</li>
 
                 <li>Overwegende dat de voorgedragen kandidaat schepenen de volgende personen zijn:
-                  <ul>
+                  <ul class="bullet-list">
                     <li><span property="ext:TODO" var="ext:TODO">&lt;persoon&gt;</span></li>
                   </ul>
                 </li>
@@ -932,11 +961,22 @@
                 <meta content="meta-content-21" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
                 <span class="annotation article-content" property="prov:value">Kennis te nemen van de ontvankelijke gezamenlijke akte van voordracht van de kandidaat-schepenen.</span>
               </li>
-              <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
+
+              <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel" id="${generateBoundUuid('rangorde schepenen')}">
+                <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                  <div property="ext:scrollToLogicalName" content="rangorde schepenen">rangorde schepenen</div>
+                  <div property="ext:idInSnippet" content="${generateBoundUuid('rangorde schepenen')}">${generateBoundUuid('rangorde schepenen')}</div>
+                </div>
                 <span class="annotation article-number" property="eli:number">Artikel 2</span>
                 <meta content="meta-content-22" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
                 <div class="annotation article-content" property="prov:value">De voorgedragen kandidaat-schepenen verkozen te verklaren in de rangorde van de gezamenlijke akte van voordracht van de kandidaat-schepenen, meer bepaald:<!--  <em> Hoe ziet het er uit met opvolgers?</em> -->
-                  <ul class="bullet-list">
+
+                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                    <div property="ext:scrollToLogicalName" content="rangorde schepenen">rangorde schepenen</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('rangorde schepenen')}">${generateBoundUuid('rangorde schepenen')}</div>
+                  </div>
+
+                  <ul class="bullet-list" id="${generateBoundUuid('rangorde schepenen')}">
                     <li>Voornaam en familienaam: <span property="ext:TODO" var="ext:TODO">&lt;persoon&gt;</span> <!-- variable van voorgedragen kandidaat-schepenen -->
                       <ul class="bullet-list">
                         <li>Mandaat: &lt;rangorde&gt; schepen</li>
