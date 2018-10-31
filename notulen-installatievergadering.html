@@ -400,7 +400,7 @@
   <br>
 
   <!-- Agenda behandeling -->
-  <div id="${generateBoundUuid('datum en locatie installatievergadering')}">
+  <div>
     <h3 class="h2">Agendapunten</h3>
     <h4 class="h3">Open zitting</h4>
 
@@ -906,12 +906,7 @@
                   Overwegende dat een gezamenlijke akte van voordracht van de kandidaat-schepenen werd overhandigd aan de (waarnemend) algemeen directeur op&nbsp;
                   <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
 
-                <li id="${generateBoundUuid('datum bezorging akte van voordracht schepenen')}">
-                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-                    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht kandidaat-schepenen">datum bezorging akte van voordracht kandidaat-schepenen</div>
-                    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-schepenen')}">${generateBoundUuid('datum bezorging akte van voordracht kandidaat-schepenen')}</div>
-                  </div>
-
+                <li>
                   Overwegende dat de (waarnemend) algemeen directeur op datum van&nbsp;
                   <span property="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​ een afschrift van de gezamenlijke akte van voordracht aan de burgemeester heeft bezorgd;</li>
 
@@ -971,12 +966,7 @@
                 <meta content="meta-content-22" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
                 <div class="annotation article-content" property="prov:value">De voorgedragen kandidaat-schepenen verkozen te verklaren in de rangorde van de gezamenlijke akte van voordracht van de kandidaat-schepenen, meer bepaald:<!--  <em> Hoe ziet het er uit met opvolgers?</em> -->
 
-                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-                    <div property="ext:scrollToLogicalName" content="rangorde schepenen">rangorde schepenen</div>
-                    <div property="ext:idInSnippet" content="${generateBoundUuid('rangorde schepenen')}">${generateBoundUuid('rangorde schepenen')}</div>
-                  </div>
-
-                  <ul class="bullet-list" id="${generateBoundUuid('rangorde schepenen')}">
+                  <ul class="bullet-list">
                     <li>Voornaam en familienaam: <span property="ext:TODO" var="ext:TODO">&lt;persoon&gt;</span> <!-- variable van voorgedragen kandidaat-schepenen -->
                       <ul class="bullet-list">
                         <li>Mandaat: &lt;rangorde&gt; schepen</li>
