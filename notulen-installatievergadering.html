@@ -410,7 +410,7 @@
     <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}" typeof="besluit:BehandelingVanAgendapunt">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <p property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}"></p>
-      <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit mandaat:Aanstellingsbesluit">
+      <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit mandaat:Aanstellingsbesluit">
         <div>
           <h5 class="h4 u-spacer" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Kennisneming geldigverklaring van de verkiezingen</span></h5>
           <meta content="meta-content-5" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -479,7 +479,7 @@
       <meta content="meta-content-6" property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <p property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}"></p>
-      <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+      <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
         <div>
           <h5 class="h4 u-spacer" property="eli:title"><span id="${generateBoundUuid('bva-besluit-2')}">Mededeling van de benoeming en eedaflegging van de burgemeester</span></h5>
           <meta content="meta-content-7" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -549,7 +549,7 @@
       <meta content="meta-content-8" property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-2')}">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <p property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}"></p>
-      <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+      <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
         <div>
           <h5 class="h4 u-spacer" property="eli:title"><span id="${generateBoundUuid('bva-besluit-3')}">Installatie gemeenteraadsleden en eedaflegging</span></h5>
           <meta content="meta-content-9" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -660,11 +660,11 @@
               <div property="ext:idInSnippet" content="${generateBoundUuid('aan en afwezigen')}">${generateBoundUuid('aan en afwezigen')}</div>
             </div>
             <!-- <h6 class="h5">Besluit</h6> -->
-            <ul class="article-list bullet-list">
+            <ul class="bullet-list">
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 1</span>
+                <span class="annotation" property="eli:number">Artikel 1</span>
                 <meta content="meta-content-10" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <div class="annotation article-content" property="prov:value"> Kennis te nemen van <!-- [TO ASK ANDER SCENARIO: geen afstand noch onverenigbaarheid] -->
+                <div class="annotation" property="prov:value"> Kennis te nemen van <!-- [TO ASK ANDER SCENARIO: geen afstand noch onverenigbaarheid] -->
                   <ul class="bullet-list">
                     <li>geen vastgestelde afstanden van mandaat;</li>
                     <!--                       <li>de vastgestelde afstanden van mandaat door: [TO ASK optioneel]
@@ -683,9 +683,9 @@
               </li>
 
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 2</span>
+                <span class="annotation" property="eli:number">Artikel 2</span>
                 <meta content="meta-content-11" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <div class="annotation article-content" property="prov:value"> De geloofsbrieven goed te keuren van:
+                <div class="annotation" property="prov:value"> De geloofsbrieven goed te keuren van:
                   <ul class="numbered-list">
                     <li>Lijst nummer 1 (Naam partij)
                       <ul class="bullet-list">
@@ -712,9 +712,9 @@
               </li>
 
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 3</span>
+                <span class="annotation" property="eli:number">Artikel 3</span>
                 <meta content="meta-content-12" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <div class="annotation article-content" property="prov:value"> Akte te nemen van de eedaflegging in handen van de uittredende voorzitter van:
+                <div class="annotation" property="prov:value"> Akte te nemen van de eedaflegging in handen van de uittredende voorzitter van:
                   <ul class="numbered-list">
                     <li>Lijst nummer 1 (Naam partij)
                       <ul class="bullet-list">
@@ -741,9 +741,9 @@
               </li>
 
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 4</span>
+                <span class="annotation" property="eli:number">Artikel 4</span>
                 <meta content="meta-content-13" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span class="annotation article-content" property="prov:value"> Akte te nemen van de afwezigheid zonder opgave van geldige reden van volgende verkozen gemeenteraadsleden: geen <!-- [TO ASK: ander scenario visualiseren] <em>(moet dit nu bij/na akteneming van onverenigbaarheid/afstand en geloofsbrieven?)</em> -->
+                <span class="annotation" property="prov:value"> Akte te nemen van de afwezigheid zonder opgave van geldige reden van volgende verkozen gemeenteraadsleden: geen <!-- [TO ASK: ander scenario visualiseren] <em>(moet dit nu bij/na akteneming van onverenigbaarheid/afstand en geloofsbrieven?)</em> -->
                   <!--                     <ul class="bullet-list">
                        <li>
                        <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span>: reden
@@ -760,9 +760,9 @@
                   <div property="ext:scrollToLogicalName" content="rangorde gemeenteraadsleden">rangorde gemeenteraadsleden</div>
                   <div property="ext:idInSnippet" content="${generateBoundUuid('rangorde gemeenteraadsleden')}">${generateBoundUuid('rangorde gemeenteraadsleden')}</div>
                 </div>
-                <span class="annotation article-number" property="eli:number">Artikel 5</span>
+                <span class="annotation" property="eli:number">Artikel 5</span>
                 <meta content="meta-content-14" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span class="annotation article-content" property="prov:value"> De rangorde van de gemeenteraadsleden als volgt vast te stellen:<br>
+                <span class="annotation" property="prov:value"> De rangorde van de gemeenteraadsleden als volgt vast te stellen:<br>
                   voeg rangorde tabel gemeenteraadsleden toe.
                 </span>
               </li>
@@ -783,7 +783,7 @@
       <meta content="meta-content-15" property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-3')}">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <p property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}"></p>
-      <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit mandaat:Aanstellingsbesluit">
+      <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit mandaat:Aanstellingsbesluit">
         <div>
           <h5 class="h4 u-spacer" property="eli:title"><span id="${generateBoundUuid('bva-besluit-4')}">Verkiezing van de voorzitter van de gemeenteraad</span></h5>
           <meta content="meta-content-16" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -840,16 +840,16 @@
           </div>
           <p class="u-spacer--small">Beslist,</p>
           <div>
-            <ul class="article-list bullet-list">
+            <ul class="bullet-list">
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 1</span>
+                <span class="annotation" property="eli:number">Artikel 1</span>
                 <meta content="meta-content-17" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span class="annotation article-content" property="prov:value">Kennis te nemen van de ontvankelijke gezamenlijke akte van voordracht van de kandidaat-voorzitter.</span>
+                <span class="annotation" property="prov:value">Kennis te nemen van de ontvankelijke gezamenlijke akte van voordracht van de kandidaat-voorzitter.</span>
               </li>
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 2</span>
+                <span class="annotation" property="eli:number">Artikel 2</span>
                 <meta content="meta-content-18" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span class="annotation article-content" property="prov:value">
+                <span class="annotation" property="prov:value">
                   <span property="ext:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateUuid()}" typeOf="mandaat:Mandataris">
                     De voorgedragen kandidaat-voorzitter, &lt;Typ naam&gt;, wordt verkozen verklaard <span property="org:holds" resource="http://data.lblod.info/id/mandaten/35844b6120c6294bcea8d8b65399dfc9c73456954c67f8c2716674c54c4fef4c">als voorzitter van de gemeenteraad</span> met ingang van <span property="mandaat:start" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span>.
                   </span>
@@ -873,7 +873,7 @@
       <meta content="meta-content-19" property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-4')}">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <p property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-5')}"></p>
-      <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+      <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
         <div>
           <h5 class="h4 u-spacer" property="eli:title"><span id="${generateBoundUuid('bva-besluit-5')}">Verkiezing van de schepenen</span></h5>
           <meta content="meta-content-20" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -950,11 +950,11 @@
 
           <div>
             <!-- <h6 class="h5">Besluit</h6> -->
-            <ul class="article-list bullet-list">
+            <ul class="bullet-list">
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 1</span>
+                <span class="annotation" property="eli:number">Artikel 1</span>
                 <meta content="meta-content-21" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span class="annotation article-content" property="prov:value">Kennis te nemen van de ontvankelijke gezamenlijke akte van voordracht van de kandidaat-schepenen.</span>
+                <span class="annotation" property="prov:value">Kennis te nemen van de ontvankelijke gezamenlijke akte van voordracht van de kandidaat-schepenen.</span>
               </li>
 
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel" id="${generateBoundUuid('rangorde schepenen')}">
@@ -962,9 +962,9 @@
                   <div property="ext:scrollToLogicalName" content="rangorde schepenen">rangorde schepenen</div>
                   <div property="ext:idInSnippet" content="${generateBoundUuid('rangorde schepenen')}">${generateBoundUuid('rangorde schepenen')}</div>
                 </div>
-                <span class="annotation article-number" property="eli:number">Artikel 2</span>
+                <span class="annotation" property="eli:number">Artikel 2</span>
                 <meta content="meta-content-22" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <div class="annotation article-content" property="prov:value">De voorgedragen kandidaat-schepenen verkozen te verklaren in de rangorde van de gezamenlijke akte van voordracht van de kandidaat-schepenen, meer bepaald:<!--  <em> Hoe ziet het er uit met opvolgers?</em> -->
+                <div class="annotation" property="prov:value">De voorgedragen kandidaat-schepenen verkozen te verklaren in de rangorde van de gezamenlijke akte van voordracht van de kandidaat-schepenen, meer bepaald:<!--  <em> Hoe ziet het er uit met opvolgers?</em> -->
 
                   <ul class="bullet-list">
                     <li>Voornaam en familienaam: <span property="ext:TODO" var="ext:TODO">&lt;persoon&gt;</span> <!-- variable van voorgedragen kandidaat-schepenen -->
@@ -1002,23 +1002,23 @@
                 </div>
               </li>
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 3</span>
+                <span class="annotation" property="eli:number">Artikel 3</span>
                 <meta content="meta-content-23" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span class="annotation article-content" property="prov:value">Akte te nemen van de eedaflegging</span>
+                <span class="annotation" property="prov:value">Akte te nemen van de eedaflegging</span>
               </li>
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 4</span>
+                <span class="annotation" property="eli:number">Artikel 4</span>
                 <meta content="meta-content-24" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <div class="annotation article-content" property="prov:value">Akte te nemen van de rangorde waarin de schepenen werden geïnstalleerd:
+                <div class="annotation" property="prov:value">Akte te nemen van de rangorde waarin de schepenen werden geïnstalleerd:
                   <ul class="bullet-list">
                     <li>Eerste schepen: <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;<!--  [TODO: variable feiten en context kandidaat schepenen] --></span></li>
                   </ul>
                 </div>
               </li>
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Artikel 5</span>
+                <span class="annotation" property="eli:number">Artikel 5</span>
                 <meta content="meta-content-25" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span class="annotation article-content" property="prov:value">Akte te nemen van het aantal schepenen, geldig voor de ganse duur van de legislatuur, en zoals vastgelegd door het aantal voorgedragen schepenen op ontvankelijke gezamenlijke voordrachtsakte, met name <span property="ext:TODO" var="ext:TODO">&lt;aantal schepenen&gt;<!--  [variable met feiten en context &amp; RDFA] --></span>.</span>
+                <span class="annotation" property="prov:value">Akte te nemen van het aantal schepenen, geldig voor de ganse duur van de legislatuur, en zoals vastgelegd door het aantal voorgedragen schepenen op ontvankelijke gezamenlijke voordrachtsakte, met name <span property="ext:TODO" var="ext:TODO">&lt;aantal schepenen&gt;<!--  [variable met feiten en context &amp; RDFA] --></span>.</span>
               </li>
             </ul>
           </div>
@@ -1034,7 +1034,7 @@
       <meta content="meta-content-26" property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-5')}">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <p property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-6')}"></p>
-      <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+      <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
         <div>
           <h5 class="h4 u-spacer" property="eli:title"><span id="${generateBoundUuid('bva-besluit-6')}">Vaststelling van fractievorming</span></h5>
           <meta content="meta-content-27" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -1070,11 +1070,11 @@
 
           <div>
             <!-- <h6 class="h5">Besluit</h6> -->
-            <ul class="article-list bullet-list">
+            <ul class="bullet-list">
               <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-                <span class="annotation article-number" property="eli:number">Enig artikel.</span>
+                <span class="annotation" property="eli:number">Enig artikel.</span>
                 <meta content="meta-content-28" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span class="annotation article-content" property="prov:value">Vast te stellen dat geen enkele lijst de wens heeft uitgedrukt om te splitsen in twee fracties, noch de wens heeft uitgedrukt om zich te verenigen in één fractie met een andere lijst.<!--  [TO ASK: vraag Domien hoe ander scenario er uit ziet: wel splitswens of vereniging] --></span>
+                <span class="annotation" property="prov:value">Vast te stellen dat geen enkele lijst de wens heeft uitgedrukt om te splitsen in twee fracties, noch de wens heeft uitgedrukt om zich te verenigen in één fractie met een andere lijst.<!--  [TO ASK: vraag Domien hoe ander scenario er uit ziet: wel splitswens of vereniging] --></span>
               </li>
             </ul>
           </div>
@@ -1090,7 +1090,7 @@
       <meta content="meta-content-29" property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-6')}">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <p property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-7')}"></p>
-      <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+      <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
         <div>
           <h5 class="h4 u-spacer" property="eli:title"><span id="${generateBoundUuid('bva-besluit-7')}">Verkiezing van de Politieraad</span></h5>
           <meta content="meta-content-30" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -1187,11 +1187,11 @@
 
         <!-- <div>
              <h6 class="h5">Besluit</h6>
-             <ul class="article-list bullet-list">
+             <ul class="bullet-list">
              <li property="eli:has_part" resource="http://data.lblod.info/artikels/0c399694-7b7a-4d11-b35c-32ae8e5afe2c" typeof="besluit:Artikel">
-             <span class="annotation article-number" property="eli:number">Enig artikel.</span>
+             <span class="annotation" property="eli:number">Enig artikel.</span>
              <meta content="meta-content-31 property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-             <span class="annotation article-content" property="prov:value"> De gemeenteraad neemt kennis van het ontslag van &lt;mandataris&gt; met ingang van <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​. </span>
+             <span class="annotation" property="prov:value"> De gemeenteraad neemt kennis van het ontslag van &lt;mandataris&gt; met ingang van <span property="ext:TODO" var="ext:TODO" datatype="xsd:date" content="datum">&lt;datum&gt;</span>​. </span>
              </li>
              </ul>
              </div> -->
