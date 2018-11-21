@@ -564,48 +564,74 @@
             <div>
               <!-- <h6 class="h5">Feiten en context</h6> -->
               <ul class="bullet-list">
-                <li>
-                  Overwegende dat de resultaten van de gemeenteraadsverkiezingen van&nbsp;
-                  <span id="${generateBoundUuid('verkiezingsdatum-3')}" property="ext:datumVerkiezing" datatype="xsd:date" content="2018-10-14">14 oktober 2018</span>&nbsp;
-                  door de Raad voor Verkiezingsbetwistingen op&nbsp;
-                  <span property="ext:datumGoedkeuringVerkiezing" datatype="xsd:date" content="2018-11-27">27 november 2018</span> werden&nbsp;
-                  goedgekeurd.</li>
+                <li class="vartodo propertytodo"><!-- moet hier rdfa in? -->Overwegende dat de resultaten van de gemeenteraadsverkiezingen van 14 oktober 2018 door de Raad voor Verkiezingsbetwistingen op 27 november 2018 werden goedgekeurd;</li>
 
                 <li id="${generateBoundUuid('afstand van mandaat')}">
                   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
                     <div property="ext:scrollToLogicalName" content="afstand van mandaat">afstand van mandaat</div>
                     <div property="ext:idInSnippet" content="${generateBoundUuid('afstand van mandaat')}">${generateBoundUuid('afstand van mandaat')}</div>
                   </div>
-                  Overwegende dat er geen afstanden van mandaat ingediend werden bij de uittredende voorzitter voor de installatievergadering.</li>
+	                <span class="delete-me-mark-highlight-make-me-plugin">Selecteer scenario afstanden van mandaat</span>
+	              </li>
 
-                <!--TO ASK: ander scenario <li> <em>[Aanduiden dat dit optioneel is]</em>Overwegende dat een afstand van mandaat schriftelijk, gedagtekend en behoorlijk ondertekend is ingediend bij de uittredende voorzitter voor de installatievergadering door:
-                     <ul>
-                     <li><span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" var="ext:TODO">&lt;persoon&gt;</span></li>
-                     </ul>
-                     </li> -->
+	                <!-- Erika!
 
-                  <li id="${generateBoundUuid('onderzoek geloofsbrieven')}">
-                    <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-                      <div property="ext:scrollToLogicalName" content="onderzoek geloofsbrieven">onderzoek geloofsbrieven</div>
-                      <div property="ext:idInSnippet" content="${generateBoundUuid('onderzoek geloofsbrieven')}">${generateBoundUuid('onderzoek geloofsbrieven')}</div>
-                    </div>
-                    Overwegende dat alle geloofsbrieven behoorlijk en tijdig werden ingediend, en dat deze ter inzage werden gelegd met respect voor de decretale bepalingen ter zake;<!-- [TO ASK: Vragen aan Domien voor ander scenario's (niet op tijd ingediend etc)] --></li>
+	                	installatievergadering-gemeenteraadsleden-afstanden-1-geen-afstanden-mandaat.html
+										installatievergadering-gemeenteraadsleden-afstanden-2-wel-afstanden-mandaat-geen-opvolgers.html
+										installatievergadering-gemeenteraadsleden-afstanden-3-wel-afstanden-mandaat-wel-opvolgers.html
 
-                  <li>Overwegende dat uit het onderzoek van de geloofsbrieven van de verkozen gemeenteraadsleden door de gemeenteraad, zoals voorgeschreven in <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur in artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:cites">6, §3</span> en artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:cites">9</span></a>, blijkt dat alle verkozenen en hun respectieve opvolgers die worden uitgenodigd heden de eed af te leggen, voldoen aan de verkiesbaarheidsvoorwaarden;</li>
+	                	Ook hier: vervang hele "li" <li>Selecteer scenario eventuele einddatum en opvolgers</li>, met li's uit de scenario's, of verwijder li elementen in de alternatieve scenario's en voeg bij "installatievergadering-gemeenteraadsleden-3-wel-afstanden-mandaat-wel-opvolgers.html" de twee puntjes samen tot één zinnetje (vragen aan Veronique, geen idee of dat dat juridisch correct is...).
 
-                  <li>Overwegende dat niemand verklaard heeft zich in een situatie van onverenigbaarheid te bevinden;
-                    <!--ander scenario <br>
-                         OF
-                         <br></li>
+									-->
 
-                         <li>Overwegende dat <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span>, <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span> en <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris">&lt;persoon&gt;</span> verklaard hebben zich in een situatie van onverenigbaarheid te bevinden; [TO ASK: ander scenario visualiseren]</li>
+                <li class="delete-me-mark-highlight-make-me-plugin">Selecteer scenario afwezigen</li>
 
-                         <li>Overwegende dat <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/mandatarissen/5a81ab404cac4f1ccb000024" typeof="mandaat:Mandataris" var="ext:TODO">&lt;persoon&gt;</span> op &lt;datum [TO ASK: data koppelen van ABB / manueel invullen + variable]&gt; de eed als burgemeester heeft afgelegd in handen van de gouverneur en dat conform <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:cites">59</span>, lid 260 , §2</a> deze eedaflegging tevens geldt als eedaflegging als gemeenteraadslid in de zin van <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het decreet van 22 december 2017 artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:cites">67</span></a>; --></li>
+	                <!-- Erika!
 
-                  <li>
-                    Overwegende dat&nbsp;
-                    <span id="${generateBoundUuid('burgemeester-persoon-5')}">&lt;Typ naam&gt;</span> op&nbsp;
-                    <span id="${generateBoundUuid('eedafleggingburgemeesterdatum-2')}" property="ext:datumEedafleggingBurgemeester" datatype="xsd:date" content="2018-12-04">4 december 2018<!-- <em>uitgevonden RDFA en ID</em> --></span> de eed als burgemeester heeft afgelegd in handen van de gouverneur, en dat conform <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur, artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:cites">59</span>, tweede lid &mdash; deze eedaflegging tevens geldt als eedaflegging als gemeenteraadslid in de zin van artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:cites">6</span></a>;</li>
+										installatievergadering-gemeenteraadsleden-afwezigen-1-geen-afwezigen.html
+										installatievergadering-gemeenteraadsleden-afwezigen-2-afwezigen-zonder-reden.html
+										installatievergadering-gemeenteraadsleden-afwezigen-3-afwezigen-met-reden.html
+	                	installatievergadering-gemeenteraadsleden-afwezigen-4-afwezigen-met-en-zonder-reden.html
+
+	                	Ook hier: vervang hele "li" <li>Selecteer scenario afwezigen</li>, met li's uit de scenario's, of verwijder li elementen in de alternatieve scenario's en voeg bij "installatievergadering-gemeenteraadsleden-afwezigen-4-afwezigen-met-en-zonder-reden.html" de twee puntjes samen tot één zinnetje (vragen aan Veronique, geen idee of dat dat juridisch correct is...).
+
+									-->
+
+								<li id="${generateBoundUuid('onderzoek geloofsbrieven')}">
+                  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+                    <div property="ext:scrollToLogicalName" content="onderzoek geloofsbrieven">onderzoek geloofsbrieven</div>
+                    <div property="ext:idInSnippet" content="${generateBoundUuid('onderzoek geloofsbrieven')}">${generateBoundUuid('onderzoek geloofsbrieven')}</div>
+                  </div>
+                  <span class="delete-me-mark-highlight-make-me-plugin">Selecteer scenario geloofsbrieven</span>
+                </li>
+
+	                <!-- Erika!
+
+										installatievergadering-gemeenteraadsleden-geloofsbrieven-1-geen-uitzonderingen.html
+										installatievergadering-gemeenteraadsleden-geloofsbrieven-2-wel-uitzonderingen.html
+									-->
+
+                  <li>Overwegende dat uit het onderzoek van de geloofsbrieven van de verkozen gemeenteraadsleden door de gemeenteraad, zoals voorgeschreven in <a href="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur in artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:cites">6, §3</span> en artikel <span resource="http://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/REFERENCE/ARTIKEL" property="eli:cites">9</span></a>, blijkt dat alle verkozenen en hun respectieve opvolgers die worden uitgenodigd heden de eed af te leggen, voldoen aan de verkiesbaarheidsvoorwaarden en op eer verklaard hebben zich niet in een situatie van onverenigbaarheid te bevinden;</li>
+
+                <li class="delete-me-mark-highlight-make-me-plugin">Selecteer scenario onverenigbaarheden</li>
+
+	                <!-- Erika!
+
+										installatievergadering-gemeenteraadsleden-onverenigbaarheden-1-geen-onverenigbaarheden.html
+										installatievergadering-gemeenteraadsleden-onverenigbaarheden-2-wel-onverenigbaarheden-geen-opvolger.html
+										installatievergadering-gemeenteraadsleden-onverenigbaarheden-3-wel-onverenigbaarheden-wel-opvolger.html
+
+	                	Hier lijkt het mij heel moeilijk om de li's niet volledig te vervangen... Laat me zeker weten wat ge denkt
+
+									-->
+
+                <li class="delete-me-mark-highlight-make-me-plugin">Selecteer scenario burgemeester</li>
+
+	                <!-- Erika!
+
+	                	Wordt hier de burgemeester automatisch ingevuld en de data als die data beschikbaar is? Dan moet de template aangepast worden denk ik voor het scenario met burgemeester.
+
+									-->
               </ul>
             </div>
           </div>
