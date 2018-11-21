@@ -778,22 +778,16 @@
           </div>
           <p class="u-spacer--small">Beslist,</p>
           <div>
-            <ul class="bullet-list">
-              <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-                <span property="eli:number">Artikel 1</span>
-                <meta content="meta-content-17" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span property="prov:value">Kennis te nemen van de ontvankelijke gezamenlijke akte van voordracht van de kandidaat-voorzitter.</span>
-              </li>
-              <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-                <span property="eli:number">Artikel 2</span>
-                <meta content="meta-content-18" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-                <span property="prov:value">
-                  <span property="ext:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateUuid()}" typeOf="mandaat:Mandataris">
-                    De voorgedragen kandidaat-voorzitter, &lt;Typ naam&gt;, wordt verkozen verklaard <span property="org:holds" resource="http://data.lblod.info/id/mandaten/35844b6120c6294bcea8d8b65399dfc9c73456954c67f8c2716674c54c4fef4c">als voorzitter van de gemeenteraad</span> met ingang van <span property="mandaat:start" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span>.
-                  </span>
-                </span>
-              </li>
-            </ul>
+          	<p class="delete-me-mark-highlight-make-me-plugin">Selecteer scenario akte van voordracht kandidaat-voorzitter</p>
+          	<!-- Erika!
+
+          		Kennisname van de tijdige en ontvankelijke akte van voordracht van de kandidaat-voorzitter
+          		installatievergadering-voorzitter-besluit-1-tijdig-ontvankelijk.html
+
+          		Kennisname van het ontbreken van een tijdige en ontvankelijke akte van voordracht van de kandidaat-voorzitter
+							installatievergadering-voorzitter-besluit-2-niet-tijdig-niet-ontvankelijk.html
+						-->
+
           </div>
         </div>
       </div>
@@ -843,22 +837,23 @@
                     <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht schepenen">datum bezorging akte van voordracht schepenen</div>
                     <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht schepenen')}">${generateBoundUuid('datum bezorging akte van voordracht schepenen')}</div>
                   </div>
-                  Overwegende dat een gezamenlijke akte van voordracht van de kandidaat-schepenen werd overhandigd aan de (waarnemend) algemeen directeur op&nbsp;
-                  <span property="ext:datumAkteVoordrachtSchepenenAanSecretaris" datatype="xsd:date" content="">&lt;datum&gt;</span>​, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
+                  Overwegende dat een gezamenlijke akte van voordracht van de kandidaat-schepenen werd overhandigd aan de algemeen directeur op&nbsp;
+                  <span property="ext:datumAkteVoordrachtSchepenenAanSecretaris" datatype="xsd:date" content="">&lt;datum&gt;</span>​, zijnde binnen de termijn van acht dagen voor de installatievergadering van de gemeenteraad;</li>
 
                 <li>
-                  Overwegende dat de (waarnemend) algemeen directeur op datum van&nbsp;
+                  Overwegende dat de algemeen directeur op datum van&nbsp;
                   <span property="ext:datumAkteVoordrachtSchepenAanBurgemeester" datatype="xsd:date" content="">&lt;datum&gt;</span>​ een afschrift van de gezamenlijke akte van voordracht aan de burgemeester heeft bezorgd;</li>
 
                 <li>Overwegende dat alle kandidaat-schepenen de eed als gemeenteraadslid hebben afgelegd;</li>
+
                 <li>
                   Overwegende dat&nbsp;
                   <span id="${generateBoundUuid('nieuwe-voorzitter-2')}">&lt;persoon&gt;</span> tot voorzitter van de gemeenteraad werd verkozen tijdens de <span resource="http://data.lblod.info/id/zittingen/${generateUuid('installatievergadering')}">installatievergadering van&nbsp;
                     <span  id="${generateBoundUuid('geplande-start-2')}" property="besluit:geplandeStart" datatype="xsd:date" content=""><span typeOf="ext:currentDate">&nbsp;</span></span></span> en na zijn installatie de gemeenteraad voorzit;</li>
 
-                <li>Overwegende dat de (waarnemend) algemeen directeur de gezamenlijke akte van voordracht van de kandidaat-schepenen ter zitting heeft overhandigd aan de voorzitter van de gemeenteraad;</li>
+                <li>Overwegende dat de algemeen directeur de gezamenlijke akte van voordracht van de kandidaat-schepenen ter zitting heeft overhandigd aan de voorzitter van de gemeenteraad;</li>
 
-                <li>Overwegende dat de voorzitter van de gemeenteraad vaststelt dat de gezamenlijke akte van voordracht van de kandidaat-schepenen uiterlijk acht dagen voor de installatievergadering van de gemeenteraad aan de (waarnemend) algemeen directeur is overhandigd;</li>
+                <li>Overwegende dat de voorzitter van de gemeenteraad vaststelt dat de gezamenlijke akte van voordracht van de kandidaat-schepenen uiterlijk acht dagen voor de installatievergadering van de gemeenteraad aan de algemeen directeur is overhandigd;</li>
 
                 <li>Overwegende dat de voorgedragen kandidaat schepenen de volgende personen zijn:
                   <ul class="bullet-list">
