@@ -838,43 +838,51 @@
                     <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht schepenen')}">${generateBoundUuid('datum bezorging akte van voordracht schepenen')}</div>
                   </div>
                   Overwegende dat een gezamenlijke akte van voordracht van de kandidaat-schepenen werd overhandigd aan de algemeen directeur op&nbsp;
-                  <span property="ext:datumAkteVoordrachtSchepenenAanSecretaris" datatype="xsd:date" content="">&lt;datum&gt;</span>​, zijnde binnen de termijn van acht dagen voor de installatievergadering van de gemeenteraad;</li>
+                  <span property="ext:datumAkteVoordrachtSchepenenAanSecretaris" datatype="xsd:date" content="" class="mark-highlight-manual">Voer datum in</span>​, zijnde binnen de termijn van acht dagen voor de installatievergadering van de gemeenteraad;
+
+                  <!-- Moet hier ook een alternatief scenario zoals bij gemeenteraadsleden? -->
+                </li>
 
                 <li>
                   Overwegende dat de algemeen directeur op datum van&nbsp;
-                  <span property="ext:datumAkteVoordrachtSchepenAanBurgemeester" datatype="xsd:date" content="">&lt;datum&gt;</span>​ een afschrift van de gezamenlijke akte van voordracht aan de burgemeester heeft bezorgd;</li>
-
-                <li>Overwegende dat alle kandidaat-schepenen de eed als gemeenteraadslid hebben afgelegd;</li>
+                  <span property="ext:datumAkteVoordrachtSchepenAanBurgemeester" datatype="xsd:date" content="" class="mark-highlight-manual">Voer datum in</span>​ een afschrift van de gezamenlijke akte van voordracht aan de burgemeester heeft bezorgd;
+                </li>
 
                 <li>
                   Overwegende dat&nbsp;
-                  <span id="${generateBoundUuid('nieuwe-voorzitter-2')}">&lt;persoon&gt;</span> tot voorzitter van de gemeenteraad werd verkozen tijdens de <span resource="http://data.lblod.info/id/zittingen/${generateUuid('installatievergadering')}">installatievergadering van&nbsp;
-                    <span  id="${generateBoundUuid('geplande-start-2')}" property="besluit:geplandeStart" datatype="xsd:date" content=""><span typeOf="ext:currentDate">&nbsp;</span></span></span> en na zijn installatie de gemeenteraad voorzit;</li>
+                  <span id="${generateBoundUuid('nieuwe-voorzitter-2')}" class="mark-highlight-manual">Voer datum in</span>​ tot voorzitter van de gemeenteraad werd verkozen tijdens de <span resource="http://data.lblod.info/id/zittingen/${generateUuid('installatievergadering')}">installatievergadering van&nbsp;
+                    <span  id="${generateBoundUuid('geplande-start-2')}" property="besluit:geplandeStart" datatype="xsd:date" content=""><span typeOf="ext:currentDate">&nbsp;</span></span></span> en na zijn installatie de gemeenteraad voorzit;
+                </li>
 
                 <li>Overwegende dat de algemeen directeur de gezamenlijke akte van voordracht van de kandidaat-schepenen ter zitting heeft overhandigd aan de voorzitter van de gemeenteraad;</li>
 
-                <li>Overwegende dat de voorzitter van de gemeenteraad vaststelt dat de gezamenlijke akte van voordracht van de kandidaat-schepenen uiterlijk acht dagen voor de installatievergadering van de gemeenteraad aan de algemeen directeur is overhandigd;</li>
-
-                <li>Overwegende dat de voorgedragen kandidaat schepenen de volgende personen zijn:
-                  <ul class="bullet-list">
-                    <li><span property="ext:TODO" var="ext:TODO">&lt;persoon&gt;</span></li>
-                  </ul>
-                </li>
                 <li>Overwegende dat beide geslachten zijn vertegenwoordigd in de voordrachtsakte;</li>
 
                 <li>Overwegende dat de gezamenlijke akte van voordracht van kandidaat-schepenen voldoet aan de decretaal voorziene ontvankelijkheidsvereisten;</li>
 
-                <li>Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-schepenen geen melding maakt van de einddatum van een schepenmandaat;<!-- <em>ander scenario voorzien?</em> --></li>
+                <li>Overwegende dat de voorgedragen kandidaat schepenen de volgende personen zijn:
+                  <ul class="bullet-list">
+                    <li><span property="ext:TODO" var="ext:TODO" class="mark-highlight-manual">Voer persoon in</span></li>
+                  </ul>
+                </li>
+
+                <li>Overwegende dat alle kandidaat-schepenen de eed als gemeenteraadslid hebben afgelegd;</li>
+
+                <li>Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-schepenen geen melding maakt van de einddatum van een schepenmandaat;
+
+                  <!-- Moet hier ook een alternatief scenario zoals bij gemeenteraadsleden? -->
+               	</li>
+
                 <li id="${generateBoundUuid('aantal schepenen')}">
                   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
                     <div property="ext:scrollToLogicalName" content="aantal schepenen">aantal schepenen</div>
                     <div property="ext:idInSnippet" content="${generateBoundUuid('aantal schepenen')}">${generateBoundUuid('aantal schepenen')}</div>
                   </div>
-                  Overwegende dat door de indiening van een geldige voordrachtsakte het aantal schepenen voor de rest van de legislatuur bepaald is, zijnde <span property="ext:TODO" var="ext:TODO">&lt;aantal schepenen&gt;<!--  [variable artikel 5 &amp; RDFA] --></span>;</li>
+                  Overwegende dat door de indiening van een geldige voordrachtsakte het aantal schepenen voor de rest van de legislatuur bepaald is, zijnde <span property="ext:TODO" var="ext:TODO" class="mark-highlight-manual">Voer aantal schepenen in</span>;</li>
                 <li>Overwegende dat de voorzitter van de gemeenteraad dit aantal ter zitting meedeelt aan de gemeenteraad;</li>
                 <li>Overwegende dat de rangorde van de schepenen is bepaald door de rangorde zoals deze op de ontvankelijke voordrachtsakte bepaald;</li>
                 <li>Overwegende dat de voorzitter van de gemeenteraad deze volgorde ter zitting meedeelt aan de gemeenteraad;</li>
-                <li>Overwegende dat de verkozen verklaarde schepenen de decretaal voorziene eed hebben afgelegd in handen van de burgemeester;<!-- <em>ook andere scenario's voor deze en voorgaande?</em> --></li>
+                <li>Overwegende dat de verkozen verklaarde schepenen de decretaal voorziene eed hebben afgelegd in handen van de burgemeester;</li>
               </ul>
             </div>
           </div>
