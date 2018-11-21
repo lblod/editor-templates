@@ -304,11 +304,6 @@
   </p>
   <br>
 
-  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-    <div property="ext:scrollToLogicalName" content="naam voorzitter gemeenteraad">naam voorzitter gemeenteraad</div>
-    <div property="ext:idInSnippet" content="${generateBoundUuid('naam voorzitter gemeenteraad')}">${generateBoundUuid('naam voorzitter gemeenteraad')}</div>
-  </div>
-
   <br>
   <!-- aanwezigen -->
   <h3 class="h2">Aanwezigen</h3>
@@ -325,15 +320,17 @@
   -->
 
   <!-- opening -->
-  <p id="${generateBoundUuid('naam voorzitter gemeenteraad')}">De uittredend voorzitter van de gemeenteraad, zit de installatievergadering voor <!-- op <span content="" datatype="xsd:dateTime" ><span typeOf="ext:currentDate">&nbsp;</span></span> -->.</p>
+  <p>De uittredend voorzitter van de gemeenteraad, zit de installatievergadering voor<!-- op <span content="" datatype="xsd:dateTime" ><span typeOf="ext:currentDate">&nbsp;</span></span> -->.</p>
 
-	  <!-- Alternatief opening, wanneer deze er niet is
-	  	De voorzitter opent de vergadering om start zitting. -->
-		<!-- Indien van toepassing
-			Mededeling door de voorzitter dat er een video-opname of audio-opname wordt gemaakt van de zitting -->
+  <!-- moet de naam nog ingegeven worden? Zo nee, uit checklist halen
+  	<p id="${generateBoundUuid('naam voorzitter gemeenteraad')}">De uittredend voorzitter van de gemeenteraad, zit de installatievergadering voor op <span content="" datatype="xsd:dateTime" ><span typeOf="ext:currentDate">&nbsp;</span></span>.</p>
 
-  <br>
-  <br>
+	  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+	    <div property="ext:scrollToLogicalName" content="naam voorzitter gemeenteraad">naam voorzitter gemeenteraad</div>
+	    <div property="ext:idInSnippet" content="${generateBoundUuid('naam voorzitter gemeenteraad')}">${generateBoundUuid('naam voorzitter gemeenteraad')}</div>
+	  </div>
+
+  -->
 
   <!-- Agenda overzicht-->
   <div property="besluit:heeftAgenda" resource="http://data.lblod.info/id/agendas/${generateUuid()}" typeof="besluit:Agenda">
