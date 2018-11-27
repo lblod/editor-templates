@@ -35,10 +35,8 @@
         Overwegende dat <span id="${generateBoundUuid('burgemeester-persoon-2')}" class="mark-highlight-manual">Voer naam burgemeester in</span> de decretaal voorziene eed heeft afgelegd in de handen van de gouverneur op <span class="mark-highlight-manual">Voer datum eedaflegging burgemeester in</span>, zoals bevestigd door de akte van eedaflegging;</li>
       <li>
         Overwegende dat <span id="${generateBoundUuid('burgemeester-persoon-3')}" class="mark-highlight-manual">Voer naam burgemeester in</span> aldus met ingang van <span class="mark-highlight-manual">Voer start ambt burgemeester in</span> het ambt van burgemeester heeft opgenomen;</li>
-
       <li resource="#BenoemingBurgemeesterEinddatumScenario" typeof="ext:BesluitBenoemingBurgemeesterEinddatum">Selecteer scenario eventuele einddatum en opvolgers</li>
       <!-- Vraag: meerdere opvolgers mogelijk? -->
-
     </ul>
   </div>
 </div>
@@ -49,5 +47,20 @@
 <p class="u-spacer--small">Neemt akte van,</p>
 
 <div property="prov:value">
-  De benoeming en eedaflegging van, <span id="${generateBoundUuid('burgemeester-persoon-4')}" class="mark-highlight-manual">Voer naam burgemeester in</span> , tot burgemeester van <span property="ext:setStandAloneCurrentBestuurseenheid">huidig bestuurseenheid</span> met ingang van <span class="mark-highlight-manual">Voer start ambt burgemeester in</span>.
+  De benoeming en eedaflegging van, <span id="${generateBoundUuid('burgemeester-persoon-4')}" class="mark-highlight-manual">Voer naam burgemeester in</span> , tot burgemeester van <span property="ext:setStandAloneCurrentBestuurseenheid">huidig bestuurseenheid</span> met ingang van <span class="mark-highlight-manual">Voer start ambt burgemeester in</span>
+
+  <span class="u-display--block">Voeg scenario eventuele einddatum en opvolgers in</span>.
+
+  <!-- Erika!
+
+	Scenario: geen einddatum
+	installatievergadering-benoeming-burgemeester-besluit-1-geen-einddatum.html
+
+	Scenario: einddatum zonder opvolger
+	installatievergadering-benoeming-burgemeester-besluit-2-einddatum-geen-opvolger.html
+
+	Scenario: einddatum met opvolger
+	installatievergadering-benoeming-burgemeester-besluit-3-einddatum-met-opvolger.html
+  -->
+
 </div>
