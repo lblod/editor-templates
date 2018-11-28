@@ -368,12 +368,12 @@
       <br>
       <br>
       <div>
-        <p class="u-spacer--small">Neemt akte van,</p>
+        <p class="u-spacer--small">Beslist,</p>
         <div property="prov:value">
 	        <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
 	          <span property="eli:number">Enig artikel.</span>
 	          <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-	          <span property="prov:value">De goedkeuring van de resultaten van de gemeenteraadsverkiezingen van <span id="${generateBoundUuid('verkiezingsdatum-2')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen.</span>
+	          <span property="prov:value">Akte te nemen van de goedkeuring van de resultaten van de gemeenteraadsverkiezingen van <span id="${generateBoundUuid('verkiezingsdatum-2')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen.</span>
 	        </div>
         </div>
       </div>
@@ -446,7 +446,7 @@
                   <div property="ext:scrollToLogicalName" content="afstand van mandaat">afstand van mandaat</div>
                   <div property="ext:idInSnippet" content="${generateBoundUuid('afstand van mandaat')}">${generateBoundUuid('afstand van mandaat')}</div>
                 </div>
-		Selecteer scenario afstanden van mandaat
+							Selecteer scenario afstanden van mandaat
 	      </li>
 
               <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenAfwezigen">Selecteer scenario afwezigen</li>
@@ -464,7 +464,16 @@
               <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenOnverenigbaarheden">Selecteer scenario onverenigbaarheden</li>
 
               <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenBurgemeester">Selecteer scenario burgemeester</li>
+
               <li>Overwegende dat de verkozenen die opgeroepen werden om de eed af te leggen, de volgende eed hebben afgelegd in handen van <span class="mark-highlight-manual">de voorzitter (indien van topassing) of in het geval van de uittreden voorzitter, in haden van (de burgemeester of het oudste raadslid)</span>: "Ik zweer de verplichtingen van mijn mandaat trouw na te komen".</li>
+              <li>Selecteer scenario verhindering</li>
+              <!-- Erika!
+
+              	Geen verhindering
+	              installatievergadering-gemeenteraadsleden-verhindering-1-geen.html
+
+	              Wel verhindering
+	              installatievergadering-gemeenteraadsleden-verhindering-2-wel.html -->
             </ul>
           </div>
         </div>
