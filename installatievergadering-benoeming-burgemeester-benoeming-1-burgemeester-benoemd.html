@@ -42,8 +42,12 @@
 <br>
 <br>
 
-<p class="u-spacer--small">Neemt akte van,</p>
+<p class="u-spacer--small">Beslist,</p>
 
 <div property="prov:value">
-  De benoeming en eedaflegging van, <span id="${generateBoundUuid('burgemeester-persoon-4')}" class="mark-highlight-manual">Voer naam burgemeester in</span> , tot burgemeester van <span property="ext:setStandAloneCurrentBestuurseenheid">huidig bestuurseenheid</span> met ingang van <span class="mark-highlight-manual">Voer start ambt burgemeester in</span>.
+  <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+    <span property="eli:number">Enig artikel.</span>
+    <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+    <span property="prov:value">Akte te nemen van de benoeming en eedaflegging van <span id="${generateBoundUuid('burgemeester-persoon-4')}" class="mark-highlight-manual">Voer naam burgemeester in</span> , tot burgemeester van <span property="ext:setStandAloneCurrentBestuurseenheid">huidig bestuurseenheid</span> met ingang van <span class="mark-highlight-manual">Voer start ambt burgemeester in</span>.</span>
+  </div>
 </div>
