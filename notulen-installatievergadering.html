@@ -592,7 +592,7 @@
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
     <br>
-    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitSchepenen">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-6')}">Verkiezing van de schepenen</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <br>
@@ -616,22 +616,7 @@
                   <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht schepenen">datum bezorging akte van voordracht schepenen</div>
                   <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht schepenen')}">${generateBoundUuid('datum bezorging akte van voordracht schepenen')}</div>
                 </div>
-
               Selecteer scenario akte van voordracht</li>
-
-              <!-- TO IMPLEMENT
-
-								Scenario: akte binnen termijn van overhandigd aan algemeen directeur
-								installatievergadering-schepenen-overweging-akte-1-tijdig.html
-
-								Scenario: laattijdige akte van voordracht
-								installatievergadering-schepenen-overweging-akte-2-laattijdig.html
-
-								Scenario: geen akte van voordracht
-								installatievergadering-schepenen-overweging-akte-3-geen.html
-
-              -->
-
               <li>
                 Overwegende dat de algemeen directeur op datum van&nbsp;
                 <span class="mark-highlight-manual">Voer datum in</span>​ een afschrift van de gezamenlijke akte van voordracht aan de burgemeester heeft bezorgd;
