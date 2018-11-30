@@ -222,12 +222,12 @@
           <span property="dc:title" class="annotation"><span id="${generateBoundUuid('ap-6-nr')}">Agendapunt 6</span>: <span id="${generateBoundUuid('ap-6')}">Verkiezing van de voorzitter van het Bijzonder Comité voor de sociale dienst</span></span>
         </span>
       </li>
-      <li>
+<!--       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-7')}" typeof="besluit:Agendapunt" class="annotation--agendapunt annotation--agendapunt--open">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
           <span property="dc:title" class="annotation"><span id="${generateBoundUuid('ap-7-nr')}">Agendapunt 7</span>: <span id="${generateBoundUuid('ap-7')}">Verkiezing van de voorzitter van het Bijzonder Comité voor de sociale dienst</span></span>
         </span>
-      </li>
+      </li> -->
     </ul>
   </div>
   <br>
@@ -463,7 +463,14 @@
       </div> <!-- einde inhoud -->
     </div> <!-- einde agendapunt -->
 
-    <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-5')}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
+
+
+    <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+      <div property="ext:scrollToLogicalName" content="agendapunt leden bijzonder comite sociale dienst">agendapunt leden bijzonder comite sociale dienst</div>
+      <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt leden bijzonder comite sociale dienst')}">${generateBoundUuid('agendapunt leden bijzonder comite sociale dienst')}</div>
+    </div>
+
+    <div id="${generateBoundUuid('agendapunt leden bijzonder comite sociale dienst')}" property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-5')}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <div property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-5')}"><span id="${generateBoundUuid('bva-nr-5')}">Agendapunt 5</span></div>
       <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
@@ -513,7 +520,13 @@
       </div> <!-- einde inhoud -->
     </div> <!-- einde agendapunt -->
 
-    <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-6')}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
+
+    <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+      <div property="ext:scrollToLogicalName" content="agendapunt voorzitter bijzonder comite sociale dienst">agendapunt voorzitter bijzonder comite sociale dienst</div>
+      <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt voorzitter bijzonder comite sociale dienst')}">${generateBoundUuid('agendapunt voorzitter bijzonder comite sociale dienst')}</div>
+    </div>
+
+    <div id="${generateBoundUuid('agendapunt voorzitter bijzonder comite sociale dienst')}" property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-6')}" typeof="besluit:BehandelingVanAgendapunt" class="annotation-structure annotation-structure--behandeling annotation-structure--behandeling--open">
       <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
       <div property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-6')}"><span id="${generateBoundUuid('bva-nr-6')}">Agendapunt 6</span></div>
       <div class="annotation-snippet" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
