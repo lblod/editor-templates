@@ -416,7 +416,13 @@
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
     <br>
-    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+
+    <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+      <div property="ext:scrollToLogicalName" content="agendapunt gemeenteraadsleden">agendapunt gemeenteraadsleden</div>
+      <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt gemeenteraadsleden')}">${generateBoundUuid('agendapunt gemeenteraadsleden')}</div>
+    </div>
+
+    <div id="${generateBoundUuid('agendapunt gemeenteraadsleden')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-3')}">Installatie van de gemeenteraadsleden en vaststelling van hun rangorde</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <p>Korte openbare beschrijving:</p>
