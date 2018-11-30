@@ -228,12 +228,12 @@
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid('installatievergadering')}">
 
   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-    <div property="ext:scrollToLogicalName" content="datum en locatie installatievergadering">datum en locatie installatievergadering</div>
-    <div property="ext:idInSnippet" content="${generateBoundUuid('datum en locatie installatievergadering')}">${generateBoundUuid('datum en locatie installatievergadering')}</div>
+    <div property="ext:scrollToLogicalName" content="bestuursorgaan en geplande start">bestuursorgaan en geplande start</div>
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan en geplande start')}">${generateBoundUuid('bestuursorgaan en geplande start')}</div>
   </div>
 
   <!-- meta zitting -->
-  <h2 class="h1" property="dc:title" id="${generateBoundUuid('datum en locatie installatievergadering')}">
+  <h2 class="h1" property="dc:title" id="${generateBoundUuid('bestuursorgaan en geplande start')}">
     Notulen van <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, zitting van <span id="${generateBoundUuid('geplande-start-1')}" property="besluit:geplandeStart" datatype="xsd:dateTime" content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​ (installatievergadering)
   </h2>
   <br>
@@ -241,12 +241,17 @@
   <p>
     Geplande start: <span id="${generateBoundUuid('geplande-start-2')}" property="besluit:geplandeStart" datatype="xsd:dateTime" content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​
   </p>
-  <p>
+
+  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+    <div property="ext:scrollToLogicalName" content="locatie en zaal">locatie en zaal</div>
+    <div property="ext:idInSnippet" content="${generateBoundUuid('locatie en zaal')}">${generateBoundUuid('locatie en zaal')}</div>
+  </div>
+  <p id="${generateBoundUuid('locatie en zaal')}">
     Locatie: <span class="mark-highlight-manual">Voer naam locatie in</span>, <span class="mark-highlight-manual">Voer naam zaal in</span>.
   </p>
   <br>
-
   <br>
+
   <!-- aanwezigen -->
   <h3 class="h2">Aanwezigen bij de zitting</h3>
   <span property="ext:insertAanwezigenText">Beheer aanwezigen bij de zitting.</span>
@@ -686,7 +691,9 @@
       <p>Korte openbare beschrijving:</p>
       <p property="eli:description">Verkiezing van de Politieraad.</p>
       <br>
-      Voeg besluit politieraad in
+      <div class="hide-for-launch--politie">
+      	<div>Voeg besluit politieraad in</div>
+	    </div>
     </div>
 
     <br>
