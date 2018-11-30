@@ -26,37 +26,9 @@
 
         <li>Overwegende dat de kandidaat-voorzitter de voorgeschreven eed als gemeenteraadslid heeft afgelegd en er geen specifieke eed als voorzitter van de gemeenteraad dient afgelegd te worden;</li>
 
-        <li resource="#VerkiezingVoorzitterEinddatumScenario" typeof="ext:BesluitVerkiezingVoorzitterEinddatum">Selecteer scenario eventuele einddatum en opvolger
+        <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterEinddatum">Selecteer scenario eventuele einddatum en opvolger</li>
 
-        	<!-- Erika!
-
-						Scenario: geen melding van einddatum van het mandaat, noch opvolger
-						installatievergadering-voorzitter-motivering-einddatum-opvolgers-1-geen-einddatum-geen-opvolger.html
-
-						Scenario: melding van einddatum van het mandaat zonder opvolger
-						installatievergadering-voorzitter-motivering-einddatum-opvolgers-2-einddatum-geen-opvolger.html
-
-						Scenario: melding van einddatum van het mandaat met opvolger
-						installatievergadering-voorzitter-motivering-einddatum-opvolgers-3-einddatum-en-opvolger.html
-
-						Scenario: geen melding van einddatum van het mandaat, wel opvolger
-						installatievergadering-voorzitter-motivering-einddatum-opvolgers-4-geen-einddatum-wel-opvolger.html
-
-        	-->
-
-        </li>
-
-        <li>Selecteer scenario verhindering
-
-        	<!-- Erika!
-
-						Scenario: voorzitter is verhinderd
-						installatievergadering-voorzitter-motivering-verhindering-1-verhinderd.html
-
-						Scenario: voorzitter is niet verhinderd (verwijder nota)
-
-        	-->
-        </li>
+        <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterVerhindering">Selecteer scenario verhindering</li>
 
       </ul>
     </div>
@@ -69,31 +41,8 @@
         <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
         <span property="prov:value">Kennis te nemen van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter.</span>
       </li>
-      <li>
-      	Selecteer scenario opvolger
-
-      	<!-- Erika!
-
-				Scenario: opvolger
-				installatievergadering-voorzitter-artikel-opvolger-1-opvolger.html
-
-				Scenario: geen opvolger
-				installatievergadering-voorzitter-artikel-opvolger-2-geen-opvolger.html
-
-      	-->
-      </li>
-      <li>
-      	Selecteer scenario verhindering
-
-      	<!-- Erika!
-
-				Scenario: voorzitter verhinderd
-				installatievergadering-voorzitter-artikel-verhindering-1-verhinderd.html
-
-				Scenario: voorzitter niet verhinderd (verwijder nota)
-
-      	-->
-      </li>
+      <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterOpvolger">Selecteer scenario opvolger</li>
+      <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterArtikelVerhindering">Selecteer scenario verhindering</li>
     </ul>
   </div>
 </div>
