@@ -336,7 +336,13 @@
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
     <br>
-    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+
+    <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+      <div property="ext:scrollToLogicalName" content="agendapunt verkiezingen">agendapunt verkiezingen</div>
+      <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt verkiezingen')}">${generateBoundUuid('agendapunt verkiezingen')}</div>
+    </div>
+
+    <div id="${generateBoundUuid('agendapunt verkiezingen')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Kennisneming van de geldigverklaring van de verkiezingen</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <br>
@@ -393,7 +399,13 @@
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
     <br>
-    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+
+    <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+      <div property="ext:scrollToLogicalName" content="agendapunt burgemeester">agendapunt burgemeester</div>
+      <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt burgemeester')}">${generateBoundUuid('agendapunt burgemeester')}</div>
+    </div>
+
+    <div id="${generateBoundUuid('agendapunt burgemeester')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-2')}">Mededeling over de benoeming en eedaflegging van de burgemeester</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <p>Korte openbare beschrijving:</p>
@@ -509,7 +521,13 @@
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
     <br>
-    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+
+    <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
+      <div property="ext:scrollToLogicalName" content="agendapunt fracties">agendapunt fracties</div>
+      <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt fracties')}">${generateBoundUuid('agendapunt fracties')}</div>
+    </div>
+
+    <div id="${generateBoundUuid('agendapunt fracties')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-4')}">Vaststelling van de fracties</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <p>Korte openbare beschrijving:</p>
@@ -569,11 +587,11 @@
     <br>
 
 	  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-	    <div property="ext:scrollToLogicalName" content="datum bezorging akte van voordracht kandidaat-voorzitter">datum bezorging akte van voordracht kandidaat-voorzitter</div>
-	    <div property="ext:idInSnippet" content="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}">${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}</div>
+	    <div property="ext:scrollToLogicalName" content="agendapunt voorzitter">agendapunt voorzitter</div>
+	    <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt voorzitter')}">${generateBoundUuid('agendapunt voorzitter')}</div>
 	  </div>
 
-    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit mandaat:Aanstellingsbesluit ext:BesluitVerkiezingVoorzitter" id="${generateBoundUuid('datum bezorging akte van voordracht kandidaat-voorzitter')}">
+    <div id="${generateBoundUuid('agendapunt voorzitter')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit mandaat:Aanstellingsbesluit ext:BesluitVerkiezingVoorzitter">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-5')}">Verkiezing van de voorzitter van de gemeenteraad</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <p>Korte openbare beschrijving:</p>
@@ -609,6 +627,7 @@
       <div property="ext:scrollToLogicalName" content="agendapunt schepenen">agendapunt schepenen</div>
       <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt schepenen')}">${generateBoundUuid('agendapunt schepenen')}</div>
     </div>
+
     <div id="${generateBoundUuid('agendapunt schepenen')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitSchepenen">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-6')}">Verkiezing van de schepenen</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -638,10 +657,11 @@
     <br>
 
 	  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-	    <div property="ext:scrollToLogicalName" content="datum voordrachtsakten politieraadsleden">datum voordrachtsakten politieraadsleden</div>
-	    <div property="ext:idInSnippet" content="${generateBoundUuid('datum voordrachtsakten politieraadsleden')}">${generateBoundUuid('datum voordrachtsakten politieraadsleden')}</div>
+	    <div property="ext:scrollToLogicalName" content="agendapunt politieraad">agendapunt politieraad</div>
+	    <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt politieraad')}">${generateBoundUuid('agendapunt politieraad')}</div>
 	  </div>
-    <div id="${generateBoundUuid('datum voordrachtsakten politieraadsleden')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitPolitieraad">
+
+    <div id="${generateBoundUuid('agendapunt politieraad')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitPolitieraad">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-7')}">Verkiezing van de Politieraad</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <p>Korte openbare beschrijving:</p>
