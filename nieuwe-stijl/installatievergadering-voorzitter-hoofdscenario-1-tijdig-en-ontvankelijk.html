@@ -5,26 +5,32 @@
 </div>
 
 <div>
-  <p class="u-spacer--small">De gemeenteraad,</p>
+  
   <div property="besluit:motivering" lang="nl">
-    <div>
+   <div>
+      <h6>Bevoegdheid</h6>
       <ul class="bullet-list">
-        <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234844" property="eli:cites">6 </a> en <a href="http://data.lblod.info/WetgevingArtikel/1234845" property="eli:cites">7 </a>;</li>
-        <li>Gelet op de omzendbrief KB / ABB 2018 / 3 van 26 oktober 2018 &mdash; Start van de lokale en provinciale bestuursperiode;</li>
+        <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234845" property="eli:cites">7 </a>;</li>
+      </ul>
+      <h6>Juridische context</h6>
+      <ul class="bullet-list"
+      <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234844" property="eli:cites">6 </a>;</li>
+      <li>De omzendbrief KB / ABB 2018 / 3 van 26 oktober 2018 &mdash; Start van de lokale en provinciale bestuursperiode;</li>
       </ul>
     </div>
 
     <div>
+      <h6>Feitelijke context en argumentatie</h6>
       <ul class="bullet-list">
-        <li>Overwegende dat een akte van voordracht van kandidaat-voorzitter op naam van <span id="${generateBoundUuid('nieuwe-voorzitter-1a')}" class="mark-highlight-manual">Voer naam in</span> werd overhandigd aan de algemeen directeur op <span class="mark-highlight-manual">Voer datum in</span>, zijnde binnen de termijn van acht dagen voor de installatievergadering van de gemeenteraad;</li>
+        <li>Er werd een akte van voordracht van kandidaat-voorzitter op naam van <span id="${generateBoundUuid('nieuwe-voorzitter-1a')}" class="mark-highlight-manual">Voer naam in</span> overhandigd aan de algemeen directeur op <span class="mark-highlight-manual">Voer datum in</span>, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
 
-        <li>Overwegende dat de algemeen directeur de akte van voordracht van kandidaat-voorzitter ter zitting overhandigd heeft aan de voorzitter van de installatievergadering;</li>
+        <li>De algemeen directeur heeft de akte van voordracht van kandidaat-voorzitter ter zitting overhandigd aan de voorzitter van de installatievergadering;</li>
 
-        <li>Overwegende dat de voorzitter van de installatievergadering heeft vastgesteld dat de akte van voordracht van kandidaat-voorzitter werd ondertekend door meer dan de helft van de verkozenen op de lijsten die aan de verkiezingen deelnamen en door een meerderheid van de personen die op dezelfde lijst als de voorgedragen kandidaat werden verkozen en daarmee de ontvankelijkheid van de akte kan bevestigen;</li>
+        <li>De voorzitter van de installatievergadering heeft vastgesteld dat de akte van voordracht van kandidaat-voorzitter werd ondertekend door meer dan de helft van de verkozenen op de lijsten die aan de verkiezingen deelnamen en door een meerderheid van de personen die op dezelfde lijst als de voorgedragen kandidaat werden verkozen en bevestigt de ontvankelijkheid van de akte;</li>
 
-        <li>Overwegende dat uit onderzoek van de geloofsbrieven blijkt dat de voorgedragen kandidaat voldoet aan de verkiesbaarheidsvoorwaarden;</li>
+        <li>Uit het onderzoek van de geloofsbrieven blijkt dat de voorgedragen kandidaat voldoet aan de verkiesbaarheidsvoorwaarden;</li>
 
-        <li>Overwegende dat de kandidaat-voorzitter de voorgeschreven eed als gemeenteraadslid heeft afgelegd en er geen specifieke eed als voorzitter van de gemeenteraad dient afgelegd te worden;</li>
+        <li>De kandidaat-voorzitter heeft de voorgeschreven eed als gemeenteraadslid afgelegd. Er dient dus geen specifieke eed als voorzitter van de gemeenteraad te worden afgelegd;</li>
 
         <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterEinddatum">Selecteer scenario eventuele einddatum en opvolger</li>
 
@@ -33,13 +39,13 @@
       </ul>
     </div>
   </div>
-  <p class="u-spacer--small">Beslist,</p>
+  <h6>Beslissing</h6>
   <div property="prov:value">
     <ul class="bullet-list">
       <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
         <span property="eli:number">Artikel 1</span>
         <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-        <span property="prov:value">Kennis te nemen van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter.</span>
+        <span property="prov:value">De gemeenteraad neemt kennis van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter.</span>
       </li>
       <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterOpvolger">Selecteer scenario opvolger</li>
       <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterArtikelVerhindering">Selecteer scenario verhindering</li>
