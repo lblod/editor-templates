@@ -1,7 +1,7 @@
-<http://lblod.info/templates/> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/516549a2-fc71-11e8-a155-2fa462171b93> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Eerste vergadering ocmw-raad (voorlopige titel)";
-   <http://mu.semte.ch/vocabularies/core/uuid> "";
+   <http://mu.semte.ch/vocabularies/core/uuid> "516549a2-fc71-11e8-a155-2fa462171b93";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://xmlns.com/foaf/0.1/Document";
    <http://mu.semte.ch/vocabularies/ext/disabledInContext> "http://data.vlaanderen.be/ns/besluit#Zitting";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
