@@ -5,6 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "9e3be9a8-1fd6-47fd-88aa-6a64154a794d";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenVerhindering";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat geen enkel van de geïnstalleerde raadsleden verhinderd is;
+Overwegende dat niemand van de geïnstalleerde raadsleden verhinderd is;
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario verhinderingen" .

@@ -5,6 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "922d39cc-4e8b-405a-a071-391a3ea847af";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieVereniging";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat er geen lijsten zijn die zich hebben verenigd om één fractie te vormen;
+Overwegende dat er geen lijsten zijn die zich onderling hebben verenigd om één fractie te vormen;
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario fracties verenigingen" .
