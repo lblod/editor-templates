@@ -5,6 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "dac64a6b-d1f6-47e5-bcb8-227987c9d34f";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwensAkteNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat alle ingediende akten van fractievorming rechtsgeldig zijn;
+Alle ingediende akten van fractievorming zijn rechtsgeldig;
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario geldigheid ingediende akten" .

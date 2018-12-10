@@ -5,6 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "c163ab58-5b84-4c5f-bcfe-d9809faf4ed3";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwensAkteVoorwaardenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat elke voorgestelde splitsing voldoet aan de voorwaarden tot splitsing in twee fracties;
+Alle ingediende akten van fractievorming voldoen aan de voorwaarden tot splitsing in twee fracties;
 """;
-   <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario voldoen aan voorwaarden voorgestelde splitsing" .
+   <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario voldoen aan voorwaarden ingediende akten" .

@@ -6,14 +6,14 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwensNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-  <li>Overwegende dat voor volgende lijsten een akte van fractievorming werd ingediend met het oog op de vorming van twee afzonderlijke fracties:
+  <li>Voor volgende lijsten werd een akte van fractievorming ingediend met het oog op de vorming van twee afzonderlijke fracties:
     <ul class="bullet-list">
       <li><span class="mark-highlight-manual">Voer naam lijst in</span></li>
       <li>...</li>
     </ul>
   </li>
   <li resource="#FractieScenario" typeof="ext:BesluitFractieSplitwensAkteNieuweStijl">Selecteer scenario geldigheid ingediende akten</li>
-  <li resource="#FractieScenario" typeof="ext:BesluitFractieSplitwensAkteVoorwaardenNieuweStijl">Selecteer scenario voldoen aan voorwaarden voorgestelde splitsing</li>
+  <li resource="#FractieScenario" typeof="ext:BesluitFractieSplitwensAkteVoorwaardenNieuweStijl">Selecteer scenario voldoen aan voorwaarden ingediende akten</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario fracties splitsingen" .
