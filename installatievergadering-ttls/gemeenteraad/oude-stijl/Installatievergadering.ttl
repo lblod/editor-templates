@@ -604,9 +604,7 @@
       <p>Korte openbare beschrijving:</p>
       <p property="eli:description">Verkiezing van de voorzitter van de gemeenteraad.</p>
       <br>
-      <div>
-        <p>Selecteer scenario verkiezing van de voorzitter van de gemeenteraad</p>
-      </div>
+      <div>Selecteer scenario verkiezing van de voorzitter van de gemeenteraad</div>
 
     </div>
   </div>
@@ -617,6 +615,10 @@
     <div property="ext:scrollToLogicalName" content="overname voorzitter">overname voorzitter</div>
     <div property="ext:idInSnippet" content="${generateBoundUuid('overname voorzitter')}">${generateBoundUuid('overname voorzitter')}</div>
   </div>
+
+  <br>
+  <br>
+  <br>
 
   <div id="${generateBoundUuid('overname voorzitter')}">
     <p>Conform <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234862" property="eli:cites">24</a>, neemt de nieuw gekozen voorzitter het voorzitterschap van de installatievergadering over van de uittredende voorzitter.</p>
@@ -646,6 +648,7 @@
       <br>
       <p>Korte openbare beschrijving:</p>
       <p property="eli:description">Verkiezing van de schepenen.</p>
+      <br>
       <div>Selecteer scenario akte van voordracht</div>
       <br>
     </div>
