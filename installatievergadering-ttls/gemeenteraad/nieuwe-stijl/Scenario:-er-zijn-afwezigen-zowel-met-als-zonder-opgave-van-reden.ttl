@@ -6,14 +6,14 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfwezigenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-  <li>Overwegende dat volgende te installeren verkozenen afwezig zijn op deze installatievergadering zonder opgave van reden en dus uitdrukkelijk zullen opgeroepen worden om de eed af te leggen op de eerstvolgende gemeenteraadszitting:
+  <li>De volgende te installeren verkozenen zijn afwezig op deze installatievergadering zonder opgave van reden en zullen dus uitdrukkelijk opgeroepen worden om de eed af te leggen op de eerstvolgende gemeenteraadszitting:
     <ul class="bullet-list">
       <li><span class="mark-highlight-manual">Voer naam verkozene in</span></li>
       <li>...</li>
     </ul>
   </li>
   <li>
-    Overwegende dat de volgende te installeren verkozenen afwezig zijn met opgave van reden en dus de eed pas op een volgende gemeenteraadszitting kunnen afleggen:
+    De volgende te installeren verkozenen zijn afwezig met opgave van reden en kunnen dus de eed pas op een volgende gemeenteraadszitting afleggen:
     <ul class="bullet-list">
       <li><span class="mark-highlight-manual">Voer naam verkozene in</span></li>
       <li>...</li>

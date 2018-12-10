@@ -5,6 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "0ed6fa87-824f-456f-a39d-8bc9da71331f";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfwezigenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat niemand van de te installeren verkozenen afwezig is op deze installatievergadering;
+Niemand van de te installeren verkozenen is afwezig op deze installatievergadering;
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario afwezigen" .

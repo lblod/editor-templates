@@ -7,14 +7,14 @@
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
   <li>
-    Overwegende dat volgende geïnstalleerde raadsleden verhinderd zijn:
+    De volgende geïnstalleerde raadsleden zijn verhinderd:
     <ul class="bullet-list">
       <li>Naam verkozene</li>
       <li>...</li>
     </ul>
   </li>
   <li>
-    Overwegende dat de verhinderde raadsleden vervangen worden door volgende opvolgers:
+    De verhinderde raadsleden worden vervangen door de volgende opvolgers:
     <ul class="bullet-list">
       <li><span class="mark-highlight-manual">Voer naam opvolger in</span> als <span class="mark-highlight-manual">Voer nummer opvolger in</span> op <span class="mark-highlight-manual">Voer lijstnaam in</span>. <span class="mark-highlight-manual">Motivering</span>.</li>
       <li>...</li>
