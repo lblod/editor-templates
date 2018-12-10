@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: niet-ontvankelijke akte, want laattijdig ontvangen";
    <http://mu.semte.ch/vocabularies/core/uuid> "e740f4e8-2a0e-4b68-97a9-cbafdc5fbb11";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <p class="u-spacer--small">De gemeenteraad,</p>
 <div property="besluit:motivering" lang="nl">

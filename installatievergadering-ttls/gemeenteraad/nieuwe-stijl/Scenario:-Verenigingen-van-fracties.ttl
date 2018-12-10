@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Verenigingen van fracties";
    <http://mu.semte.ch/vocabularies/core/uuid> "95e2e60d-d8a0-437e-acb9-5a0d09be5bb5";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieVereniging";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieVerenigingNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat volgende lijsten zich onderling hebben verenigd en een fractie vormen doordat de meerderheid van de verkozenen op elk van die lijsten daarmee instemt:
 <ul class="bullet-list">

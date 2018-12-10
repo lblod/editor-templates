@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen afstand van mandaat";
    <http://mu.semte.ch/vocabularies/core/uuid> "1954d5e9-9b26-4386-90d1-cacb225f7d49";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfstandMandaat";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfstandMandaatNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat v&oacute;&oacute;r de installatie van de raadsleden geen enkele verkozene schriftelijk afstand heeft gedaan van mandaat bij de uittredende voorzitter;
  """;

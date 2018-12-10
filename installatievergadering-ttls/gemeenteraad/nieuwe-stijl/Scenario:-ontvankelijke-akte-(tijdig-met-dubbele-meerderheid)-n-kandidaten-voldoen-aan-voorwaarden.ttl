@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: ontvankelijke akte (tijdig met dubbele meerderheid) én kandidaten voldoen aan voorwaarden";
    <http://mu.semte.ch/vocabularies/core/uuid> "a4d79410-4442-4481-91aa-88c40122721c";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <p class="u-spacer--small">De gemeenteraad,</p>
 <div property="besluit:motivering" lang="nl">

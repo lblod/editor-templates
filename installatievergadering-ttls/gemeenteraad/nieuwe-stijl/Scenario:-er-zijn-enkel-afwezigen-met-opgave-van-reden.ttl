@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn enkel afwezigen met opgave van reden";
    <http://mu.semte.ch/vocabularies/core/uuid> "c222d83b-4300-4ca5-a3c9-4c0bef0fee11";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfwezigen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfwezigenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat de volgende te installeren verkozenen afwezig zijn met opgave van reden en dus de eed pas op een volgende gemeenteraadszitting kunnen afleggen:
 <ul class="bullet-list">

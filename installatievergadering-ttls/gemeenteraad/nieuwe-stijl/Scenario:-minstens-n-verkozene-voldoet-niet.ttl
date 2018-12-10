@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: minstens één verkozene voldoet niet";
    <http://mu.semte.ch/vocabularies/core/uuid> "b93005a0-8018-4ca1-b9db-2005faa6a90b";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenVerkiezbaarheidsvoorwaarden";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenVerkiezbaarheidsvoorwaardenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
   Overwegende dat uit het onderzoek van de ingediende geloofsbrieven blijkt dat alle verkozenen die uitgenodigd worden heden de eed af te leggen, voldoen aan de verkiesbaarheidsvoorwaarden, met uitzondering van:
   <ul>

@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen melding van einddatum van het mandaat, wel opvolger";
    <http://mu.semte.ch/vocabularies/core/uuid> "da23b413-867e-4bac-bd44-e47bb72db439";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterEinddatum";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterEinddatumNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de akte van voordracht van kandidaat-voorzitter geen einddatum van het mandaat, maar wel een opvolger vermeldt;</li>

@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Geen verenigingen van fracties";
    <http://mu.semte.ch/vocabularies/core/uuid> "12f3fc0f-2bb9-464c-b883-1b41d028355c";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieVereniging";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieVerenigingNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat er geen lijsten zijn die zich onderling hebben verenigd om één fractie te vormen;
 """;

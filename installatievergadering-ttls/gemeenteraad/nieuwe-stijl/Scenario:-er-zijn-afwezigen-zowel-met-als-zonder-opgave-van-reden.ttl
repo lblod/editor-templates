@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn afwezigen zowel met als zonder opgave van reden";
    <http://mu.semte.ch/vocabularies/core/uuid> "d534751e-399c-4a72-86db-ba39db49f62d";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfwezigen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfwezigenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
   <li>Overwegende dat volgende te installeren verkozenen afwezig zijn op deze installatievergadering zonder opgave van reden en dus uitdrukkelijk zullen opgeroepen worden om de eed af te leggen op de eerstvolgende gemeenteraadszitting:

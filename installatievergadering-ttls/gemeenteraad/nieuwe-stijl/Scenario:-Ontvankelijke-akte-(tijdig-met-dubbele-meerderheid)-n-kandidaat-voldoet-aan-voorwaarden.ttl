@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Ontvankelijke akte (tijdig met dubbele meerderheid) én kandidaat voldoet aan voorwaarden";
    <http://mu.semte.ch/vocabularies/core/uuid> "8326c8d4-6d98-4b5a-aa50-4db821baa263";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitter";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
   <div property="ext:idInSnippet" content="${generateBoundUuid('nieuwe-voorzitter-1a')}">0</div>
@@ -33,9 +33,9 @@
 
         <li>Overwegende dat de kandidaat-voorzitter de voorgeschreven eed als gemeenteraadslid heeft afgelegd en er geen specifieke eed als voorzitter van de gemeenteraad dient afgelegd te worden;</li>
 
-        <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterEinddatum">Selecteer scenario eventuele einddatum en opvolger</li>
+        <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterEinddatumNieuweStijl">Selecteer scenario eventuele einddatum en opvolger</li>
 
-        <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterVerhindering">Selecteer scenario verhindering</li>
+        <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterVerhinderingNieuweStijl">Selecteer scenario verhindering</li>
 
       </ul>
     </div>
@@ -48,8 +48,8 @@
         <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
         <span property="prov:value">Akte te nemen van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter.</span>
       </li>
-      <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterOpvolger">Selecteer scenario einddatum en opvolgers</li>
-      <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterArtikelVerhindering">Selecteer scenario verhindering</li>
+      <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterOpvolgerNieuweStijl">Selecteer scenario einddatum en opvolgers</li>
+      <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterArtikelVerhinderingNieuweStijl">Selecteer scenario verhindering</li>
     </ul>
   </div>
 </div>

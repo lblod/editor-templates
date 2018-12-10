@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Onverenigbaarheden";
    <http://mu.semte.ch/vocabularies/core/uuid> "d75cdd6e-bcb0-49f8-8944-f2c90a9bffcd";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat volgende kandidaat-schepen(en) zich in een situatie van onverenigbaarheid bevindt:
 <ul class="bullet-list">

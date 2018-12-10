@@ -468,7 +468,7 @@
             <ul class="bullet-list">
               <li>Overwegende dat de resultaten van de gemeenteraadsverkiezingen van <span id="${generateBoundUuid('verkiezingsdatum-3')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen op <span class="mark-highlight-manual">Voeg datum in</span> geldig werden verklaard;</li>
 
-              <li id="${generateBoundUuid('afstand van mandaat')}" resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenAfstandMandaat">
+              <li id="${generateBoundUuid('afstand van mandaat')}" resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenAfstandMandaatNieuweStijl">
                 <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
                   <div property="ext:scrollToLogicalName" content="afstand van mandaat">afstand van mandaat</div>
                   <div property="ext:idInSnippet" content="${generateBoundUuid('afstand van mandaat')}">${generateBoundUuid('afstand van mandaat')}</div>
@@ -476,7 +476,7 @@
                 Selecteer scenario afstand van mandaat
               </li>
 
-              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenAfwezigen">Selecteer scenario afwezigen</li>
+              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenAfwezigenNieuweStijl">Selecteer scenario afwezigen</li>
 
               <li id="${generateBoundUuid('onderzoek geloofsbrieven')}">
                 <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
@@ -486,13 +486,13 @@
                 Overwegende dat alle geloofsbrieven van de verkozenen die opgeroepen zijn om de eed af te leggen tijdig werden ingediend, en dat deze ter inzage werden gelegd conform de decretale bepalingen ter zake.
               </li>
 
-              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenVerkiezbaarheidsvoorwaarden">Selecteer scenario verkiesbaarheidsvoorwaarden</li>
-              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenOnverenigbaarheden">Selecteer scenario onverenigbaarheden</li>
+              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenVerkiezbaarheidsvoorwaardenNieuweStijl">Selecteer scenario verkiesbaarheidsvoorwaarden</li>
+              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenOnverenigbaarhedenNieuweStijl">Selecteer scenario onverenigbaarheden</li>
 
-              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenBurgemeester">Selecteer scenario eedaflegging burgemeester</li>
+              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenBurgemeesterNieuweStijl">Selecteer scenario eedaflegging burgemeester</li>
 
               <li>Overwegende dat de verkozenen die opgeroepen werden om de eed af te leggen, de volgende eed hebben afgelegd in handen van <span class="mark-highlight-manual">de voorzitter (indien van toepassing of in het geval van de uittredend voorzitter, in handen van de burgemeester of het oudste raadslid)</span>: &quot;Ik zweer de verplichtingen van mijn mandaat trouw na te komen&quot;.</li>
-              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenVerhindering">Selecteer scenario verhinderingen</li>
+              <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenVerhinderingNieuweStijl">Selecteer scenario verhinderingen</li>
             </ul>
           </div>
         </div>
@@ -552,9 +552,9 @@
           </div>
           <div>
             <ul class="bullet-list">
-              <li resource="#FractieScenario" typeof="ext:BesluitFractieSplitwens">Selecteer scenario fracties splitsingen</li>
+              <li resource="#FractieScenario" typeof="ext:BesluitFractieSplitwensNieuweStijl">Selecteer scenario fracties splitsingen</li>
 
-              <li resource="#FractieScenario" typeof="ext:BesluitFractieVereniging">Selecteer scenario fracties verenigingen</li>
+              <li resource="#FractieScenario" typeof="ext:BesluitFractieVerenigingNieuweStijl">Selecteer scenario fracties verenigingen</li>
             </ul>
           </div>
         </div>
@@ -598,7 +598,7 @@
       <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt voorzitter')}">${generateBoundUuid('agendapunt voorzitter')}</div>
     </div>
 
-    <div id="${generateBoundUuid('agendapunt voorzitter')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit mandaat:Aanstellingsbesluit ext:BesluitVerkiezingVoorzitter">
+    <div id="${generateBoundUuid('agendapunt voorzitter')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit mandaat:Aanstellingsbesluit ext:BesluitVerkiezingVoorzitterNieuweStijl">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-5')}">Verkiezing van de voorzitter van de gemeenteraad</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <p>Korte openbare beschrijving:</p>
@@ -640,7 +640,7 @@
       <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt schepenen')}">${generateBoundUuid('agendapunt schepenen')}</div>
     </div>
 
-    <div id="${generateBoundUuid('agendapunt schepenen')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitSchepenen">
+    <div id="${generateBoundUuid('agendapunt schepenen')}" property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitSchepenenNieuweStijl">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-6')}">Verkiezing van de schepenen</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <br>

@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Akten zijn niet rechtsgeldig";
    <http://mu.semte.ch/vocabularies/core/uuid> "ff764518-abf6-40c4-ad9e-882998a56c79";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwensAkte";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwensAkteNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
   <li>Overwegende dat de akte van fractievorming voor <span class="mark-highlight-manual">Voer naam lijst in</span> niet rechtsgeldig is, omdat <span class="mark-highlight-manual">Voer motivering in</span></li>

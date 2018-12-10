@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Met einddatum en met opvolgers";
    <http://mu.semte.ch/vocabularies/core/uuid> "7d2d9225-654f-4146-84dc-315661f026e3";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen melding maakt van de einddatum van het mandaat:
