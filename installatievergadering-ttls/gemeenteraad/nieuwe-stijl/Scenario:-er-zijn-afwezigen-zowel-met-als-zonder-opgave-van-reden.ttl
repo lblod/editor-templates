@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/5e3bd528-237f-4efd-b082-cf001a60207a> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/d534751e-399c-4a72-86db-ba39db49f62d> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn afwezigen zowel met als zonder opgave van reden";
-   <http://mu.semte.ch/vocabularies/core/uuid> "5e3bd528-237f-4efd-b082-cf001a60207a";
+   <http://mu.semte.ch/vocabularies/core/uuid> "d534751e-399c-4a72-86db-ba39db49f62d";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfwezigen";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/da8be55e-4759-4193-89d1-55aec23b9642> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/8d082c82-f9a7-41c4-8667-ad9313449b26> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Installatievergadering";
-   <http://mu.semte.ch/vocabularies/core/uuid> "da8be55e-4759-4193-89d1-55aec23b9642";
+   <http://mu.semte.ch/vocabularies/core/uuid> "8d082c82-f9a7-41c4-8667-ad9313449b26";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://xmlns.com/foaf/0.1/Document";
    <http://mu.semte.ch/vocabularies/ext/disabledInContext> "http://data.vlaanderen.be/ns/besluit#Zitting";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """

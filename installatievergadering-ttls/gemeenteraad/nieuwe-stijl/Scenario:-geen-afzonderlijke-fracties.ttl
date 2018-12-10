@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/60fcbfaf-3977-4b57-9372-01eb1614826e> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/8bb13049-bb63-4fb3-91fc-242443464779> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen afzonderlijke fracties";
-   <http://mu.semte.ch/vocabularies/core/uuid> "60fcbfaf-3977-4b57-9372-01eb1614826e";
+   <http://mu.semte.ch/vocabularies/core/uuid> "8bb13049-bb63-4fb3-91fc-242443464779";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwens";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat gemeenteraadsleden die op eenzelfde lijst verkozen zijn in principe één fractie vormen en geen enkele lijst een akte van fractievorming indiende;

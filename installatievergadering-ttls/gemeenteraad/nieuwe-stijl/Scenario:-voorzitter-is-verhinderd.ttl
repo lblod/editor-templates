@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/2091f7a5-c94d-4b3a-8df1-5b27426d33f0> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/c37c8832-ef3c-4ea7-ac6f-6bac4475421b> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: voorzitter is verhinderd";
-   <http://mu.semte.ch/vocabularies/core/uuid> "2091f7a5-c94d-4b3a-8df1-5b27426d33f0";
+   <http://mu.semte.ch/vocabularies/core/uuid> "c37c8832-ef3c-4ea7-ac6f-6bac4475421b";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterArtikelVerhindering";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

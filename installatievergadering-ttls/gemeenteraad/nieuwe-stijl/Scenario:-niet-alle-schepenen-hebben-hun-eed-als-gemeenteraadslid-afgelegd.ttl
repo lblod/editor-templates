@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/ba247214-f709-11e8-9e33-b79e2c73fc2e> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/b8fa6acc-18b6-4bc9-8812-0940d30ed185> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: niet alle schepenen hebben hun eed als gemeenteraadslid afgelegd";
-   <http://mu.semte.ch/vocabularies/core/uuid> "ba247214-f709-11e8-9e33-b79e2c73fc2e";
+   <http://mu.semte.ch/vocabularies/core/uuid> "b8fa6acc-18b6-4bc9-8812-0940d30ed185";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenen";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat volgende kandidaat-schepenen de eed als gemeenteraadslid niet hebben afgelegd en dus geen schepen kan zijn:

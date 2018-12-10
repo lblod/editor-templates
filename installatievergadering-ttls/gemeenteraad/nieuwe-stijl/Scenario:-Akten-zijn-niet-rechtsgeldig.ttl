@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/1610725d-5812-4a2c-b1bb-75ec5ce1e0d6> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/ff764518-abf6-40c4-ad9e-882998a56c79> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Akten zijn niet rechtsgeldig";
-   <http://mu.semte.ch/vocabularies/core/uuid> "1610725d-5812-4a2c-b1bb-75ec5ce1e0d6";
+   <http://mu.semte.ch/vocabularies/core/uuid> "ff764518-abf6-40c4-ad9e-882998a56c79";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwensAkte";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

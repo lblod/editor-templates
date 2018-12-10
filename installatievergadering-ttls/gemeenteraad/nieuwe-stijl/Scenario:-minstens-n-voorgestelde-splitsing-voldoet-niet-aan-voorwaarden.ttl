@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/5281b184-1dbf-4bd2-aa88-2e9a31bd4945> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/1a6cdd8f-cbce-47d8-abc6-656cd251b019> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: minstens één voorgestelde splitsing voldoet niet aan voorwaarden";
-   <http://mu.semte.ch/vocabularies/core/uuid> "5281b184-1dbf-4bd2-aa88-2e9a31bd4945";
+   <http://mu.semte.ch/vocabularies/core/uuid> "1a6cdd8f-cbce-47d8-abc6-656cd251b019";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwensAkteVoorwaarden";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat volgende voorstellen tot splitsing niet voldoen aan de voorwaarden:

@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/c0c4d33d-3256-4426-b64b-cd61667f6a34> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/dac64a6b-d1f6-47e5-bcb8-227987c9d34f> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Akten zijn rechtsgeldig";
-   <http://mu.semte.ch/vocabularies/core/uuid> "c0c4d33d-3256-4426-b64b-cd61667f6a34";
+   <http://mu.semte.ch/vocabularies/core/uuid> "dac64a6b-d1f6-47e5-bcb8-227987c9d34f";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwensAkte";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat alle ingediende akten van fractievorming rechtsgeldig zijn;

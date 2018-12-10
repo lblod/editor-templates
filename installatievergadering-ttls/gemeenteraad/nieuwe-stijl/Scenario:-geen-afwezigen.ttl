@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/2c1e317d-8b06-412e-9297-e21126218b98> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/0ed6fa87-824f-456f-a39d-8bc9da71331f> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen afwezigen";
-   <http://mu.semte.ch/vocabularies/core/uuid> "2c1e317d-8b06-412e-9297-e21126218b98";
+   <http://mu.semte.ch/vocabularies/core/uuid> "0ed6fa87-824f-456f-a39d-8bc9da71331f";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfwezigen";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat niemand van de te installeren verkozenen afwezig is op deze installatievergadering;

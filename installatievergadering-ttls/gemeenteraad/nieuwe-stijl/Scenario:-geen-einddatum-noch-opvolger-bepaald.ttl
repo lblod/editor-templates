@@ -2,7 +2,7 @@
 <http://lblod.info/templates/9871e345-033f-47e9-af57-11dfbd8d22ab> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen einddatum noch opvolger bepaald";
-   <http://mu.semte.ch/vocabularies/core/uuid> "9871e345-033f-47e9-af57-11dfbd8d22abx";
+   <http://mu.semte.ch/vocabularies/core/uuid> "9871e345-033f-47e9-af57-11dfbd8d22ab";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterOpvolger";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">

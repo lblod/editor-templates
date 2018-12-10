@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/7b3c50a0-ad2f-4fd1-a48b-bcb2f9b7144f> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/5f3c192c-3ab3-48e8-a8cf-16fe4c17efdb> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: ontvankelijke akte (tijdig met dubbele meerderheid) MAAR kandidaat voldoet NIET aan voorwaarden";
-   <http://mu.semte.ch/vocabularies/core/uuid> "7b3c50a0-ad2f-4fd1-a48b-bcb2f9b7144f";
+   <http://mu.semte.ch/vocabularies/core/uuid> "5f3c192c-3ab3-48e8-a8cf-16fe4c17efdb";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitter";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
