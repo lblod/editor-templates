@@ -446,7 +446,7 @@
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-3')}">Installatie van de gemeenteraadsleden en vaststelling van hun rangorde</span></h5>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <p>Korte openbare beschrijving:</p>
-      <p property="eli:description">Installatie van de gemeenteraadsleden (akteneming eventuele afstanden van mandaat en onverenigbaarheden, goedkeuring van de geloofsbrieven en eedaflegging) en vaststelling van de rangorde.</p>
+      <p property="eli:description">Installatie van de gemeenteraadsleden (kennisneming eventuele afstanden van mandaat en onverenigbaarheden, goedkeuring van de geloofsbrieven en eedaflegging) en vaststelling van de rangorde.</p>
       <br>
 
       <div>
