@@ -19,8 +19,3 @@
 </li>
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario einddatum en opvolgers" .
-
-
-
-
-<!-- Felix kan jij eens kijken of bij "voeg naam opvolger in" niet nog iets bij moet? -->

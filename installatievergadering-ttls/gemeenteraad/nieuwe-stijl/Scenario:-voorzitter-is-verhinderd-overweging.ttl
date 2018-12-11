@@ -17,6 +17,3 @@
 </ul>
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario verhindering" .
-
-<!-- Felix kan je deze even nakijken? Dankjewel!
--->
