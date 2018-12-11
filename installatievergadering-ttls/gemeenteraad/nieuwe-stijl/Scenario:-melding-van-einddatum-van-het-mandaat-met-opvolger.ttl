@@ -6,8 +6,8 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterEinddatumNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-  <li>Overwegende dat de akte van voordracht van kandidaat-voorzitter melding maakt van <span class="mark-highlight-manual">Voer geplande einddatum in</span> als einddatum van het mandaat;</li>
-  <li>Overwegende dat de akte van voordracht van kandidaat-voorzitter eveneens melding maakt van <span class="mark-highlight-manual">Voer naam opvolger in</span> als opvolger voor de resterende duurtijd van het mandaat;</li>
+  <li>De akte van voordracht van kandidaat-voorzitter maakt melding van <span class="mark-highlight-manual">Voer geplande einddatum in</span> als einddatum van het mandaat;</li>
+  <li>De akte van voordracht van kandidaat-voorzitter maakt eveneens melding van <span class="mark-highlight-manual">Voer naam opvolger in</span> als opvolger voor de resterende duurtijd van het mandaat;</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario eventuele einddatum en opvolgers" .

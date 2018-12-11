@@ -6,8 +6,8 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterEinddatumNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat de akte van voordracht van kandidaat-voorzitter geen einddatum van het mandaat, maar wel een opvolger vermeldt;</li>
-	<li>Overwegende dat het aanduiden van een opvolger zonder het vermelden van een einddatum niet geldig is en er dus geen opvolger aangeduid wordt;</li>
+	<li>De akte van voordracht van kandidaat-voorzitter vermeldt geen einddatum van het mandaat, maar wel een opvolger;</li>
+	<li>Het aanduiden van een opvolger zonder het vermelden van een einddatum is niet geldig is en dus wordt er geen opvolger aangeduid;</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario eventuele einddatum en opvolgers" .
