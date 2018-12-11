@@ -13,7 +13,7 @@
     	De voorgedragen kandidaat-voorzitter, <span class="mark-highlight-manual">Voer kandidaat-voorzitter in</span>, wordt verkozen verklaard als <span property="ext:currentVoorzitterMandaat">voorzitter van de gemeenteraad</span> met ingang van <span property="mandaat:start" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span> tot <span property="mandaat:einde" content="" datatype="xsd:dateTime">Voer geplande einddatum in</span>.
     </span>
     <span property="ext:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateUuid()}" typeOf="mandaat:Mandataris">
-      Vanaf <span property="mandaat:start" content="" datatype="xsd:dateTime" span class="mark-highlight-manual">Voer geplande startdatum in</span> zal <span class="mark-highlight-manual" span class="mark-highlight-manual">Voeg naam opvolger in</span> het mandaat van <span property="ext:currentVoorzitterMandaat">voorzitter van de gemeenteraad</span> opnemen.
+      Vanaf <span property="mandaat:start" content="" datatype="xsd:dateTime" span class="mark-highlight-manual">Voer geplande startdatum in</span> zal <span class="mark-highlight-manual">Voeg naam opvolger in</span> het mandaat van <span property="ext:currentVoorzitterMandaat">voorzitter van de gemeenteraad</span> opnemen.
     </span>
   </span>
 </li>
@@ -23,3 +23,4 @@
 
 
 
+<!-- Felix kan jij eens kijken of bij "voeg naam opvolger in" niet nog iets bij moet? -->
