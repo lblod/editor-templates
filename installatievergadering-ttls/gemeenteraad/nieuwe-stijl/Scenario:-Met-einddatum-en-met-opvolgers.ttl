@@ -6,7 +6,7 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat de akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen melding maakt van de einddatum van het mandaat:
+	<li>De akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen maakt melding van de einddatum van het mandaat:
 		<ul class="bullet-list">
 			<li>
 				voor <span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span> is de einddatum <span class="mark-highlight-manual">Voer geplande einddatum in</span>;
@@ -16,7 +16,7 @@
 			</li>
 		</ul>
 	</li>
-	<li>Overwegende dat de akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen eveneens melding maakt van een opvolger voor de resterende duurtijd van het mandaat:
+	<li>De akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen maakt eveneens melding van een opvolger voor de resterende duurtijd van het mandaat:
 		<ul class="bullet-list">
 			<li>
 				Voeg naam <span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span> in met als opvolger <span class="mark-highlight-manual">Voer naam opvolger in</span>;

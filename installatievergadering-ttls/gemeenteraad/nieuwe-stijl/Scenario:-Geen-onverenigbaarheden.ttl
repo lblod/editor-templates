@@ -5,6 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "97849202-1e44-4a01-8048-d842cb4be14f";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat geen enkele kandidaat-schepen zich in een situatie van onverenigbaarheid bevindt.
+Er bevindt geen enkele kandidaat-schepen zich in een situatie van onverenigbaarheid.
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario onverenigbaarheden" .

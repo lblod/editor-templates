@@ -5,7 +5,7 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "7e03d20b-c77f-44c5-94fd-74aca5b42548";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-  Overwegende dat de akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen melding maakt van de einddatum van het mandaat:
+  De akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen maakt melding van de einddatum van het mandaat:
   <ul class="bullet-list">
     <li>
       voor <span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span> is de einddatum <span class="mark-highlight-manual">Voer geplande einddatum in</span>;

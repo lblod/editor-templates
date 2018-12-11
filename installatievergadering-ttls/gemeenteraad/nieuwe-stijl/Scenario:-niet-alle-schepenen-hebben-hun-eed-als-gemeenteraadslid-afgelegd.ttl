@@ -5,7 +5,7 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "b8fa6acc-18b6-4bc9-8812-0940d30ed185";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat volgende kandidaat-schepenen de eed als gemeenteraadslid niet hebben afgelegd en dus geen schepen kan zijn:
+De volgende kandidaat-schepenen hebben de eed als gemeenteraadslid niet afgelegd en kunnen dus geen schepen zijn:
 <ul class="bullet-list">
   <li><span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span>;</li>
   <li>...</li>
