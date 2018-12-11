@@ -490,10 +490,6 @@
                 Alle geloofsbrieven van de verkozenen die opgeroepen zijn om de eed af te leggen, werden tijdig ingediend en werden ter inzage gelegd conform de decretale bepalingen ter zake.
               </li>
 
-              <li>
-	              Uit het onderzoek van de ingediende geloofsbrieven blijkt dat alle verkozenen die opgeroepen zijn heden de eed af te leggen, voldoen aan de verkiesbaarheidsvoorwaarden. Niemand heeft verklaard zich in een situatie van onverenigbaarheid te bevinden;
-	            </li>
-
               <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenVerkiezbaarheidsvoorwaardenNieuweStijl">Selecteer scenario verkiesbaarheidsvoorwaarden</li>
 
               <li resource="#VerkiezingGemeenteraadsledenScenario" typeof="ext:BesluitGemeenteraadsledenOnverenigbaarhedenNieuweStijl">Selecteer scenario onverenigbaarheden</li>
