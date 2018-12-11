@@ -460,7 +460,8 @@
 
       <div>
         <div property="besluit:motivering" lang="nl">
-          <div>          	<h6>Bevoegdheid</h6>
+          <div>
+          	<h6>Bevoegdheid</h6>
           	<ul class="bullet-list">
           		<li>
           			<a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234844" property="eli:cites">6</a>.
