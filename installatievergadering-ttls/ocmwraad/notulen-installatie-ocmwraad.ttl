@@ -36,7 +36,7 @@
   </div>
 
   <h2 class="h1" property="dc:title" id="${generateBoundUuid('bestuursorgaan en geplande start')}">
-    Notulen van <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, zitting van <span id="${generateBoundUuid('geplande-start-1')}" property="besluit:geplandeStart" datatype="xsd:dateTime" content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​ (installatievergadering ocmwraad)
+  	Eerste vergadering van de <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, aansluitend op de installatievergadering van de gemeenteraad van <span id="${generateBoundUuid('geplande-start-1')}" property="besluit:geplandeStart" datatype="xsd:dateTime" content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​
   </h2>
   <br>
 
@@ -44,9 +44,7 @@
     Geplande start: <span id="${generateBoundUuid('geplande-start-2')}"
                           property="besluit:geplandeStart"
                           datatype="xsd:dateTime"
-                          content="2019-01-02T19:00:00.299Z">
-                      2 januari 2019 20:00&nbsp;
-                    </span>​
+                          content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​
   </p>
   <br>
 
