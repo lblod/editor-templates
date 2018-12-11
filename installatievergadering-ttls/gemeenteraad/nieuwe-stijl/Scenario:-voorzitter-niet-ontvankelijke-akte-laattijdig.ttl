@@ -27,8 +27,7 @@
 
       <h6>Feitelijke context en argumentatie</h6>
       <ul class="bullet-list">
-      	<li>Er werd een akte van voordracht van kandidaat-voorzitter op naam van <span class="mark-highlight-manual">Voer persoon in</span> werd overhandigd aan de algemeen directeur op <span class="mark-highlight-manual">Voer datum in</span>, zijnde na het verstrijken van de termijn van acht dagen voor de installatievergadering van de gemeenteraad;​</li> <!-- Felix moet hier Uuid in of niet denk je? id="${generateBoundUuid('nieuwe-voorzitter-1a')}" -->
-
+      	<li>Er werd een akte van voordracht van kandidaat-voorzitter op naam van <span class="mark-highlight-manual">Voer persoon in</span> werd overhandigd aan de algemeen directeur op <span class="mark-highlight-manual">Voer datum in</span>, zijnde minder dan acht dagen voor de installatievergadering van de gemeenteraad;​</li> <!-- Felix moet hier Uuid in of niet denk je? id="${generateBoundUuid('nieuwe-voorzitter-1a')}" -->
         <li>De akte van voordracht van de kandidaat-voorzitter is daardoor onontvankelijk;</li>
       </ul>
     </div>
