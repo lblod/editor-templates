@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: voorzitter is verhinderd";
    <http://mu.semte.ch/vocabularies/core/uuid> "55bc70ed-5703-48ac-b7e3-39e771822b50";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterArtikelVerhindering";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterVerhindering";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de voorzitter van de gemeenteraad verhinderd is;</li>
