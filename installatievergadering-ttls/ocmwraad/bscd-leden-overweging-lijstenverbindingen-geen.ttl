@@ -22,7 +22,7 @@
 	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenTijdigheid">Selecteer scenario tijdigheid akten van voordracht</li>
 	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenMeerderheid">Selecteer scenario ondertekend door meerderheid</li>
 	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenOngeldigeVoordracht">Selecteer scenario ongeldige voordracht</li>
-	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenVerkozenVerklaring">Selecteer scenario verkozenverklaring &amp; bijkomende voordrachten ter zitting</li>
+	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenVerkozenVerklaring">Selecteer scenario verkozenverklaring en bijkomende voordrachten ter zitting</li>
 	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenAfstanden">Selecteer scenario afstanden van mandaat</li>
 	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenAfwezigheden">Selecteer scenario afwezigheden</li>
 </ul>
