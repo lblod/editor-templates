@@ -263,14 +263,16 @@
         <div>
           <ul class="bullet-list">
             <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.</li>
+            <li>Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">datum installatievergadering</span> tot verkiezing van de voorzitter van de gemeenteraad;</li>
+              <!-- Felix, kan hier ook de juiste verwijzing in? -->
           </ul>
         </div>
         <br>
         <div>
           <ul class="bullet-list">
             <li>
-              Overwegende dat de resultaten van de gemeenteraadsverkiezingen van
-              <span id="${generateBoundUuid('verkiezingsdatum-1')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen op <span class="mark-highlight-manual">Voeg datum in</span> werden geldig verklaard, zoals meegedeeld per brief op <span class="mark-highlight-manual">Voeg datum in</span>;
+              Overwegende dat de voorzitter van de gemeenteraad van rechtswege ook de voorzitter is van de raad voor maatschappelijk welzijn, in dit geval <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span>.
+              <!-- Felix, kan hier ook de juiste verwijzing in? -->
             </li>
           </ul>
         </div>
@@ -284,7 +286,8 @@
         <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
           <span property="eli:number">Enig artikel.</span>
           <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-          <span property="prov:value">Akte te nemen van de geldigverklaring van de resultaten van de gemeenteraadsverkiezingen van <span id="${generateBoundUuid('verkiezingsdatum-2')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen.</span>
+          <span property="prov:value">Akte te nemen van de van rechtswege aanstelling van <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span> tot voorzitter van de raad voor maatschappelijk welzijn.</span>
+              <!-- Felix, kan hier ook de juiste verwijzing in? -->
         </div>
       </div>
     </div>
