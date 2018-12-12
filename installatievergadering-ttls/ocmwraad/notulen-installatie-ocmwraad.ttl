@@ -449,16 +449,20 @@
       <div property="besluit:motivering" lang="nl">
         <div>
           <ul class="bullet-list">
-            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.</li>
+            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234943" property="eli:cites">87</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234944" property="eli:cites">88</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234948" property="eli:cites">92</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234949" property="eli:cites">93</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">94</a> en <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">96</a>.</li>
           </ul>
         </div>
         <br>
         <div>
           <ul class="bullet-list">
             <li>
-              Overwegende dat de resultaten van de gemeenteraadsverkiezingen van
-              <span id="${generateBoundUuid('verkiezingsdatum-1')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen op <span class="mark-highlight-manual">Voeg datum in</span> werden geldig verklaard, zoals meegedeeld per brief op <span class="mark-highlight-manual">Voeg datum in</span>;
+              Overwegende dat het aantal leden van het bijzonder comité voor de sociale dienst, de voorzitter niet inbegrepen, vastgelegd is op  <span class="mark-highlight-manual">Voeg aantal in</span> leden;
             </li>
+            <li typeof="ext:BSCDledenOverwegingLijstenverbindingen">Selecteer scenario lijstenverbinding</li>
+            <li typeof="ext:BSCDledenOverwegingOnderzoek">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
+            <li typeof="ext:BSCDledenOverwegingEinddatum">Selecteer scenario einddatum</li>
+            <li typeof="ext:BSCDledenOverwegingVerhindering">Selecteer scenario verhindering</li>
+            <li typeof="ext:BSCDledenOverwegingSamenstelling">Selecteer scenario geldige samenstelling (beide geslachten)</li>
           </ul>
         </div>
       </div>
@@ -467,13 +471,7 @@
     <br>
     <div>
       <p class="u-spacer--small">Beslist,</p>
-      <div property="prov:value">
-        <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-          <span property="eli:number">Enig artikel.</span>
-          <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-          <span property="prov:value">Akte te nemen van de geldigverklaring van de resultaten van de gemeenteraadsverkiezingen van <span id="${generateBoundUuid('verkiezingsdatum-2')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen.</span>
-        </div>
-      </div>
+      <div typeof="ext:BSCDledenArtikelsBeheer">Beheer verkiezing leden van het Bijzonder Comité voor de sociale dienst</div>
     </div>
   </div>
 
