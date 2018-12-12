@@ -171,18 +171,35 @@
       <div property="besluit:motivering" lang="nl">
         <div>
           <ul class="bullet-list">
-            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.</li>
-            <li>Gelet op het Ministerieel besluit van <span class="mark-highlight-manual">Voeg datum in</span> houdende de benoeming van de heer <span class="mark-highlight-manual">Voeg persoon in</span> tot burgemeester van de gemeente <span class="mark-highlight-manual">Voeg bestuur in</span>;</li>
-	            <!-- Felix, kan je hier de juiste RDFA in zetten? -->
-            <li>Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">datum installatievergadering</span> tot verkiezing van de schepenen;</li>
-	            <!-- Felix, kan je hier de juiste RDFA in zetten? -->
+            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234919" property="eli:cites">68</a>.</li>
           </ul>
         </div>
         <br>
         <div>
           <ul class="bullet-list">
-          	<li>Overwegende dat de burgemeester van rechtswege de voorzitter is van het vast bureau en de schepenen van rechtswege de leden van het vast bureau uitmaken;</li>
-          	<li>Overwegende dat de rang die de burgemeester en de schepenen innemen in het college van burgemeester en schepenen van rechtswege de rang is die de leden in het vast bureau innemen;</li>
+            <li>
+            	Overwegende dat de resultaten van de gemeenteraadsverkiezingen van
+              <span id="${generateBoundUuid('verkiezingsdatum-1')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen werden goedgekeurd op <span class="mark-highlight-manual">Voeg datum in</span>;
+            </li>
+          </ul>
+        </div>
+        <br>
+        <div>
+          <ul class="bullet-list">
+            <li>Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot installatie van de gemeenteraadsleden en vaststelling van hun rangorde;</li>
+            <!-- Felix, kan je hier een URI aan vast koppelen?
+
+            	Opmerking Veronique: VV: dit is dus een beslissing van de installatievergadering die net geweest is en die eigenlijk al een URI heeft :)
+
+            -->
+          </ul>
+        </div>
+        <br>
+        <div>
+          <ul class="bullet-list">
+            <li>
+            	Overwegende dat de raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat, bestaat uit personen van verschillend geslacht en dus geldig is samengesteld;
+            </li>
           </ul>
         </div>
       </div>
@@ -195,7 +212,7 @@
         <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
           <span property="eli:number">Enig artikel.</span>
           <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-          <div property="prov:value">Akte te nemen van de samenstelling van het vast bureau met overeenkomstige rangorde als volgt:
+          <div property="prov:value">Akte te  nemen van de van rechtswege en geldige samenstelling van de raad voor maatschappelijk welzijn als volgt:
 						<table class="data-table data-table--lined data-table--zebra data-table--tight">
 							<thead>
 								<tr>
@@ -207,26 +224,15 @@
 							<tbody>
 								<tr>
 									<td>Voornaam Familienaam</td>
-									<td>Voorzitter van het vast bureau</td>
-									<td>Datum installatie</td>
-								</tr>
-								<tr>
-									<td>Voornaam Familienaam</td>
-									<td>Eerste lid van het vast bureau</td>
-									<td>Datum installatie</td>
-								</tr>
-								<tr>
-									<td>Voornaam Familienaam</td>
-									<td>Tweede lid van het vast bureau</td>
-									<td>Datum installatie</td>
-								</tr>
-								<tr>
-									<td>Voornaam Familienaam</td>
-									<td>Evenveel als er schepenen zijn</td>
-									<td>Datum installatie</td>
+									<td>OCMW-raadslid</td>
+									<td>Datum installatievergadering</td>
 								</tr>
 							</tbody>
 						</table>
+
+						<!-- Juiste RDFa te voorzien
+
+							Opmerking Veronique: VV: @ontwikkelteam opgelet - je moet zorgen dat je de juiste neemt (dus degene die echt mandataris is; eventueel een waarnemer - niet degene die verhinderd is) -->
           </div>
         </div>
       </div>
@@ -263,16 +269,15 @@
         <div>
           <ul class="bullet-list">
             <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.</li>
-            <li>Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">datum installatievergadering</span> tot verkiezing van de voorzitter van de gemeenteraad;</li>
-              <!-- Felix, kan hier ook de juiste verwijzing in? -->
+            <li>Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de voorzitter van de gemeenteraad;</li>
+            <!-- Felix, kan je hier de juiste RDFa bij voorzien? -->
           </ul>
         </div>
         <br>
         <div>
           <ul class="bullet-list">
             <li>
-              Overwegende dat de voorzitter van de gemeenteraad van rechtswege ook de voorzitter is van de raad voor maatschappelijk welzijn, in dit geval <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span>.
-              <!-- Felix, kan hier ook de juiste verwijzing in? -->
+              Overwegende dat de voorzitter van de gemeenteraad van rechtswege ook de voorzitter is van de raad voor maatschappelijk welzijn, in dit geval <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span>;
             </li>
           </ul>
         </div>
@@ -287,7 +292,10 @@
           <span property="eli:number">Enig artikel.</span>
           <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
           <span property="prov:value">Akte te nemen van de van rechtswege aanstelling van <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span> tot voorzitter van de raad voor maatschappelijk welzijn.</span>
-              <!-- Felix, kan hier ook de juiste verwijzing in? -->
+            <!-- Felix, kan je hier de juiste RDFa bij voorzien?
+
+            	Opmerking van Veronique: "VV: @ontwikkelteam opgelet - je moet zorgen dat je de juiste neemt (dus degene die echt mandataris is; eventueel een waarnemer - niet degene die verhinderd is)"
+            -->
         </div>
       </div>
     </div>
