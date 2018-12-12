@@ -38,8 +38,16 @@
       <span property="prov:value">Akte te nemen van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter van het Bijzonder Comité voor de sociale dienst.</span>
     </div>
   </div>
-  <div typeof="ext:">Selecteer scenario einddatum en opvolger</div>
-  <div typeof="ext:">Selecteer scenario lidmaatschap vast bureau</div>
+  <div property="prov:value">
+    <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+      <span property="eli:number">Artikel 2</span>
+      <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+      <span property="prov:value">
+      	<span typeof="ext:BesluitVoorzitterBCSDartikelEinddatumOpvolger">Selecteer scenario einddatum en opvolger</span>
+      </span>
+    </div>
+  </div>
+  <div typeof="ext:BesluitVoorzitterBCSDartikelLidmaatschap">Selecteer scenario lidmaatschap vast bureau</div>
 </div>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst" .
