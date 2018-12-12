@@ -27,9 +27,10 @@
     </ul>
   </div>
 </div>
+<br>
+<br>
 
 <p class="u-spacer--small">Beslist,</p>
-
 <div property="prov:value">
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
     <span property="eli:number">Artikel 1</span>

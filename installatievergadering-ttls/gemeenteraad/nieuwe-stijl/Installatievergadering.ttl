@@ -504,6 +504,7 @@
         </div>
       </div>
       <br>
+      <br>
       <div>
         <p class="u-spacer--small">Beslissing</p>
         <div> <!-- TO IMPLEMENT: RDFA FOR STEMMING -->
@@ -565,6 +566,7 @@
           </div>
         </div>
       </div>
+      <br>
       <br>
       <div>
         <p class="u-spacer--small">Beslissing</p>
