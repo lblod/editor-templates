@@ -13,17 +13,17 @@
 
 <div property="besluit:motivering" lang="nl">
   <div>
-    <h6>Bevoegdheid</h6>
+    <h6 class="h6">Bevoegdheid</h6>
     <ul class="bullet-list">
       <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234844" property="eli:cites">6 </a> en <a href="http://data.lblod.info/WetgevingArtikel/1234845" property="eli:cites">7 </a>;</li>
     </ul>
     <br>
-    <h6>Juridische context</h6>
+    <h6 class="h6">Juridische context</h6>
     <ul class="bullet-list">
     	<li>De omzendbrief KB / ABB 2018 / 3 van 26 oktober 2018 &mdash; Start van de lokale en provinciale bestuursperiode;</li>
     </ul>
     <br>
-    <h6>Feitelijke context en argumentatie</h6>
+    <h6 class="h6">Feitelijke context en argumentatie</h6>
     <ul class="bullet-list">
       <li>Er werd een akte van voordracht van kandidaat-voorzitter op naam van <span id="${generateBoundUuid('nieuwe-voorzitter-1a')}" class="mark-highlight-manual">Voer naam in</span> overhandigd aan de algemeen directeur op <span class="mark-highlight-manual">Voer datum in</span>, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
 
@@ -37,7 +37,7 @@
 </div>
 <br>
 <br>
-<p class="u-spacer--small">Beslissing</p>
+<h6 class="h6">Beslissing</h6>
 <div property="prov:value">
   <ul class="bullet-list">
     <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
