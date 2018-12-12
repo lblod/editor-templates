@@ -416,7 +416,7 @@
     <br>
     <br>
 
-    <div>Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst</div>
+    <div typeof="ext:BesluitVoorzitterBCSD">Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst</div>
 
   </div>
 
