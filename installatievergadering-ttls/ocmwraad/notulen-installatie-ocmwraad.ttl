@@ -330,16 +330,18 @@
       <div property="besluit:motivering" lang="nl">
         <div>
           <ul class="bullet-list">
-            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.</li>
+            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234935" property="eli:cites">79</a>.</li>
+            <li>Gelet op het Ministerieel besluit van <span class="mark-highlight-manual">Voeg datum in</span> houdende de benoeming van <span class="mark-highlight-manual">Voeg persoon in</span> tot burgemeester van de gemeente <span class="mark-highlight-manual">Voeg bestuur in</span>;</li>
+	            <!-- Felix, kan je hier de juiste RDFA in zetten? -->
+            <li>Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de schepenen;</li>
+	            <!-- Felix, kan je hier de juiste RDFA in zetten? -->
           </ul>
         </div>
         <br>
         <div>
           <ul class="bullet-list">
-            <li>
-              Overwegende dat de resultaten van de gemeenteraadsverkiezingen van
-              <span id="${generateBoundUuid('verkiezingsdatum-1')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen op <span class="mark-highlight-manual">Voeg datum in</span> werden geldig verklaard, zoals meegedeeld per brief op <span class="mark-highlight-manual">Voeg datum in</span>;
-            </li>
+          	<li>Overwegende dat de burgemeester van rechtswege de voorzitter is van het vast bureau en de schepenen van rechtswege de leden van het vast bureau uitmaken;</li>
+          	<li>Overwegende dat de rang die de burgemeester en de schepenen innemen in het college van burgemeester en schepenen van rechtswege de rang is die de leden in het vast bureau innemen;</li>
           </ul>
         </div>
       </div>
@@ -352,7 +354,39 @@
         <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
           <span property="eli:number">Enig artikel.</span>
           <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-          <span property="prov:value">Akte te nemen van de geldigverklaring van de resultaten van de gemeenteraadsverkiezingen van <span id="${generateBoundUuid('verkiezingsdatum-2')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen.</span>
+          <div property="prov:value">Akte te nemen van de samenstelling van het vast bureau met overeenkomstige rangorde als volgt:
+						<table class="data-table data-table--lined data-table--zebra data-table--tight">
+							<thead>
+								<tr>
+									<th>Officiële naam</th>
+									<th>Mandaat</th>
+									<th>Begin Mandaat</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Voornaam Familienaam</td>
+									<td>Voorzitter van het vast bureau</td>
+									<td>Datum installatie</td>
+								</tr>
+								<tr>
+									<td>Voornaam Familienaam</td>
+									<td>Eerste lid van het vast bureau</td>
+									<td>Datum installatie</td>
+								</tr>
+								<tr>
+									<td>Voornaam Familienaam</td>
+									<td>Tweede lid van het vast bureau</td>
+									<td>Datum installatie</td>
+								</tr>
+								<tr>
+									<td>Voornaam Familienaam</td>
+									<td>Evenveel als er schepenen zijn</td>
+									<td>Datum installatie</td>
+								</tr>
+							</tbody>
+						</table>
+          </div>
         </div>
       </div>
     </div>
