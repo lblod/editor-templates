@@ -325,7 +325,7 @@
     <br>
 
     <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
-      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Akteneming voorzitter raad voor maatschappelijk welzijn</span></h5>
+      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-2')}">Akteneming voorzitter raad voor maatschappelijk welzijn</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
       <p>Korte openbare beschrijving:</p>
@@ -386,7 +386,7 @@
     <br>
 
     <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
-      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Akteneming samenstelling en voorzitter vast bureau</span></h5>
+      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-3')}">Akteneming samenstelling en voorzitter vast bureau</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
       <p>Korte openbare beschrijving:</p>
@@ -476,7 +476,7 @@
     <br>
 
     <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
-      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Verkiezing van de voorzitter van het Bijzonder Comité voor de sociale dienst</span></h5>
+      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-4')}">Verkiezing van de voorzitter van het Bijzonder Comité voor de sociale dienst</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
       <p>Korte openbare beschrijving:</p>
@@ -504,7 +504,7 @@
     <br>
 
     <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
-      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Verkiezing van de leden van het Bijzonder Comité voor de sociale dienst</span></h5>
+      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-5')}">Verkiezing van de leden van het Bijzonder Comité voor de sociale dienst</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
       <p>Korte openbare beschrijving:</p>
