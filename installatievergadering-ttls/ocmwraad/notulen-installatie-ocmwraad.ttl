@@ -284,7 +284,7 @@
         <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
           <span property="eli:number">Enig artikel.</span>
           <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-          <div property="prov:value">Akte te  nemen van de van rechtswege en geldige samenstelling van de raad voor maatschappelijk welzijn als volgt:
+          <div property="prov:value">Akte te nemen van de van rechtswege en geldige samenstelling van de raad voor maatschappelijk welzijn als volgt:
 						<table class="data-table data-table--lined data-table--zebra data-table--tight">
 							<thead>
 								<tr>
@@ -301,10 +301,6 @@
 								</tr>
 							</tbody>
 						</table>
-
-						<!-- Juiste RDFa te voorzien
-
-							Opmerking Veronique: VV: @ontwikkelteam opgelet - je moet zorgen dat je de juiste neemt (dus degene die echt mandataris is; eventueel een waarnemer - niet degene die verhinderd is) -->
           </div>
         </div>
       </div>
@@ -325,7 +321,7 @@
     <br>
 
     <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
-      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Akteneming voorzitter raad voor maatschappelijk welzijn</span></h5>
+      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-2')}">Akteneming voorzitter raad voor maatschappelijk welzijn</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
       <p>Korte openbare beschrijving:</p>
@@ -363,10 +359,6 @@
           <span property="eli:number">Enig artikel.</span>
           <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
           <span property="prov:value">Akte te nemen van de van rechtswege aanstelling van <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span> tot voorzitter van de raad voor maatschappelijk welzijn.</span>
-            <!-- Felix, kan je hier de juiste RDFa bij voorzien?
-
-            	Opmerking van Veronique: "VV: @ontwikkelteam opgelet - je moet zorgen dat je de juiste neemt (dus degene die echt mandataris is; eventueel een waarnemer - niet degene die verhinderd is)"
-            -->
         </div>
       </div>
     </div>
@@ -386,7 +378,7 @@
     <br>
 
     <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
-      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Akteneming samenstelling en voorzitter vast bureau</span></h5>
+      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-3')}">Akteneming samenstelling en voorzitter vast bureau</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
       <p>Korte openbare beschrijving:</p>
@@ -403,7 +395,6 @@
           <ul class="bullet-list">
             <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234935" property="eli:cites">79</a>.</li>
             <li>Gelet op het Ministerieel besluit van <span class="mark-highlight-manual">Voeg datum in</span> houdende de benoeming van <span class="mark-highlight-manual">Voeg persoon in</span> tot burgemeester van de gemeente <span class="mark-highlight-manual">Voeg bestuur in</span>;</li>
-	            <!-- Felix, kan je hier de juiste RDFA in zetten? -->
             <li>Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de schepenen;</li>
 	            <!-- Felix, kan je hier de juiste RDFA in zetten? -->
           </ul>
@@ -475,8 +466,8 @@
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
     <br>
 
-    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
-      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Verkiezing van de voorzitter van het Bijzonder Comité voor de sociale dienst</span></h5>
+    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitVoorzitterBCSD">
+      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-4')}">Verkiezing van de voorzitter van het Bijzonder Comité voor de sociale dienst</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
       <p>Korte openbare beschrijving:</p>
@@ -486,7 +477,7 @@
 
     <br>
 
-    <div typeof="ext:BesluitVoorzitterBCSD">Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst</div>
+    <div>Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst</div>
 
   </div>
 
@@ -504,7 +495,7 @@
     <br>
 
     <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
-      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-1')}">Verkiezing van de leden van het Bijzonder Comité voor de sociale dienst</span></h5>
+      <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-5')}">Verkiezing van de leden van het Bijzonder Comité voor de sociale dienst</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
       <p>Korte openbare beschrijving:</p>
