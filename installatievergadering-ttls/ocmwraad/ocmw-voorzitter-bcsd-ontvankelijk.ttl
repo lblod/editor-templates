@@ -20,9 +20,9 @@
         <li>Overwegende dat de algemeen directeur de akte van voordracht van kandidaat-voorzitter van het Bijzonder Comité voor de sociale dienst ter zitting overhandigd heeft aan de voorzitter van de eerste vergadering van de raad voor maatschappelijk welzijn;</li>
         <li>Overwegende dat de voorzitter van de eerste vergadering van de raad voor maatschappelijk welzijn heeft vastgesteld dat de akte van voordracht van kandidaat-voorzitter van het Bijzonder Comité voor de sociale dienst werd ondertekend door meer dan de helft van de verkozenen op de lijsten die aan de verkiezingen deelnamen en door een meerderheid van de personen die op dezelfde lijst als de voorgedragen kandidaat werden verkozen;</li>
         <li>Overwegende dat de akte van voordracht van kandidaat-voorzitter van het Bijzonder Comité voor de sociale dienst dus ontvankelijkheid is;</li>
-        <li typeof="ext:BesluitVoorzitterBCSDoverwegingLidmaatschap">Selecteer scenario lidmaatschap vast bureau</li>
-        <li typeof="ext:BesluitVoorzitterBCSDoverwegingEinddatumOpvolger">Selecteer scenario eventuele einddatum en opvolger</li>
-        <li typeof="ext:BesluitVoorzitterBCSDoverwegingVerhindering">Selecteer scenario verhindering</li>
+        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingLidmaatschap">Selecteer scenario lidmaatschap vast bureau</li>
+        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingEinddatumOpvolger">Selecteer scenario eventuele einddatum en opvolger</li>
+        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingVerhindering">Selecteer scenario verhindering</li>
       </ul>
     </div>
   </div>
@@ -36,17 +36,15 @@
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <span property="prov:value">Akte te nemen van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter van het Bijzonder Comité voor de sociale dienst.</span>
     </div>
-  </div>
-  <div property="prov:value">
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
       <span property="eli:number">Artikel 2</span>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <span property="prov:value">
-      	<span typeof="ext:BesluitVoorzitterBCSDartikelEinddatumOpvolger">Selecteer scenario einddatum en opvolger</span>
+      	<span resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDartikelEinddatumOpvolger">Selecteer scenario einddatum en opvolger</span>
       </span>
     </div>
   </div>
-  <div typeof="ext:BesluitVoorzitterBCSDartikelLidmaatschap">Selecteer scenario lidmaatschap vast bureau</div>
+  <div>Selecteer scenario lidmaatschap vast bureau</div>
 </div>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst" .
