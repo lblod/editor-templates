@@ -519,11 +519,11 @@
             <li>
               Overwegende dat het aantal leden van het bijzonder comité voor de sociale dienst, de voorzitter niet inbegrepen, vastgelegd is op  <span class="mark-highlight-manual">Voeg aantal in</span> leden;
             </li>
-            <li typeof="ext:BSCDledenOverwegingLijstenverbindingen">Selecteer scenario lijstenverbinding</li>
-            <li typeof="ext:BSCDledenOverwegingOnderzoek">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
-            <li typeof="ext:BSCDledenOverwegingEinddatum">Selecteer scenario einddatum</li>
-            <li typeof="ext:BSCDledenOverwegingVerhindering">Selecteer scenario verhindering</li>
-            <li typeof="ext:BSCDledenOverwegingSamenstelling">Selecteer scenario geldige samenstelling (beide geslachten)</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingen">Selecteer scenario lijstenverbinding</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingOnderzoek">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingEinddatum">Selecteer scenario einddatum</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingVerhindering">Selecteer scenario verhindering</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingSamenstelling">Selecteer scenario geldige samenstelling (beide geslachten)</li>
           </ul>
         </div>
       </div>
