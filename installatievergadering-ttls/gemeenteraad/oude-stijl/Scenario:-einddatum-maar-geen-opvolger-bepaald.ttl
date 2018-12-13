@@ -3,7 +3,8 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: einddatum maar geen opvolger bepaald";
    <http://mu.semte.ch/vocabularies/core/uuid> "ce9c7e08-f7e5-11e8-987c-6f05a9e3fc22";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterOpvolger";
+    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterOpvolger";
+    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitter";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
   <span property="eli:number">Artikel 2</span>
