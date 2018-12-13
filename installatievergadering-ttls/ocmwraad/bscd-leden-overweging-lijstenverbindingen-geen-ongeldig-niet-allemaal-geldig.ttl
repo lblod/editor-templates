@@ -5,7 +5,7 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenOngeldigeVoordracht";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat uit nazicht door de voorzitter blijkt dat volgende voordrachten niet geldig zijn, met uitzondering van:
+	<li>Overwegende dat uit nazicht door de voorzitter blijkt dat volgende voordrachten geldig zijn, met uitzondering van:
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Voer lijst in</span> omdat <span class="mark-highlight-manual">Voer reden in</span>;</li>
 			<li>...</li>
