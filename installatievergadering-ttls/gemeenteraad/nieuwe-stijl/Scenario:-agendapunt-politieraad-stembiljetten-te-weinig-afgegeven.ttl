@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/81f34298-0623-48c7-9d07-3b73107850af> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/0fbac0ea-1d9e-415a-b744-ae36423681d4> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er werden te weinig stembiljetten afgegeven ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "81f34298-0623-48c7-9d07-3b73107850af";
+   <http://mu.semte.ch/vocabularies/core/uuid> "0fbac0ea-1d9e-415a-b744-ae36423681d4";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadStembiljetten";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

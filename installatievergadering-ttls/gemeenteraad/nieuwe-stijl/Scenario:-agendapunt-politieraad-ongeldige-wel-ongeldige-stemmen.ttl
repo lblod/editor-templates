@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/a862dfa3-d9ea-4fa1-98a5-db9f62765db8> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/dc88fd87-e174-4089-bb5c-5d294e0283b7> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn ongeldige stemmen ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "a862dfa3-d9ea-4fa1-98a5-db9f62765db8";
+   <http://mu.semte.ch/vocabularies/core/uuid> "dc88fd87-e174-4089-bb5c-5d294e0283b7";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadOngeldigeStemmen";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

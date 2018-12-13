@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/097463ee-e926-4547-92d3-d9dcf6e5f958> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/6e18e0e9-c2cb-4865-8f1c-3a943f6a5622> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: staking van stemmen ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "097463ee-e926-4547-92d3-d9dcf6e5f958";
+   <http://mu.semte.ch/vocabularies/core/uuid> "6e18e0e9-c2cb-4865-8f1c-3a943f6a5622";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadStakingStemmen";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

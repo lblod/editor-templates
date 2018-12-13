@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/0aa1af4e-3467-4256-b18c-4fbaf84a5873> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/4447be3d-6b48-4eda-a727-eb59d686a699> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er werden niet voldoende leden verkozen ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "0aa1af4e-3467-4256-b18c-4fbaf84a5873";
+   <http://mu.semte.ch/vocabularies/core/uuid> "4447be3d-6b48-4eda-a727-eb59d686a699";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadVoldoendeLeden";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
