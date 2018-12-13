@@ -53,8 +53,8 @@
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <span property="prov:value">De gemeenteraad neemt kennis van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter.</span>
     </li>
-    <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterOpvolgerNieuweStijl">Selecteer scenario einddatum en opvolgers</li>
-    <li resource="#VerkiezingVoorzitter" typeof="ext:BesluitVerkiezingVoorzitterArtikelVerhinderingNieuweStijl">Selecteer scenario verhindering</li>
+    <li>Selecteer scenario einddatum en opvolgers</li>
+    <li>Selecteer scenario verhindering</li>
   </ul>
 </div>
  """;

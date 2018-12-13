@@ -173,11 +173,6 @@
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
   <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
-    <div property="ext:idInSnippet" content="${generateBoundUuid('geplande-start-3')}">2</div>
-    <div property="ext:intentionUri" content="http://zitting/geplande-start">a</div>
-    <div property="ext:variableState" content="initialized">initialized</div>
-  </div>
-  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
     <div property="ext:idInSnippet" content="${generateBoundUuid('nieuwe-voorzitter-2')}">1</div>
     <div property="ext:intentionUri" content="http://zitting/nieuwe-voorzitter">a</div>
     <div property="ext:variableState" content="initialized">initialized</div>
@@ -507,12 +502,12 @@
       <br>
       <div>
         <h6 class="h6">Beslissing</h6>
-        <div> <!-- TO IMPLEMENT: RDFA FOR STEMMING -->
+        <div>
           <p>met eenparigheid van stemmen;</p>
         </div>
         <br>
         <br>
-        <div>
+        <div property="prov:value">
           beheer aanstelling gemeenteraadsleden.
         </div>
       </div>
@@ -570,7 +565,7 @@
       <br>
       <div>
         <h6 class="h6">Beslissing</h6>
-        <div>
+        <div property="prov:value">
           <ul class="bullet-list">
             <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
               <span property="eli:number">Enig artikel.</span>

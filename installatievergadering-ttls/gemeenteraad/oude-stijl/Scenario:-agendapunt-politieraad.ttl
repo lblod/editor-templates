@@ -46,9 +46,9 @@
 			<li>Overwegende dat de burgemeester, na erop gewezen te hebben dat de stemming geheim is, de stemming heeft geopend;</li>
 			<li>Overwegende dat de burgemeester, na de sluiting van de stemming, de stembiljetten heeft verzameld en heeft meegedeeld dat overgegaan wordt tot de telling van de stembiljetten;
 			<li>Overwegende dat, gegeven het aantal raadsleden dat aan de stemming deelneemt en het aantal stemmen per raadslid, er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten moeten overhandigd zijn;</li>
-			<li typeof="ext:BesluitPolitieraadStembiljetten">Selecteer scenario aantal verzamelde stembiljetten</li>
+			<li resource="#ScenarioPolitieRaad" typeof="ext:BesluitPolitieraadStembiljetten">Selecteer scenario aantal verzamelde stembiljetten</li>
 			<li>Overwegende dat het bureau voor de kiesverrichtingen de stembiljetten heeft geopend en gesorteerd, waarbij de ongeldige stemmen en blanco stemmen apart werden behouden en de geldige stembiljetten werden gerangschikt volgens de effectieve kandidaten waarvoor een stem is uitgebracht;</li>
-			<li typeof="ext:BesluitPolitieraadOngeldigeStemmen">Selecteer scenario ongeldige stemmen</li>
+			<li resource="#ScenarioPolitieRaad" typeof="ext:BesluitPolitieraadOngeldigeStemmen">Selecteer scenario ongeldige stemmen</li>
 			<li>Overwegende dat er <span class="mark-highlight-manual">Voer aantal in</span> blanco stemmen werden uitgebracht;</li>
 			<li>Overwegende dat er <span class="mark-highlight-manual">Voer aantal in</span> geldige stemmen werden uitgebracht en deze toegekend werden aan volgende kandidaten:
 				<ul>
@@ -56,8 +56,8 @@
 					<li>...</li>
 				</ul>
 			</li>
-			<li typeof="ext:BesluitPolitieraadStakingStemmen">Selecteer scenario staking van stemmen</li>
-			<li typeof="ext:BesluitPolitieraadVoldoendeLeden">Selecteer scenario (on)voldoende verkozen leden</li>
+			<li resource="#ScenarioPolitieRaad" typeof="ext:BesluitPolitieraadStakingStemmen">Selecteer scenario staking van stemmen</li>
+			<li resource="#ScenarioPolitieRaad" typeof="ext:BesluitPolitieraadVoldoendeLeden">Selecteer scenario (on)voldoende verkozen leden</li>
     </ul>
   </div>
 </div>
@@ -70,13 +70,11 @@
     <span property="eli:number">Artikel 1</span>
     <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
     <span property="prov:value">Akte te nemen van hierboven beschreven stemming, stemopneming en verkiezingsuitslag van de verkiezing van de leden van de politieraad van de meergemeentezone <span class="mark-highlight-manual">Voer naam meergemeentezone in</span>, zoals door de burgemeester vastgesteld en afgekondigd.</span>
-    <!-- Erika kan jij hier de juiste rdfa in zetten? -->
   </div>
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
     <span property="eli:number">Artikel 2</span>
     <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
     <span property="prov:value">Akte te nemen van de verkiezing van volgende leden tot effectieve leden en tot opvolgers van de politieraad van de meergemeentezone <span class="mark-highlight-manual">Voer naam meergemeentezone in</span>.</span>
-    <!-- Erika kan jij hier de juiste rdfa in zetten? -->
   </div>
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
     <span property="eli:number">Artikel 3</span>
@@ -84,129 +82,128 @@
     <div property="prov:value">Verkozenen en hun opvolgers:
     	<p>Er mogen maximum 25 opvolgers zijn, en er mogen per effectief lid 0, 1 of 2 opvolgers zijn. Verwijder de overbodige punten en deze nota.</p>
     	<ul>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span>
+    		<li>Effectief lid: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span>
     			<ul>
-    				<li>Opvolger 1: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span property="prov:value">Voer Officiële naam in</span>, <span property="prov:value">Voer geboortedatum in</span>; <span property="prov:value">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
+    				<li>Opvolger 2: <span>Voer Officiële naam in</span>, <span>Voer geboortedatum in</span>; <span>Voer beroep in</span></li>
     			</ul>
     		</li>
     	</ul>
     </div>
-    <!-- Erika kan jij hier de juiste rdfa in zetten? -->
   </div>
 </div>
 
