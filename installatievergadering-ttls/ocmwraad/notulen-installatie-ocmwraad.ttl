@@ -510,7 +510,7 @@
       <div property="besluit:motivering" lang="nl">
         <div>
           <ul class="bullet-list">
-            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234943" property="eli:cites">87</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234944" property="eli:cites">88</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234948" property="eli:cites">92</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234949" property="eli:cites">93</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">94</a> en <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">96</a>.</li>
+            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234943" property="eli:cites">87</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234944" property="eli:cites">88</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234948" property="eli:cites">92</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234949" property="eli:cites">93</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">94</a> en <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">96</a>.</li>
           </ul>
         </div>
         <br>
