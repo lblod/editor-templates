@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen staking van stemmen ";
    <http://mu.semte.ch/vocabularies/core/uuid> "daafaeb7-fa35-4120-8df1-916377248ac3";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadStakingStemmen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadStakingStemmenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de kandidaat-effectieve leden die het grootste aantal stemmen hebben bekomen, verkozen worden en dus de burgemeester vaststelt dat volgende kandidaten werden verkozen:

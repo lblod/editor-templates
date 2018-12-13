@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn ongeldige stemmen ";
    <http://mu.semte.ch/vocabularies/core/uuid> "ccb29ae4-0cee-4f71-93b0-3811e0bed2a7";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadOnvoldoendeLedenOngeldigeStemmen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadOnvoldoendeLedenOngeldigeStemmenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat er <span class="mark-highlight-manual">Voer aantal in</span> ongeldige stemmen werden uitgebracht;</li>
