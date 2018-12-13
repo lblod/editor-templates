@@ -531,6 +531,7 @@
     <br>
     <div>
       <p class="u-spacer--small">Beslist,</p>
+      <span property="ext:comiteAanstellingText">Beheer aanstelling leden bijzonder comité.</span>
       <div typeof="ext:BSCDledenArtikelsBeheer">Beheer verkiezing leden van het bijzonder comité voor de sociale dienst</div>
     </div>
   </div>
