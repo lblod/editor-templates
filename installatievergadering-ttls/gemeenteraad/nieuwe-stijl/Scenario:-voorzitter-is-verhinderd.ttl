@@ -3,7 +3,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: voorzitter is verhinderd";
    <http://mu.semte.ch/vocabularies/core/uuid> "c37c8832-ef3c-4ea7-ac6f-6bac4475421b";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitter";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
   <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
