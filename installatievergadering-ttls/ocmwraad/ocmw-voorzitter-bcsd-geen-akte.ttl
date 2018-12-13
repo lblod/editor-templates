@@ -26,7 +26,6 @@
   </div>
 </div>
 <br>
-<br>
 <div>
   <p class="u-spacer--small">Beslist,</p>
   <div property="prov:value">

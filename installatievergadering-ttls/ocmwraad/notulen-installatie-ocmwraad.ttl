@@ -164,7 +164,6 @@
     </div>
 
     <br>
-    <br>
 
     <div>
       <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
@@ -172,20 +171,6 @@
         <div>
           <ul class="bullet-list">
             <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234919" property="eli:cites">68</a>.</li>
-          </ul>
-        </div>
-        <br>
-        <div>
-          <ul class="bullet-list">
-            <li>
-            	Overwegende dat de resultaten van de gemeenteraadsverkiezingen van
-              <span id="${generateBoundUuid('verkiezingsdatum-1')}">14 oktober 2018</span> door de Raad voor Verkiezingsbetwistingen werden goedgekeurd op <span class="mark-highlight-manual">Voeg datum in</span>;
-            </li>
-          </ul>
-        </div>
-        <br>
-        <div>
-          <ul class="bullet-list">
             <li>Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot installatie van de gemeenteraadsleden en vaststelling van hun rangorde;</li>
             <!-- Felix, kan je hier een URI aan vast koppelen?
 
@@ -204,7 +189,6 @@
         </div>
       </div>
     </div>
-    <br>
     <br>
     <div>
       <p class="u-spacer--small">Beslist,</p>
@@ -261,7 +245,6 @@
     </div>
 
     <br>
-    <br>
 
     <div>
       <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
@@ -283,7 +266,6 @@
         </div>
       </div>
     </div>
-    <br>
     <br>
     <div>
       <p class="u-spacer--small">Beslist,</p>
@@ -323,7 +305,6 @@
     </div>
 
     <br>
-    <br>
 
     <div>
       <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
@@ -346,7 +327,6 @@
         </div>
       </div>
     </div>
-    <br>
     <br>
     <div>
       <p class="u-spacer--small">Beslist,</p>
@@ -414,7 +394,6 @@
     </div>
 
     <br>
-    <br>
 
     <div typeof="ext:BesluitVoorzitterBCSD">Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst</div>
 
@@ -442,7 +421,6 @@
     </div>
 
     <br>
-    <br>
 
     <div>
       <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
@@ -468,12 +446,14 @@
       </div>
     </div>
     <br>
-    <br>
     <div>
       <p class="u-spacer--small">Beslist,</p>
       <div typeof="ext:BSCDledenArtikelsBeheer">Beheer verkiezing leden van het Bijzonder Comité voor de sociale dienst</div>
     </div>
   </div>
+  <br>
+  <br>
+  <br>
 
   <!-- Sluiting zitting-->
   <h3 class="h2">Sluiting van de zitting</h3>
