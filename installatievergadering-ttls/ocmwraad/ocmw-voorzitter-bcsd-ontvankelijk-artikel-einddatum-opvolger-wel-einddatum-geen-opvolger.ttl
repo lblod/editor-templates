@@ -7,4 +7,4 @@
 De voorgedragen kandidaat-voorzitter, <span class="mark-highlight-manual">Voeg naam in</span>, wordt verkozen verklaard als <span>voorzitter van het Bijzonder Comité voor de sociale dienst</span> met ingang van <span class="mark-highlight-manual">Voer begindatum in</span>.
 <!-- Felix, kan je hier de juiste RDFa zetten? -->
 """;
-   <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario eventuele einddatum en opvolger" .
+   <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario einddatum en opvolger" .
