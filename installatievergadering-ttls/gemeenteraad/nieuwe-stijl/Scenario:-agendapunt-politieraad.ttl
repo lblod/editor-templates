@@ -24,7 +24,7 @@
 			<li>Overwegende dat de burgemeester aan de verkozenen van de gemeenteraad een nota heeft bezorgd over de datum en het uur voor de overhandiging van de voordachtakten en over de regels die van toepassing zijn voor het indienen van de voordrachtsakten van de kandidaten;</li>
 			<li>Overwegende dat <span class="mark-highlight-manual">Voer aantal voordrachtakten in</span> voordrachtakten voor <span class="mark-highlight-manual">Voer aantal voorgedragen effectieve kandidaten in</span> effectieve kandidaten werden overhandigd aan burgemeester <span class="mark-highlight-manual">Voeg naam burgemeester in​</span>;</li>
 			<li>Overwegende dat deze akten de hierna vermelde kandidaten voordragen:
-    		<p property="prov:value">Er mogen 0, 1 of 2 opvolgers zijn. Verwijder de overbodige punten en deze nota.</p>
+    		<p>Er mogen 0, 1 of 2 opvolgers zijn. Verwijder de overbodige punten en deze nota.</p>
 				<ul>
 					<li><span class="mark-highlight-manual">Voer kandida(a)t(en) in</span> met als eerste opvolger <span class="mark-highlight-manual">Voer naam opvolger 1</span> in en als tweede opvolger <span class="mark-highlight-manual">Voer naam opvolger 2 in</span> werd(en) voorgedragen door <span class="mark-highlight-manual">Voeg naam ondertekenaars in</span></li>
 					<li>...</li>
