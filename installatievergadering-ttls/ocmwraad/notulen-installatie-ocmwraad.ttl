@@ -13,7 +13,17 @@
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
   <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt-nummer-1-bva')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/agendapunt-nummer-1">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
     <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt-nummer-2')}">1</div>
+    <div property="ext:intentionUri" content="http://zitting/agendapunt-nummer-2">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt-nummer-2-bva')}">0</div>
     <div property="ext:intentionUri" content="http://zitting/agendapunt-nummer-2">a</div>
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
@@ -23,7 +33,17 @@
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
   <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt-nummer-3-bva')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/agendapunt-nummer-3">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
     <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt-nummer-4')}">3</div>
+    <div property="ext:intentionUri" content="http://zitting/agendapunt-nummer-4">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt-nummer-4-bva')}">0</div>
     <div property="ext:intentionUri" content="http://zitting/agendapunt-nummer-4">a</div>
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
@@ -32,7 +52,71 @@
     <div property="ext:intentionUri" content="http://zitting/agendapunt-nummer-5">a</div>
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
-
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('agendapunt-nummer-5-bva')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/agendapunt-nummer-5">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('ap-1')}">12</div>
+    <div property="ext:intentionUri" content="http://agendapunt-1/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bva-besluit-1')}">13</div>
+    <div property="ext:intentionUri" content="http://agendapunt-1/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('ap-2')}">14</div>
+    <div property="ext:intentionUri" content="http://agendapunt-2/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bva-besluit-2')}">15</div>
+    <div property="ext:intentionUri" content="http://agendapunt-2/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('ap-3')}">16</div>
+    <div property="ext:intentionUri" content="http://agendapunt-3/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bva-besluit-3')}">17</div>
+    <div property="ext:intentionUri" content="http://agendapunt-3/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('ap-4')}">18</div>
+    <div property="ext:intentionUri" content="http://agendapunt-4/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bva-besluit-4')}">19</div>
+    <div property="ext:intentionUri" content="http://agendapunt-4/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('ap-5')}">20</div>
+    <div property="ext:intentionUri" content="http://agendapunt-5/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bva-besluit-5')}">21</div>
+    <div property="ext:intentionUri" content="http://agendapunt-5/title">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('geplande-start-1')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/geplande-start">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('geplande-start-2')}">1</div>
+    <div property="ext:intentionUri" content="http://zitting/geplande-start">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
 </div>
 <!--END VARIABLES-->
 
@@ -100,6 +184,7 @@
       </li>
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}" typeof="besluit:Agendapunt">
+          <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
             <span id="${generateBoundUuid('agendapunt-nummer-2')}">Agendapunt 2:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-2')}">
 								Akteneming voorzitter raad voor maatschappelijk welzijn
@@ -109,6 +194,7 @@
       </li>
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}" typeof="besluit:Agendapunt">
+          <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
             <span id="${generateBoundUuid('agendapunt-nummer-3')}">Agendapunt 3:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-3')}">
 								Akteneming samenstelling en voorzitter vast bureau
@@ -118,6 +204,7 @@
       </li>
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}" typeof="besluit:Agendapunt">
+          <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
             <span id="${generateBoundUuid('agendapunt-nummer-4')}">Agendapunt 4:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-4')}">
 								Verkiezing van de voorzitter van het Bijzonder Comité voor de sociale dienst
@@ -127,6 +214,7 @@
       </li>
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-5')}" typeof="besluit:Agendapunt">
+          <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
             <span id="${generateBoundUuid('agendapunt-nummer-5')}">Agendapunt 5:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-5')}">
 								Verkiezing van de leden van het Bijzonder Comité voor de sociale dienst
@@ -227,9 +315,10 @@
   <br>
   <br>
 
-  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}" typeof="besluit:BehandelingVanAgendapunt">
+  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-2')}" typeof="besluit:BehandelingVanAgendapunt">
+    <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}">
     <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}"><span id="${generateBoundUuid('agendapunt-nummer-1-bva')}">Agendapunt 2</span></span>
+    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}"><span id="${generateBoundUuid('agendapunt-nummer-2-bva')}">Agendapunt 2</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
@@ -287,9 +376,10 @@
   <br>
   <br>
 
-  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}" typeof="besluit:BehandelingVanAgendapunt">
+  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-3')}" typeof="besluit:BehandelingVanAgendapunt">
+    <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-2')}">
     <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}"><span id="${generateBoundUuid('agendapunt-nummer-1-bva')}">Agendapunt 3</span></span>
+    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}"><span id="${generateBoundUuid('agendapunt-nummer-3-bva')}">Agendapunt 3</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
@@ -376,9 +466,10 @@
   <br>
   <br>
 
-  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}" typeof="besluit:BehandelingVanAgendapunt">
+  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-4')}" typeof="besluit:BehandelingVanAgendapunt">
+    <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-3')}">
     <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}"><span id="${generateBoundUuid('agendapunt-nummer-1-bva')}">Agendapunt 4</span></span>
+    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}"><span id="${generateBoundUuid('agendapunt-nummer-4-bva')}">Agendapunt 4</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
@@ -403,9 +494,10 @@
   <br>
   <br>
 
-  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}" typeof="besluit:BehandelingVanAgendapunt">
+  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-5')}" typeof="besluit:BehandelingVanAgendapunt">
+    <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-5')}">
     <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}"><span id="${generateBoundUuid('agendapunt-nummer-1-bva')}">Agendapunt 5</span></span>
+    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-5')}"><span id="${generateBoundUuid('agendapunt-nummer-5-bva')}">Agendapunt 5</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
