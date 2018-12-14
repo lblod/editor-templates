@@ -21,7 +21,7 @@
 	<li>Overwegende dat de burgemeester, na de sluiting van de stemming, de stembiljetten heeft verzameld en heeft meegedeeld dat overgegaan wordt tot de telling van de stembiljetten;</li>
 	<li>Overwegende dat, gegeven het aantal raadsleden dat aan de stemming deelneemt en het aantal stemmen per raadslid, er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten moeten overhandigd zijn;</li>
 	<li typeof="ext:BesluitPolitieraadOnvoldoendeLedenStembiljettenNieuweStijl">Selecteer scenario aantal verzamelde stembiljetten</li>
-	<li>Overwegende dat het bureau voor de kiesverrichtingen de stembiljetten heeft geopend en gesorteerd, waarbij de ongeldige stemmen en blanco stemmen apart werden behouden en de geldige stembiljetten werden gerangschikt volgens de effectieve kandidaten waarvoor een stem is uitgebracht;</li>
+	<li>Overwegende dat het bureau voor de kiesverrichtingen de stembiljetten heeft geopend en gesorteerd, waarbij de ongeldige stemmen en blanco stemmen apart werden gelegd en de geldige stembiljetten werden gerangschikt volgens de effectieve kandidaten waarvoor een stem is uitgebracht;</li>
 	<li typeof="ext:BesluitPolitieraadOnvoldoendeLedenOngeldigeStemmenNieuweStijl">Selecteer scenario ongeldige stemmen</li>
 
 	<li>Overwegende dat er <span class="mark-highlight-manual">Voer aantal in</span> blanco stemmen werden uitgebracht;</li>
