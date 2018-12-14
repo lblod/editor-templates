@@ -40,11 +40,11 @@
       <span property="eli:number">Artikel 2</span>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
       <span property="prov:value">
-      	<span resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDartikelEinddatumOpvolger">Selecteer scenario einddatum en opvolger</span>
+      	<span>Selecteer scenario einddatum en opvolger</span>
       </span>
     </div>
   </div>
-  <div typeof="ext:BesluitVoorzitterBCSDartikelLidmaatschap">Selecteer scenario lidmaatschap vast bureau</div>
+  <div>Selecteer scenario artikel lidmaatschap vast bureau</div>
 </div>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst" .
