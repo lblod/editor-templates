@@ -44,7 +44,7 @@
       </span>
     </div>
   </div>
-  <div>Selecteer scenario lidmaatschap vast bureau</div>
+  <div typeof="ext:BesluitVoorzitterBCSDartikelLidmaatschap">Selecteer scenario lidmaatschap vast bureau</div>
 </div>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst" .
