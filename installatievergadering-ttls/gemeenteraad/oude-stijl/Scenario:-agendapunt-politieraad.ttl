@@ -50,7 +50,7 @@
 			<li>Overwegende dat elk gemeenteraadslid dus <span class="mark-highlight-manual">Voer aantal biljetten in</span> stembiljetten gekregen heeft;</li>
 			<li>Overwegende dat de burgemeester, na erop gewezen te hebben dat de stemming geheim is, de stemming heeft geopend;</li>
 			<li>Overwegende dat de burgemeester, na de sluiting van de stemming, de stembiljetten heeft verzameld en heeft meegedeeld dat overgegaan wordt tot de telling van de stembiljetten;
-			<li>Overwegende dat, gegeven het aantal raadsleden dat aan de stemming deelneemt en het aantal stemmen per raadslid, er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten moeten overhandigd zijn en er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten worden aangetroffen in de stembus;</li>
+			<li>Overwegende dat, gegeven het aantal raadsleden dat aan de stemming deelneemt en het aantal stemmen per raadslid, er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten overhandigd moeten zijn en er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten in de stembus aangetroffen moeten zijn;</li>
 			<li resource="#ScenarioPolitieRaad" typeof="ext:BesluitPolitieraadStembiljetten">Selecteer scenario aantal verzamelde stembiljetten</li>
 			<li>Overwegende dat het bureau voor de kiesverrichtingen de stembiljetten heeft geopend en gesorteerd, waarbij de ongeldige stemmen en blanco stemmen apart werden behouden en de geldige stembiljetten werden gerangschikt volgens de effectieve kandidaten waarvoor een stem is uitgebracht;</li>
 			<li resource="#ScenarioPolitieRaad" typeof="ext:BesluitPolitieraadOngeldigeStemmen">Selecteer scenario ongeldige stemmen</li>
