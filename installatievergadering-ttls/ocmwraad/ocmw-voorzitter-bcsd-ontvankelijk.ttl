@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: ontvankelijke akte (tijdig met dubbele meerderheid) ";
    <http://mu.semte.ch/vocabularies/core/uuid> "876ea69c-29e7-42c1-ba7d-679556556e54";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSD";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSD>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div>

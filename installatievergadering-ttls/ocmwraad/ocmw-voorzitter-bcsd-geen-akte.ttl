@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen akte ontvangen";
    <http://mu.semte.ch/vocabularies/core/uuid> "43900806-2e0a-4be3-aad4-5eeef728e83c";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSD";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSD>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div>
