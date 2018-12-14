@@ -29,6 +29,7 @@
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Voer aantal stemmen in</span> voor kandidaat <span class="mark-highlight-manual">Voer kandidaat in</span></li>
 			<li>...</li>
+		</ul>
 	</li>
 	<li typeof="ext:BesluitPolitieraadOnvoldoendeLedenStakingStemmenNieuweStijl">Selecteer scenario staking van stemmen</li>
 </ul>
