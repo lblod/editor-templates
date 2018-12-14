@@ -1,5 +1,5 @@
 
-<http://lblod.info/templates/9b2cd49d-83e0-4a1f-8616-0eea4b3308f4> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/9b2cd49d-83e0-4a1f-8616-0eea4b3308f4> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Installatievergadering zonder politieraad (nieuwe stijl)";
     <http://mu.semte.ch/vocabularies/core/uuid> "9b2cd49d-83e0-4a1f-8616-0eea4b3308f4" ;

@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/432a2c1b-2a81-449a-bf6a-104fe681c562> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/432a2c1b-2a81-449a-bf6a-104fe681c562> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: afstand van mandaat";
    <http://mu.semte.ch/vocabularies/core/uuid> "432a2c1b-2a81-449a-bf6a-104fe681c562";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfstandMandaat";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenAfstandMandaat>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
   <li>

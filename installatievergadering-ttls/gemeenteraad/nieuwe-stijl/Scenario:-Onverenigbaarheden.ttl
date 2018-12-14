@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/d75cdd6e-bcb0-49f8-8944-f2c90a9bffcd> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/d75cdd6e-bcb0-49f8-8944-f2c90a9bffcd> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: Onverenigbaarheden";
    <http://mu.semte.ch/vocabularies/core/uuid> "d75cdd6e-bcb0-49f8-8944-f2c90a9bffcd";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Volgende kandidaat-schepen(en) bevindt (bevinden) zich in een situatie van onverenigbaarheid:

@@ -1,8 +1,8 @@
-<http://lblod.info/templates/5fd36722-6a1b-4a0c-aa3b-b2f8d320b497> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/5fd36722-6a1b-4a0c-aa3b-b2f8d320b497> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn geen (geldige) lijstenverbindingen ";
    <http://mu.semte.ch/vocabularies/core/uuid> "5fd36722-6a1b-4a0c-aa3b-b2f8d320b497";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingen>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat binnen de 60 dagen na de verkiezingen, geen verklaringen tot lijstenverbindingen werden bezorgd aan de algemeen directeur;</li>

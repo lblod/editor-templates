@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/1206096c-95e2-46f0-b1eb-53812b098cd7> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/1206096c-95e2-46f0-b1eb-53812b098cd7> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen akte ontvangen";
    <http://mu.semte.ch/vocabularies/core/uuid> "1206096c-95e2-46f0-b1eb-53812b098cd7";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitSchepenen>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <p class="u-spacer--small">De gemeenteraad,</p>
 <div property="besluit:motivering" lang="nl">

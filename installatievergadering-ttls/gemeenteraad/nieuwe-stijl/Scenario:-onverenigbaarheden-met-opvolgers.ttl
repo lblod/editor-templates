@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/97c3a8cd-5783-40fc-85cd-0fe11a7885f1> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/97c3a8cd-5783-40fc-85cd-0fe11a7885f1> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: onverenigbaarheden met opvolgers";
    <http://mu.semte.ch/vocabularies/core/uuid> "97c3a8cd-5783-40fc-85cd-0fe11a7885f1";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenOnverenigbaarhedenNieuweStijl";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenOnverenigbaarhedenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
   <li>Uit de volgende elementen blijkt dat de volgende verkozenen zich in een situatie van onverenigbaarheid bevinden. Deze verkozenen worden dus geacht afstand te doen van mandaat:

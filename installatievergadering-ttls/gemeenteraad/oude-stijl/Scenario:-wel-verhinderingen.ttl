@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/029d5661-4eca-4b66-9ff0-5ac40a7f008e> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/029d5661-4eca-4b66-9ff0-5ac40a7f008e> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: wel verhinderingen";
    <http://mu.semte.ch/vocabularies/core/uuid> "029d5661-4eca-4b66-9ff0-5ac40a7f008e";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenVerhindering";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitGemeenteraadsledenVerhindering>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
   <li>

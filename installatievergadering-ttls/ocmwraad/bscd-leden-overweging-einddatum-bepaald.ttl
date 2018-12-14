@@ -1,8 +1,8 @@
-<http://lblod.info/templates/404b6db9-c33c-428c-8ade-f6c6a3ff5cf0> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/404b6db9-c33c-428c-8ade-f6c6a3ff5cf0> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: einddatum bepaald ";
    <http://mu.semte.ch/vocabularies/core/uuid> "404b6db9-c33c-428c-8ade-f6c6a3ff5cf0";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingEinddatum";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingEinddatum>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat voor volgende kandidaat-leden een einddatum werd opgenomen in de akte van voordracht:
 <ul class="bullet-list">

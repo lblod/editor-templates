@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/96bebc12-f704-11e8-bcfe-db6a8c574b98> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/96bebc12-f704-11e8-bcfe-db6a8c574b98> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: niet-ontvankelijke akte, want laattijdig ontvangen";
    <http://mu.semte.ch/vocabularies/core/uuid> "96bebc12-f704-11e8-bcfe-db6a8c574b98";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitSchepenen";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitSchepenen>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <p class="u-spacer--small">De gemeenteraad,</p>
 <div property="besluit:motivering" lang="nl">

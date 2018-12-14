@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/b7e29ba8-67e8-41c9-9582-f2c746f06ec2> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/b7e29ba8-67e8-41c9-9582-f2c746f06ec2> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: afzonderlijke fracties bepaald in de akte";
    <http://mu.semte.ch/vocabularies/core/uuid> "b7e29ba8-67e8-41c9-9582-f2c746f06ec2";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwens";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitFractieSplitwens>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
   <li>Overwegende dat voor volgende lijsten een akte van fractievorming werd ingediend met het oog op de vorming van twee afzonderlijke fracties:

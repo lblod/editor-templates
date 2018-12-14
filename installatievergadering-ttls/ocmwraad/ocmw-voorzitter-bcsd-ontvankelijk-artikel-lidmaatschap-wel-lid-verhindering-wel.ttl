@@ -1,4 +1,4 @@
-<http://lblod.info/templates/4d4a0f1d-d56c-47b2-b37b-11ae0b6c2995> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/4d4a0f1d-d56c-47b2-b37b-11ae0b6c2995> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: voorzitter is verhinderd ";
    <http://mu.semte.ch/vocabularies/core/uuid> "4d4a0f1d-d56c-47b2-b37b-11ae0b6c2995";

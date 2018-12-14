@@ -1,10 +1,10 @@
 
-<http://lblod.info/templates/bb85f8f0-942d-4eb5-9f55-88bbfc74b8f9> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/bb85f8f0-942d-4eb5-9f55-88bbfc74b8f9> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen einddatum noch opvolger bepaald";
    <http://mu.semte.ch/vocabularies/core/uuid> "bb85f8f0-942d-4eb5-9f55-88bbfc74b8f9x";
-    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterOpvolger";
-    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitter";
+    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterOpvolger>;
+    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitter>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
   <span property="eli:number">Artikel 2</span>

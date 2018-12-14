@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/a598996a-6cba-4c18-8880-c4f39cf612af> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/a598996a-6cba-4c18-8880-c4f39cf612af> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: einddatum en opvolger bepaald";
    <http://mu.semte.ch/vocabularies/core/uuid> "a598996a-6cba-4c18-8880-c4f39cf612af";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterNieuweStijl";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <li property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
   <span property="eli:number">Artikel 2</span>

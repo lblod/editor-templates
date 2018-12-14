@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/4fe711de-e5be-4681-ad7e-d6535ae004fa> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/4fe711de-e5be-4681-ad7e-d6535ae004fa> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: niet ontvankelijke akte, want laattijdig ontvangen";
    <http://mu.semte.ch/vocabularies/core/uuid> "4fe711de-e5be-4681-ad7e-d6535ae004fa";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitter";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitter>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
   <div property="ext:idInSnippet" content="${generateBoundUuid('nieuwe-voorzitter-1a')}">0</div>

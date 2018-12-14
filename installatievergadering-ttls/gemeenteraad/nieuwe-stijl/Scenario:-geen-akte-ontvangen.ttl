@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/b74f6821-adc2-411e-a270-9ffb8627802e> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/b74f6821-adc2-411e-a270-9ffb8627802e> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen akte ontvangen";
    <http://mu.semte.ch/vocabularies/core/uuid> "b74f6821-adc2-411e-a270-9ffb8627802e";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterNieuweStijl";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <div property="besluit:motivering" lang="nl">
   <div>

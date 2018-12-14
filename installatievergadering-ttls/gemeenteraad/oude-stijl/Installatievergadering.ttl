@@ -1,5 +1,5 @@
 
-<http://lblod.info/templates/da8be55e-4759-4193-89d1-55aec23b9642> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/da8be55e-4759-4193-89d1-55aec23b9642> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Installatievergadering met politieraad (klassieke stijl)";
    <http://mu.semte.ch/vocabularies/core/uuid> "da8be55e-4759-4193-89d1-55aec23b9642";
@@ -275,7 +275,7 @@
   <!-- Agenda overzicht-->
   <div property="besluit:heeftAgenda" resource="http://data.lblod.info/id/agendas/${generateUuid()}" typeof="besluit:Agenda">
     <h3 class="h2">Agenda overzicht</h3>
-    <h4 class="h3" property="http://mu.semte.ch/vocabularies/ext/noHighlight" typeof="http://mu.semte.ch/vocabularies/ext/NoHighlight">Open agendapunten</h4>
+    <h4 class="h3" property=<http://mu.semte.ch/vocabularies/ext/noHighlight> typeof=<http://mu.semte.ch/vocabularies/ext/NoHighlight>>Open agendapunten</h4>
 
     <ul>
       <li>

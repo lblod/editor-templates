@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/5f294cfe-030c-4b01-a1f3-a9e79805d5c6> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/5f294cfe-030c-4b01-a1f3-a9e79805d5c6> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: niet ontvankelijke akte, want geen dubbele meerderheid";
    <http://mu.semte.ch/vocabularies/core/uuid> "5f294cfe-030c-4b01-a1f3-a9e79805d5c6";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterNieuweStijl";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVerkiezingVoorzitterNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
   <div property="ext:idInSnippet" content="${generateBoundUuid('nieuwe-voorzitter-1a')}">0</div>

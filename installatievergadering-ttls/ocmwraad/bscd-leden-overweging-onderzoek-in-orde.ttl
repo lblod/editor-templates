@@ -1,8 +1,8 @@
-<http://lblod.info/templates/a7b5d9b0-b30a-4f7d-993c-655621a0eb0e> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/a7b5d9b0-b30a-4f7d-993c-655621a0eb0e> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: de geloofsbrieven van alle kandidaten zijn in orde ";
    <http://mu.semte.ch/vocabularies/core/uuid> "a7b5d9b0-b30a-4f7d-993c-655621a0eb0e";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingOnderzoek";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingOnderzoek>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat uit onderzoek van de geloofsbrieven blijkt dat de te installeren kandidaat-leden van het bijzonder comité voor de sociale dienst voldoen aan de verkiesbaarheidsvoorwaarden en zich niet in een situatie van onverenigbaarheid bevinden</li>

@@ -1,9 +1,9 @@
 
-<http://lblod.info/templates/7de552da-3127-4e58-9678-e0f687f8f7a2> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/7de552da-3127-4e58-9678-e0f687f8f7a2> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Voeg besluit politieraad in ";
    <http://mu.semte.ch/vocabularies/core/uuid> "7de552da-3127-4e58-9678-e0f687f8f7a2";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadNieuweStijl";
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div property="besluit:motivering" lang="nl">

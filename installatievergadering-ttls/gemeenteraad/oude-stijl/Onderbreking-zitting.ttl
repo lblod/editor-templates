@@ -1,5 +1,5 @@
 
-<http://lblod.info/templates/95342a58-f7cd-47f2-9247-72d2cea5f21f> a "http://mu.semte.ch/vocabularies/ext/Template",
+<http://lblod.info/templates/95342a58-f7cd-47f2-9247-72d2cea5f21f> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Onderbreking zitting";
    <http://mu.semte.ch/vocabularies/core/uuid> "95342a58-f7cd-47f2-9247-72d2cea5f21f";
