@@ -7,8 +7,8 @@
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de kandidaat-effectieve leden die het grootste aantal stemmen hebben bekomen, verkozen worden en dus de burgemeester vaststelt dat volgende kandidaten werden verkozen:
-		<ul class="bullet-lsit">
-			<li><span class="mark-highlight-manual">Voer kandidaat in</span></li>
+		<ul class="bullet-list">
+			<li><span class="mark-highlight-manual">Voer kandidaat in</span> met als eerste opvolger <span class="mark-highlight-manual">Voer kandidaat in</span> en als tweede opvolger <span class="mark-highlight-manual">Voer kandidaat in</span></li>
 			<li>...</li>
 		</ul>
 	</li>
