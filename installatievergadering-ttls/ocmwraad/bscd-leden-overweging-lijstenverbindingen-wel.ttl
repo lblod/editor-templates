@@ -24,12 +24,12 @@
 			<li>...</li>
 		</ul>
 	</li>
-	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenWelTijdigheid">Selecteer scenario tijdigheid akten van voordracht</li>
-	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenWelMeerderheid">Selecteer scenario ondertekend door meerderheid</li>
-	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenWelOngeldigeVoordracht">Selecteer scenario ongeldige voordracht</li>
-	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenWelVerkozenVerklaring">Selecteer scenario verkozenverklaring en bijkomende voordrachten ter zitting</li>
-	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenWelAfstanden">Selecteer scenario afstanden van mandaat</li>
-	<li typeof="ext:BSCDledenOverwegingLijstenverbindingenWelAfwezigheden">Selecteer scenario afwezigheden</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenWelTijdigheid">Selecteer scenario tijdigheid akten van voordracht</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenWelMeerderheid">Selecteer scenario ondertekend door meerderheid</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenWelOngeldigeVoordracht">Selecteer scenario ongeldige voordracht</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenWelVerkozenVerklaring">Selecteer scenario verkozenverklaring en bijkomende voordrachten ter zitting</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenWelAfstanden">Selecteer scenario afstanden van mandaat</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenWelAfwezigheden">Selecteer scenario afwezigheden</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario lijstenverbinding" .

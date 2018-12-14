@@ -1,7 +1,7 @@
 
 <http://lblod.info/templates/da8be55e-4759-4193-89d1-55aec23b9642> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://purl.org/dc/terms/title> "Installatievergadering";
+   <http://purl.org/dc/terms/title> "Installatievergadering met politieraad (klassieke stijl)";
    <http://mu.semte.ch/vocabularies/core/uuid> "da8be55e-4759-4193-89d1-55aec23b9642";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://xmlns.com/foaf/0.1/Document";
    <http://mu.semte.ch/vocabularies/ext/disabledInContext> "http://data.vlaanderen.be/ns/besluit#Zitting";
@@ -510,8 +510,10 @@
           <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
             <div property="ext:scrollToLogicalName" content="aan en afwezigen">aan en afwezigen</div>
             <div property="ext:idInSnippet" content="${generateBoundUuid('aan en afwezigen')}">${generateBoundUuid('aan en afwezigen')}</div>
-          </div>
-          beheer aanstelling gemeenteraadsleden.
+    </div>
+    <div property="prov:value">
+    beheer aanstelling gemeenteraadsleden.
+    </div>
         </div>
       </div>
     </div>

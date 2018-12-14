@@ -6,7 +6,7 @@
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat na de installatie van de kandidaten beide geslachten niet vertegenwoordigd zijn in het bijzonder comité voor de sociale dienst en deze dus niet rechtsgeldig samengesteld is;</li>
-	<li typeof="ext:BSCDledenOverwegingSamenstellingVervanging">Scenario onderzoek vervanging door opvolger ander geslacht</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingSamenstellingVervanging">Scenario onderzoek vervanging door opvolger ander geslacht</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario geldige samenstelling (beide geslachten)" .

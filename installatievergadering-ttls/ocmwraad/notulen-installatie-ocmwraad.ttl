@@ -1,6 +1,6 @@
 <http://lblod.info/templates/516549a2-fc71-11e8-a155-2fa462171b93> a "http://mu.semte.ch/vocabularies/ext/Template",
      <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://purl.org/dc/terms/title> "Eerste vergadering ocmw-raad (voorlopige titel)";
+   <http://purl.org/dc/terms/title> "Eerste vergadering OCMW-raad (klassieke stijl)";
    <http://mu.semte.ch/vocabularies/core/uuid> "516549a2-fc71-11e8-a155-2fa462171b93";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://xmlns.com/foaf/0.1/Document";
    <http://mu.semte.ch/vocabularies/ext/disabledInContext> "http://data.vlaanderen.be/ns/besluit#Zitting";
@@ -120,25 +120,8 @@
 </div>
 <!--END VARIABLES-->
 
-<!--START TASKLISTS-->
-<div>
-  <!--NOTE: this is a dummy tasklist (from gemeenteraad)-->
-  <div class="ext_tasklist_data" typeof="ext:TasklistData" resource="http://data.lblod.info/id/tasklistsdata/${generateBoundUuid('tasklistData-1')}">
-    <div property="ext:idInSnippet" content="${generateBoundUuid('tasklist-1')}">${generateBoundUuid('tasklist-1')}</div>
-    <div content="meta-content-0" property="ext:tasklistDataTasklist" resource="http://data.lblod.info/id/tasklists/84b51f9bc40aaf2c9973b950a4e50ff3378b6096139a63d174c89eaa5ed3305d" typeof="ext:Tasklist">tasklist</div>
-    <div property="ext:tasklistDataState" content="initialized">initialized</div>
-  </div>
-</div>
-<!--END TASKLISTS-->
-
 <!--START ZITTING-->
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid('installatievergadering-ocmwraad')}">
-
-  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-    <div property="ext:scrollToLogicalName" content="bestuursorgaan en geplande start">bestuursorgaan en geplande start</div>
-    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan en geplande start')}">${generateBoundUuid('bestuursorgaan en geplande start')}</div>
-  </div>
-
   <h2 class="h1" property="dc:title" id="${generateBoundUuid('bestuursorgaan en geplande start')}">
   	Eerste vergadering van de <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, aansluitend op de installatievergadering van de gemeenteraad van <span id="${generateBoundUuid('geplande-start-1')}" property="besluit:geplandeStart" datatype="xsd:dateTime" content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​
   </h2>
@@ -146,10 +129,6 @@
 
   <p>Geplande start: <span id="${generateBoundUuid('geplande-start-2')}" property="besluit:geplandeStart" datatype="xsd:dateTime" content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​</p>
   <br>
-  <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
-    <div property="ext:scrollToLogicalName" content="locatie en zaal">locatie en zaal</div>
-    <div property="ext:idInSnippet" content="${generateBoundUuid('locatie en zaal')}">${generateBoundUuid('locatie en zaal')}</div>
-  </div>
   <p id="${generateBoundUuid('locatie en zaal')}">
     Locatie: <span class="mark-highlight-manual">Voer naam locatie in</span>, <span class="mark-highlight-manual">Voer naam zaal in</span>.
   </p>
@@ -519,11 +498,11 @@
             <li>
               Overwegende dat het aantal leden van het bijzonder comité voor de sociale dienst, de voorzitter niet inbegrepen, vastgelegd is op  <span class="mark-highlight-manual">Voeg aantal in</span> leden;
             </li>
-            <li typeof="ext:BSCDledenOverwegingLijstenverbindingen">Selecteer scenario lijstenverbinding</li>
-            <li typeof="ext:BSCDledenOverwegingOnderzoek">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
-            <li typeof="ext:BSCDledenOverwegingEinddatum">Selecteer scenario einddatum</li>
-            <li typeof="ext:BSCDledenOverwegingVerhindering">Selecteer scenario verhindering</li>
-            <li typeof="ext:BSCDledenOverwegingSamenstelling">Selecteer scenario geldige samenstelling (beide geslachten)</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingen">Selecteer scenario lijstenverbinding</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingOnderzoek">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingEinddatum">Selecteer scenario einddatum</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingVerhindering">Selecteer scenario verhindering</li>
+            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingSamenstelling">Selecteer scenario geldige samenstelling (beide geslachten)</li>
           </ul>
         </div>
       </div>
@@ -531,6 +510,7 @@
     <br>
     <div>
       <p class="u-spacer--small">Beslist,</p>
+      <span property="ext:comiteAanstellingText">Beheer aanstelling leden bijzonder comité.</span>
       <div typeof="ext:BSCDledenArtikelsBeheer">Beheer verkiezing leden van het bijzonder comité voor de sociale dienst</div>
     </div>
   </div>
