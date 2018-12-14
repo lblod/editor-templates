@@ -9,7 +9,6 @@
   <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
   <span property="prov:value">
   	Akte te nemen van de eedaflegging van de verkozen verklaarde <span>voorzitter van het bijzonder comité voor de sociale dienst</span> die tevens als <span>schepen</span> toegevoegd wordt aan <span>het college van burgemeester en schepenen</span> vanaf <span class="mark-highlight-manual">Voer begindatum in</span>.
-	<!-- Felix, kan je hier de juiste RDFa zetten? -->
   </span>
 </div>
 <div>Selecteer scenario geen lid verhindering</div>

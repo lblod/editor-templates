@@ -475,7 +475,6 @@
   <p><strong>Algemeen directeur</strong></p>
   <br>
   <p><span id="${generateBoundUuid('nieuwe-voorzitter-3')}" class="mark-highlight-manual">Voer naam in voorzitter van de raad voor maatschappelijk welzijn in</span></p>
-  <!-- Felix kan je hier de juiste ID zetten? -->
   <p><strong>Voorzitter van de raad voor maatschappelijk welzijn</strong></p>
 </div>
 
