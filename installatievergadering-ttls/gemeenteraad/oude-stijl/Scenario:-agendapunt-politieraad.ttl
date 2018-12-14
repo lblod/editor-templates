@@ -75,132 +75,128 @@
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
     <span property="eli:number">Artikel 2</span>
     <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-    <span property="prov:value">Akte te nemen van de verkiezing van volgende leden tot effectieve leden en tot opvolgers van de politieraad van de meergemeentezone <span class="mark-highlight-manual">Voer naam meergemeentezone in</span>.</span>
-  </div>
-  <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-    <span property="eli:number">Artikel 3</span>
-    <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-    <div property="prov:value">Verkozenen en hun opvolgers:
+    <div property="prov:value">
+    	Akte te nemen van de verkiezing van volgende leden tot effectieve leden en tot opvolgers van de politieraad van de meergemeentezone <span class="mark-highlight-manual">Voer naam meergemeentezone in</span>.
     	<p class="mark-highlight-manual">Er mogen maximum 25 opvolgers zijn, en er mogen per effectief lid 0, 1 of 2 opvolgers zijn. Verwijder de overbodige punten en deze nota.</p>
     	<ul class="bullet-list">
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
-    		<li>Effectief lid: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span>
+    		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>
     			<ul class="bullet-list">
-    				<li>Opvolger 1: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
-    				<li>Opvolger 2: <span  class="mark-highlight-manual">Voer Officiële naam in</span>, <span  class="mark-highlight-manual">Voer geboortedatum in</span>; <span  class="mark-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 1: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
+    				<li>Opvolger 2: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span></li>
     			</ul>
     		</li>
     	</ul>
