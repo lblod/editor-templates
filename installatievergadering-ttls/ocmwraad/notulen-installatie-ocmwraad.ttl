@@ -257,24 +257,7 @@
           <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
             <span property="eli:number">Enig artikel.</span>
             <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-            <div property="prov:value">Akte te nemen van de van rechtswege en geldige samenstelling van de raad voor maatschappelijk welzijn als volgt:
-	      <table class="data-table data-table--lined data-table--zebra data-table--tight">
-		<thead>
-		  <tr>
-		    <th>Officiële naam</th>
-		    <th>Mandaat</th>
-		    <th>Begin Mandaat</th>
-		  </tr>
-		</thead>
-		<tbody>
-		  <tr>
-		    <td>Voornaam Familienaam</td>
-		    <td>OCMW-raadslid</td>
-		    <td>Datum installatievergadering</td>
-		  </tr>
-		</tbody>
-	      </table>
-            </div>
+            <div property="prov:value"><span property="ext:insertTableRMW">Akte te nemen van de van rechtswege en geldige samenstelling van de raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat.</span></div>
           </div>
         </div>
       </div>
@@ -386,39 +369,7 @@
           <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
             <span property="eli:number">Enig artikel.</span>
             <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-            <div property="prov:value">Akte te nemen van de samenstelling van het vast bureau met overeenkomstige rangorde als volgt:
-	      <table class="data-table data-table--lined data-table--zebra data-table--tight">
-	        <thead>
-		  <tr>
-		    <th>Officiële naam</th>
-		    <th>Mandaat</th>
-		    <th>Begin Mandaat</th>
-		  </tr>
-	        </thead>
-	        <tbody>
-		  <tr>
-		    <td>Voornaam Familienaam</td>
-		    <td>Voorzitter van het vast bureau</td>
-		    <td>Datum installatie</td>
-		  </tr>
-		  <tr>
-		    <td>Voornaam Familienaam</td>
-		    <td>Eerste lid van het vast bureau</td>
-		    <td>Datum installatie</td>
-		  </tr>
-		  <tr>
-		    <td>Voornaam Familienaam</td>
-		    <td>Tweede lid van het vast bureau</td>
-		    <td>Datum installatie</td>
-		  </tr>
-		  <tr>
-		    <td>Voornaam Familienaam</td>
-		    <td>Evenveel als er schepenen zijn</td>
-		    <td>Datum installatie</td>
-		  </tr>
-	        </tbody>
-	      </table>
-            </div>
+            <div property="prov:value"><span property="ext:insertTableVastBureau">Akte te nemen van de samenstelling van het vast bureau met overeenkomstige rangorde met de burgemeester als voorzitter van het vast bureau en de schepenen als leden van het vast bureau.</span></div>
           </div>
         </div>
       </div>
