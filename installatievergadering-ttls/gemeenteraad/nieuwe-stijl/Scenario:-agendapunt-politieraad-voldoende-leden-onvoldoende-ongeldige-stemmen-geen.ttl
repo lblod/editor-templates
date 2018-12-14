@@ -5,6 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "005c4565-e771-47ae-94e0-4953a289b808";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadOnvoldoendeLedenOngeldigeStemmenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat er geen ongeldige stemmen werden uitgebracht;
+Er werden geen ongeldige stemmen uitgebracht;
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario ongeldige stemmen" .

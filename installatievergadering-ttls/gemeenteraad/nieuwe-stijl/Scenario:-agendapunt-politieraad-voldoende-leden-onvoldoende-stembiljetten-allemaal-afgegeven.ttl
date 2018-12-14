@@ -5,6 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "900925e5-cde1-4ae8-988d-52c6500af3f2";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadOnvoldoendeLedenStembiljettenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat <span class="mark-highlight-manual">Voer aantal stembiljetten in</span> stembiljetten werden overhandigd en <span class="mark-highlight-manual">Voer aantal stembiljetten in</span> stembiljetten werden aangetroffen in de stembus en er dus geen ontbreken;
+Er werden <span class="mark-highlight-manual">Voer aantal stembiljetten in</span> stembiljetten overhandigd en er werden <span class="mark-highlight-manual">Voer aantal stembiljetten in</span> stembiljetten aangetroffen in de stembus, er ontbreken dus geen stembiljetten;
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario aantal verzamelde stembiljetten" .
