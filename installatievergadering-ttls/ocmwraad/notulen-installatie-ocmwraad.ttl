@@ -237,7 +237,7 @@
           <div>
             <ul class="bullet-list">
               <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234919" property="eli:cites">68</a>.</li>
-              <li property="ext:insertBesluitAanstellingGemeenteraadsleden">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot installatie van de gemeenteraadsleden en vaststelling van hun rangorde;</li>
+              <li property="ext:insertBesluitAanstellingGemeenteraadsleden">Gelet op de beslissing van de gemeenteraad tot installatie van de gemeenteraadsleden en vaststelling van hun rangorde;</li>
             </ul>
           </div>
           <br>
@@ -293,7 +293,7 @@
           <div>
             <ul class="bullet-list">
               <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.</li>
-              <li property="ext:insertBesluitAanstellingVoorzitterGemeenteraad">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de voorzitter van de gemeenteraad;</li>
+              <li property="ext:insertBesluitAanstellingVoorzitterGemeenteraad">Gelet op de beslissing van de gemeenteraad tot verkiezing van de voorzitter van de gemeenteraad;</li>
             </ul>
           </div>
           <br>
@@ -350,7 +350,7 @@
             <ul class="bullet-list">
               <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234935" property="eli:cites">79</a>.</li>
               <li>Gelet op het Ministerieel besluit van <span class="mark-highlight-manual">Voeg datum in</span> houdende de benoeming van <span class="mark-highlight-manual">Voeg persoon in</span> tot burgemeester van de gemeente <span class="mark-highlight-manual">Voeg bestuur in</span>;</li>
-              <li property="ext:insertBesluitAanstellingSchepenen">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de schepenen;</li>
+              <li property="ext:insertBesluitAanstellingSchepenen">Gelet op de beslissing van de gemeenteraad tot verkiezing van de schepenen;</li>
             </ul>
           </div>
           <br>
