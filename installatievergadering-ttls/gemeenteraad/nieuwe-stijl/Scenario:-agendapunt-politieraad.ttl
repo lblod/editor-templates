@@ -46,19 +46,19 @@
 			<li>De algemeen directeur heeft tijdens de vergadering een proces-verbaal opgesteld over het verloop van de verrichtingen van de stemming en van de stemopneming, zoals hierbij opgenomen in de notulen van de gemeenteraadszitting;</li>
 			<li>De burgemeester is belast met het verzekeren van de goede gang van de verrichtingen van de stemming en de stemopneming die in de openbare vergadering plaatsvinden;</li>
 			<li>De gemeenteraadsleden <span class="mark-highlight-manual">Voer naam in</span> en <span class="mark-highlight-manual">Voer naam in</span>, de jongste in leeftijd van de aanwezige gemeenteraadsleden die bij voorkeur geen kandidaat-lid zijn voor de politieraad, staan de burgemeester bij bij de verrichtingen van de stemming en van de stemopneming;</li>
-			<li>De algemeen directeur neemt het secretariaat waar en is belast is met het opmaken van het proces-verbaal van de stemming en van de stemopneming;</li>
-			<li>Overwegende dat de de gemeenteraad in openbare vergadering en bij geheime stemming in principe in één stemronde overgaat tot de verkiezing van de effectieve leden en hun opvolgers van de politieraad;</li>
-			<li>Overwegende dat <span class="mark-highlight-manual">Voer aantal deelnemers in</span> gemeenteraadsleden deelnemen aan de stemming;</li>
-			<li>Overwegende dat elk gemeenteraadslid <span class="mark-highlight-manual">Voer aantal stemmen in</span> stemmen heeft;</li>
-			<li>Overwegende dat elk gemeenteraadslid dus <span class="mark-highlight-manual">Voer aantal biljetten in</span> stembiljetten gekregen heeft;</li>
-			<li>Overwegende dat de burgemeester, na erop gewezen te hebben dat de stemming geheim is, de stemming heeft geopend;</li>
-			<li>Overwegende dat de burgemeester, na de sluiting van de stemming, de stembiljetten heeft verzameld en heeft meegedeeld dat overgegaan wordt tot de telling van de stembiljetten;
-			<li>Overwegende dat, gegeven het aantal raadsleden dat aan de stemming deelneemt en het aantal stemmen per raadslid, er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten overhandigd moeten zijn en er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten in de stembus aangetroffen moeten zijn;</li>
+			<li>De algemeen directeur neemt het secretariaat waar en is belast met het opmaken van het proces-verbaal van de stemming en van de stemopneming;</li>
+			<li>De gemeenteraad gaat in openbare vergadering en bij geheime stemming in één stemronde over tot de verkiezing van de effectieve leden en hun opvolgers van de politieraad;</li>
+			<li>Er nemen <span class="mark-highlight-manual">Voer aantal deelnemers in</span> gemeenteraadsleden deel aan de stemming;</li>
+			<li>Elk gemeenteraadslid heeft <span class="mark-highlight-manual">Voer aantal stemmen in</span> stemmen;</li>
+			<li>Elk gemeenteraadslid heeft dus <span class="mark-highlight-manual">Voer aantal biljetten in</span> stembiljetten gekregen;</li>
+			<li>De burgemeester heeft, na erop gewezen te hebben dat de stemming geheim is, de stemming geopend;</li>
+			<li>De burgemeester heeft, na de sluiting van de stemming, de stembiljetten verzameld en meegedeeld dat er overgegaan wordt tot de telling van de stembiljetten;
+			<li>Gegeven het aantal raadsleden dat aan de stemming deelneemt en het aantal stemmen per raadslid, moeten er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten overhandigd zijn en moeten er <span class="mark-highlight-manual">Voer totaal aantal in</span> stembiljetten in de stembus aangetroffen zijn;</li>
 			<li resource="#ScenarioPolitieRaad" typeof="ext:BesluitPolitieraadStembiljettenNieuweStijl">Selecteer scenario aantal verzamelde stembiljetten</li>
-			<li>Overwegende dat het bureau voor de kiesverrichtingen de stembiljetten heeft geopend en gesorteerd, waarbij de ongeldige stemmen en blanco stemmen apart werden gelegd en de geldige stembiljetten werden gerangschikt volgens de effectieve kandidaten waarvoor een stem is uitgebracht;</li>
+			<li>Het bureau voor de kiesverrichtingen heeft de stembiljetten geopend en gesorteerd, waarbij de ongeldige stemmen en blanco stemmen apart werden gelegd en de geldige stembiljetten werden gerangschikt volgens de effectieve kandidaten waarvoor een stem is uitgebracht;</li>
 			<li resource="#ScenarioPolitieRaad" typeof="ext:BesluitPolitieraadOngeldigeStemmenNieuweStijl">Selecteer scenario ongeldige stemmen</li>
-			<li>Overwegende dat er <span class="mark-highlight-manual">Voer aantal in</span> blanco stemmen werden uitgebracht;</li>
-			<li>Overwegende dat er <span class="mark-highlight-manual">Voer aantal in</span> geldige stemmen werden uitgebracht en deze toegekend werden aan volgende kandidaten:
+			<li>Er werden <span class="mark-highlight-manual">Voer aantal in</span> blanco stemmen uitgebracht;</li>
+			<li>Er werden <span class="mark-highlight-manual">Voer aantal in</span> geldige stemmen uitgebracht en werden toegekend werden aan volgende kandidaten:
 				<ul>
 					<li><span class="mark-highlight-manual">Voer aantal stemmen in</span> voor kandidaat <span class="mark-highlight-manual">Voer kandidaat in</span></li>
 					<li>...</li>
@@ -77,13 +77,13 @@
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
     <span property="eli:number">Artikel 1</span>
     <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-    <span property="prov:value">Akte te nemen van hierboven beschreven stemming, stemopneming en verkiezingsuitslag van de verkiezing van de leden van de politieraad van de meergemeentezone <span class="mark-highlight-manual">Voer naam meergemeentezone in</span>, zoals door de burgemeester vastgesteld en afgekondigd.</span>
+    <span property="prov:value">De gemeenteraad neemt akte van hierboven beschreven stemming, stemopneming en verkiezingsuitslag van de verkiezing van de leden van de politieraad van de meergemeentezone <span class="mark-highlight-manual">Voer naam meergemeentezone in</span>, zoals door de burgemeester vastgesteld en afgekondigd.</span>
   </div>
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
     <span property="eli:number">Artikel 2</span>
     <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
     <div property="prov:value">
-    	Akte te nemen van de verkiezing van volgende leden tot effectieve leden en tot opvolgers van de politieraad van de meergemeentezone <span class="mark-highlight-manual">Voer naam meergemeentezone in</span>.
+    	De gemeenteraad neemt akte van de verkiezing van volgende leden tot effectieve leden en tot opvolgers van de politieraad van de meergemeentezone <span class="mark-highlight-manual">Voer naam meergemeentezone in</span>.
     	<p class="mark-highlight-manual">Er mogen maximum 25 opvolgers zijn, en er mogen per effectief lid 0, 1 of 2 opvolgers zijn. Verwijder de overbodige punten en deze nota.</p>
     	<ul class="bullet-list">
     		<li>Effectief lid: <span class="manual-highlight-manual">Voer Officiële naam in</span>, <span class="manual-highlight-manual">Voer geboortedatum in</span>; <span class="manual-highlight-manual">Voer beroep in</span>

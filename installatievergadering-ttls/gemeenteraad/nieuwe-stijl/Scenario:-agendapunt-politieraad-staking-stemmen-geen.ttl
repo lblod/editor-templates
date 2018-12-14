@@ -6,7 +6,7 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadStakingStemmenNieuweStijl";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat de kandidaat-effectieve leden die het grootste aantal stemmen hebben bekomen, verkozen worden en dus de burgemeester vaststelt dat volgende kandidaten werden verkozen:
+	<li>De kandidaat-effectieve leden die het grootste aantal stemmen hebben bekomen, worden verkozen en dus stelt de burgemeester vasts dat volgende kandidaten werden verkozen:
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Voer kandidaat in</span> met als eerste opvolger <span class="mark-highlight-manual">Voer kandidaat in</span> en als tweede opvolger <span class="mark-highlight-manual">Voer kandidaat in</span></li>
 			<li>...</li>
