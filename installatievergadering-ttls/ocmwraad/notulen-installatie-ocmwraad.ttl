@@ -123,7 +123,7 @@
 <!--START ZITTING-->
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid('installatievergadering-ocmwraad')}">
   <h2 class="h1" property="dc:title" id="${generateBoundUuid('bestuursorgaan en geplande start')}">
-  	Eerste vergadering van de <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, aansluitend op de installatievergadering van de gemeenteraad van <span id="${generateBoundUuid('geplande-start-1')}" property="besluit:geplandeStart" datatype="xsd:dateTime" content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​
+    Eerste vergadering van de <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, aansluitend op de installatievergadering van de gemeenteraad van <span id="${generateBoundUuid('geplande-start-1')}" property="besluit:geplandeStart" datatype="xsd:dateTime" content="2019-01-02T19:00:00.299Z">2 januari 2019 20:00&nbsp;</span>​
   </h2>
   <br>
 
@@ -155,9 +155,9 @@
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}" typeof="besluit:Agendapunt">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-            <span id="${generateBoundUuid('agendapunt-nummer-1')}">Agendapunt 1:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-1')}">
-								Akteneming samenstelling raad voor maatschappelijk welzijn
-            </span>
+          <span id="${generateBoundUuid('agendapunt-nummer-1')}">Agendapunt 1:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-1')}">
+	    Akteneming samenstelling raad voor maatschappelijk welzijn
+          </span>
           </span>
         </span>
       </li>
@@ -165,9 +165,9 @@
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}" typeof="besluit:Agendapunt">
           <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-            <span id="${generateBoundUuid('agendapunt-nummer-2')}">Agendapunt 2:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-2')}">
-								Akteneming voorzitter raad voor maatschappelijk welzijn
-            </span>
+          <span id="${generateBoundUuid('agendapunt-nummer-2')}">Agendapunt 2:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-2')}">
+	    Akteneming voorzitter raad voor maatschappelijk welzijn
+          </span>
           </span>
         </span>
       </li>
@@ -175,9 +175,9 @@
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}" typeof="besluit:Agendapunt">
           <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-            <span id="${generateBoundUuid('agendapunt-nummer-3')}">Agendapunt 3:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-3')}">
-								Akteneming samenstelling en voorzitter vast bureau
-            </span>
+          <span id="${generateBoundUuid('agendapunt-nummer-3')}">Agendapunt 3:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-3')}">
+	    Akteneming samenstelling en voorzitter vast bureau
+          </span>
           </span>
         </span>
       </li>
@@ -185,9 +185,9 @@
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}" typeof="besluit:Agendapunt">
           <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-            <span id="${generateBoundUuid('agendapunt-nummer-4')}">Agendapunt 4:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-4')}">
-								Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst
-            </span>
+          <span id="${generateBoundUuid('agendapunt-nummer-4')}">Agendapunt 4:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-4')}">
+	    Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst
+          </span>
           </span>
         </span>
       </li>
@@ -195,9 +195,9 @@
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-5')}" typeof="besluit:Agendapunt">
           <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}">
           <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
-            <span id="${generateBoundUuid('agendapunt-nummer-5')}">Agendapunt 5:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-5')}">
-								Verkiezing van de leden van het bijzonder comité voor de sociale dienst
-            </span>
+          <span id="${generateBoundUuid('agendapunt-nummer-5')}">Agendapunt 5:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-5')}">
+	    Verkiezing van de leden van het bijzonder comité voor de sociale dienst
+          </span>
           </span>
         </span>
       </li>
@@ -228,53 +228,53 @@
       <p>Korte openbare beschrijving:</p>
       <p property="eli:description">Akteneming samenstelling raad voor maatschappelijk welzijn.</p>
       <br>
-    </div>
 
-    <br>
+      <br>
 
-    <div>
-      <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
-      <div property="besluit:motivering" lang="nl">
-        <div>
-          <ul class="bullet-list">
-            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234919" property="eli:cites">68</a>.</li>
-            <li property="ext:insertBesluitAanstellingGemeenteraadsleden">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot installatie van de gemeenteraadsleden en vaststelling van hun rangorde;</li>
-          </ul>
-        </div>
-        <br>
-        <div>
-          <ul class="bullet-list">
-            <li>
+      <div>
+        <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
+        <div property="besluit:motivering" lang="nl">
+          <div>
+            <ul class="bullet-list">
+              <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234919" property="eli:cites">68</a>.</li>
+              <li property="ext:insertBesluitAanstellingGemeenteraadsleden">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot installatie van de gemeenteraadsleden en vaststelling van hun rangorde;</li>
+            </ul>
+          </div>
+          <br>
+          <div>
+            <ul class="bullet-list">
+              <li>
             	Overwegende dat de raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat, bestaat uit personen van verschillend geslacht en dus geldig is samengesteld;
-            </li>
-          </ul>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <br>
-    <div>
-      <p class="u-spacer--small">Beslist,</p>
-      <div property="prov:value">
-        <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-          <span property="eli:number">Enig artikel.</span>
-          <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-          <div property="prov:value">Akte te nemen van de van rechtswege en geldige samenstelling van de raad voor maatschappelijk welzijn als volgt:
-						<table class="data-table data-table--lined data-table--zebra data-table--tight">
-							<thead>
-								<tr>
-									<th>Officiële naam</th>
-									<th>Mandaat</th>
-									<th>Begin Mandaat</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Voornaam Familienaam</td>
-									<td>OCMW-raadslid</td>
-									<td>Datum installatievergadering</td>
-								</tr>
-							</tbody>
-						</table>
+      <br>
+      <div>
+        <p class="u-spacer--small">Beslist,</p>
+        <div property="prov:value">
+          <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+            <span property="eli:number">Enig artikel.</span>
+            <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+            <div property="prov:value">Akte te nemen van de van rechtswege en geldige samenstelling van de raad voor maatschappelijk welzijn als volgt:
+	      <table class="data-table data-table--lined data-table--zebra data-table--tight">
+		<thead>
+		  <tr>
+		    <th>Officiële naam</th>
+		    <th>Mandaat</th>
+		    <th>Begin Mandaat</th>
+		  </tr>
+		</thead>
+		<tbody>
+		  <tr>
+		    <td>Voornaam Familienaam</td>
+		    <td>OCMW-raadslid</td>
+		    <td>Datum installatievergadering</td>
+		  </tr>
+		</tbody>
+	      </table>
+            </div>
           </div>
         </div>
       </div>
@@ -301,41 +301,41 @@
       <p>Korte openbare beschrijving:</p>
       <p property="eli:description">Akteneming voorzitter raad voor maatschappelijk welzijn.</p>
       <br>
-    </div>
 
-    <br>
+      <br>
 
-    <div>
-      <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
-      <div property="besluit:motivering" lang="nl">
-        <div>
-          <ul class="bullet-list">
-            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.</li>
-            <li property="ext:insertBesluitAanstellingVoorzitterGemeenteraad">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de voorzitter van de gemeenteraad;</li>
-          </ul>
+      <div>
+        <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
+        <div property="besluit:motivering" lang="nl">
+          <div>
+            <ul class="bullet-list">
+              <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.</li>
+              <li property="ext:insertBesluitAanstellingVoorzitterGemeenteraad">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de voorzitter van de gemeenteraad;</li>
+            </ul>
+          </div>
+          <br>
+          <div>
+            <ul class="bullet-list">
+              <li>
+                Overwegende dat de voorzitter van de gemeenteraad van rechtswege ook de voorzitter is van de raad voor maatschappelijk welzijn, in dit geval <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span>;
+              </li>
+            </ul>
+          </div>
         </div>
-        <br>
-        <div>
-          <ul class="bullet-list">
-            <li>
-              Overwegende dat de voorzitter van de gemeenteraad van rechtswege ook de voorzitter is van de raad voor maatschappelijk welzijn, in dit geval <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span>;
-            </li>
-          </ul>
+      </div>
+      <br>
+      <div>
+        <p class="u-spacer--small">Beslist,</p>
+        <div property="prov:value">
+          <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+            <span property="eli:number">Enig artikel.</span>
+            <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+            <span property="prov:value">Akte te nemen van de van rechtswege aanstelling van <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span> tot voorzitter van de raad voor maatschappelijk welzijn.</span>
+          </div>
         </div>
       </div>
     </div>
-    <br>
-    <div>
-      <p class="u-spacer--small">Beslist,</p>
-      <div property="prov:value">
-        <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-          <span property="eli:number">Enig artikel.</span>
-          <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-          <span property="prov:value">Akte te nemen van de van rechtswege aanstelling van <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span> tot voorzitter van de raad voor maatschappelijk welzijn.</span>
-        </div>
-      </div>
-    </div>
-  </div>
+
 
   <br>
   <br>
@@ -357,68 +357,68 @@
       <p>Korte openbare beschrijving:</p>
       <p property="eli:description">Akteneming samenstelling en voorzitter vast bureau.</p>
       <br>
-    </div>
 
-    <br>
+      <br>
 
-    <div>
-      <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
-      <div property="besluit:motivering" lang="nl">
-        <div>
-          <ul class="bullet-list">
-            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234935" property="eli:cites">79</a>.</li>
-            <li>Gelet op het Ministerieel besluit van <span class="mark-highlight-manual">Voeg datum in</span> houdende de benoeming van <span class="mark-highlight-manual">Voeg persoon in</span> tot burgemeester van de gemeente <span class="mark-highlight-manual">Voeg bestuur in</span>;</li>
-            <li property="ext:insertBesluitAanstellingSchepenen">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de schepenen;</li>
-          </ul>
-        </div>
-        <br>
-        <div>
-          <ul class="bullet-list">
-          	<li>Overwegende dat de burgemeester van rechtswege de voorzitter is van het vast bureau en de schepenen van rechtswege de leden van het vast bureau uitmaken;</li>
-          	<li>Overwegende dat de rang die de burgemeester en de schepenen innemen in het college van burgemeester en schepenen van rechtswege de rang is die de leden in het vast bureau innemen;</li>
-          </ul>
+      <div>
+        <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
+        <div property="besluit:motivering" lang="nl">
+          <div>
+            <ul class="bullet-list">
+              <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234935" property="eli:cites">79</a>.</li>
+              <li>Gelet op het Ministerieel besluit van <span class="mark-highlight-manual">Voeg datum in</span> houdende de benoeming van <span class="mark-highlight-manual">Voeg persoon in</span> tot burgemeester van de gemeente <span class="mark-highlight-manual">Voeg bestuur in</span>;</li>
+              <li property="ext:insertBesluitAanstellingSchepenen">Gelet op de beslissing van de gemeenteraad van <span class="mark-highlight-manual">Voeg datum installatievergadering in</span> tot verkiezing van de schepenen;</li>
+            </ul>
+          </div>
+          <br>
+          <div>
+            <ul class="bullet-list">
+              <li>Overwegende dat de burgemeester van rechtswege de voorzitter is van het vast bureau en de schepenen van rechtswege de leden van het vast bureau uitmaken;</li>
+              <li>Overwegende dat de rang die de burgemeester en de schepenen innemen in het college van burgemeester en schepenen van rechtswege de rang is die de leden in het vast bureau innemen;</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <br>
-    <div>
-      <p class="u-spacer--small">Beslist,</p>
-      <div property="prov:value">
-        <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-          <span property="eli:number">Enig artikel.</span>
-          <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-          <div property="prov:value">Akte te nemen van de samenstelling van het vast bureau met overeenkomstige rangorde als volgt:
-						<table class="data-table data-table--lined data-table--zebra data-table--tight">
-							<thead>
-								<tr>
-									<th>Officiële naam</th>
-									<th>Mandaat</th>
-									<th>Begin Mandaat</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Voornaam Familienaam</td>
-									<td>Voorzitter van het vast bureau</td>
-									<td>Datum installatie</td>
-								</tr>
-								<tr>
-									<td>Voornaam Familienaam</td>
-									<td>Eerste lid van het vast bureau</td>
-									<td>Datum installatie</td>
-								</tr>
-								<tr>
-									<td>Voornaam Familienaam</td>
-									<td>Tweede lid van het vast bureau</td>
-									<td>Datum installatie</td>
-								</tr>
-								<tr>
-									<td>Voornaam Familienaam</td>
-									<td>Evenveel als er schepenen zijn</td>
-									<td>Datum installatie</td>
-								</tr>
-							</tbody>
-						</table>
+      <br>
+      <div>
+        <p class="u-spacer--small">Beslist,</p>
+        <div property="prov:value">
+          <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+            <span property="eli:number">Enig artikel.</span>
+            <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+            <div property="prov:value">Akte te nemen van de samenstelling van het vast bureau met overeenkomstige rangorde als volgt:
+	      <table class="data-table data-table--lined data-table--zebra data-table--tight">
+	        <thead>
+		  <tr>
+		    <th>Officiële naam</th>
+		    <th>Mandaat</th>
+		    <th>Begin Mandaat</th>
+		  </tr>
+	        </thead>
+	        <tbody>
+		  <tr>
+		    <td>Voornaam Familienaam</td>
+		    <td>Voorzitter van het vast bureau</td>
+		    <td>Datum installatie</td>
+		  </tr>
+		  <tr>
+		    <td>Voornaam Familienaam</td>
+		    <td>Eerste lid van het vast bureau</td>
+		    <td>Datum installatie</td>
+		  </tr>
+		  <tr>
+		    <td>Voornaam Familienaam</td>
+		    <td>Tweede lid van het vast bureau</td>
+		    <td>Datum installatie</td>
+		  </tr>
+		  <tr>
+		    <td>Voornaam Familienaam</td>
+		    <td>Evenveel als er schepenen zijn</td>
+		    <td>Datum installatie</td>
+		  </tr>
+	        </tbody>
+	      </table>
+            </div>
           </div>
         </div>
       </div>
@@ -445,11 +445,11 @@
       <p>Korte openbare beschrijving:</p>
       <p property="eli:description">Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst.</p>
       <br>
+
+      <br>
+
+      <div>Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst</div>
     </div>
-
-    <br>
-
-    <div>Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst</div>
 
   </div>
 
@@ -473,38 +473,38 @@
       <p>Korte openbare beschrijving:</p>
       <p property="eli:description">Verkiezing van de leden van het bijzonder comité voor de sociale dienst.</p>
       <br>
-    </div>
 
-    <br>
+      <br>
 
-    <div>
-      <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
-      <div property="besluit:motivering" lang="nl">
-        <div>
-          <ul class="bullet-list">
-            <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234943" property="eli:cites">87</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234944" property="eli:cites">88</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234948" property="eli:cites">92</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234949" property="eli:cites">93</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">94</a> en <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">96</a>.</li>
-          </ul>
-        </div>
-        <br>
-        <div>
-          <ul class="bullet-list">
-            <li>
-              Overwegende dat het aantal leden van het bijzonder comité voor de sociale dienst, de voorzitter niet inbegrepen, vastgelegd is op  <span class="mark-highlight-manual">Voeg aantal in</span> leden;
-            </li>
-            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingen">Selecteer scenario lijstenverbinding</li>
-            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingOnderzoek">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
-            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingEinddatum">Selecteer scenario einddatum</li>
-            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingVerhindering">Selecteer scenario verhindering</li>
-            <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingSamenstelling">Selecteer scenario geldige samenstelling (beide geslachten)</li>
-          </ul>
+      <div>
+        <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
+        <div property="besluit:motivering" lang="nl">
+          <div>
+            <ul class="bullet-list">
+              <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234943" property="eli:cites">87</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234944" property="eli:cites">88</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234948" property="eli:cites">92</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234949" property="eli:cites">93</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">94</a> en <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">96</a>.</li>
+            </ul>
+          </div>
+          <br>
+          <div>
+            <ul class="bullet-list">
+              <li>
+                Overwegende dat het aantal leden van het bijzonder comité voor de sociale dienst, de voorzitter niet inbegrepen, vastgelegd is op  <span class="mark-highlight-manual">Voeg aantal in</span> leden;
+              </li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingen">Selecteer scenario lijstenverbinding</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingOnderzoek">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingEinddatum">Selecteer scenario einddatum</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingVerhindering">Selecteer scenario verhindering</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingSamenstelling">Selecteer scenario geldige samenstelling (beide geslachten)</li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <br>
-    <div>
-      <p class="u-spacer--small">Beslist,</p>
-      <span property="ext:comiteAanstellingText">Beheer aanstelling leden bijzonder comité.</span>
-      <div typeof="ext:BSCDledenArtikelsBeheer">Beheer verkiezing leden van het bijzonder comité voor de sociale dienst</div>
+      <br>
+      <div>
+        <p class="u-spacer--small">Beslist,</p>
+        <span property="ext:comiteAanstellingText">Beheer aanstelling leden bijzonder comité.</span>
+        <div typeof="ext:BSCDledenArtikelsBeheer">Beheer verkiezing leden van het bijzonder comité voor de sociale dienst</div>
+      </div>
     </div>
   </div>
   <br>
