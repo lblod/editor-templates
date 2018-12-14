@@ -12,6 +12,6 @@
 	<!-- Felix, kan je hier de juiste RDFa zetten? -->
   </span>
 </div>
-<div>Selecteer scenario verhindering</div>
+<div typeof="ext:BesluitVoorzitterBCSDartikelLidmaatschapGeen">Selecteer scenario verhindering</div>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario lidmaatschap vast bureau" .

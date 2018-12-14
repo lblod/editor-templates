@@ -6,6 +6,6 @@
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <br>
 <br>
-<div>Selecteer scenario verhindering</div>
+<div typeof="ext:BesluitVoorzitterBCSDartikelLidmaatschapWel">Selecteer scenario verhindering</div>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario lidmaatschap vast bureau" .
