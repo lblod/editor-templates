@@ -5,7 +5,7 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingOnderzoek>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat uit onderzoek van de geloofsbrieven blijkt dat de te installeren kandidaat-leden van het bijzonder comité voor de sociale dienst voldoen aan de verkiesbaarheidsvoorwaarden en zich niet in een situatie van onverenigbaarheid bevinden</li>
+	<li>Overwegende dat uit onderzoek van de geloofsbrieven blijkt dat de te installeren kandidaat-leden van het bijzonder comité voor de sociale dienst voldoen aan de verkiesbaarheidsvoorwaarden en zich niet in een situatie van onverenigbaarheid bevinden;</li>
 	<li>Overwegende dat deze kandidaat-leden van het bijzonder comité voor de sociale dienst de voorgeschreven eed hebben afgelegd in handen van de voorzitter van de raad voor maatschappelijk welzijn;</li>
 </ul>
 """;
