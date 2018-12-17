@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn geen onontvankelijke akten ";
    <http://mu.semte.ch/vocabularies/core/uuid> "f09279e5-2018-4fb0-8a93-84f5552db604";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenVerkozenVerklaring>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenVerkozenVerklaringNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat de ingediende akten van voordracht ontvankelijk zijn en de kandidaten dus verkozen kunnen verklaard worden;
 """;

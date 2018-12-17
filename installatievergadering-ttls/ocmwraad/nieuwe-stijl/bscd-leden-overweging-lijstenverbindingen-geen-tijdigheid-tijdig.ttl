@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: alle akten van voordracht zijn tijdig ";
    <http://mu.semte.ch/vocabularies/core/uuid> "1aeb5719-62fc-4185-8f76-2b857ae811c1";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenTijdigheid>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenTijdigheidNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat alle akten van voordracht minstens 8 dagen voor de installatievergadering werden bezorgd en dus tijdig zijn;
 """;

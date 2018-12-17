@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: einddatum bepaald ";
    <http://mu.semte.ch/vocabularies/core/uuid> "eb6497b7-000a-464e-981d-986964d3b328";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingEinddatum>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingEinddatumNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat voor volgende kandidaat-leden een einddatum werd opgenomen in de akte van voordracht:
 <ul class="bullet-list">

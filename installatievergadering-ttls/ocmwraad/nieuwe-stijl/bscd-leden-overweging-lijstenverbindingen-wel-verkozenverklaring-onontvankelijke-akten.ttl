@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn onontvankelijke akten en bijkomende voordrachten ter zitting ";
    <http://mu.semte.ch/vocabularies/core/uuid> "73f67f31-10d5-4545-ad14-a9cdedfe6d04";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelVerkozenVerklaring>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelVerkozenVerklaringNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de overige akten wel ontvankelijk zijn en de kandidaten op deze akten dus verkozen kunnen verklaard worden;</li>

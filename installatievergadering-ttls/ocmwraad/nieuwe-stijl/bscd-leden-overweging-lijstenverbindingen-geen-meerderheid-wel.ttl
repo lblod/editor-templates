@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: alle akten van voordracht zijn ondertekend door meerderheid ";
    <http://mu.semte.ch/vocabularies/core/uuid> "bed4b033-7b5d-43fd-a81e-477880e4af93";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenMeerderheid>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenMeerderheidNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de akten van voordracht ter zitting werden overhandigd aan de voorzitter van de raad voor maatschappelijk welzijn;</li>

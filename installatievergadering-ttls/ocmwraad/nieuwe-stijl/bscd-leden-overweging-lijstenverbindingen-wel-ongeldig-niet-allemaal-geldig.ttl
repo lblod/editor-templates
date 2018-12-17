@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn ongeldige voordrachten (bv. alle kandidaten zelfde geslacht) ";
    <http://mu.semte.ch/vocabularies/core/uuid> "4d11daa8-72d6-430e-a822-9dd700051eab";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelOngeldigeVoordracht>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelOngeldigeVoordrachtNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de akten van voordracht ter zitting werden overhandigd aan de voorzitter van de raad voor maatschappelijk welzijn;</li>

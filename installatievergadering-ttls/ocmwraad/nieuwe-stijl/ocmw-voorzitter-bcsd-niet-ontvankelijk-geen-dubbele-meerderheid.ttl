@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: niet ontvankelijke akte, want geen dubbele meerderheid";
    <http://mu.semte.ch/vocabularies/core/uuid> "722dbb2c-4d03-4fee-a2a0-760300eef8ab";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSD>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div>

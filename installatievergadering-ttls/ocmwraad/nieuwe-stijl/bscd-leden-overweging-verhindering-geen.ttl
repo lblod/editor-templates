@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn geen verkozen leden die verhinderd zijn (verwijder nota) ";
    <http://mu.semte.ch/vocabularies/core/uuid> "5d6d6844-f700-4d3e-9d14-e8eb7f0434f0";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingVerhindering>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingVerhinderingNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 """;

@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn geen (geldige) lijstenverbindingen ";
    <http://mu.semte.ch/vocabularies/core/uuid> "20bddc58-cf8d-4449-b0ef-eb91154a23b6";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingen>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat binnen de 60 dagen na de verkiezingen, geen verklaringen tot lijstenverbindingen werden bezorgd aan de algemeen directeur;</li>
@@ -19,12 +19,12 @@
 			<li>...</li>
 		</ul>
 	</li>
-	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenTijdigheid">Selecteer scenario tijdigheid akten van voordracht</li>
-	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenMeerderheid">Selecteer scenario ondertekend door meerderheid</li>
-	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenOngeldigeVoordracht">Selecteer scenario ongeldige voordracht</li>
-	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenVerkozenVerklaring">Selecteer scenario verkozenverklaring en bijkomende voordrachten ter zitting</li>
-	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenAfstanden">Selecteer scenario afstanden van mandaat</li>
-	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenAfwezigheden">Selecteer scenario afwezigheden</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenTijdigheidNieuweStijl">Selecteer scenario tijdigheid akten van voordracht</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenMeerderheidNieuweStijl">Selecteer scenario ondertekend door meerderheid</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenOngeldigeVoordrachtNieuweStijl">Selecteer scenario ongeldige voordracht</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenVerkozenVerklaringNieuweStijl">Selecteer scenario verkozenverklaring en bijkomende voordrachten ter zitting</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenAfstandenNieuweStijl">Selecteer scenario afstanden van mandaat</li>
+	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenGeenAfwezighedenNieuweStijl">Selecteer scenario afwezigheden</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario lijstenverbinding" .

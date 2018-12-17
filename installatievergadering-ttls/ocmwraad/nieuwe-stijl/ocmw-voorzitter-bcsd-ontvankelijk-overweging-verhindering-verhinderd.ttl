@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: voorzitter is verhinderd ";
    <http://mu.semte.ch/vocabularies/core/uuid> "6314d966-9ba8-410e-afde-c4e59177b5ec";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingVerhindering>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingVerhinderingNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de voorzitter van het bijzonder comité voor de sociale dienst verhinderd is;</li>

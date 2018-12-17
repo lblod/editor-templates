@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: kandidaat is voorzitter vast bureau ";
    <http://mu.semte.ch/vocabularies/core/uuid> "d708b5c2-6088-4b9b-8ed2-4d9049dbc271";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingLidmaatschap>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingLidmaatschapNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat <span class="mark-highlight-manual">Voeg naam kandidaat in</span> voorzitter van het vast bureau is;</li>

@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: melding van einddatum van het mandaat met opvolger ";
    <http://mu.semte.ch/vocabularies/core/uuid> "2092a604-0500-4d90-b983-313d5e6ca13e";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingEinddatumOpvolger>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingEinddatumOpvolgerNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de akte van voordracht van kandidaat-voorzitter melding maakt van <span class="mark-highlight-manual">Voeg geplande einddatum in</span> als einddatum van het mandaat;</li>

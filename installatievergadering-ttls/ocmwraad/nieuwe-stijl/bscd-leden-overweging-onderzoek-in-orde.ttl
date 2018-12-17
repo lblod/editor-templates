@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: de geloofsbrieven van alle kandidaten zijn in orde ";
    <http://mu.semte.ch/vocabularies/core/uuid> "5e96591e-200a-4127-a789-48b1db74b247";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingOnderzoek>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingOnderzoekNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat uit onderzoek van de geloofsbrieven blijkt dat de te installeren kandidaat-leden van het bijzonder comité voor de sociale dienst voldoen aan de verkiesbaarheidsvoorwaarden en zich niet in een situatie van onverenigbaarheid bevinden</li>

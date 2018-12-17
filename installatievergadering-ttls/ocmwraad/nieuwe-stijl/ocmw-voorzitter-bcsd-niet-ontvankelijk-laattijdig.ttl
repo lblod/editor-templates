@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: niet ontvankelijke akte, want laattijdig ontvangen";
    <http://mu.semte.ch/vocabularies/core/uuid> "067f2aa4-e404-407f-a6ee-6fc1e72c0584";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSD>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div>

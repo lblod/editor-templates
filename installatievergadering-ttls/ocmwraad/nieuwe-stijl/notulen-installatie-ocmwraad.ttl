@@ -1,6 +1,6 @@
 <http://lblod.info/templates/74967c85-55d8-4d08-88ce-7cae59f72f65> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
-   <http://purl.org/dc/terms/title> "Eerste vergadering OCMW-raad (klassieke stijl)";
+   <http://purl.org/dc/terms/title> "Eerste vergadering OCMW-raad (nieuwe stijl)";
    <http://mu.semte.ch/vocabularies/core/uuid> "74967c85-55d8-4d08-88ce-7cae59f72f65";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://xmlns.com/foaf/0.1/Document";
    <http://mu.semte.ch/vocabularies/ext/disabledInContext> "http://data.vlaanderen.be/ns/besluit#Zitting";
@@ -389,7 +389,7 @@
     <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
     <br>
 
-    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitVoorzitterBCSD">
+    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitVoorzitterBCSDNieuweStijl">
       <h5 class="h4" property="eli:title"><span id="${generateBoundUuid('bva-besluit-4')}">Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst</span></h5>
       <span class="u-hidden" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <br>
@@ -441,11 +441,11 @@
               <li>
                 Overwegende dat het aantal leden van het bijzonder comité voor de sociale dienst, de voorzitter niet inbegrepen, vastgelegd is op  <span class="mark-highlight-manual">Voeg aantal in</span> leden;
               </li>
-              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingen">Selecteer scenario lijstenverbinding</li>
-              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingOnderzoek">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
-              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingEinddatum">Selecteer scenario einddatum</li>
-              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingVerhindering">Selecteer scenario verhindering</li>
-              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingSamenstelling">Selecteer scenario geldige samenstelling (beide geslachten)</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingLijstenverbindingenNieuweStijl">Selecteer scenario lijstenverbinding</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingOnderzoekNieuweStijl">Selecteer scenario onderzoek geloofsbrieven en eedaflegging</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingEinddatumNieuweStijl">Selecteer scenario einddatum</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingVerhinderingNieuweStijl">Selecteer scenario verhindering</li>
+              <li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingSamenstellingNieuweStijl">Selecteer scenario geldige samenstelling (beide geslachten)</li>
             </ul>
           </div>
         </div>

@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn geen afwezigheden ";
    <http://mu.semte.ch/vocabularies/core/uuid> "f8bf4290-f1ee-4297-99ea-3201f9662701";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelAfwezigheden>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelAfwezighedenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat niemand van de kandidaat-leden van het bijzonder comité voor de sociale dienst afwezig is;
 """;

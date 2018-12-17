@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: ontvankelijke akte (tijdig met dubbele meerderheid) ";
    <http://mu.semte.ch/vocabularies/core/uuid> "547fae12-faa4-48ad-aa53-0ab12cdc566e";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSD>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div>
@@ -20,9 +20,9 @@
         <li>Overwegende dat de algemeen directeur de akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst ter zitting overhandigd heeft aan de voorzitter van de eerste vergadering van de raad voor maatschappelijk welzijn;</li>
         <li>Overwegende dat de voorzitter van de eerste vergadering van de raad voor maatschappelijk welzijn heeft vastgesteld dat de akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst werd ondertekend door meer dan de helft van de verkozenen op de lijsten die aan de verkiezingen deelnamen en door een meerderheid van de personen die op dezelfde lijst als de voorgedragen kandidaat werden verkozen;</li>
         <li>Overwegende dat de akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst dus ontvankelijk is;</li>
-        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingLidmaatschap">Selecteer scenario lidmaatschap vast bureau</li>
-        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingEinddatumOpvolger">Selecteer scenario eventuele einddatum en opvolger</li>
-        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingVerhindering">Selecteer scenario verhindering</li>
+        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingLidmaatschapNieuweStijl">Selecteer scenario lidmaatschap vast bureau</li>
+        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingEinddatumOpvolgerNieuweStijl">Selecteer scenario eventuele einddatum en opvolger</li>
+        <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingVerhinderingNieuweStijl">Selecteer scenario verhindering</li>
       </ul>
     </div>
   </div>

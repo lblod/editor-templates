@@ -2,7 +2,7 @@
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen einddatum bepaald ";
    <http://mu.semte.ch/vocabularies/core/uuid> "5f669c3b-a7f6-48e4-afcb-0ee0025d3ed7";
-   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingEinddatum>;
+   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingEinddatumNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 Overwegende dat voor geen enkel kandidaat-lid een einddatum werd opgenomen in de akte van voordracht;
 """;
