@@ -4,6 +4,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "e318c96f-5d02-4f92-b35a-e90ad237c75b";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingEinddatumOpvolgerNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat de akte van voordracht van kandidaat-voorzitter melding maakt van <span class="mark-highlight-manual">Voeg geplande einddatum in</span> als einddatum van het mandaat;
+De akte van voordracht van kandidaat-voorzitter maakt melding van <span class="mark-highlight-manual">Voeg geplande einddatum in</span> als einddatum van het mandaat;
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario eventuele einddatum en opvolger" .

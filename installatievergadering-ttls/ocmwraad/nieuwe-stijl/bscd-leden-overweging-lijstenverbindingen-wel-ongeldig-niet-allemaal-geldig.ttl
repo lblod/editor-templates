@@ -5,14 +5,14 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelOngeldigeVoordrachtNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat de akten van voordracht ter zitting werden overhandigd aan de voorzitter van de raad voor maatschappelijk welzijn;</li>
-	<li>Overwegende dat uit nazicht door de voorzitter blijkt dat volgende voordrachten geldig zijn, met uitzondering van:
+	<li>De akten van voordracht werden ter zitting overhandigd aan de voorzitter van de raad voor maatschappelijk welzijn;</li>
+	<li>Uit nazicht door de voorzitter blijkt dat volgende voordrachten geldig zijn, met uitzondering van:
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Voer lijst in</span> omdat <span class="mark-highlight-manual">Voer reden in</span>;</li>
 			<li>...</li>
 		</ul>
 	</li>
-	<li>Overwegende dat deze akten dus onontvankelijk zijn;</li>
+	<li>Deze akten zijn dus onontvankelijk;</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario ongeldige voordracht" .

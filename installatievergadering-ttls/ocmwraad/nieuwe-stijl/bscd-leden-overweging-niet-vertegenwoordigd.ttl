@@ -5,7 +5,7 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingSamenstellingNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat na de installatie van de kandidaten beide geslachten niet vertegenwoordigd zijn in het bijzonder comité voor de sociale dienst en deze dus niet rechtsgeldig samengesteld is;</li>
+	<li>Na de installatie van de kandidaten zijn beide geslachten niet vertegenwoordigd in het bijzonder comité voor de sociale dienst en dus is deze niet rechtsgeldig samengesteld;</li>
 	<li resource="#ScenarioBSCDLeden" typeof="ext:BSCDledenOverwegingSamenstellingVervangingNieuweStijl">Scenario onderzoek vervanging door opvolger ander geslacht</li>
 </ul>
 """;

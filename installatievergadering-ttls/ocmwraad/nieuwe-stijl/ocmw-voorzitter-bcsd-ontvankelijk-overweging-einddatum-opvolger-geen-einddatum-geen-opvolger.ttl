@@ -4,6 +4,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "445f1349-8ad9-44d2-a6ae-6eed81e3822b";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingEinddatumOpvolgerNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat de akte van voordracht van kandidaat-voorzitter geen melding maakt van de einddatum van het mandaat en er dus geen opvolger aangeduid wordt;
+De akte van voordracht van kandidaat-voorzitter maakt geen melding van de einddatum van het mandaat en er wordt dus geen opvolger aangeduid;
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario eventuele einddatum en opvolger" .

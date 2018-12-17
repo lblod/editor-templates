@@ -6,20 +6,20 @@
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div>
-  <p class="u-spacer--small">De raad voor maatschappelijk welzijn,</p>
-  <div property="besluit:motivering" lang="nl">
-    <div>
+	<div property="besluit:motivering" lang="nl">
+		<div>
+			<h6 class="h6">Bevoegdheid</h6>
       <ul class="bullet-list">
         <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234947" property="eli:cites">90</a>.</li>
       </ul>
-    </div>
-    <br>
-    <div>
+      <br>
+
+      <h6 class="h6">Feitelijke context en argumentatie</h6>
       <ul class="bullet-list">
-        <li>Overwegende dat een akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst op naam van <span class="mark-highlight-manual">Voeg naam persoon in</span> werd overhandigd aan de algemeen directeur op <span class="mark-highlight-manual">Voeg datum overhandiging in</span>, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
-        <li>Overwegende dat de algemeen directeur de akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst ter zitting overhandigd heeft aan de voorzitter van de eerste vergadering van de raad voor maatschappelijk welzijn;</li>
-        <li>Overwegende dat de voorzitter van de eerste vergadering van de raad voor maatschappelijk welzijn heeft vastgesteld dat de akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst werd ondertekend door meer dan de helft van de verkozenen op de lijsten die aan de verkiezingen deelnamen en door een meerderheid van de personen die op dezelfde lijst als de voorgedragen kandidaat werden verkozen;</li>
-        <li>Overwegende dat de akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst dus ontvankelijk is;</li>
+        <li>Een akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst werd op naam van <span class="mark-highlight-manual">Voeg naam persoon in</span> overhandigd aan de algemeen directeur op <span class="mark-highlight-manual">Voeg datum overhandiging in</span>, zijnde uiterlijk acht dagen voor de installatievergadering van de gemeenteraad;</li>
+        <li>De algemeen directeur heeft de akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst ter zitting overhandigd aan de voorzitter van de eerste vergadering van de raad voor maatschappelijk welzijn;</li>
+        <li>De voorzitter van de eerste vergadering van de raad voor maatschappelijk welzijn heeft vastgesteld dat de akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst werd ondertekend door meer dan de helft van de verkozenen op de lijsten die aan de verkiezingen deelnamen en door een meerderheid van de personen die op dezelfde lijst als de voorgedragen kandidaat werden verkozen;</li>
+        <li>De akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst is dus ontvankelijk;</li>
         <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingLidmaatschapNieuweStijl">Selecteer scenario lidmaatschap vast bureau</li>
         <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingEinddatumOpvolgerNieuweStijl">Selecteer scenario eventuele einddatum en opvolger</li>
         <li resource="#VoorzitterBCSD" typeof="ext:BesluitVoorzitterBCSDoverwegingVerhinderingNieuweStijl">Selecteer scenario verhindering</li>
@@ -29,12 +29,12 @@
 </div>
 <br>
 <div>
-  <p class="u-spacer--small">Beslist,</p>
+  <h6 class="h6">Beslissing</h6>
   <div property="prov:value">
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
       <span property="eli:number">Artikel 1</span>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-      <span property="prov:value">Akte te nemen van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst.</span>
+      <span property="prov:value">De raad van maatschappelijk welzijn neemt kennis van de tijdige en ontvankelijke akte van voordracht van kandidaat-voorzitter van het bijzonder comité voor de sociale dienst.</span>
     </div>
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
       <span property="eli:number">Artikel 2</span>

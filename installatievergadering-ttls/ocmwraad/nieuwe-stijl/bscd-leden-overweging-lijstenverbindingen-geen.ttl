@@ -5,15 +5,15 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat binnen de 60 dagen na de verkiezingen, geen verklaringen tot lijstenverbindingen werden bezorgd aan de algemeen directeur;</li>
-	<li>Overwegende dat de algemeen directeur op <span class="mark-highlight-manual">Voer datum bekendmaking in</span> op de webtoepassing van de gemeente bekendmaakte hoeveel zetels in het bijzonder comité voor de sociale dienst toekomen aan de verschillende lijsten die aan de lokale verkiezingen deelnamen;</li>
-	<li>Overwegende dat de zetelverdeling er als volgt uit ziet:
+	<li>Er werden binnen de 60 dagen na de verkiezingen geen verklaringen tot lijstenverbindingen bezorgd aan de algemeen directeur;</li>
+	<li>De algemeen directeur maakte op <span class="mark-highlight-manual">Voer datum bekendmaking in</span> op de webtoepassing van de gemeente bekend hoeveel zetels in het bijzonder comité voor de sociale dienst toekomen aan de verschillende lijsten die aan de lokale verkiezingen deelnamen;</li>
+	<li>De zetelverdeling ziet er als volgt uit:
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Voer lijst in</span> heeft <span class="mark-highlight-manual">Voer aantal zetels in</span>;</li>
 			<li>...</li>
 		</ul>
 	</li>
-	<li>Overwegende dat volgende lijsten een akte van voordracht bezorgden aan de algemeen directeur:
+	<li>Volgende lijsten bezorgden een akte van voordracht aan de algemeen directeur:
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Voer lijst in</span> heeft <span class="mark-highlight-manual">Voer datum in</span>;</li>
 			<li>...</li>

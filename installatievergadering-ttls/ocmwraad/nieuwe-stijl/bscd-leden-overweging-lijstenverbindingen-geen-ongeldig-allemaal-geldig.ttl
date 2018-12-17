@@ -4,6 +4,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "6666fba5-8d3e-4936-aaca-7053e643714b";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenOngeldigeVoordrachtNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat uit nazicht door de voorzitter blijkt dat alle voordrachten voldoen aan de voorwaarden;
+Uit nazicht door de voorzitter blijkt dat alle voordrachten voldoen aan de voorwaarden;
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario ongeldige voordracht" .

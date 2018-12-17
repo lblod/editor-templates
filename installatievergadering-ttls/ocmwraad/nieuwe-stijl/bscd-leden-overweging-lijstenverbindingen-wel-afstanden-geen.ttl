@@ -4,6 +4,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "ef407f77-bd08-4975-94a9-a974748d4e92";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelAfstandenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat geen van de voorgedragen kandidaat-leden van het bijzonder comité voor de sociale dienst schriftelijk afstand heeft gedaan van mandaat;
+Geen van de voorgedragen kandidaat-leden van het bijzonder comité voor de sociale dienst heeft schriftelijk afstand gedaan van mandaat;
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario afstanden van mandaat" .

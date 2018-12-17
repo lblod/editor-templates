@@ -5,8 +5,8 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingLidmaatschapNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat <span class="mark-highlight-manual">Voeg naam kandidaat in</span> voorzitter van het vast bureau is;</li>
-	<li>Overwegende dat de betrokkene de eed als burgemeester heeft afgelegd en dus geen afzonderlijke eed meer moet afleggen als voorzitter van het bijzonder comité voor de sociale dienst;</li>
+	<li><span class="mark-highlight-manual">Voeg naam kandidaat in</span> is voorzitter van het vast bureau;</li>
+	<li>De betrokkene heeft de eed als burgemeester afgelegd en moet dus geen afzonderlijke eed meer afleggen als voorzitter van het bijzonder comité voor de sociale dienst;</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario lidmaatschap vast bureau" .

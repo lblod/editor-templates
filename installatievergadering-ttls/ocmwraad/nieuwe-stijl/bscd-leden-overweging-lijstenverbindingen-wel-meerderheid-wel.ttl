@@ -5,8 +5,8 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenWelMeerderheidNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Overwegende dat de akten van voordracht ter zitting werden overhandigd aan de voorzitter van de raad voor maatschappelijk welzijn;</li>
-	<li>Overwegende dat uit nazicht door de voorzitter blijkt dat alle akten van voordracht ondertekend zijn door de meerderheid van de verkozenen van dezelfde lijst die aan de verkiezingen hebben deelgenomen;</li>
+	<li>De akten van voordracht werden ter zitting overhandigd aan de voorzitter van de raad voor maatschappelijk welzijn;</li>
+	<li>Uit nazicht door de voorzitter blijkt dat alle akten van voordracht ondertekend zijn door de meerderheid van de verkozenen van dezelfde lijst die aan de verkiezingen hebben deelgenomen;</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario ondertekend door meerderheid" .
