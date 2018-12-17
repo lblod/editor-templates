@@ -7,7 +7,7 @@
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Het aantal voorgedragen kandidaat-schepenen overschrijdt het maximum aantal schepenen voor de gemeente van <span class="mark-highlight-manual">Typ maximum aantal schepenen</span>.</li>
-	<li>De volgende kandidaat-schepenen worden geschrapt van de voordrachtsakte, waarmee het aantal wordt teruggebracht tot het maximaal toegelaten aantal:
+	<li>De volgende kandidaat-schepenen worden geschrapt van de voordrachtakte, waarmee het aantal wordt teruggebracht tot het maximaal toegelaten aantal:
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Typ naam kandidaat-schepen &mdash; (laatste in rang worden geschrapt)</span>,</li>
 			<li>...;</li>
