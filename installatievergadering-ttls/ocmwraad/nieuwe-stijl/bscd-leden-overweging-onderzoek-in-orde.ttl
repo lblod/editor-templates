@@ -1,7 +1,7 @@
-<http://lblod.info/templates/a7b5d9b0-b30a-4f7d-993c-655621a0eb0e> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/5e96591e-200a-4127-a789-48b1db74b247> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: de geloofsbrieven van alle kandidaten zijn in orde ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "a7b5d9b0-b30a-4f7d-993c-655621a0eb0e";
+   <http://mu.semte.ch/vocabularies/core/uuid> "5e96591e-200a-4127-a789-48b1db74b247";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingOnderzoek>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

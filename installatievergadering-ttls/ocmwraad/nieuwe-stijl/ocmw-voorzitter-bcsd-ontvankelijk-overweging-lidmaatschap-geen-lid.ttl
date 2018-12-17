@@ -1,7 +1,7 @@
-<http://lblod.info/templates/3f59b2ea-df7d-4e21-93af-2b2f18db93ea> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/71a34f0b-fbb8-4ae3-8913-7ebf3af2ce90> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: kandidaat is geen lid van het vast bureau ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "3f59b2ea-df7d-4e21-93af-2b2f18db93ea";
+   <http://mu.semte.ch/vocabularies/core/uuid> "71a34f0b-fbb8-4ae3-8913-7ebf3af2ce90";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingLidmaatschap>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

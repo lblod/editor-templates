@@ -1,7 +1,7 @@
-<http://lblod.info/templates/b1a52e02-d6e8-4b8c-87dc-b49b9e60f0d9> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/ebc932e5-3897-4057-a720-cca05c8c1051> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: geen melding van einddatum van het mandaat, wel opvolger ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "b1a52e02-d6e8-4b8c-87dc-b49b9e60f0d9";
+   <http://mu.semte.ch/vocabularies/core/uuid> "ebc932e5-3897-4057-a720-cca05c8c1051";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingEinddatumOpvolger>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

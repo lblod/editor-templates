@@ -1,7 +1,7 @@
-<http://lblod.info/templates/991172be-565a-47ae-a990-e663c3155ff9> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/4a03dc0f-cc20-4289-8fbd-276880b163d3> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn afstanden van mandaat ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "991172be-565a-47ae-a990-e663c3155ff9";
+   <http://mu.semte.ch/vocabularies/core/uuid> "4a03dc0f-cc20-4289-8fbd-276880b163d3";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenAfstanden>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

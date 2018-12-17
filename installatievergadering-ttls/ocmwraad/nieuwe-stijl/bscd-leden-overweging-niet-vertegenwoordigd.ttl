@@ -1,7 +1,7 @@
-<http://lblod.info/templates/1fee4f7f-30bf-473f-94ee-90b67ee32309> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/596237ee-0580-4a73-998f-80a1946cd74f> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: beide geslachten zijn niet vertegenwoordigd ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "1fee4f7f-30bf-473f-94ee-90b67ee32309";
+   <http://mu.semte.ch/vocabularies/core/uuid> "596237ee-0580-4a73-998f-80a1946cd74f";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingSamenstelling>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

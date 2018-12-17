@@ -1,7 +1,7 @@
-<http://lblod.info/templates/9541c642-4374-4864-99c2-e9c698ee06fe> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/d5cdca89-50b4-4e29-be24-3bf7fd59380e> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn onontvankelijke akten en bijkomende voordrachten ter zitting ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "9541c642-4374-4864-99c2-e9c698ee06fe";
+   <http://mu.semte.ch/vocabularies/core/uuid> "d5cdca89-50b4-4e29-be24-3bf7fd59380e";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenVerkozenVerklaring>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

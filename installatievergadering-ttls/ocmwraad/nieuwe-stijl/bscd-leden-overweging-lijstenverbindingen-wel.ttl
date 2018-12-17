@@ -1,7 +1,7 @@
-<http://lblod.info/templates/e511b6ae-11bf-4b36-8eb5-2a0ea55b7a06> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/f9b0550a-4c9c-4b24-ab1e-7a8d2235b5b5> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn geldige lijstenverbindingen ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "e511b6ae-11bf-4b36-8eb5-2a0ea55b7a06";
+   <http://mu.semte.ch/vocabularies/core/uuid> "f9b0550a-4c9c-4b24-ab1e-7a8d2235b5b5";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingen>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

@@ -1,7 +1,7 @@
-<http://lblod.info/templates/d243d995-c127-4c99-9aeb-f652f5a803e4> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/d6856728-ba9a-4fb0-9ba5-293db805cddf> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn akten van voordracht die niet door de meerderheid werden ondertekend ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "d243d995-c127-4c99-9aeb-f652f5a803e4";
+   <http://mu.semte.ch/vocabularies/core/uuid> "d6856728-ba9a-4fb0-9ba5-293db805cddf";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenMeerderheid>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

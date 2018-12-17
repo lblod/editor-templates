@@ -1,7 +1,7 @@
-<http://lblod.info/templates/f00abca5-2950-4c10-b4c7-e60c31dab370> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/ebb20971-bdff-42e2-8bfb-099a446773fd> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er is geen opvolger van het andere geslacht ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "f00abca5-2950-4c10-b4c7-e60c31dab370";
+   <http://mu.semte.ch/vocabularies/core/uuid> "ebb20971-bdff-42e2-8bfb-099a446773fd";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingSamenstellingVervanging>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

@@ -1,7 +1,7 @@
-<http://lblod.info/templates/3df3f51a-35c5-4806-9790-d2d4959da7fb> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/b69ad714-de1a-4bd0-9f04-8d898092227e> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: er zijn verkozen leden die verhinderd zijn ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "3df3f51a-35c5-4806-9790-d2d4959da7fb";
+   <http://mu.semte.ch/vocabularies/core/uuid> "b69ad714-de1a-4bd0-9f04-8d898092227e";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingVerhindering>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>

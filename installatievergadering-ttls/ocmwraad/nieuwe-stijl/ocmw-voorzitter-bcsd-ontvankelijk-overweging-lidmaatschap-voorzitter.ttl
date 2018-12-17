@@ -1,7 +1,7 @@
-<http://lblod.info/templates/783567ba-b875-4969-9dd4-80ee87a32b98> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/d708b5c2-6088-4b9b-8ed2-4d9049dbc271> a <http://mu.semte.ch/vocabularies/ext/Template>,
      <http://mu.semte.ch/vocabularies/ext/Template>;
    <http://purl.org/dc/terms/title> "Scenario: kandidaat is voorzitter vast bureau ";
-   <http://mu.semte.ch/vocabularies/core/uuid> "783567ba-b875-4969-9dd4-80ee87a32b98";
+   <http://mu.semte.ch/vocabularies/core/uuid> "d708b5c2-6088-4b9b-8ed2-4d9049dbc271";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitVoorzitterBCSDoverwegingLidmaatschap>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
