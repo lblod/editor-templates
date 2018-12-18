@@ -12,7 +12,7 @@
 		</ul>
 	</li>
 	<li>De algemeen directeur maakte op <span class="mark-highlight-manual">Voer datum bekendmaking in</span> op de webtoepassing van de gemeente bekend hoeveel zetels in het bijzonder comité voor de sociale dienst toekomen aan de verschillende lijsten die aan de lokale verkiezingen deelnamen;</li>
-	<li>De zetelverdeling ziet wer als volgt uit:
+	<li>De zetelverdeling ziet er als volgt uit:
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Voer lijst in</span> heeft <span class="mark-highlight-manual">Voer aantal zetels in</span>;</li>
 			<li>...</li>
