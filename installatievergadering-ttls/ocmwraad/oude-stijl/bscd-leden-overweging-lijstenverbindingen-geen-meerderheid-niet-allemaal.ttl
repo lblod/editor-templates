@@ -6,7 +6,7 @@
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
 	<li>Overwegende dat de akten van voordracht ter zitting werden overhandigd aan de voorzitter van de raad voor maatschappelijk welzijn;</li>
-	<li>Overwegende dat uit nazicht door de voorzitter blijkt dat volgende akten van voordracht niet werden ondertekend de verkozenen van dezelfde lijst die aan de verkiezingen hebben deelgenomen:
+	<li>Overwegende dat uit nazicht door de voorzitter blijkt dat volgende akten van voordracht niet werden ondertekend door de meerderheid van de verkozenen van dezelfde lijst die aan de verkiezingen hebben deelgenomen:
 		<ul>
 			<li><span class="mark-highlight-manual">Voer lijst in</span></li>
 			<li>...</li>
