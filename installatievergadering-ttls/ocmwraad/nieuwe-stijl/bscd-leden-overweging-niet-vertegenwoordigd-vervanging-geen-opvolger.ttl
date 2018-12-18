@@ -5,9 +5,9 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingSamenstellingVervangingNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>In dat geval het decreet lokaal bestuur voorschrijft dat <span class="mark-highlight-manual">Voer naam oudste kandidaat in</span> als oudste lid vervangen wordt door de eerste opvolger van het andere geslacht op dezelfde lijst;</li>
+	<li>In dat geval schrijft het decreet lokaal bestuur voor dat <span class="mark-highlight-manual">Voer naam oudste kandidaat in</span> als oudste lid vervangen wordt door de eerste opvolger van het andere geslacht op dezelfde lijst;</li>
 	<li>Op die lijst is er geen opvolger van het andere geslacht;</li>
-	<li>Een nieuwe kandidaat moet van het andere geslacht voorgedragen worden met toepassing van artikel 95 DLB;</li>
+	<li>Een nieuwe kandidaat van het andere geslacht moet worden voorgedragen met toepassing van artikel 95 DLB;</li>
 </ul>
 """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Scenario onderzoek vervanging door opvolger ander geslacht" .
