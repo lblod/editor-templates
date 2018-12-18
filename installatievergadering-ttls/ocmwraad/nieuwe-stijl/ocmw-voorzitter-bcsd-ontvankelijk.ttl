@@ -10,7 +10,7 @@
 		<div>
 			<h6 class="h6">Bevoegdheid</h6>
       <ul class="bullet-list">
-        <li>Gelet op <a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234947" property="eli:cites">90</a>.</li>
+        <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234947" property="eli:cites">90</a>.</li>
       </ul>
       <br>
 
@@ -47,4 +47,4 @@
   <div>Selecteer scenario artikel lidmaatschap vast bureau</div>
 </div>
 """;
-   <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst" .
+   <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst".
