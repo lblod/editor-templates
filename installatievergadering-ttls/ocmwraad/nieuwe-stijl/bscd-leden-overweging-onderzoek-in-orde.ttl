@@ -5,7 +5,7 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingOnderzoekNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>Uit onderzoek van de geloofsbrieven blijkt dat de te installeren kandidaat-leden van het bijzonder comité voor de sociale dienst voldoen aan de verkiesbaarheidsvoorwaarden en bevinden zich niet in een situatie van onverenigbaarheid;</li>
+	<li>Uit onderzoek van de geloofsbrieven blijkt dat de te installeren kandidaat-leden van het bijzonder comité voor de sociale dienst voldoen aan de verkiesbaarheidsvoorwaarden en zich niet in een situatie van onverenigbaarheid bevinden;</li>
 	<li>Deze kandidaat-leden van het bijzonder comité voor de sociale dienst hebben de voorgeschreven eed afgelegd in handen van de voorzitter van de raad voor maatschappelijk welzijn;</li>
 </ul>
 """;
