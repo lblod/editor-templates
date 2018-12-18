@@ -5,8 +5,8 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BSCDledenOverwegingLijstenverbindingenGeenVerkozenVerklaringNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <ul>
-	<li>De overige akten zijn wel ontvankelijk en de kandidaten kunnen op deze akten dus verkozen verklaard worden;</li>
-	<li>Voor de zetels die niet kunnen ingevuld worden omdat er geen ontvankelijke voordrachtakte werd ingediend, kunnen de akten van voordracht ingediend worden tijdens de vergadering;</li>
+	<li>De overige akten zijn wel ontvankelijk en de kandidaten op deze akten kunnen dus verkozen verklaard worden;</li>
+	<li>Voor de zetels die niet ingevuld kunnen worden omdat er geen ontvankelijke voordrachtakte werd ingediend, kunnen de akten van voordracht ingediend worden tijdens de vergadering;</li>
 	<li>Volgende akten van voordracht werden tijdens de vergadering ingediend:
 		<ul class="bullet-list">
 			<li><span class="mark-highlight-manual">Voer lijst in</span> met volgende kandidaten en opvolgers: <span class="mark-highlight-manual">Voer kandidaten en opvolgers in</span>;</li>
