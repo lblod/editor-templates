@@ -377,7 +377,7 @@
           <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
             <span property="eli:number">Enig artikel.</span>
             <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-            <div property="prov:value"><span property="ext:insertTableVastBureau">De raad voor maatschappelijk welzijn neemt kennis van de samenstelling van het vast bureau met overeenkomstige rangorde met de burgemeester als voorzitter van het vast bureau en de schepenen als leden van het vast bureau.</span></div>
+            <div property="prov:value"><span property="ext:insertTableVastBureau">De raad voor maatschappelijk welzijn neemt kennis van de samenstelling van het vast bureau met de burgemeester als voorzitter van het vast bureau en de schepenen als leden van het vast bureau, met overeenkomstige rangorde.</span></div>
           </div>
         </div>
       </div>
