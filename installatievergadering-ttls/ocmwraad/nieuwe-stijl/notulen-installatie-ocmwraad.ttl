@@ -142,7 +142,7 @@
   <br>
 
   <!-- opening -->
-  <p>De eerste zitting van de raad van maatschappelijk welzijn wordt geleid door de voorzitter van de raad voor maatschappelijk welzijn, die als voorzitter van de gemeenteraad werd verkozen op de installatievergadering van de gemeenteraad en van rechtswege ook voorzitter is van de raad voor maatschappelijk welzijn.</p>
+  <p>De eerste zitting van de raad voor maatschappelijk welzijn wordt geleid door de voorzitter van de raad voor maatschappelijk welzijn, die als voorzitter van de gemeenteraad werd verkozen op de installatievergadering van de gemeenteraad en van rechtswege ook voorzitter is van de raad voor maatschappelijk welzijn.</p>
   <br>
   <br>
   <br>
@@ -247,7 +247,7 @@
 
             <h6 class="h6">Feitelijke context en argumentatie</h6>
             <ul class="bullet-list">
-            	<li>De raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat, bestaat uit personen van verschillend geslacht en is dus geldig samengesteld;</li>
+            	<li>De raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat, bestaat uit personen van verschillend geslacht en is dus rechtsgeldig samengesteld;</li>
             </ul>
           </div>
         </div>
@@ -259,7 +259,7 @@
           <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
             <span property="eli:number">Enig artikel.</span>
             <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-            <div property="prov:value"><span property="ext:insertTableRMW">De raad van maatschappelijk welzijn neemt kennis van de van rechtswege en geldige samenstelling van de raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat.</span></div>
+            <div property="prov:value"><span property="ext:insertTableRMW">De raad voor maatschappelijk welzijn neemt kennis van de van rechtswege en rechtsgeldige samenstelling van de raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat.</span></div>
           </div>
         </div>
       </div>
@@ -318,7 +318,7 @@
           <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
             <span property="eli:number">Enig artikel.</span>
             <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-            <span property="prov:value">De raad van maatschappelijk welzijn neemt kennis van de van rechtswege aanstelling van <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span> tot voorzitter van de raad voor maatschappelijk welzijn.</span>
+            <span property="prov:value">De raad voor maatschappelijk welzijn neemt kennis van de van rechtswege aanstelling van <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span> tot voorzitter van de raad voor maatschappelijk welzijn.</span>
           </div>
         </div>
       </div>
@@ -358,7 +358,7 @@
 						<h6 class="h6">Juridische context</h6>
 						<ul class="bullet-list">
               <li>Het Ministerieel besluit van <span class="mark-highlight-manual">Voeg datum in</span> houdende de benoeming van <span class="mark-highlight-manual">Voeg persoon in</span> tot burgemeester van de gemeente <span class="mark-highlight-manual">Voeg bestuur in</span>;</li>
-              <li property="ext:insertBesluitAanstellingSchepenen">Gelet op de beslissing van de gemeenteraad tot verkiezing van de schepenen;</li>
+              <li property="ext:insertBesluitAanstellingSchepenen">De beslissing van de gemeenteraad tot verkiezing van de schepenen;</li>
             </ul>
             <br>
 
@@ -377,7 +377,7 @@
           <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
             <span property="eli:number">Enig artikel.</span>
             <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-            <div property="prov:value"><span property="ext:insertTableVastBureau">De raad van maatschappelijk welzijn neemt kennis van de samenstelling van het vast bureau met overeenkomstige rangorde met de burgemeester als voorzitter van het vast bureau en de schepenen als leden van het vast bureau.</span></div>
+            <div property="prov:value"><span property="ext:insertTableVastBureau">De raad voor maatschappelijk welzijn neemt kennis van de samenstelling van het vast bureau met overeenkomstige rangorde met de burgemeester als voorzitter van het vast bureau en de schepenen als leden van het vast bureau.</span></div>
           </div>
         </div>
       </div>
