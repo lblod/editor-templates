@@ -5,6 +5,7 @@
    <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://xmlns.com/foaf/0.1/Document";
    <http://mu.semte.ch/vocabularies/ext/disabledInContext> "http://data.vlaanderen.be/ns/besluit#Zitting";
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
+<meta property="ext:templateVersion" content="v1.0.0-oude-stijl">
 <!--START VARIABLES-->
 <div>
   <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
