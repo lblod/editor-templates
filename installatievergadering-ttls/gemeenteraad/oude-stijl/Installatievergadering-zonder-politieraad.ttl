@@ -638,7 +638,7 @@
   <!-- Sluiting zitting-->
   <h3 class="h2">Sluiting van de zitting</h3>
 
-  <p>De voorzittter van de raad sluit de zitting op <span property="prov:endedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span>.</p>
+  <p>De voorzitter van de raad sluit de zitting op <span property="prov:endedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span>.</p>
   <br>
   <br>
   <br>
