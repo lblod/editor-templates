@@ -1,0 +1,55 @@
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-1')}">40</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-2')}">41</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-3')}">42</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+  <div property="ext:idInSnippet" content="${generateBoundUuid('burgemeester-persoon-4')}">42</div>
+  <div property="ext:intentionUri" content="http://installatie/burgemeester-persoon">a</div>
+  <div property="ext:variableState" content="initialized">initialized</div>
+</div>
+
+
+<div property="besluit:motivering" lang="nl">
+  <div>
+    <h6>Juridische context</h6>
+    <ul class="bullet-list">
+      <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234900" property="eli:cites">58</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234901" property="eli:cites">59</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234902" property="eli:cites">60</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234903" property="eli:cites">61</a> en <a href="http://data.lblod.info/WetgevingArtikel/1234904" property="eli:cites">62</a>;</li>
+      <li>De omzendbrief KB / ABB 2018 / 3 van 26 oktober 2018 &mdash; Start van de lokale en provinciale bestuursperiode;</li>
+      <li>Het Ministerieel besluit van <span class="mark-highlight-manual">Typ datum</span> houdende de benoeming van <span id="${generateBoundUuid('burgemeester-persoon-1')}" class="mark-highlight-manual">Voer naam burgemeester in</span> tot burgemeester van <span property="ext:setStandAloneCurrentBestuurseenheid">huidig bestuurseenheid</span>;</li>
+    </ul>
+  </div>
+  <br>
+  <div>
+    <h6>Feitelijke context en argumentatie</h6>
+    <ul class="bullet-list">
+      <li>
+        <span id="${generateBoundUuid('burgemeester-persoon-2')}" class="mark-highlight-manual">Voer naam burgemeester in</span> heeft de decretaal voorziene eed afgelegd in de handen van de gouverneur op <span class="mark-highlight-manual">Voer datum eedaflegging burgemeester in</span>, zoals bevestigd door de akte van eedaflegging;</li>
+      <li>
+        <span id="${generateBoundUuid('burgemeester-persoon-3')}" class="mark-highlight-manual">Voer naam burgemeester in</span> heeft aldus met ingang van <span class="mark-highlight-manual">Voer start ambt burgemeester in</span> het ambt van burgemeester opgenomen;</li>
+    </ul>
+  </div>
+</div>
+
+<br>
+<br>
+
+<h6>Beslissing</h6>
+
+<div property="prov:value">
+  <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+    <span property="eli:number">Enig artikel.</span>
+    <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+    <span property="prov:value">De gemeenteraad neemt kennis van de benoeming en eedaflegging van <span id="${generateBoundUuid('burgemeester-persoon-4')}" class="mark-highlight-manual">Voer naam burgemeester in</span> tot burgemeester van <span property="ext:setStandAloneCurrentBestuurseenheid">huidig bestuurseenheid</span> met ingang van <span class="mark-highlight-manual">Voer start ambt burgemeester in</span>.</span>
+  </div>
+</div>
