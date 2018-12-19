@@ -231,23 +231,23 @@
 
       <div>
       	<div property="besluit:motivering" lang="nl">
-      		<div>
-      			<h6 class="h6">Bevoegdheid</h6>
+      	  <div>
+      	    <h6 class="h6">Bevoegdheid</h6>
             <ul class="bullet-list">
               <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234919" property="eli:cites">68</a>.
-      				</li>
-      			</ul>
-      			<br>
+      	      </li>
+      	    </ul>
+      	    <br>
 
-						<h6 class="h6">Juridische context</h6>
-						<ul class="bullet-list">
+	    <h6 class="h6">Juridische context</h6>
+	    <ul class="bullet-list">
               <li property="ext:insertBesluitAanstellingGemeenteraadsleden">De beslissing van de gemeenteraad tot installatie van de gemeenteraadsleden en vaststelling van hun rangorde;</li>
             </ul>
             <br>
 
             <h6 class="h6">Feitelijke context en argumentatie</h6>
             <ul class="bullet-list">
-            	<li>De raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat, bestaat uit personen van verschillend geslacht en is dus rechtsgeldig samengesteld;</li>
+              <li>De raad voor maatschappelijk welzijn, die uit dezelfde leden als de gemeenteraad bestaat, bestaat uit personen van verschillend geslacht en is dus rechtsgeldig samengesteld;</li>
             </ul>
           </div>
         </div>
@@ -289,23 +289,23 @@
 
       <div>
       	<div property="besluit:motivering" lang="nl">
-      		<div>
-      			<h6 class="h6">Bevoegdheid</h6>
+      	  <div>
+      	    <h6 class="h6">Bevoegdheid</h6>
             <ul class="bullet-list">
               <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234920" property="eli:cites">69</a>.
-      				</li>
-      			</ul>
-      			<br>
+      	      </li>
+      	    </ul>
+      	    <br>
 
-						<h6 class="h6">Juridische context</h6>
-						<ul class="bullet-list">
+	    <h6 class="h6">Juridische context</h6>
+	    <ul class="bullet-list">
               <li property="ext:insertBesluitAanstellingVoorzitterGemeenteraad">De beslissing van de gemeenteraad tot verkiezing van de voorzitter van de gemeenteraad;</li>
             </ul>
             <br>
 
             <h6 class="h6">Feitelijke context en argumentatie</h6>
             <ul class="bullet-list">
-            	<li>De voorzitter van de gemeenteraad is van rechtswege ook de voorzitter van de raad voor maatschappelijk welzijn, in dit geval <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span>;
+              <li>De voorzitter van de gemeenteraad is van rechtswege ook de voorzitter van de raad voor maatschappelijk welzijn, in dit geval <span class="mark-highlight-manual">Voeg naam voorzitter OCMW-raad in</span>;
               </li>
             </ul>
           </div>
@@ -349,15 +349,15 @@
 
       <div>
       	<div property="besluit:motivering" lang="nl">
-      		<div>
-      			<h6 class="h6">Bevoegdheid</h6>
+      	  <div>
+      	    <h6 class="h6">Bevoegdheid</h6>
             <ul class="bullet-list">
               <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, artikel <a href="http://data.lblod.info/WetgevingArtikel/1234935" property="eli:cites">79</a>.</li>
-      			</ul>
-      			<br>
+      	    </ul>
+      	    <br>
 
-						<h6 class="h6">Juridische context</h6>
-						<ul class="bullet-list">
+	    <h6 class="h6">Juridische context</h6>
+	    <ul class="bullet-list">
               <li>Het Ministerieel besluit van <span class="mark-highlight-manual">Voeg datum in</span> houdende de benoeming van <span class="mark-highlight-manual">Voeg persoon in</span> tot burgemeester van de gemeente <span class="mark-highlight-manual">Voeg bestuur in</span>;</li>
               <li property="ext:insertBesluitAanstellingSchepenen">De beslissing van de gemeenteraad tot verkiezing van de schepenen;</li>
             </ul>
@@ -434,14 +434,14 @@
 
       <div>
       	<div property="besluit:motivering" lang="nl">
-      		<div>
-      			<h6 class="h6">Bevoegdheid</h6>
+      	  <div>
+      	    <h6 class="h6">Bevoegdheid</h6>
             <ul class="bullet-list">
               <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234943" property="eli:cites">87</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234948" property="eli:cites">92</a> en <a href="http://data.lblod.info/WetgevingArtikel/1234949" property="eli:cites">93</a>.</li>
             </ul>
             <br>
 
-      			<h6 class="h6">Juridische context</h6>
+      	    <h6 class="h6">Juridische context</h6>
             <ul class="bullet-list">
               <li><a href="http://data.lblod.info/WetgevingDocument/1029017" property="eli:cites">Het decreet van 22 december 2017 over het lokaal bestuur</a>, de artikelen <a href="http://data.lblod.info/WetgevingArtikel/1234944" property="eli:cites">88</a>, <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">94</a> en <a href="http://data.lblod.info/WetgevingArtikel/1234950" property="eli:cites">96</a>.</li>
             </ul>
