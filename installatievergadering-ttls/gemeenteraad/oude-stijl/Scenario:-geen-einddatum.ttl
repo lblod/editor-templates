@@ -5,6 +5,11 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "db22b46e-f70c-11e8-b191-9f4a87ba4f55";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitSchepenen>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-schepenen geen melding maakt van een einddatum van een schepenmandaat en er dus geen opvolgers aangeduid worden;
+<ul>
+	<li>Overwegende dat de gezamenlijke akte van voordracht van de kandidaat-schepenen geen melding maakt van een einddatum van een schepenmandaat en er dus geen opvolgers aangeduid worden;</li>
+	<li>Overwegende dat de rangorde van de schepenen is bepaald door de rangorde zoals deze op de ontvankelijke voordrachtakte is bepaald;</li>
+	<li>Overwegende dat de voorzitter van de gemeenteraad deze volgorde ter zitting meedeelt aan de gemeenteraad;</li>
+	<li>Overwegende dat de verkozen verklaarde schepenen de decretaal voorziene eed hebben afgelegd in handen van de burgemeester;</li>
+</ul>
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario eventuele einddatum en eventuele opvolgers" .

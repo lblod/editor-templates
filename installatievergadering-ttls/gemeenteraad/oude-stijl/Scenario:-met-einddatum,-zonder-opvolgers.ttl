@@ -5,14 +5,20 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "258d19c2-f70d-11e8-96d3-cf17eb29e5ff";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitSchepenen>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-  Overwegende dat de akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen melding maakt van de einddatum van het mandaat:
-  <ul class="bullet-list">
-    <li>
-      voor <span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span> is de einddatum <span class="mark-highlight-manual">Voer geplande einddatum in</span>;
-    </li>
-    <li>
-      ...
-    </li>
-  </ul>
+<ul>
+	<li>Overwegende dat de akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen melding maakt van de einddatum van het mandaat:
+	  <ul class="bullet-list">
+	    <li>
+	      voor <span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span> is de einddatum <span class="mark-highlight-manual">Voer geplande einddatum in</span>;
+	    </li>
+	    <li>
+	      ...
+	    </li>
+	  </ul>
+	</li>
+	<li>Overwegende dat de rangorde van de schepenen is bepaald door de rangorde zoals deze op de ontvankelijke voordrachtakte is bepaald;</li>
+	<li>Overwegende dat de voorzitter van de gemeenteraad deze volgorde ter zitting meedeelt aan de gemeenteraad;</li>
+	<li>Overwegende dat de verkozen verklaarde schepenen de decretaal voorziene eed hebben afgelegd in handen van de burgemeester;</li>
+</ul>
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario eventuele einddatum en eventuele opvolgers" .

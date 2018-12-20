@@ -5,14 +5,20 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "7e03d20b-c77f-44c5-94fd-74aca5b42548";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitSchepenenNieuweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-  De akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen maakt melding van de einddatum van het mandaat:
-  <ul class="bullet-list">
-    <li>
-      voor <span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span> is de einddatum <span class="mark-highlight-manual">Voer geplande einddatum in</span>;
-    </li>
-    <li>
-      ...
-    </li>
-  </ul>
+<ul>
+	<li>De akte van voordracht van kandidaat-schepenen voor volgende kandidaat-schepenen maakt melding van de einddatum van het mandaat:
+	  <ul class="bullet-list">
+	    <li>
+	      voor <span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span> is de einddatum <span class="mark-highlight-manual">Voer geplande einddatum in</span>;
+	    </li>
+	    <li>
+	      ...
+	    </li>
+	  </ul>
+	</li>
+	<li>De rangorde van de schepenen is bepaald door de rangorde zoals deze op de ontvankelijke voordrachtakte is bepaald;</li>
+	<li>De voorzitter van de gemeenteraad deelt deze volgorde ter zitting mee aan de gemeenteraad;</li>
+	<li>De verkozen verklaarde schepenen hebben de decretaal voorziene eed afgelegd in handen van de burgemeester;</li>
+</ul>
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario eventuele einddatum en eventuele opvolgers" .
