@@ -21,6 +21,7 @@
 			<li>
 				Voeg naam <span class="mark-highlight-manual">Voer naam kandidaat-schepen in</span> in met als opvolger <span class="mark-highlight-manual">Voer naam opvolger in</span>;
 			</li>
+			<li>...</li>
 		</ul>
 	</li>
 	<li>De rangorde van de schepenen is bepaald door de rangorde zoals deze op de ontvankelijke voordrachtakte is bepaald;</li>

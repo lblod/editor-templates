@@ -33,7 +33,7 @@
           <li>...</li>
         </ul>
       </li>
-      <li> Selecteer scenario geïnstalleerd gemeenteraadslid</li>
+      <li>Selecteer scenario geïnstalleerd gemeenteraadslid</li>
       <li>Selecteer scenario onverenigbaarheden</li>
       <li>Selecteer scenario eventuele einddatum en eventuele opvolgers</li>
       <li>Selecteer scenario verhindering</li>
