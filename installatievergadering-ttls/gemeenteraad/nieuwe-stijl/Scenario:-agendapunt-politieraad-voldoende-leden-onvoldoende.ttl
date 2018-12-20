@@ -5,7 +5,6 @@
    <http://mu.semte.ch/vocabularies/core/uuid> "4447be3d-6b48-4eda-a727-eb59d686a699";
    <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitPolitieraadVoldoendeLedenNieweStijl>;
    <http://mu.semte.ch/vocabularies/ext/templateContent> """
-
 <ul>
 	<li>Slechts <span class="mark-highlight-manual">Voer aantal in leden</span> van de politieraad zijn verkozen in plaats van de te verkiezen <span class="mark-highlight-manual">Voer aantal te verkiezen leden in</span>;</li>
 	<li>De overige <span class="mark-highlight-manual">Voer aantal in</span> leden worden verkozen in een bijkomende stemronde;</li>
@@ -32,6 +31,13 @@
 		</ul>
 	</li>
 	<li typeof="ext:BesluitPolitieraadOnvoldoendeLedenStakingStemmenNieuweStijl">Selecteer scenario staking van stemmen</li>
+	<li>
+		De burgemeester, de gemeenteraadsleden die de burgemeester bijstonden bij de verrichtingen van de stemming en van de stemopneming, de algemeen directeur en volgende gemeenteraadleden die dat wilden, hebben het proces verbaal ondertekend:
+		<ul>
+			<li><span class="mark-highlight-manual">Voeg naam gemeenteraadslid in</span></li>
+			<li>...</li>
+		</ul>
+	</li>
 </ul>
  """;
    <http://mu.semte.ch/vocabularies/ext/templateMatches> "Selecteer scenario (on)voldoende verkozen leden" .
