@@ -11,11 +11,13 @@
 		<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
 		  <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
 		  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-		  <span property="prov:value"><span class="mark-highlight-manual">de/het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan<!-- add variable --></span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
+		  <span property="prov:value"><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan<!-- add variable --></span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
 		  <!-- add variable for orgaan -->
 		</div>
 		<br>
-		<div><mark data-editor-highlight="true">Voeg extra artikel in (nieuwe stijl)</mark></div>
+		<div resource="#NieuwArtikelScenario" typeof="ext:Artikel">
+			<p>Voeg nieuw artikel in (nieuwe stijl)</p> <!-- Plugin en rdfa nakijken -->
+		</div>
 		<br>
 	</div>
 

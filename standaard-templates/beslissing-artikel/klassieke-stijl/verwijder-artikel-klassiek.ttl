@@ -7,4 +7,4 @@
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg artikel in (klassieke stijl)" .
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg nieuw artikel in (klassieke stijl)" .

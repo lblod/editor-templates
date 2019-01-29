@@ -15,7 +15,9 @@
 		  <span property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
 		</div>
 		<br>
-		<div><mark data-editor-highlight="true">Voeg extra artikel in (klassieke stijl)</mark></div>
+		<div resource="#NieuwArtikelScenario" typeof="ext:Artikel">
+			<p>Voeg nieuw artikel in (klassieke stijl)</p> <!-- Plugin en rdfa nakijken -->
+		</div>
 		<br>
 	</div>
 

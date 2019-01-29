@@ -11,7 +11,11 @@
 	  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
 	  <span property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
 	</div>
-	<div><mark data-editor-highlight="true">Voeg artikel in</mark></div>
+	<br>
+	<div resource="#NieuwArtikelScenario" typeof="ext:Artikel">
+		<p>Voeg nieuw artikel in (klassieke stijl)</p> <!-- Plugin en rdfa nakijken -->
+	</div>
+	<br>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg artikel in (klassieke stijl)" .
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg nieuw artikel in (klassieke stijl)" .

@@ -29,61 +29,37 @@
 	    </div>
       <br>
 
-  		<p><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <mark data-editor-highlight="true">Selecteer bestuursorgaan</mark>,</p>
+  		<p><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan</span>,</p>
   		<!-- Add variable -->
   		<br>
 
-    	<div>
-      	<mark data-editor-highlight="true">Voeg vrije tekst in</mark> <!-- plugin nakijken -->
+    	<div resource="#VrijeTekstScenario" typeof="ext:BesluitVrijeTekst">
+      	<p>Voeg vrije tekst in</p> <!-- plugin en rdfa nakijken -->
       </div>
-
-	  	<p style="color:red; margin: 4rem 0; display:block;">Output indien vrije tekst ingevoegd:</p> <!-- Delete me -->
-
-      <div property="bekijk-mij-vrije-tekst"> <!-- bekijk property -->
-	  		<p><span class="mark-highlight-manual">Optioneel: Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst</span>.</p>
-	  	</div>
-	  	<br>
-
-	  	<!-- template for adding "vrije tekst" — no need for old/new style or anything else
+      <br>
+      <br>
+	  	<!-- templates for adding "vrije tekst" — no need for old/new style or anything else
 
 			tekst/tekst.ttl
 			tekst/tekst-verwijder.ttl
-
 	  	-->
 
-    	<div>
-      	<mark data-editor-highlight="true">Voeg motivering in (klassieke stijl)</mark> <!-- plugin nakijken -->
+    	<div resource="#MotiveringScenario" typeof="ext:BesluitMotering">
+      	<mark data-editor-highlight="true">Voeg motivering in (klassieke stijl)</mark> <!-- plugin en rdfa nakijken -->
       </div>
-
-	  	<p style="color:red; margin: 4rem 0; display:block;">Output indien motivering ingevoegd:</p> <!-- Delete me -->
-
+      <br>
+      <br>
 	  	<!-- templates for adding motivering (klassieke stijl, as we are in a klassieke stijl agendapunt)
 
 			motivering/klassieke-stijl/motivering-klassieke-stijl.ttl
 			motivering/klassieke-stijl/verwijder-motivering-klassiek.ttl
-
 	  	-->
 
-      <div property="besluit:motivering" lang="nl">
-        <div>
-          <ul class="bullet-list">
-            <li>Gelet op <span class="mark-highlight-manual">voeg juridische grond of bevoegdheid in</span>;</li>
-          </ul>
-        </div>
-        <br>
-        <div>
-          <ul class="bullet-list">
-            <li>Overwegende dat <span class="mark-highlight-manual">voeg feitelijke context of argumentatie in</span>;</li>
-          </ul>
-        </div>
+    	<div property="ext:insertStemmingen">
+      	<mark data-editor-highlight="true">Beheer stemmingen (klassieke stijl)</mark> <!-- plugin en property nakijken -->
       </div>
       <br>
       <br>
-
-     	<div>
-      	<mark data-editor-highlight="true">Beheer stemmingen (klassieke stijl)</mark>
-      </div>
-
 	  	<!-- templates for adding stemming via plugin (klassieke stijl, as we are in a klassieke stijl agendapunt)
 
 			stemming/klassieke-stijl/standaard-stemming-geheim-klassiek.ttl
@@ -91,39 +67,14 @@
 			stemming/klassieke-stijl/verwijder-stemming-klassiek.ttl
 	  	-->
 
-      <br>
-      <br>
-    	<div>
-      	<mark data-editor-highlight="true">Voeg beschikkend gedeelte in (klassieke stijl)</mark> <!-- plugin nakijken -->
+    	<div resource="#BeschikkendGedeelteScenario" typeof="ext:BesluitBesluit">
+      	<mark data-editor-highlight="true">Voeg beschikkend gedeelte in (klassieke stijl)</mark> <!-- plugin en rdfa nakijken -->
       </div>
-
 	  	<!-- templates for beslissend gedeelte (klassieke stijl, as we are in a klassieke stijl agendapunt)
 
 			beslissing/klassieke-stijl/beslissing-klassiek.ttl
 			beslissing/klassieke-stijl/verwijder-beslissing-klassiek.ttl
 	  	-->
-
-  		<p style="color:red; margin: 4rem 0; display:block;">Output indien beschikkend gedeelte ingevoegd:</p> <!-- Delete me -->
-      <p>Beslist,</p>
-      <br>
-  		<div property="prov:value">
-				<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-				  <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
-				  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-				  <span property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
-				</div>
-				<br>
-				<div><mark data-editor-highlight="true">Voeg extra artikel in (klassieke stijl)</mark></div>
-
-			  	<!-- templates for beslissend gedeelte new article (klassieke stijl, as we are in a klassieke stijl agendapunt)
-
-					beslissing-artikel/klassieke-stijl/standaard-artikel-klassiek.ttl
-					beslissing-artikel/klassieke-stijl/verwijder-artikel-klassiek.ttl
-			  	-->
-
-				<br>
-			</div>
-
     </div>
   </div>
 
