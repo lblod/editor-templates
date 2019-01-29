@@ -6,8 +6,8 @@
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Beschrijving>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
-  <div property="bekijk-mij-vrije-tekst"> <!-- bekijk property -->
-		<p><span class="mark-highlight-manual">Optioneel: Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst</span>.</p>
+  <div property="needsproperty"> <!-- bekijk property -->
+		<p>Optioneel: Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst.</p>
 	</div>
 	<br>
 
