@@ -1,0 +1,23 @@
+
+<http://lblod.info/templates/3653594b-0bae-4ca9-95c7-654f543fdcd3> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Beschikkend gedeelte (nieuwe stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "3653594b-0bae-4ca9-95c7-654f543fdcd3";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+  <h5>Beslissing</h5>
+	<div property="prov:value">
+		<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+		  <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
+		  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+		  <span property="prov:value"><span class="mark-highlight-manual">de/het<!-- add variable --></span> <mark data-editor-highlight="true">Selecteer bestuursorgaan</mark> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
+		  <!-- add variable for orgaan -->
+		</div>
+		<br>
+		<div><mark data-editor-highlight="true">Voeg extra artikel in (nieuwe stijl)</mark></div>
+		<br>
+	</div>
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg beschikkend gedeelte in (nieuwe stijl)" .

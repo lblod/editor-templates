@@ -1,0 +1,30 @@
+
+<http://lblod.info/templates/3653594b-0bae-4ca9-95c7-654f543fdcd3> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Motivering (nieuwe stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "3653594b-0bae-4ca9-95c7-654f543fdcd3";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+	<div property="besluit:motivering" lang="nl">
+		<h5>Bevoegdheid</h5>
+    	<li><span class="mark-highlight-manual">Voeg bevoegdheden in</span></li>
+		</ul>
+		<br>
+
+		<h5>Juridische context</h5>
+		<ul class="bullet-list">
+    	<li><span class="mark-highlight-manual">Voeg juridische context in</span></li>
+    </ul>
+    <br>
+
+    <h5>Feitelijke context en argumentatie</h5>
+    <ul class="bullet-list">
+    	<li><span class="mark-highlight-manual">Voeg context en argumentatie in</span></li>
+    </ul>
+  </div>
+  <br>
+  <br>
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg motivering in (nieuwe stijl)" .

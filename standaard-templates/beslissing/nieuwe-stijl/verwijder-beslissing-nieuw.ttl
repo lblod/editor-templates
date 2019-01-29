@@ -1,0 +1,10 @@
+
+<http://lblod.info/templates/58759174-4e19-4f4c-ae20-c0a8ee2ece4f> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Verwijder suggestie beschikkend gedeelte";
+	<http://mu.semte.ch/vocabularies/core/uuid> "58759174-4e19-4f4c-ae20-c0a8ee2ece4f";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-besluit-verwijder>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg beschikkend gedeelte in (nieuwe stijl)" .

@@ -1,0 +1,163 @@
+
+<http://lblod.info/templates/3653594b-0bae-4ca9-95c7-654f543fdcd3> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Openbare stemming (nieuwe stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "3653594b-0bae-4ca9-95c7-654f543fdcd3";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+	<div property="besluit:heeftStemming">
+		<p property="stemming:openbaar" datatype="xsd:boolean" content="true">Stemt openbaar,</p> <!-- rdfa nakijken -->
+		<br>
+		<div property="stemming:onderwerp">
+			<p><span class="mark-highlight-manual">Beschrijf onderwerp van stemming</span></p>
+		</div>
+		<br>
+
+		<p><strong>Aanwezigen: #</strong></p> <!-- not sure if we need this one... according to the model we do I think -->
+		<p class="small">
+  		<span property="stemming:heeftAanwezige" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>,&nbsp;
+  		<span property="stemming:heeftAanwezige" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>
+		</p>
+		<br>
+		<p><strong>Totaal aantal stemmers: #</strong></p>
+		<p class="small">
+  		<span property="stemming:heeftStemmer" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>,&nbsp;
+  		<span property="stemming:heeftStemmer" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>
+		</p>
+		<br>
+		<p>Totaal aantal stemmen per stemmer: #</p>
+		<p>Totaal uitgebrachte stemmen: #</p>
+		<br>
+		<br>
+
+		<p><strong>Voorstanders <span property="stemming:aantalVoorstanders">#</span></strong></p>
+		<p class="small">
+  		<span property="stemming:heeftVoorstander" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+  		<span property="stemming:heeftVoorstander" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+		</p>
+		<br>
+		<p><strong>Tegenstanders <span property="stemming:aantalTegenstanders">#</span></strong></p>
+		<p class="small">
+  		<span property="stemming:heeftTegenstander" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+  		<span property="stemming:heeftTegenstander" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+		</p>
+		<br>
+		<p><strong>Onthoudingen, blanco of ongeldig <span property="stemming:aantalOnthouders">#</span></strong></p>
+		<p class="small">
+  		<span property="stemming:heeftOnthouder" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+  		<span property="stemming:heeftOnthouder" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5">  <!-- typeOf="mandaat:Mandataris" -->
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+		</p>
+		<br>
+		<br>
+
+		<p>Gevolg stemming:</p>
+		<p property="stemming:gevolg">
+			<span class="mark-highlight-manual">Beschrijf gevolg van stemming</span>
+		</p>
+		<br>
+		<br>
+	</div>
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Beheer stemmingen (nieuwe stijl)" .

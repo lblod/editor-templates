@@ -1,0 +1,23 @@
+
+<http://lblod.info/templates/adc69b83-09bf-4541-a33a-41ac22ac7011> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Artikel (nieuwe stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "adc69b83-09bf-4541-a33a-41ac22ac7011";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-nieuw>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+	<div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+	  <div property="ext:idInSnippet" content="${generateBoundUuid('orgaan-1a')}">0</div> <!-- nakijken, hier hebben we er meerdere nodig veronderstel ik aangezien meerdere artikels invoegen een ding is -->
+	  <div property="ext:intentionUri" content="http://zitting/orgaan">a</div>
+	  <div property="ext:variableState" content="initialized">initialized</div>
+	</div>
+
+	<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+	  <span property="eli:number">Artikel #</span> <!-- Artikel 1, Artikel 2, ...? -->
+	  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+	  <span property="prov:value"><span id="${generateBoundUuid('orgaan-1a')}" class="mark-highlight-manual">Selecteer orgaan</span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
+	</div>
+	<div><mark data-editor-highlight="true">Voeg artikel in</mark></div>
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg artikel in (nieuwe stijl)" .

@@ -1,0 +1,119 @@
+
+<http://lblod.info/templates/a91900ce-d8b9-4b51-ac0a-7b4f1203a50d> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Open agendapunt met tekst &mdash; zoals vraag, antwoord of tussenkomst (klassieke stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "a91900ce-d8b9-4b51-ac0a-7b4f1203a50d";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-behandeling-open-klasssiek>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->
+
+  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-#')}" typeof="besluit:BehandelingVanAgendapunt">
+    <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-#')}"><span id="${generateBoundUuid('agendapunt-nummer-#-bva')}">Agendapunt #</span></span>
+    <br>
+    <br>
+    <h4 class="h5">Aanwezigen bij agendapunt</h4>
+    <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
+
+	  <p style="color:red; margin: 4rem 0; display:block;">Output beheer aanwezigen agendapunt:</p> <!-- Delete me -->
+  	<p>
+	    <strong>Aanwezige leden bij agendapunt</strong>
+	    <br>
+  		<span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>,&nbsp;
+		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>,&nbsp;
+		</p>
+	  <br>
+		<p>
+	  	<strong>Afwezige leden bij agendapunt</strong>
+	  	<br>
+	    <span property="besluit:heeftAfwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris"><!-- nakijken -->
+	      <span property="persoon:gebruikteVoornaam">
+	        Voornaam
+	      </span>
+	      <span property="foaf:familyName">
+	        Familienaam
+	      </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+	    </span>,&nbsp;
+		</p>
+	  <br>
+		<p>
+	  	<strong>Voorzitter</strong>
+	  	<br>
+	  	<span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>,&nbsp;
+		</p>
+	  <br>
+		<p>
+	  	<strong>Secretaris</strong>
+	  	<br>
+	  	<span class="mark-highlight-manual">Voer officiële naam in</span>
+		</p>
+	  <br>
+	  <br>
+
+    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+      <h4 property="eli:title"><span id="${generateBoundUuid('bva-besluit-#')}">Titel van het agendapunt</span></h4>
+      <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+      <p>Korte openbare beschrijving:</p>
+      <div property="eli:description" class="mark-highlight-manual">
+	      <p>Voeg korte beschrijving in</p>
+	    </div>
+      <br>
+
+      <div property="bekijk-mij-vrije-tekst"> <!-- bekijk property -->
+	  		<p><span class="mark-highlight-manual">Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord of tussenkomst</span>.</p>
+	  	</div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg agendapunt in (klassieke stijl)" .
+<!-- Deze informatie is waarschijnlijk niet nodig omdat we ze nu beheren met een plugin ipv met een zinnetje? -->

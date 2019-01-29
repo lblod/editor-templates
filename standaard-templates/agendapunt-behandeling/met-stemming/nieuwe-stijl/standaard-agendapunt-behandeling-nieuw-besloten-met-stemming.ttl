@@ -1,0 +1,211 @@
+
+<http://lblod.info/templates/8a98a5f9-3a73-4b0f-b856-d47a9f4f5a74> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Generiek besloten agendapunt behandeling (nieuwe stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "8a98a5f9-3a73-4b0f-b856-d47a9f4f5a74";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-behandeling-besloten-nieuw>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->
+
+  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-#')}" typeof="besluit:BehandelingVanAgendapunt">
+    <span property="besluit:besloten" datatype="xsd:boolean" content="true" class="annotation--agendapunt--besloten__icon"><i class="fa fa-eye-slash"></i></span>
+    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-#')}"><span id="${generateBoundUuid('agendapunt-nummer-#-bva')}">Agendapunt #</span></span>
+    <br>
+    <br>
+    <h4 class="h5">Aanwezigen bij agendapunt</h4>
+    <p property="ext:insertAanwezigenText">Beheer aanwezigen bij agendapunt.</p>
+
+	  <p style="color:red; margin: 4rem 0; display:block;">Output beheer aanwezigen agendapunt:</p> <!-- Delete me -->
+  	<p>
+	    <strong>Aanwezige leden bij agendapunt</strong>
+	    <br>
+  		<span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>,&nbsp;
+		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>,&nbsp;
+		</p>
+	  <br>
+		<p>
+	  	<strong>Afwezige leden bij agendapunt</strong>
+	  	<br>
+	    <span property="besluit:heeftAfwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris"><!-- nakijken -->
+	      <span property="persoon:gebruikteVoornaam">
+	        Voornaam
+	      </span>
+	      <span property="foaf:familyName">
+	        Familienaam
+	      </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+	    </span>,&nbsp;
+		</p>
+	  <br>
+		<p>
+	  	<strong>Voorzitter</strong>
+	  	<br>
+	  	<span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>,&nbsp;
+		</p>
+	  <br>
+		<p>
+	  	<strong>Secretaris</strong>
+	  	<br>
+	  	<span class="mark-highlight-manual">Voer officiële naam in</span>
+		</p>
+	  <br>
+	  <br>
+
+    <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit">
+      <h4 property="eli:title"><span id="${generateBoundUuid('bva-besluit-#')}">Titel van het agendapunt</span></h4>
+      <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+      <p>Korte openbare beschrijving:</p>
+      <div property="eli:description" class="mark-highlight-manual">
+	      <p>Voeg korte beschrijving in</p>
+	    </div>
+      <br>
+
+    	<div>
+      	<mark data-editor-highlight="true">Voeg vrije tekst in</mark> <!-- plugin nakijken -->
+      </div>
+
+	  	<p style="color:red; margin: 4rem 0; display:block;">Output indien vrije tekst ingevoegd:</p> <!-- Delete me -->
+
+      <div property="bekijk-mij-vrije-tekst"> <!-- bekijk property -->
+	  		<p><span class="mark-highlight-manual">Optioneel: Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst</span>.</p>
+	  	</div>
+	  	<br>
+
+	  	<!-- template for adding "vrije tekst" — no need for old/new style or anything else
+
+			tekst/tekst.ttl
+			tekst/tekst-verwijder.ttl
+
+	  	-->
+
+    	<div>
+      	<mark data-editor-highlight="true">Voeg motivering in (nieuwe stijl)</mark> <!-- plugin nakijken -->
+      </div>
+
+	  	<p style="color:red; margin: 4rem 0; display:block;">Output indien motivering ingevoegd:</p> <!-- Delete me -->
+
+	  	<!-- templates for adding motivering (klassieke stijl, as we are in a nieuwe stijl agendapunt)
+
+			motivering/nieuwe-stijl/motivering-nieuwe-stijl.ttl
+			motivering/nieuwe-stijl/verwijder-motivering-nieuw.ttl
+
+	  	-->
+
+    	<div property="besluit:motivering" lang="nl">
+  			<h5>Bevoegdheid</h5>
+        	<li><span class="mark-highlight-manual">Voeg bevoegdheden in</span></li>
+  			</ul>
+  			<br>
+
+				<h5>Juridische context</h5>
+				<ul class="bullet-list">
+        	<li><span class="mark-highlight-manual">Voeg juridische context in</span></li>
+        </ul>
+        <br>
+
+        <h5>Feitelijke context en argumentatie</h5>
+        <ul class="bullet-list">
+        	<li><span class="mark-highlight-manual">Voeg context en argumentatie in</span></li>
+        </ul>
+      </div>
+      <br>
+      <br>
+
+     	<div>
+      	<mark data-editor-highlight="true">Beheer stemmingen (nieuwe stijl)</mark>
+      </div>
+
+	  	<!-- templates for adding stemming via plugin (nieuwe stijl, as we are in a nieuwe stijl agendapunt)
+
+			stemming/nieuwe-stijl/standaard-stemming-geheim-klassiek.ttl
+			stemming/nieuwe-stijl/standaard-stemming-openbaar-klassiek.ttl
+			stemming/nieuwe-stijl/verwijder-stemming-klassiek.ttl
+	  	-->
+
+      <br>
+      <br>
+    	<div>
+      	<mark data-editor-highlight="true">Voeg beschikkend gedeelte in (nieuwe stijl)</mark> <!-- plugin nakijken -->
+      </div>
+
+	  	<!-- templates for beslissend gedeelte (nieuwe stijl, as we are in a nieuwe stijl agendapunt)
+
+			beslissing/nieuwe-stijl/beslissing-nieuw.ttl
+			beslissing/nieuwe-stijl/verwijder-beslissing-nieuw.ttl
+	  	-->
+
+  		<p style="color:red; margin: 4rem 0; display:block;">Output indien beschikkend gedeelte ingevoegd:</p> <!-- Delete me -->
+      <h5>Beslissing</h5>
+  		<div property="prov:value">
+				<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+				  <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
+				  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+				  <span property="prov:value"><span class="mark-highlight-manual">de/het<!-- add variable --></span> <mark data-editor-highlight="true">Selecteer bestuursorgaan</mark> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
+				  <!-- add variable for orgaan -->
+				</div>
+				<br>
+				<div><mark data-editor-highlight="true">Voeg extra artikel in (nieuwe stijl)</mark></div>
+
+			  	<!-- templates for beslissend gedeelte new article (klassieke stijl, as we are in a klassieke stijl agendapunt)
+
+					beslissing-artikel/nieuwe-stijl/standaard-artikel-nieuw.ttl
+					beslissing-artikel/nieuwe-stijl/verwijder-artikel-nieuw.ttl
+			  	-->
+
+				<br>
+			</div>
+
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg agendapunt in (nieuwe stijl)" .
+<!-- Deze informatie is waarschijnlijk niet nodig omdat we ze nu beheren met een plugin ipv met een zinnetje? -->

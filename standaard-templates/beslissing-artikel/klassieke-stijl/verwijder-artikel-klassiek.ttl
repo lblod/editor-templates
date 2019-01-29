@@ -1,0 +1,10 @@
+
+<http://lblod.info/templates/a0922c3f-0f79-4a25-80c0-3950c413c559> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Verwijder suggestie artikel";
+	<http://mu.semte.ch/vocabularies/core/uuid> "a0922c3f-0f79-4a25-80c0-3950c413c559";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-verwijder>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg artikel in (klassieke stijl)" .

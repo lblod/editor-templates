@@ -1,0 +1,15 @@
+
+<http://lblod.info/templates/3653594b-0bae-4ca9-95c7-654f543fdcd3> a <http://mu.semte.ch/vocabularies/ext/Template>,
+	<http://mu.semte.ch/vocabularies/ext/Template>;
+	<http://purl.org/dc/terms/title> "Vrije tekst";
+	<http://mu.semte.ch/vocabularies/core/uuid> "3653594b-0bae-4ca9-95c7-654f543fdcd3";
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/templateContent> """
+
+  <div property="bekijk-mij-vrije-tekst"> <!-- bekijk property -->
+		<p><span class="mark-highlight-manual">Optioneel: Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst</span>.</p>
+	</div>
+	<br>
+
+""";
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg vrije tekst in" .
