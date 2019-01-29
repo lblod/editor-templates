@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/435679ca-6d0d-4b7f-8425-daaf9b4a9418> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/a9daff4e-f890-4ace-83d4-ac55239a5bb7> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Besloten agendapunt";
-	<http://mu.semte.ch/vocabularies/core/uuid> "435679ca-6d0d-4b7f-8425-daaf9b4a9418";
+	<http://mu.semte.ch/vocabularies/core/uuid> "a9daff4e-f890-4ace-83d4-ac55239a5bb7";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-agenda-besloten-klassiek>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 

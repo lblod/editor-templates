@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/a0922c3f-0f79-4a25-80c0-3950c413c559> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/5325e4c3-0c24-40dd-aa73-c14f68aca206> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Verwijder suggestie motivering";
-	<http://mu.semte.ch/vocabularies/core/uuid> "a0922c3f-0f79-4a25-80c0-3950c413c559";
+	<http://mu.semte.ch/vocabularies/core/uuid> "5325e4c3-0c24-40dd-aa73-c14f68aca206";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-verwijder>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 

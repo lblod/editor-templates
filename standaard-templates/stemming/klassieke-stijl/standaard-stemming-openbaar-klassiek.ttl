@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/3653594b-0bae-4ca9-95c7-654f543fdcd3> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/c4240022-e481-44ab-b38b-63254a66dc98> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Openbare stemming (klassieke stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "3653594b-0bae-4ca9-95c7-654f543fdcd3";
+	<http://mu.semte.ch/vocabularies/core/uuid> "c4240022-e481-44ab-b38b-63254a66dc98";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 

@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/834b1616-eaf6-4530-b478-be420fd2ba9d> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/d733ba6e-741d-4c11-9727-66162fa3e9af> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Generiek besloten agendapunt behandeling (klassieke stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "834b1616-eaf6-4530-b478-be420fd2ba9d";
+	<http://mu.semte.ch/vocabularies/core/uuid> "d733ba6e-741d-4c11-9727-66162fa3e9af";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-behandeling-besloten-klassiek>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 

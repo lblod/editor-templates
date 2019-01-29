@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/3653594b-0bae-4ca9-95c7-654f543fdcd3> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/98a49d4d-21cb-411d-976d-cbec069e5f0c> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Artikel (klassieke stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "3653594b-0bae-4ca9-95c7-654f543fdcd3";
+	<http://mu.semte.ch/vocabularies/core/uuid> "98a49d4d-21cb-411d-976d-cbec069e5f0c";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 

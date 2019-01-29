@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/43e18669-ed19-431e-94da-ef2447de4c0a> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/1f816a91-6df7-4443-8172-0b713487a26d> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Open agendapunt";
-	<http://mu.semte.ch/vocabularies/core/uuid> "43e18669-ed19-431e-94da-ef2447de4c0a";
+	<http://mu.semte.ch/vocabularies/core/uuid> "1f816a91-6df7-4443-8172-0b713487a26d";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-agenda-open-klassiek>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 

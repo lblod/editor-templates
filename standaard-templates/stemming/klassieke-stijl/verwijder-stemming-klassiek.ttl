@@ -1,5 +1,5 @@
 
-<http://lblod.info/templates/a0922c3f-0f79-4a25-80c0-3950c413c559> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/90e0668a-7fa9-45e5-acfb-240a8c55d0bd> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Verwijder suggestie stemming";
 	<http://mu.semte.ch/vocabularies/core/uuid> "a0922c3f-0f79-4a25-80c0-3950c413c559";

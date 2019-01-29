@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/a0922c3f-0f79-4a25-80c0-3950c413c559> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/3e45e6ad-5b2b-408b-ac9b-dcbf0ff9b9e3> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Verwijder suggestie stemming";
-	<http://mu.semte.ch/vocabularies/core/uuid> "a0922c3f-0f79-4a25-80c0-3950c413c559";
+	<http://mu.semte.ch/vocabularies/core/uuid> "3e45e6ad-5b2b-408b-ac9b-dcbf0ff9b9e3";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-verwijder>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 

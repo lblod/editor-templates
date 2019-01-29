@@ -1,8 +1,8 @@
 
-<http://lblod.info/templates/8a98a5f9-3a73-4b0f-b856-d47a9f4f5a74> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/9c05e71d-bd8a-4f1a-af9a-e6186e3eb416> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Generiek besloten agendapunt behandeling (nieuwe stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "8a98a5f9-3a73-4b0f-b856-d47a9f4f5a74";
+	<http://mu.semte.ch/vocabularies/core/uuid> "9c05e71d-bd8a-4f1a-af9a-e6186e3eb416";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-behandeling-besloten-nieuw>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
