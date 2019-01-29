@@ -98,90 +98,8 @@
   <h2>Aanwezigen</h2>
   <span property="ext:insertAanwezigenText" id="${generateBoundUuid('Beheer aanwezigen zitting')}">
   	<p>Beheer aanwezigen bij de zitting</p>
+  	<!-- New sections coming up: Aanwezigen, Afwezigen, Voorzitter van de zitting, Secretaris van de zitting -->
   </span>
-
-  <p style="color:red; margin: 4rem 0; display:block;">Output plugin beheer aanwezigen:</p> <!-- Delete me -->
-  <div property="ext:aanwezigenTable">
-	  <h3 class="h5">Aanwezige leden</h3>
-	  <p>
-	  	<span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-		    <span property="persoon:gebruikteVoornaam">
-		      Voornaam
-		    </span>
-		    <span property="foaf:familyName">
-		      Familienaam
-		    </span>
-		    <span>
-		      (Rol van het lid)
-		    </span>
-		  </span>, &nbsp;
-		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-		    <span property="persoon:gebruikteVoornaam">
-		      Voornaam
-		    </span>
-		    <span property="foaf:familyName">
-		      Familienaam
-		    </span>
-		    <span>
-		      (Rol van het lid)
-		    </span>
-		  </span>, &nbsp;
-		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-		    <span property="persoon:gebruikteVoornaam">
-		      Voornaam
-		    </span>
-		    <span property="foaf:familyName">
-		      Familienaam
-		    </span>
-		    <span>
-		      (Rol van het lid)
-		    </span>
-		  </span>
-		</p>
-	  <br>
-	  <br>
-
-	  <h3 class="h5">Afwezige leden</h3>
-	  <p>
-	    <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-	      <span property="persoon:gebruikteVoornaam">
-	        Voornaam
-	      </span>
-	      <span property="foaf:familyName">
-	        Familienaam
-	      </span>
-		    <span>
-		      (Rol van het lid)
-		    </span>
-	    </span>
-	  </p>
-	  <br>
-	  <br>
-
-	  <h3 class="h5">Voorzitter &amp; Secretaris van de zitting</h3>
-	  <p><strong>Voorzitter van de zitting</strong></p>
-	  <p>
-		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-		    <span property="persoon:gebruikteVoornaam">
-		      Voornaam
-		    </span>
-		    <span property="foaf:familyName">
-		      Familienaam
-		    </span>
-		    <span>
-		      (Rol van het lid)
-		    </span>
-		  </span>
-	  </p>
-	  <br>
-	  <p><strong>Secretaris van de zitting</strong></p>
-	  <p>
-	  	<span class="mark-highlight-manual">Voer officiële naam in</span>
-	  </p>
-	  <br>
-	  <br>
-	  <br>
-	</div>
 
   <!-- Voor takenlijst beheer werkelijke start zitting -->
   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
@@ -201,7 +119,6 @@
   <div id="${generateBoundUuid('beheer agenda')}" property="ext:insertAgendaText"><!-- double check rdfa -->
   	<p>Beheer agenda</p>
   </div>
-  <p style="color:red; margin: 4rem 0; display:block;">Output plugin beheer agenda:</p><!-- Delete me -->
 
   <!-- templates for output agenda overzicht
 
