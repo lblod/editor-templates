@@ -1,16 +1,15 @@
 
-<http://lblod.info/templates/ab9003ad-9085-4f3d-b263-97d317bdea2a> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/e31fe32d-f4b2-4db3-ae34-09e3a466bf04> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
-	<http://purl.org/dc/terms/title> "Geheime stemming (klassieke stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "ab9003ad-9085-4f3d-b263-97d317bdea2a";
+	<http://purl.org/dc/terms/title> "Geheime stemming (nieuwe stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "e31fe32d-f4b2-4db3-ae34-09e3a466bf04";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Stemming>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<div property="besluit:heeftStemming">
-		<h5 property="stemming:openbaar" datatype="xsd:boolean" content="true">Openbare stemming</h5> <!-- rdfa nakijken -->
+		<p property="stemming:openbaar" datatype="xsd:boolean" content="true">Stemt geheim,</p> <!-- rdfa nakijken -->
 		<br>
 		<div property="stemming:onderwerp">
-			<h6>Onderwerp van de stemming</h6>
 			<p><span class="mark-highlight-manual">Beschrijf onderwerp van stemming</span></p>
 		</div>
 		<br>
@@ -51,13 +50,14 @@
 		<p>Onthoudingen, blanco of ongeldig <span property="stemming:aantalOnthouders">#</span></p>
 		<br>
 
-		<h6>Gevolg stemming</h6>
+		<p>Met als gevolg:</p>
 		<p property="stemming:gevolg">
 			<span class="mark-highlight-manual">Beschrijf gevolg van stemming</span>
 		</p>
 		<br>
 		<br>
+		<br>
 	</div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Beheer stemmingen (klassieke stijl)" .
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Beheer stemmingen (nieuwe stijl)" .

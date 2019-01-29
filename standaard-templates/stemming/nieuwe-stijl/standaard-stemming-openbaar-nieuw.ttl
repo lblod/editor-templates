@@ -1,15 +1,15 @@
 
-<http://lblod.info/templates/8a95dd87-2b9e-417b-bd8f-4268de2e56c7> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/c4240022-e481-44ab-b38b-63254a66dc98> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
-	<http://purl.org/dc/terms/title> "Openbare stemming (nieuwe stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "8a95dd87-2b9e-417b-bd8f-4268de2e56c7";
+	<http://purl.org/dc/terms/title> "Openbare stemming (klassieke stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "c4240022-e481-44ab-b38b-63254a66dc98";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Stemming>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<div property="besluit:heeftStemming">
-		<p property="stemming:openbaar" datatype="xsd:boolean" content="true">Stemt openbaar,</p> <!-- rdfa nakijken -->
-		<br>
+		<h5 property="stemming:openbaar" datatype="xsd:boolean" content="true">Openbare stemming</h5> <!-- rdfa nakijken -->
 		<div property="stemming:onderwerp">
+			<h6>Onderwerp van de stemming</h6>
 			<p><span class="mark-highlight-manual">Beschrijf onderwerp van stemming</span></p>
 		</div>
 		<br>
@@ -68,7 +68,6 @@
 		<br>
 		<p>Totaal aantal stemmen per stemmer: #</p>
 		<p>Totaal uitgebrachte stemmen: #</p>
-		<br>
 		<br>
 
 		<p><strong>Voorstanders <span property="stemming:aantalVoorstanders">#</span></strong></p>
@@ -151,7 +150,7 @@
 		<br>
 		<br>
 
-		<p>Gevolg stemming:</p>
+		<h6>Gevolg stemming</h6>
 		<p property="stemming:gevolg">
 			<span class="mark-highlight-manual">Beschrijf gevolg van stemming</span>
 		</p>
@@ -160,4 +159,4 @@
 	</div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Beheer stemmingen (nieuwe stijl)" .
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Beheer stemmingen (klassieke stijl)" .
