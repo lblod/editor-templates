@@ -101,85 +101,87 @@
   </span>
 
   <p style="color:red; margin: 4rem 0; display:block;">Output plugin beheer aanwezigen:</p> <!-- Delete me -->
-  <h3 class="h5">Aanwezige leden</h3>
-  <p>
-  	<span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-	    <span property="persoon:gebruikteVoornaam">
-	      Voornaam
-	    </span>
-	    <span property="foaf:familyName">
-	      Familienaam
-	    </span>
-	    <span>
-	      (Rol van het lid)
-	    </span>
-	  </span>, &nbsp;
-	  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-	    <span property="persoon:gebruikteVoornaam">
-	      Voornaam
-	    </span>
-	    <span property="foaf:familyName">
-	      Familienaam
-	    </span>
-	    <span>
-	      (Rol van het lid)
-	    </span>
-	  </span>, &nbsp;
-	  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-	    <span property="persoon:gebruikteVoornaam">
-	      Voornaam
-	    </span>
-	    <span property="foaf:familyName">
-	      Familienaam
-	    </span>
-	    <span>
-	      (Rol van het lid)
-	    </span>
-	  </span>
-	</p>
-  <br>
-  <br>
+  <div property="ext:aanwezigenTable">
+	  <h3 class="h5">Aanwezige leden</h3>
+	  <p>
+	  	<span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>, &nbsp;
+		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>
+		</p>
+	  <br>
+	  <br>
 
-  <h3 class="h5">Afwezige leden</h3>
-  <p>
-    <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-      <span property="persoon:gebruikteVoornaam">
-        Voornaam
-      </span>
-      <span property="foaf:familyName">
-        Familienaam
-      </span>
-	    <span>
-	      (Rol van het lid)
+	  <h3 class="h5">Afwezige leden</h3>
+	  <p>
+	    <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+	      <span property="persoon:gebruikteVoornaam">
+	        Voornaam
+	      </span>
+	      <span property="foaf:familyName">
+	        Familienaam
+	      </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
 	    </span>
-    </span>
-  </p>
-  <br>
-  <br>
+	  </p>
+	  <br>
+	  <br>
 
-  <h3 class="h5">Voorzitter &amp; Secretaris van de zitting</h3>
-  <p><strong>Voorzitter van de zitting</strong>
-  <p>
-	  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
-	    <span property="persoon:gebruikteVoornaam">
-	      Voornaam
-	    </span>
-	    <span property="foaf:familyName">
-	      Familienaam
-	    </span>
-	    <span>
-	      (Rol van het lid)
-	    </span>
-	  </span>
-  </p>
-  <br>
-  <p><strong>Secretaris van de zitting</strong>
-  <p>
-  	<span class="mark-highlight-manual">Voer officiële naam in</span>
-  </p>
-  <br>
-  <br>
-  <br>
+	  <h3 class="h5">Voorzitter &amp; Secretaris van de zitting</h3>
+	  <p><strong>Voorzitter van de zitting</strong></p>
+	  <p>
+		  <span property="besluit:heeftAanwezigeBijStart" resource="http://data.lblod.info/id/personen/f202051a-f5c0-4aa4-8b6b-7980a8239ed5" typeOf="mandaat:Mandataris">
+		    <span property="persoon:gebruikteVoornaam">
+		      Voornaam
+		    </span>
+		    <span property="foaf:familyName">
+		      Familienaam
+		    </span>
+		    <span>
+		      (Rol van het lid)
+		    </span>
+		  </span>
+	  </p>
+	  <br>
+	  <p><strong>Secretaris van de zitting</strong></p>
+	  <p>
+	  	<span class="mark-highlight-manual">Voer officiële naam in</span>
+	  </p>
+	  <br>
+	  <br>
+	  <br>
+	</div>
 
   <!-- Voor takenlijst beheer werkelijke start zitting -->
   <div class="ext_scroll_to" typeof="ext:ScrollToLocation" resource="http://scrollToLocation/${generateUuid()}">
