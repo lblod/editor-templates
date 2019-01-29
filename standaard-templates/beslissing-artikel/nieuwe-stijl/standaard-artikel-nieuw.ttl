@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Artikel (nieuwe stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "a1a4ab05-d9ed-48f7-a6fb-c18cf1031e74";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-nieuw>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Artikel>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">

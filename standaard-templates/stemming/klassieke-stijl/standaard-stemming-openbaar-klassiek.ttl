@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Openbare stemming (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "c4240022-e481-44ab-b38b-63254a66dc98";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Stemming>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<div property="besluit:heeftStemming">

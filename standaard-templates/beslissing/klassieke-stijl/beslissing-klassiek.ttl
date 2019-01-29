@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Beschikkend gedeelte (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "b2499453-49bb-4ac3-980c-cf7ac6e82c80";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Besluit>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
   <p>Beslist,</p>

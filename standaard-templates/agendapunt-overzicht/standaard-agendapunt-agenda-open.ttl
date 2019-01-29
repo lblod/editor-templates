@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Open agendapunt";
 	<http://mu.semte.ch/vocabularies/core/uuid> "1f816a91-6df7-4443-8172-0b713487a26d";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-agenda-open-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/AgendaOverzicht>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<!-- nakijken hoe we dit gaan aanpakken, nieuw agendapunt = in agenda en in behandeling -->

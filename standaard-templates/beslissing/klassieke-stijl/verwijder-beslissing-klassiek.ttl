@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Verwijder suggestie beschikkend gedeelte";
 	<http://mu.semte.ch/vocabularies/core/uuid> "a3c36f9d-83bd-4e8a-bdc0-cfcd9a3d5c2c";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-besluit-verwijder>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Besluit>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 """;

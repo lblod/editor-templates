@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Verwijder suggestie vrije tekst";
 	<http://mu.semte.ch/vocabularies/core/uuid> "2d22f457-cedf-40a3-951d-5aa4c68ed27a";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Beschrijving>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
   <div property="bekijk-mij-vrije-tekst"> <!-- bekijk property -->

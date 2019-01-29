@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Besloten agendapunt met tekst &mdash; zoals vraag, antwoord of tussenkomst (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "9594ec11-fd1b-41d5-b90b-b7d7ce12d0f6";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-behandeling-besloten-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/AgendaBehandeling>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->

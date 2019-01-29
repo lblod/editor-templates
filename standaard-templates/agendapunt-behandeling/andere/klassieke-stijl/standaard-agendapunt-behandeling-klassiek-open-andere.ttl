@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Open agendapunt met tekst &mdash; zoals vraag, antwoord of tussenkomst (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "4791c2c7-c167-4008-a80e-b7b635cf4190";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-behandeling-open-klasssiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/AgendaBehandeling>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->

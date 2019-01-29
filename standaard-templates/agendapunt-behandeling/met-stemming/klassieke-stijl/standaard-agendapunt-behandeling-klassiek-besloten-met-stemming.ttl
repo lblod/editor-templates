@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Generiek besloten agendapunt behandeling (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "d733ba6e-741d-4c11-9727-66162fa3e9af";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-behandeling-besloten-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/AgendaBehandeling>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->

@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Openbare stemming (nieuwe stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "8a95dd87-2b9e-417b-bd8f-4268de2e56c7";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Stemming>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<div property="besluit:heeftStemming">

@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Artikel (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "98a49d4d-21cb-411d-976d-cbec069e5f0c";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Artikel>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">

@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Verwijder suggestie artikel";
 	<http://mu.semte.ch/vocabularies/core/uuid> "c38fd1c9-7e1f-4183-b580-ba8d0af04a2e";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-verwijder>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Artikel>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 """;

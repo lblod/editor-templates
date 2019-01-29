@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Verwijder suggestie motivering";
 	<http://mu.semte.ch/vocabularies/core/uuid> "bc105b29-d467-4260-8e26-70d241d2bac8";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-verwijder>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Motivering>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 """;

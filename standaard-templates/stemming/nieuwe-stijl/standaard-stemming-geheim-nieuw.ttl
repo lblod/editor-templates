@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Geheime stemming (nieuwe stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "e31fe32d-f4b2-4db3-ae34-09e3a466bf04";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Stemming>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<div property="besluit:heeftStemming">

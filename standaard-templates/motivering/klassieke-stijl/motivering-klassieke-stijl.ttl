@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Motivering (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "21ccc571-de4e-49b5-88ee-e210b29a367e";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-artikel-klassiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Motivering>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
   <div property="besluit:motivering" lang="nl">

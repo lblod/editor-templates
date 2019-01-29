@@ -3,7 +3,7 @@
 	<http://mu.semte.ch/vocabularies/ext/Template>;
 	<http://purl.org/dc/terms/title> "Generiek open agendapunt behandeling (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "fbb28e8f-0e65-4637-8d4b-17abe7dda82c";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/standaard-agendapunt-behandeling-open-klasssiek>;
+	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/AgendaBehandeling>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->
