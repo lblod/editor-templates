@@ -29,9 +29,10 @@
 	    </div>
       <br>
 
-      <div property="bekijk-mij-vrije-tekst"> <!-- bekijk property -->
-	  		<p><span class="mark-highlight-manual">Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord of tussenkomst</span>.</p>
-	  	</div>
+		  <div property="needsproperty"> <!-- bekijk property -->
+				<p><span class="mark-highlight-manual">Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst.</span></p>
+			</div>
+			<br>
     </div>
   </div>
 
