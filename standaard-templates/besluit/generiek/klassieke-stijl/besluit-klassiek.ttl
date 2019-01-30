@@ -35,5 +35,4 @@
   </div>
 </div>
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg besluit toe"
-.
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg besluit toe".
