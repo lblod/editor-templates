@@ -12,7 +12,7 @@
   <br>
 
   <p>Citeeropschrift:</p>
-  <p property="eli:title_short">>&nbsp; <span class="mark-highlight-manual"> Geef citeeropschrift op </span> </p>
+  <p property="eli:title_short">&nbsp; <span class="mark-highlight-manual"> Geef citeeropschrift op </span> </p>
 
   <div property="besluit:motivering" lang="nl">
     <p class="u-spacer--small">De <span class="mark-highlight-manual">(Geef orgaan op)</span>,</p>
