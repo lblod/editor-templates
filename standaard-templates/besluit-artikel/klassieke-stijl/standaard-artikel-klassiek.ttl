@@ -1,21 +1,19 @@
+<http://lblod.info/templates/6e480bbd-93d9-4e66-a123-f6feda498bb7> a <http://mu.semte.ch/vocabularies/ext/Template>;
+  <http://purl.org/dc/terms/title> "Artikel (klassieke stijl)";
+  <http://mu.semte.ch/vocabularies/core/uuid> "6e480bbd-93d9-4e66-a123-f6feda498bb7";
+  <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitKlassiekeStijl>;
+  <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
-<http://lblod.info/templates/98a49d4d-21cb-411d-976d-cbec069e5f0c> a <http://mu.semte.ch/vocabularies/ext/Template>,
-	<http://mu.semte.ch/vocabularies/ext/Template>;
-	<http://purl.org/dc/terms/title> "Artikel (klassieke stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "98a49d4d-21cb-411d-976d-cbec069e5f0c";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Artikel>;
-	<http://mu.semte.ch/vocabularies/ext/templateContent> """
-
-	<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-	  <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
-	  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-	  <span property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
-	</div>
-	<br>
-	<div resource="#NieuwArtikelScenario" typeof="ext:Artikel">
-		<p>Voeg nieuw artikel in (klassieke stijl)</p> <!-- Plugin en rdfa nakijken -->
-	</div>
-	<br>
+  <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+    <span property="eli:number"> &nbsp; <span class="mark-highlight-manual">Geef artikel nummer op</span> </span> <!-- will be automated but not now -->
+    <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+    <span property="prov:value">Akte te nemen van 
+      <br> 
+      &nbsp; <span class="mark-highlight-manual">Voer inhoud in</span>. &nbsp;
+    </span>
+  </div>
+  <br>
+  <br>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg nieuw artikel in (klassieke stijl)" .
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg nieuw artikel in" .
