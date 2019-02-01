@@ -49,8 +49,10 @@
   <br>
   <!-- Agenda behandeling -->
   <h3 class="h2"> Behandeling van de Agendapunten</h3>
-  <div property="ext:behandelingVanAgendapuntenContainer">
-    <br>
+  <div property="besluit:heeftAgenda" resource="http://data.lblod.info/id/agendas/${generateUuid()}" typeof="besluit:Agenda">
+    <div property="ext:behandelingVanAgendapuntenContainer">
+      <br>
+    </div>
   </div>
   <br>
   <br>
