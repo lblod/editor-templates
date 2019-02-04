@@ -37,12 +37,12 @@
 
   <p class="u-spacer--small">Beslist,</p>
   <div property="prov:value">
-		Voeg nieuw artikel in
-		<br>
-		Voeg nieuw artikel in
+    Voeg nieuw artikel in
+    <br>
+    Voeg nieuw artikel in
   </div>
   &nbsp;
 </div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg besluit toe".
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg template inhoud behandeling van agendapunt".
