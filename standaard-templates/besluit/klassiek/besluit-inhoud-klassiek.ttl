@@ -17,7 +17,15 @@
   <br>
 
   <div property="besluit:motivering" lang="nl">
-    <p class="u-spacer--small">De <span class="mark-highlight-manual">(Geef orgaan op)</span>,</p>
+      <p><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan</span>,</p>
+      <!-- Add variable -->
+      <br>
+
+      <div>
+        <p>Voeg vrije tekst in</p> <!-- plugin en rdfa nakijken -->
+      </div>
+      <br>
+      <br>
 
     <div>
       <ul class="bullet-list">
