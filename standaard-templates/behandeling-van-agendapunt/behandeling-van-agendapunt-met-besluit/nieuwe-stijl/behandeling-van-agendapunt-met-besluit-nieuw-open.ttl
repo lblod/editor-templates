@@ -1,15 +1,15 @@
 
-<http://lblod.info/templates/9c05e71d-bd8a-4f1a-af9a-e6186e3eb416> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/6a884446-04f0-4ae1-ad72-25a6c561bd96> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
-	<http://purl.org/dc/terms/title> "Generiek besloten agendapunt behandeling (nieuwe stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "9c05e71d-bd8a-4f1a-af9a-e6186e3eb416";
+	<http://purl.org/dc/terms/title> "Generiek open agendapunt behandeling (nieuwe stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "6a884446-04f0-4ae1-ad72-25a6c561bd96";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/AgendaBehandeling>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->
 
   <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-#')}" typeof="besluit:BehandelingVanAgendapunt">
-    <span property="besluit:besloten" datatype="xsd:boolean" content="true" class="annotation--agendapunt--besloten__icon"><i class="fa fa-eye-slash"></i></span>
+    <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
     <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-#')}"><span id="${generateBoundUuid('agendapunt-nummer-#-bva')}">Agendapunt #</span></span>
     <br>
     <br>
@@ -64,7 +64,7 @@
 	  	-->
 
     	<div resource="#BeschikkendGedeelteScenario" typeof="ext:BesluitBesluit">
-      	<mark data-editor-highlight="true">Voeg beschikkend gedeelte in (nieuwe stijl)</mark> <!-- plugin en rdfa nakijken -->
+      	<mark data-editor-highlight="true">Voeg besluit in (nieuwe stijl)</mark> <!-- plugin en rdfa nakijken -->
       </div>
 	  	<!-- templates for beslissend gedeelte (nieuwe stijl, as we are in a nieuwe stijl agendapunt)
 

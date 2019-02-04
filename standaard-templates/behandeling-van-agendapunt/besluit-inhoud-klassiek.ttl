@@ -3,6 +3,7 @@
   <http://mu.semte.ch/vocabularies/core/uuid> "ff846ba3-c46b-4298-9676-13880356e642";
   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
+
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitKlassiekeStijl">
   <h5 class="h4" property="eli:title">&nbsp; <span class="mark-highlight-manual">Geef titel op</span></h5>
   <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -13,6 +14,7 @@
 
   <p>Citeeropschrift:</p>
   <p property="eli:title_short">&nbsp; <span class="mark-highlight-manual"> Geef citeeropschrift op </span> </p>
+  <br>
 
   <div property="besluit:motivering" lang="nl">
     <p class="u-spacer--small">De <span class="mark-highlight-manual">(Geef orgaan op)</span>,</p>
@@ -26,19 +28,21 @@
     <br>
     <div>
       <ul class="bullet-list">
-        <li>Overwegende dat <span class="mark-highlight-manual">voeg motivering in</span>;</li>
+        <li>Overwegende dat <span class="mark-highlight-manual">Voeg motivering in</span>;</li>
       </ul>
     </div>
   </div>
   <br>
   <br>
+
   <p class="u-spacer--small">Beslist,</p>
   <div property="prov:value">
-       Voeg nieuw artikel in
-       <br>
-       Voeg nieuw artikel in
+		Voeg nieuw artikel in
+		<br>
+		Voeg nieuw artikel in
   </div>
   &nbsp;
 </div>
+
 """;
 <http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg besluit toe".

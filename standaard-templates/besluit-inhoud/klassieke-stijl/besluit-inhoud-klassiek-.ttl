@@ -1,7 +1,7 @@
 
 <http://lblod.info/templates/b2499453-49bb-4ac3-980c-cf7ac6e82c80> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
-	<http://purl.org/dc/terms/title> "Beschikkend gedeelte (klassieke stijl)";
+	<http://purl.org/dc/terms/title> "besluit (klassieke stijl)";
 	<http://mu.semte.ch/vocabularies/core/uuid> "b2499453-49bb-4ac3-980c-cf7ac6e82c80";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Besluit>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
@@ -22,4 +22,4 @@
 	</div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg beschikkend gedeelte in (klassieke stijl)" .
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg besluit in (klassieke stijl)" .
