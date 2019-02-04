@@ -1,16 +1,18 @@
 
-<http://lblod.info/templates/d733ba6e-741d-4c11-9727-66162fa3e9af> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/fbb28e8f-0e65-4637-8d4b-17abe7dda82c> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
-	<http://purl.org/dc/terms/title> "Generiek besloten agendapunt behandeling (klassieke stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "d733ba6e-741d-4c11-9727-66162fa3e9af";
+	<http://purl.org/dc/terms/title> "Generiek open agendapunt behandeling (klassieke stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "fbb28e8f-0e65-4637-8d4b-17abe7dda82c";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/AgendaBehandeling>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
-	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->
-
-  <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-#')}" typeof="besluit:BehandelingVanAgendapunt">
-    <span property="besluit:besloten" datatype="xsd:boolean" content="true" class="annotation--agendapunt--besloten__icon"><i class="fa fa-eye-slash"></i></span>
-    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-#')}"><span id="${generateBoundUuid('agendapunt-nummer-#-bva')}">Agendapunt #</span></span>
+  <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitKlassiekeStijl">
+    <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon">
+    	<i class="fa fa-eye"></i>
+    </span>
+    <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-#')}">
+    	<span id="${generateBoundUuid('agendapunt-nummer-#-bva')}">Agendapunt #</span>
+    </span>
     <br>
     <br>
     <h4 class="h6">Aanwezigen bij agendapunt</h4>
@@ -68,7 +70,7 @@
 	  	-->
 
     	<div resource="#BeschikkendGedeelteScenario" typeof="ext:BesluitBesluit">
-      	<mark data-editor-highlight="true">Voeg beschikkend gedeelte in (klassieke stijl)</mark> <!-- plugin en rdfa nakijken -->
+      	<mark data-editor-highlight="true">Voeg besluit in (klassieke stijl)</mark> <!-- plugin en rdfa nakijken -->
       </div>
 	  	<!-- templates for beslissend gedeelte (klassieke stijl, as we are in a klassieke stijl agendapunt)
 

@@ -1,15 +1,15 @@
 
-<http://lblod.info/templates/6a884446-04f0-4ae1-ad72-25a6c561bd96> a <http://mu.semte.ch/vocabularies/ext/Template>,
+<http://lblod.info/templates/d733ba6e-741d-4c11-9727-66162fa3e9af> a <http://mu.semte.ch/vocabularies/ext/Template>,
 	<http://mu.semte.ch/vocabularies/ext/Template>;
-	<http://purl.org/dc/terms/title> "Generiek open agendapunt behandeling (nieuwe stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "6a884446-04f0-4ae1-ad72-25a6c561bd96";
+	<http://purl.org/dc/terms/title> "Generiek besloten agendapunt behandeling (klassieke stijl)";
+	<http://mu.semte.ch/vocabularies/core/uuid> "d733ba6e-741d-4c11-9727-66162fa3e9af";
 	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/AgendaBehandeling>;
 	<http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 	<!-- nakijken UUID's en variables voor nieuwe agendapunten, zoek naar # -->
 
   <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-#')}" typeof="besluit:BehandelingVanAgendapunt">
-    <span property="besluit:openbaar" datatype="xsd:boolean" content="true" class="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+    <span property="besluit:besloten" datatype="xsd:boolean" content="true" class="annotation--agendapunt--besloten__icon"><i class="fa fa-eye-slash"></i></span>
     <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-#')}"><span id="${generateBoundUuid('agendapunt-nummer-#-bva')}">Agendapunt #</span></span>
     <br>
     <br>
@@ -29,6 +29,10 @@
 	    </div>
       <br>
 
+  		<p><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan</span>,</p>
+  		<!-- Add variable -->
+  		<br>
+
     	<div resource="#VrijeTekstScenario" typeof="ext:BesluitVrijeTekst">
       	<p>Voeg vrije tekst in</p> <!-- plugin en rdfa nakijken -->
       </div>
@@ -41,35 +45,35 @@
 	  	-->
 
     	<div resource="#MotiveringScenario" typeof="ext:BesluitMotering">
-      	<mark data-editor-highlight="true">Voeg motivering in (nieuwe stijl)</mark> <!-- plugin en rdfa nakijken -->
+      	<mark data-editor-highlight="true">Voeg motivering in (klassieke stijl)</mark> <!-- plugin en rdfa nakijken -->
       </div>
       <br>
       <br>
-	  	<!-- templates for adding motivering (klassieke stijl, as we are in a nieuwe stijl agendapunt)
+	  	<!-- templates for adding motivering (klassieke stijl, as we are in a klassieke stijl agendapunt)
 
-			motivering/nieuwe-stijl/motivering-nieuwe-stijl.ttl
-			motivering/nieuwe-stijl/verwijder-motivering-nieuw.ttl
+			motivering/klassieke-stijl/motivering-klassieke-stijl.ttl
+			motivering/klassieke-stijl/verwijder-motivering-klassiek.ttl
 	  	-->
 
     	<div property="ext:insertStemmingen">
-      	<mark data-editor-highlight="true">Beheer stemmingen (nieuwe stijl)</mark> <!-- plugin en property nakijken -->
+      	<mark data-editor-highlight="true">Beheer stemmingen (klassieke stijl)</mark> <!-- plugin en property nakijken -->
       </div>
       <br>
       <br>
-	  	<!-- templates for adding stemming via plugin (nieuwe stijl, as we are in a nieuwe stijl agendapunt)
+	  	<!-- templates for adding stemming via plugin (klassieke stijl, as we are in a klassieke stijl agendapunt)
 
-			stemming/nieuwe-stijl/standaard-stemming-geheim-nieuw.ttl
-			stemming/nieuwe-stijl/standaard-stemming-openbaar-nieuw.ttl
-			stemming/nieuwe-stijl/verwijder-stemming-nieuw.ttl
+			stemming/klassieke-stijl/standaard-stemming-geheim-klassiek.ttl
+			stemming/klassieke-stijl/standaard-stemming-openbaar-klassiek.ttl
+			stemming/klassieke-stijl/verwijder-stemming-klassiek.ttl
 	  	-->
 
     	<div resource="#BeschikkendGedeelteScenario" typeof="ext:BesluitBesluit">
-      	<mark data-editor-highlight="true">Voeg beschikkend gedeelte in (nieuwe stijl)</mark> <!-- plugin en rdfa nakijken -->
+      	<mark data-editor-highlight="true">Voeg besluit in (klassieke stijl)</mark> <!-- plugin en rdfa nakijken -->
       </div>
-	  	<!-- templates for beslissend gedeelte (nieuwe stijl, as we are in a nieuwe stijl agendapunt)
+	  	<!-- templates for beslissend gedeelte (klassieke stijl, as we are in a klassieke stijl agendapunt)
 
-			beslissing/nieuwe-stijl/beslissing-nieuw.ttl
-			beslissing/nieuwe-stijl/verwijder-beslissing-nieuw.ttl
+			beslissing/klassieke-stijl/beslissing-klassiek.ttl
+			beslissing/klassieke-stijl/verwijder-beslissing-klassiek.ttl
 	  	-->
     </div>
   </div>
@@ -79,5 +83,5 @@
   <br>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg agendapunt in (nieuwe stijl)" .
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg agendapunt in (klassieke stijl)" .
 <!-- Deze informatie is waarschijnlijk niet nodig omdat we ze nu beheren met een plugin ipv met een zinnetje? -->
