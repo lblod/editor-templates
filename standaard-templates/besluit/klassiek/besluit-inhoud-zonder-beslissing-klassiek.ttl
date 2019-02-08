@@ -1,5 +1,4 @@
-<http://lblod.info/templates/2a7a8d70-2bab-11e9-9241-9fda8b38bfcf> a <http://mu.semte.ch/vocabularies/ext/Template>,
-  <http://mu.semte.ch/vocabularies/ext/Template>;
+<http://lblod.info/templates/2a7a8d70-2bab-11e9-9241-9fda8b38bfcf> a <http://mu.semte.ch/vocabularies/ext/Template>;
   <http://purl.org/dc/terms/title> "Open agendapunt met tekst &mdash; zoals vraag, antwoord of tussenkomst (klassieke stijl)";
   <http://mu.semte.ch/vocabularies/core/uuid> "2a7a8d70-2bab-11e9-9241-9fda8b38bfcf";
   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
