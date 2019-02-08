@@ -1,22 +1,22 @@
-
-<http://lblod.info/templates/a1a4ab05-d9ed-48f7-a6fb-c18cf1031e74> a <http://mu.semte.ch/vocabularies/ext/Template>,
-	<http://mu.semte.ch/vocabularies/ext/Template>;
-	<http://purl.org/dc/terms/title> "Artikel (nieuwe stijl)";
-	<http://mu.semte.ch/vocabularies/core/uuid> "a1a4ab05-d9ed-48f7-a6fb-c18cf1031e74";
-	<http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/Artikel>;
-	<http://mu.semte.ch/vocabularies/ext/templateContent> """
-
-	<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-	  <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
-	  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-	  <span property="prov:value"><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan<!-- add variable --></span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
-	  <!-- add variable for orgaan -->
-	</div>
-	<br>
-	<div resource="#NieuwArtikelScenario" typeof="ext:Artikel">
-		<p>Voeg nieuw artikel in (nieuwe stijl)</p> <!-- Plugin en rdfa nakijken -->
-	</div>
-	<br>
-
+<http://lblod.info/templates/49891d8e-2bb1-11e9-82f2-bf43ce7fc64b> a <http://mu.semte.ch/vocabularies/ext/Template>,
+  <http://mu.semte.ch/vocabularies/ext/Template>;
+  <http://purl.org/dc/terms/title> "Artikel (nieuwe stijl)";
+  <http://mu.semte.ch/vocabularies/core/uuid> "49891d8e-2bb1-11e9-82f2-bf43ce7fc64b";
+  <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://mu.semte.ch/vocabularies/ext/BesluitNieuweStijl>;
+  <http://mu.semte.ch/vocabularies/ext/templateContent> """
+    <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+      <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
+      <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+      <span property="prov:value">
+        <span class="mark-highlight-manual">De/Het<!-- add variable --></span>
+        <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan<!-- add variable --></span> neemt kennis van
+        <span class="mark-highlight-manual">Voer inhoud in</span>.
+      </span>
+      <!-- add variable for orgaan -->
+    </div>
+    <br>
+    <br>
+    <p>Voeg nieuw artikel in</p> <!-- Plugin en rdfa nakijken -->
+    <br>
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg nieuw artikel in (nieuwe stijl)" .
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg nieuw artikel in" .
