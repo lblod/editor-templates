@@ -32,8 +32,9 @@
   <!-- meta zitting -->
   <h2 class="h1" property="dc:title">
     Notulen
-    van de/het
+    van
     <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord')}">
+      de/het
       <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}">
         <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>
       </span>
