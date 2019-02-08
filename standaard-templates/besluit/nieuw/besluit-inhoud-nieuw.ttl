@@ -1,10 +1,10 @@
-<http://lblod.info/templates/ff846ba3-c46b-4298-9676-13880356e642> a <http://mu.semte.ch/vocabularies/ext/Template>;
-  <http://purl.org/dc/terms/title> "Generiek besluit (klassieke stijl)";
-  <http://mu.semte.ch/vocabularies/core/uuid> "ff846ba3-c46b-4298-9676-13880356e642";
+<http://lblod.info/templates/6933312e-2bac-11e9-af69-3baeff70b1a8> a <http://mu.semte.ch/vocabularies/ext/Template>;
+  <http://purl.org/dc/terms/title> "Generiek besluit (nieuw stijl)";
+  <http://mu.semte.ch/vocabularies/core/uuid> "6933312e-2bac-11e9-af69-3baeff70b1a8";
   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
-<div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitKlassiekeStijl">
+<div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitNieuweStijl">
   <h5 class="h4" property="eli:title">&nbsp; <span class="mark-highlight-manual">Geef titel op</span></h5>
   <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
   <br>
@@ -27,21 +27,21 @@
     <br>
     <br>
 
-		<h5>Bevoegdheid</h5>
-		<ul class="bullet-list">
-    	<li><span class="mark-highlight-manual">Voeg bevoegdheden in</span></li>
-		</ul>
-		<br>
+    <h5>Bevoegdheid</h5>
+    <ul class="bullet-list">
+      <li><span class="mark-highlight-manual">Voeg bevoegdheden in</span></li>
+    </ul>
+    <br>
 
-		<h5>Juridische context</h5>
-		<ul class="bullet-list">
-    	<li><span class="mark-highlight-manual">Voeg juridische context in</span></li>
+    <h5>Juridische context</h5>
+    <ul class="bullet-list">
+      <li><span class="mark-highlight-manual">Voeg juridische context in</span></li>
     </ul>
     <br>
 
     <h5>Feitelijke context en argumentatie</h5>
     <ul class="bullet-list">
-    	<li><span class="mark-highlight-manual">Voeg context en argumentatie in</span></li>
+      <li><span class="mark-highlight-manual">Voeg context en argumentatie in</span></li>
     </ul>
   </div>
   <br>
@@ -49,17 +49,15 @@
 
   <h5>Beslissing</h5>
   <div property="prov:value">
-		<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-		  <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
-		  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-		  <span property="prov:value"><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan<!-- add variable --></span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
-		  <!-- add variable for orgaan -->
-		</div>
-		<br>
-		<div resource="#NieuwArtikelScenario" typeof="ext:Artikel">
-			<p>Voeg nieuw artikel in (nieuwe stijl)</p> <!-- Plugin en rdfa nakijken -->
-		</div>
-		<br>
+    <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+      <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
+      <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+      <span property="prov:value"><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan<!-- add variable --></span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
+      <!-- add variable for orgaan -->
+    </div>
+    <br>
+    <p>Voeg nieuw artikel in</p> <!-- Plugin en rdfa nakijken -->
+    <br>
   </div>
   &nbsp;
 </div>
