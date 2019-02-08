@@ -18,13 +18,10 @@
     Notulen
     van
 
+    de/het
     <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}">
-      de/het
-
       <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>
-
     </span>,
-
     van
 
     <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">
