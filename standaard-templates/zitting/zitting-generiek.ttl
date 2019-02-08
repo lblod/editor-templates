@@ -1,8 +1,8 @@
-<http://lblod.info/templates/a5a954a3-4a70-463c-a744-c8aa8536b233> a <http://mu.semte.ch/vocabularies/ext/Template>;
+<http://lblod.info/templates/ad7c0cce-2ba3-11e9-adc5-b31231cd8dfa> a <http://mu.semte.ch/vocabularies/ext/Template>;
   <http://purl.org/dc/terms/title> "Zitting (generiek)";
-  <http://mu.semte.ch/vocabularies/core/uuid> "a5a954a3-4a70-463c-a744-c8aa8536b233";
-  <http://mu.semte.ch/vocabularies/ext/activeInContext> "http://xmlns.com/foaf/0.1/Document";
-  <http://mu.semte.ch/vocabularies/ext/disabledInContext> "http://data.vlaanderen.be/ns/besluit#Zitting";
+  <http://mu.semte.ch/vocabularies/core/uuid> "ad7c0cce-2ba3-11e9-adc5-b31231cd8dfa";
+  <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://xmlns.com/foaf/0.1/Document>;
+  <http://mu.semte.ch/vocabularies/ext/disabledInContext> <http://data.vlaanderen.be/ns/besluit#Zitting>;
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid()}">
 
