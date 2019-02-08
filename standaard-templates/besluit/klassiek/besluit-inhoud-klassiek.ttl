@@ -26,6 +26,7 @@
 
   <div property="besluit:motivering" lang="nl">
     <p>
+      <span class="mark-highlight-manual">De/Het<!-- add variable --></span>
       <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}"> geef bestuursorgaan op</span>,
     </p>
     <br>
