@@ -1,6 +1,6 @@
-<http://lblod.info/templates/ff846ba3-c46b-4298-9676-13880356e642> a <http://mu.semte.ch/vocabularies/ext/Template>;
+<http://lblod.info/templates/39c31a7e-2ba9-11e9-88cf-83ebfda837dc> a <http://mu.semte.ch/vocabularies/ext/Template>;
   <http://purl.org/dc/terms/title> "Generiek besluit (klassieke stijl)";
-  <http://mu.semte.ch/vocabularies/core/uuid> "ff846ba3-c46b-4298-9676-13880356e642";
+  <http://mu.semte.ch/vocabularies/core/uuid> "39c31a7e-2ba9-11e9-88cf-83ebfda837dc";
   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
@@ -45,19 +45,17 @@
 
   <p class="u-spacer--small">Beslist,</p>
   <div property="prov:value">
-		<div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-		  <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
-		  <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-		  <span property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
-		</div>
-		<br>
-		<div resource="#NieuwArtikelScenario" typeof="ext:Artikel">
-			<p>Voeg nieuw artikel in (klassieke stijl)</p> <!-- Plugin en rdfa nakijken -->
-		</div>
-		<br>
+    <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+      <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
+      <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+      <span property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
+    </div>
+    <br>
+    <p>Voeg nieuw artikel in</p>
+    <br>
   </div>
   &nbsp;
 </div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg template inhoud behandeling van agendapunt".
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg sjabloon in".
