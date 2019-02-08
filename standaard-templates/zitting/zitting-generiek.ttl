@@ -6,9 +6,27 @@
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 <div typeof="besluit:Zitting" resource="http://data.lblod.info/id/zittingen/${generateUuid()}">
 
+  <!--VARIABLE -->
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan-label-zitting')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+
   <!-- meta zitting -->
   <h2 class="h1" property="dc:title">
-    Notulen <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>, zitting van
+    Notulen
+    van
+
+    <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}">
+      de/het
+
+      <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>
+
+    </span>,
+
+    van
+
     <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">
      <span typeOf="ext:currentDate">&nbsp;</span>
     </span>

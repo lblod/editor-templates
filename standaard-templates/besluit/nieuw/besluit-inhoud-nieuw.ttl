@@ -4,6 +4,14 @@
   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
+
+  <!-- VARIABLE -->
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan-label-in-besluit')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitNieuweStijl">
   <h5 class="h4" property="eli:title">&nbsp; <span class="mark-highlight-manual">Geef titel op</span></h5>
   <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
@@ -17,7 +25,9 @@
   <br>
 
   <div property="besluit:motivering" lang="nl">
-    <p><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan</span>,</p>
+    <p>
+      <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}"> geef bestuursorgaan op</span>,
+    </p>
     <!-- Add variable -->
     <br>
 
@@ -48,18 +58,33 @@
   <br>
 
   <h5>Beslissing</h5>
-  <div property="prov:value">
-    <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-      <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
-      <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-      <span property="prov:value"><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan<!-- add variable --></span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
-      <!-- add variable for orgaan -->
-    </div>
-    <br>
-    <p>Voeg nieuw artikel in</p> <!-- Plugin en rdfa nakijken -->
-    <br>
+
+  <!-- VARIABLE -->
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
   </div>
-  &nbsp;
+
+
+  <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
+    <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
+    <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+    <span property="prov:value">
+      <span class="mark-highlight-manual">De/Het<!-- add variable --></span>
+      <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span>
+
+      neemt kennis van
+
+      <span class="mark-highlight-manual">Voer inhoud in</span>.
+    </span>
+
+  </div>
+  <br>
+  <br>
+  <p>Voeg nieuw artikel in</p> <!-- Plugin en rdfa nakijken -->
+  <br>;
+
 </div>
 
 """;

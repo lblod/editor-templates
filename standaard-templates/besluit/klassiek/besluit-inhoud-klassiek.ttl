@@ -16,9 +16,18 @@
   <p property="eli:title_short">&nbsp; <span class="mark-highlight-manual"> Geef citeeropschrift op </span> </p>
   <br>
 
+  <!-- VARIABLE -->
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan-label-in-besluit')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+
+
   <div property="besluit:motivering" lang="nl">
-    <p><span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span property="ext:scopedBestuursorgaanText">Selecteer bestuursorgaan</span>,</p>
-    <!-- Add variable -->
+    <p>
+      <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}"> geef bestuursorgaan op</span>,
+    </p>
     <br>
 
     <div>
