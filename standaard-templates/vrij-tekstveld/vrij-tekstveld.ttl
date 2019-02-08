@@ -5,7 +5,7 @@
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
   <div property="needsproperty"> <!-- bekijk property -->
-    <p><span class="mark-highlight-manual">Voeg vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst.</span></p>
+    <p><span class="mark-highlight-manual">Vrije tekst voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst.</span></p>
   </div>
   <br>
 

@@ -63,4 +63,4 @@
 </div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg template inhoud behandeling van agendapunt".
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg sjabloon in".
