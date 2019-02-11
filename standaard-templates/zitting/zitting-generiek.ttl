@@ -30,21 +30,18 @@
 
 
   <!-- meta zitting -->
-  <h2 class="h1" property="dc:title">
-    Notulen
-    van
+  <h1 property="dc:title">
+    Notulen van
     <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord')}">
       de/het
       <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}">
         <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>
       </span>
-    </span>,
-    van
-
+    </span>, van
     <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">
      <span typeOf="ext:currentDate">&nbsp;</span>
     </span>
-  </h2>
+  </h1>
   <br>
 
   <p>
@@ -61,7 +58,7 @@
   <br>
 
   <!-- aanwezigen -->
-  <h3 class="h2">Aanwezigen bij de zitting</h3>
+  <h2>Aanwezigen bij de zitting</h2>
   <span property="ext:insertAanwezigenText">Beheer aanwezigen bij de zitting.</span>
   <br>
   <br>
@@ -79,23 +76,23 @@
   <br>
   <br>
   <!-- opening -->
-  <h3 class="h2">Agenda overzicht</h3>
+  <h2>Agenda overzicht</h2>
   <div property="besluit:heeftAgenda" resource="http://data.lblod.info/id/agendas/${generateUuid()}" typeof="besluit:Agenda">
     <span property="ext:insertAgendaText">beheer agenda</span>
   </div>
   <br>
   <br>
   <!-- Agenda behandeling -->
-  <h3 class="h2"> Behandeling van de Agendapunten</h3>
+  <h2> Behandeling van de Agendapunten</h2>
   <div property="ext:behandelingVanAgendapuntenContainer">
-    <br>
+    <p class="text-fade">Geen agendapunten aangemaakt. Maak agendapunten aan door bij Agenda overzicht op <strong>beheer agenda</strong> te klikken.</p>
   </div>
   <br>
   <br>
   <!-- Sluiting zitting-->
-  <h3 class="h2">Sluiting van de zitting</h3>
+  <h2>Sluiting van de zitting</h2>
 
-  <p>De voorzitter van de raad sluit de zitting op
+  <p>De voorzitter van <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-2')}">bestuursorgaan</span> sluit de zitting op
      <span property="prov:endedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span>.
   </p>
   <br>
@@ -104,15 +101,11 @@
 
   <p>Namens de Raad,</p>
   <br>
-  <p><span class="mark-highlight-manual">Voer naam algemeen directeur in</span></p>
-  <p><strong>Algemeen directeur</strong></p>
+  <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
+  <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
   <br>
-  <p>
-    <span class="mark-highlight-manual">Voer naam in voorzitter van
-      <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-2')}">bestuursorgaan</span>
-   </span>
-  </p>
-  <p><strong>Voorzitter van de gemeenteraad</strong></p>
+  <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
+  <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
 
 </div>
 """;
