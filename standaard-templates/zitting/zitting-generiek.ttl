@@ -77,9 +77,7 @@
   <br>
   <!-- opening -->
   <h2>Agenda overzicht</h2>
-  <div property="besluit:heeftAgenda" resource="http://data.lblod.info/id/agendas/${generateUuid()}" typeof="besluit:Agenda">
     <span property="ext:insertAgendaText">beheer agenda</span>
-  </div>
   <br>
   <br>
   <!-- Agenda behandeling -->
