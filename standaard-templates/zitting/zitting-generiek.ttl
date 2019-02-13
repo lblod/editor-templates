@@ -27,6 +27,11 @@
     <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use-lidwoord">a</div>
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-3')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use-lidwoord">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
 
 
   <!-- meta zitting -->
@@ -98,7 +103,7 @@
   <br>
 
   <div property="ext:signatories">
-    <p>Namens de Raad,</p>
+    <p>Namens <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-3')}">bestuursorgaan</span>,</p>
     <br>
     <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
     <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
