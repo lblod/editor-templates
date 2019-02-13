@@ -58,7 +58,7 @@
 
   <!-- aanwezigen -->
   <h2>Aanwezigen bij de zitting</h2>
-  <span property="ext:insertAanwezigenText">Beheer aanwezigen bij de zitting.</span>
+  <div property="ext:insertAanwezigenText">Beheer aanwezigen bij de zitting.</div>
   <br>
   <br>
 
@@ -76,7 +76,9 @@
   <br>
   <!-- opening -->
   <h2>Agenda overzicht</h2>
-    <span property="ext:insertAgendaText">beheer agenda</span>
+	  <br>
+	  <br>
+    <div property="ext:insertAgendaText">Beheer agenda</div>
   <br>
   <br>
   <!-- Agenda behandeling -->
