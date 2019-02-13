@@ -80,7 +80,9 @@
   <br>
   <br>
   <!-- Agenda behandeling -->
-  <h2> Behandeling van de Agendapunten</h2>
+  <h2>Behandeling van de Agendapunten</h2>
+  <br>
+  <br>
   <div property="ext:behandelingVanAgendapuntenContainer">
     <p class="text-fade">Geen agendapunten aangemaakt. Maak agendapunten aan door bij Agenda overzicht op <strong>beheer agenda</strong> te klikken.</p>
   </div>
