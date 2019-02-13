@@ -42,6 +42,7 @@
     </span>
   </h1>
   <br>
+  <br>
 
   <p>
     Geplande start:
@@ -58,6 +59,7 @@
 
   <!-- aanwezigen -->
   <h2>Aanwezigen bij de zitting</h2>
+  <br>
   <div property="ext:insertAanwezigenText">Beheer aanwezigen bij de zitting.</div>
   <br>
   <br>
@@ -67,18 +69,16 @@
     De voorzitter van
     <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-1')}">bestuursorgaan</span>
     zit de vergadering voor en opent de zitting op
-
     <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">
       <span typeOf="ext:currentDate">&nbsp;</span>
-    </span>
- .</p>
+    </span>.
+ 	</p>
   <br>
   <br>
   <!-- opening -->
   <h2>Agenda overzicht</h2>
-	  <br>
-	  <br>
-    <div property="ext:insertAgendaText">Beheer agenda</div>
+  <br>
+  <div property="ext:insertAgendaText">Beheer agenda</div>
   <br>
   <br>
   <!-- Agenda behandeling -->
@@ -93,7 +93,6 @@
   <!-- Sluiting zitting-->
   <h2>Sluiting van de zitting</h2>
   <br>
-
   <p>De voorzitter van <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-2')}">bestuursorgaan</span> sluit de zitting op
      <span property="prov:endedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span>.
   </p>
