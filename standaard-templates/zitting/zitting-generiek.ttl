@@ -36,13 +36,7 @@
 
   <!-- meta zitting -->
   <h1 property="dc:title">
-    Notulen van
-    <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord')}">
-      de/het
-      <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}">
-        <span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span>
-      </span>
-    </span>, van
+    Notulen van <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord')}">de/het <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}"><span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span></span></span>, van
     <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">
      <span typeOf="ext:currentDate">&nbsp;</span>
     </span>
