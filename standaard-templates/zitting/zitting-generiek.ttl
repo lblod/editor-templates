@@ -77,9 +77,7 @@
   <br>
   <!-- opening -->
   <h2>Agenda overzicht</h2>
-  <div property="besluit:heeftAgenda" resource="http://data.lblod.info/id/agendas/${generateUuid()}" typeof="besluit:Agenda">
     <span property="ext:insertAgendaText">beheer agenda</span>
-  </div>
   <br>
   <br>
   <!-- Agenda behandeling -->
@@ -99,13 +97,15 @@
   <br>
   <br>
 
-  <p>Namens de Raad,</p>
-  <br>
-  <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
-  <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
-  <br>
-  <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
-  <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
+  <div property="ext:signatories">
+    <p>Namens de Raad,</p>
+    <br>
+    <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
+    <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
+    <br>
+    <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
+    <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
+  </div>
 
 </div>
 """;
