@@ -13,20 +13,20 @@
   </div>
 
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitNieuweStijl">
-  <h5 class="h4" property="eli:title">&nbsp; <span class="mark-highlight-manual">Geef titel op</span></h5>
+  <h5 class="h4" property="eli:title"><span class="mark-highlight-manual">Geef titel op</span></h5>
   <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
   <br>
   <p>Korte openbare beschrijving:</p>
-  <p property="eli:description">&nbsp; <span class="mark-highlight-manual"> Geef korte beschrijving op </span> </p>
+  <p property="eli:description"><span class="mark-highlight-manual">Geef korte beschrijving op</span></p>
   <br>
 
   <p>Citeeropschrift:</p>
-  <p property="eli:title_short">&nbsp; <span class="mark-highlight-manual"> Geef citeeropschrift op </span> </p>
+  <p property="eli:title_short"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
   <br>
 
   <div property="besluit:motivering" lang="nl">
     <p>
-      <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}"> geef bestuursorgaan op</span>,
+      <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}">geef bestuursorgaan op</span>,
     </p>
     <!-- Add variable -->
     <br>
@@ -73,9 +73,7 @@
     <span property="prov:value">
       <span class="mark-highlight-manual">De/Het<!-- add variable --></span>
       <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span> neemt kennis van
-
       <br>
-
       <span class="mark-highlight-manual">Voer inhoud in</span>. <br>
     </span>
 

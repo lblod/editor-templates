@@ -5,15 +5,15 @@
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitKlassiekeStijl">
-  <h5 class="h4" property="eli:title">&nbsp; <span class="mark-highlight-manual">Geef titel op</span></h5>
+  <h5 class="h4" property="eli:title"><span class="mark-highlight-manual">Geef titel op</span></h5>
   <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
   <br>
   <p>Korte openbare beschrijving:</p>
-  <p property="eli:description">&nbsp; <span class="mark-highlight-manual"> Geef korte beschrijving op </span> </p>
+  <p property="eli:description"><span class="mark-highlight-manual">Geef korte beschrijving op</span></p>
   <br>
 
   <p>Citeeropschrift:</p>
-  <p property="eli:title_short">&nbsp; <span class="mark-highlight-manual"> Geef citeeropschrift op </span> </p>
+  <p property="eli:title_short"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
   <br>
 
   <!-- VARIABLE -->
@@ -27,7 +27,7 @@
   <div property="besluit:motivering" lang="nl">
     <p>
       <span class="mark-highlight-manual">De/Het<!-- add variable --></span>
-      <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}"> geef bestuursorgaan op</span>,
+      <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}">geef bestuursorgaan op</span>,
     </p>
     <br>
 
@@ -39,7 +39,7 @@
 
     <div>
       <ul class="bullet-list">
-        <li>&nbsp; <span class="mark-highlight-manual">Voeg juridische grond in</span>;</li>
+        <li>Gelet op <span class="mark-highlight-manual">Voeg juridische grond in</span>;</li>
       </ul>
     </div>
 
