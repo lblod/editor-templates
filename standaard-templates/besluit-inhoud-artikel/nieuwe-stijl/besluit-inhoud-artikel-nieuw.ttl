@@ -17,11 +17,7 @@
     <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
     <span property="prov:value">
       <span class="mark-highlight-manual">De/Het<!-- add variable --></span>
-      <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span> neemt kennis van
-
-      <br>
-
-      <span class="mark-highlight-manual">Voer inhoud in</span>. <br>
+      <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>. <br>
     </span>
 
   </div>

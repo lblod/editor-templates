@@ -5,12 +5,9 @@
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-    <span property="eli:number"> &nbsp; <span class="mark-highlight-manual">Geef artikel nummer op</span> </span> <!-- will be automated but not now -->
+    <span property="eli:number"><span class="mark-highlight-manual">Geef artikel nummer op</span></span> <!-- will be automated but not now -->
     <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-    <span property="prov:value">Akte te nemen van
-      <br>
-      &nbsp; <span class="mark-highlight-manual">Voer inhoud in</span>. &nbsp;
-    </span>
+    <span property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
   </div>
   <br>
   <br>
