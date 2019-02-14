@@ -11,20 +11,16 @@
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
 
-
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-    <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
+    <div property="eli:number">Artikel <span class="mark-highlight-manual">#</span></div>
     <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-    <span property="prov:value">
-      <span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>. <br>
-    </span>
-
+    <div property="prov:value">
+      <span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.
+    </div>
   </div>
   <br>
+  <div>Voeg nieuw artikel in</div>
   <br>
-  <p>Voeg nieuw artikel in</p> <!-- Plugin en rdfa nakijken -->
-  <br>
-
 
 """;
 <http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg nieuw artikel in" .

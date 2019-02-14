@@ -32,7 +32,7 @@
     <br>
 
     <div>
-      <p class="mark-highlight-manual">Voeg vrije tekst in</p> <!-- plugin en rdfa nakijken -->
+      <p class="mark-highlight-manual">Voeg vrije tekst in</p>
     </div>
     <br>
     <br>
@@ -56,15 +56,14 @@
   <p class="u-spacer--small">Beslist,</p>
   <div property="prov:value">
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-      <span property="eli:number">Artikel #</span> <!-- Enig artikel, Artikel 1, Artikel 2, ...? -->
+      <div property="eli:number">Artikel <span class="mark-highlight-manual">#</span></div>
       <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
-      <span property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</span>
+      <div property="prov:value">Akte te nemen van <span class="mark-highlight-manual">Voer inhoud in</span>.</div>
     </div>
     <br>
-    <p>Voeg nieuw artikel in</p>
+    <div>Voeg nieuw artikel in</div>
     <br>
   </div>
-  &nbsp;
 </div>
 
 """;
