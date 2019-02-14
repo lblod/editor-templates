@@ -155,7 +155,7 @@
     <ul>
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}" typeof="besluit:Agendapunt">
-          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
           <span id="${generateBoundUuid('agendapunt-nummer-1')}">Agendapunt 1:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-1')}">
 	    Kennisneming samenstelling raad voor maatschappelijk welzijn
           </span>
@@ -165,7 +165,7 @@
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}" typeof="besluit:Agendapunt">
           <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}">
-          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
           <span id="${generateBoundUuid('agendapunt-nummer-2')}">Agendapunt 2:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-2')}">
 	    Kennisneming voorzitter raad voor maatschappelijk welzijn
           </span>
@@ -175,7 +175,7 @@
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}" typeof="besluit:Agendapunt">
           <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}">
-          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
           <span id="${generateBoundUuid('agendapunt-nummer-3')}">Agendapunt 3:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-3')}">
 	    Kennisneming samenstelling en voorzitter vast bureau
           </span>
@@ -185,7 +185,7 @@
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}" typeof="besluit:Agendapunt">
           <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}">
-          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
           <span id="${generateBoundUuid('agendapunt-nummer-4')}">Agendapunt 4:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-4')}">
 	    Verkiezing van de voorzitter van het bijzonder comité voor de sociale dienst
           </span>
@@ -195,7 +195,7 @@
       <li>
         <span property="besluit:heeftAgendapunt" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-5')}" typeof="besluit:Agendapunt">
           <meta property="besluit:aangebrachtNa" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}">
-          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+          <span property="besluit:geplandOpenbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
           <span id="${generateBoundUuid('agendapunt-nummer-5')}">Agendapunt 5:</span> <span property="dc:title"><span id="${generateBoundUuid('ap-5')}">
 	    Verkiezing van de leden van het bijzonder comité voor de sociale dienst
           </span>
@@ -215,7 +215,7 @@
   <br>
 
   <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}" typeof="besluit:BehandelingVanAgendapunt">
-    <span property="besluit:openbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+    <span property="besluit:openbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
     <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-1')}"><span id="${generateBoundUuid('agendapunt-nummer-1-bva')}">Agendapunt 1</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
@@ -273,7 +273,7 @@
 
   <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-2')}" typeof="besluit:BehandelingVanAgendapunt">
     <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-1')}">
-    <span property="besluit:openbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+    <span property="besluit:openbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
     <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-2')}"><span id="${generateBoundUuid('agendapunt-nummer-2-bva')}">Agendapunt 2</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
@@ -333,7 +333,7 @@
 
   <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-3')}" typeof="besluit:BehandelingVanAgendapunt">
     <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-2')}">
-    <span property="besluit:openbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+    <span property="besluit:openbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
     <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-3')}"><span id="${generateBoundUuid('agendapunt-nummer-3-bva')}">Agendapunt 3</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
@@ -392,7 +392,7 @@
 
   <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-4')}" typeof="besluit:BehandelingVanAgendapunt">
     <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-3')}">
-    <span property="besluit:openbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+    <span property="besluit:openbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
     <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-4')}"><span id="${generateBoundUuid('agendapunt-nummer-4-bva')}">Agendapunt 4</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
@@ -418,7 +418,7 @@
 
   <div property="ext:behandelt" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-5')}" typeof="besluit:BehandelingVanAgendapunt">
     <meta property="besluit:gebeurtNa" resource="http://data.lblod.info/id/behandelingen-van-agendapunten/${generateUuid('bva-nr-5')}">
-    <span property="besluit:openbaar" datatype="xsd:boolean" content="trueclass="annotation--agendapunt--open__icon"><i class="fa fa-eye"></i></span>
+    <span property="besluit:openbaar" datatype="xsd:boolean" content="true"><i class="fa fa-eye"></i></span>
     <span property="dc:subject" resource="http://data.lblod.info/id/agendapunten/${generateBoundUuid('ap-5')}"><span id="${generateBoundUuid('agendapunt-nummer-5-bva')}">Agendapunt 5</span></span>
     <br>
     <h3 class="h6">Aanwezigen bij agendapunt</h3>
