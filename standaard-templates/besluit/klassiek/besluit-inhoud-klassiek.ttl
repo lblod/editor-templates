@@ -32,12 +32,6 @@
     <br>
 
     <div>
-      <p class="mark-highlight-manual">Voeg vrije tekst in</p>
-    </div>
-    <br>
-    <br>
-
-    <div>
       <ul class="bullet-list">
         <li>Gelet op <span class="mark-highlight-manual">Voeg juridische grond in</span>;</li>
       </ul>

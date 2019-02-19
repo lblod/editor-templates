@@ -31,12 +31,6 @@
     <!-- Add variable -->
     <br>
 
-    <div>
-      <p class="mark-highlight-manual">Voeg vrije tekst in</p> <!-- plugin en rdfa nakijken -->
-    </div>
-    <br>
-    <br>
-
     <h5>Bevoegdheid</h5>
     <ul class="bullet-list">
       <li><span class="mark-highlight-manual">Voeg bevoegdheden in</span></li>
