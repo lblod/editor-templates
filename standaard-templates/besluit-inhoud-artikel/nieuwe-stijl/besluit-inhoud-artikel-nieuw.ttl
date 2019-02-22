@@ -13,7 +13,7 @@
 
   <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
     <div property="eli:number">Artikel <span class="mark-highlight-manual">#</span></div>
-    <meta property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">
+    <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
     <div property="prov:value">
       <span class="mark-highlight-manual">De/Het<!-- add variable --></span> <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.
     </div>
