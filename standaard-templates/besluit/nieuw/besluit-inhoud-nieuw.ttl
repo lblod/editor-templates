@@ -65,7 +65,7 @@
 	    <div property="eli:number">Artikel <span class="mark-highlight-manual">#</span></div>
 	    <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
 	    <div property="prov:value">
-	      <span class="mark-highlight-manual">De/Het</span> <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span> neemt kennis van <span class="mark-highlight-manual">Voer inhoud in</span>.
+	      <span class="mark-highlight-manual">De/Het</span> <span id="${generateBoundUuid('bestuursorgaan-label-in-artikel')}">Selecteer bestuursorgaan</span> <span class="mark-highlight-manual">Voer inhoud in</span>.
 	    </div>
 	  </div>
 	  <br>
