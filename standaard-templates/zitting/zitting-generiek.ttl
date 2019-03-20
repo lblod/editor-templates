@@ -32,19 +32,28 @@
     <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use-lidwoord">a</div>
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
-
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('zitting-geplande-start-1')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/geplande-start">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
+  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
+    <div property="ext:idInSnippet" content="${generateBoundUuid('zitting-geplande-start-2')}">0</div>
+    <div property="ext:intentionUri" content="http://zitting/geplande-start">a</div>
+    <div property="ext:variableState" content="initialized">initialized</div>
+  </div>
 
   <!-- meta zitting -->
   <h1 property="dc:title">
     Notulen van <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord')}">de/het <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}"><span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span></span></span>, van
-    <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span>
+    <span id="${generateBoundUuid('zitting-geplande-start-1')}"><span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span></span>
   </h1>
   <br>
   <br>
 
   <p>
     Geplande start:
-    <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span>
+    <span id="${generateBoundUuid('zitting-geplande-start-2')}"><span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span></span>
   </p>
 
   <p>
