@@ -28,11 +28,6 @@
     <div property="ext:variableState" content="initialized">initialized</div>
   </div>
   <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
-    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-3')}">0</div>
-    <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use-lidwoord">a</div>
-    <div property="ext:variableState" content="initialized">initialized</div>
-  </div>
-  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
     <div property="ext:idInSnippet" content="${generateBoundUuid('zitting-geplande-start-1')}">0</div>
     <div property="ext:intentionUri" content="http://zitting/geplande-start">a</div>
     <div property="ext:variableState" content="initialized">initialized</div>
@@ -70,12 +65,7 @@
   <br>
 
   <!-- opening -->
-  <p>
-    De voorzitter van
-    <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-1')}">bestuursorgaan</span>
-    zit de vergadering voor en opent de zitting op
-    <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer effectieve start in</span>.
- 	</p>
+  <p>De voorzitter opent de zitting op <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer effectieve start in</span>.</p>
   <br>
   <br>
   <!-- opening -->
@@ -96,13 +86,13 @@
   <!-- Sluiting zitting-->
   <h2>Sluiting van de zitting</h2>
   <br>
-  <p>De voorzitter van <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-2')}">bestuursorgaan</span> sluit de zitting op <span property="prov:endedAtTime" content="" datatype="xsd:dateTime">Voer sluiting zitting in</span>.
+  <p>De voorzitter van <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-1')}">bestuursorgaan</span> sluit de zitting op <span property="prov:endedAtTime" content="" datatype="xsd:dateTime">Voer sluiting zitting in</span>.
   </p>
   <br>
   <br>
 
   <div property="ext:signatories">
-    <p>Namens <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-3')}">bestuursorgaan</span>,</p>
+    <p>Namens <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord-2')}">bestuursorgaan</span>,</p>
     <br>
     <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
     <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
