@@ -41,14 +41,14 @@
   <!-- meta zitting -->
   <h1 property="dc:title">
     Notulen van <span id="${generateBoundUuid('bestuursorgaan-label-zitting-met-lidwoord')}">de/het <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}"><span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span></span></span>, van
-    <span id="${generateBoundUuid('zitting-geplande-start-1')}"><span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span></span>
+    <span id="${generateBoundUuid('zitting-geplande-start-1')}"><span property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span></span>
   </h1>
   <br>
   <br>
 
   <p>
     Geplande start:
-    <span id="${generateBoundUuid('zitting-geplande-start-2')}"><span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span></span>
+    <span id="${generateBoundUuid('zitting-geplande-start-2')}"><span property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span></span>
   </p>
 
   <p>
@@ -65,7 +65,7 @@
   <br>
 
   <!-- opening -->
-  <p>De voorzitter opent de zitting op <span class="annotation" property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer effectieve start in</span>.</p>
+  <p>De voorzitter opent de zitting op <span property="prov:startedAtTime" datatype="xsd:dateTime" content="">Voer effectieve start in</span>.</p>
   <br>
   <br>
   <!-- opening -->
