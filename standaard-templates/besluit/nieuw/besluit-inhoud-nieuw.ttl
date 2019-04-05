@@ -21,8 +21,8 @@
   <p property="eli:description"><span class="mark-highlight-manual">Geef korte beschrijving op</span></p>
   <br>
 
-  <p>Opschrift:</p>
-  <p property="eli:title_short"><span class="mark-highlight-manual">Geef opschrift op</span></p>
+  <p>Citeeropschrift:</p>
+  <p property="eli:title_short"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
   <br>
 
   <div property="besluit:motivering" lang="nl">
