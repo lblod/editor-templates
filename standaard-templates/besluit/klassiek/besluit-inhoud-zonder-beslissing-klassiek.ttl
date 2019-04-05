@@ -14,4 +14,4 @@
   </div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg sjabloon in".
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg besluitsjabloon in".
