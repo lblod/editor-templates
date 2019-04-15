@@ -1,5 +1,5 @@
 <http://lblod.info/templates/6933312e-2bac-11e9-af69-3baeff70b1a8> a <http://mu.semte.ch/vocabularies/ext/Template>;
-  <http://purl.org/dc/terms/title> "Generiek besluit (nieuw stijl)";
+  <http://purl.org/dc/terms/title> "Generiek besluit (nieuwe stijl)";
   <http://mu.semte.ch/vocabularies/core/uuid> "6933312e-2bac-11e9-af69-3baeff70b1a8";
   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
