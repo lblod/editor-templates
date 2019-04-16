@@ -31,14 +31,14 @@
   <!-- meta zitting -->
   <h1 property="dc:title">
     Notulen van de/het <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}"><span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span></span>, van
-    <span id="${generateBoundUuid('zitting-geplande-start-1')}"><span property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span></span>
+    <span id="${generateBoundUuid('zitting-geplande-start-1')}"><span property="besluit:geplandeStart" datatype="xsd:dateTime" content=""><span typeOf="ext:currentDate">&nbsp;</span></span></span>
   </h1>
   <br>
   <br>
 
   <p>
     Geplande start:
-    <span id="${generateBoundUuid('zitting-geplande-start-2')}"><span property="besluit:geplandeStart" datatype="xsd:dateTime" content="">Voer geplande start in</span></span>
+    <span id="${generateBoundUuid('zitting-geplande-start-2')}"><span property="besluit:geplandeStart" datatype="xsd:dateTime" content=""><span typeOf="ext:currentDate">&nbsp;</span></span></span>
   </p>
 
   <p>
@@ -55,7 +55,7 @@
   <br>
 
   <!-- opening -->
-  <p>De voorzitter opent de zitting op <span property="prov:startedAtTime" datatype="xsd:dateTime" content="">Voer effectieve start in</span>.</p>
+  <p>De voorzitter opent de zitting op <span property="prov:startedAtTime" datatype="xsd:dateTime" content=""><span typeOf="ext:currentDate">&nbsp;</span></span>.</p>
   <br>
   <br>
   <!-- opening -->
@@ -76,7 +76,7 @@
   <!-- Sluiting zitting-->
   <h2>Sluiting van de zitting</h2>
   <br>
-  <p>De voorzitter sluit de zitting op <span property="prov:endedAtTime" content="" datatype="xsd:dateTime">Voer sluiting zitting in</span>.
+  <p>De voorzitter sluit de zitting op <span property="prov:endedAtTime" content="" datatype="xsd:dateTime"><span typeOf="ext:currentDate">&nbsp;</span></span>.
   </p>
   <br>
   <br>
