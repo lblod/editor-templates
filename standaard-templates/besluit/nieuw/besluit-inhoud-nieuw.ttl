@@ -69,4 +69,4 @@
 </div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg besluitsjabloon in".
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg sjabloon in voor besluit of vrij tekstveld (bijvoorbeeld voor een vraag, antwoord of tussenkomst)".

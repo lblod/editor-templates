@@ -1,5 +1,5 @@
 <http://lblod.info/templates/2a7a8d70-2bab-11e9-9241-9fda8b38bfcf> a <http://mu.semte.ch/vocabularies/ext/Template>;
-  <http://purl.org/dc/terms/title> "Open agendapunt met tekst - zoals vraag, antwoord of tussenkomst";
+  <http://purl.org/dc/terms/title> "Vrij tekstveld (bijvoorbeeld voor een vraag, antwoord of tussenkomst)";
   <http://mu.semte.ch/vocabularies/core/uuid> "2a7a8d70-2bab-11e9-9241-9fda8b38bfcf";
   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
@@ -14,4 +14,4 @@
   </div>
 
 """;
-<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg besluitsjabloon in".
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "Voeg sjabloon in voor besluit of vrij tekstveld (bijvoorbeeld voor een vraag, antwoord of tussenkomst)".
