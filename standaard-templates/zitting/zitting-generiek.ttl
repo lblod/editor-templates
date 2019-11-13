@@ -82,7 +82,7 @@
   <br>
 
   <div property="ext:signatories">
-    <p>Namens <span id="${generateBoundUuid('bestuursorgaan-label-zitting-1')}">selecteer bestuursorgaan</span>,</p>
+    <p>Namens <span id="${generateBoundUuid('bestuursorgaan-label-zitting-1')}"><span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span></span>,</p>
     <br>
     <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
     <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
