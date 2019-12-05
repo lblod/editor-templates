@@ -31,14 +31,14 @@
   <!-- meta zitting -->
   <h1 property="dc:title">
     Notulen van de/het <span id="${generateBoundUuid('bestuursorgaan-label-zitting')}"><span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span></span>, van
-    <span id="${generateBoundUuid('zitting-geplande-start-1')}"><span property="besluit:geplandeStart" datatype="xsd:dateTime" content=""><span typeOf="ext:currentDate">&nbsp;</span></span></span>
+    <span id="${generateBoundUuid('zitting-geplande-start-1')}"><span property="besluit:geplandeStart" datatype="dateplugin:currentDateTime" content=""></span></span>
   </h1>
   <br>
   <br>
 
   <p>
     Geplande start:
-    <span id="${generateBoundUuid('zitting-geplande-start-2')}"><span property="besluit:geplandeStart" datatype="xsd:dateTime" content=""><span typeOf="ext:currentDate">&nbsp;</span></span></span>
+    <span id="${generateBoundUuid('zitting-geplande-start-2')}"><span property="besluit:geplandeStart" datatype="dateplugin:currentDateTime" content=""></span></span>
   </p>
 
   <p>
