@@ -42,7 +42,7 @@
   </p>
 
   <p>
-    Locatie: <span class="mark-highlight-manual">Voer naam locatie in</span>, <span class="mark-highlight-manual">Voer naam zaal in</span>.
+    Locatie: <span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voer naam locatie in</span>, <span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voer naam zaal in</span>.
   </p>
   <br>
   <br>
@@ -84,11 +84,11 @@
   <div property="ext:signatories">
     <p>Namens <span id="${generateBoundUuid('bestuursorgaan-label-zitting-1')}"><span property="ext:scopedBestuursorgaanText">selecteer bestuursorgaan</span></span>,</p>
     <br>
-    <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
-    <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
+    <p><strong><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voer rol ondertekenaar in</span></strong></p>
+    <p><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voer naam ondertekenaar in</span></p>
     <br>
-    <p><strong><span class="mark-highlight-manual">Voer rol ondertekenaar in</span></strong></p>
-    <p><span class="mark-highlight-manual">Voer naam ondertekenaar in</span></p>
+    <p><strong><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voer rol ondertekenaar in</span></strong></p>
+    <p><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voer naam ondertekenaar in</span></p>
   </div>
 
 </div>

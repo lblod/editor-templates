@@ -6,15 +6,15 @@
 
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitNieuweStijl">
   <p>Openbare titel besluit:</p>
-  <h4 class="h4" property="eli:title"><span class="mark-highlight-manual">Geef titel besluit op</span></h4>
+  <h4 class="h4" property="eli:title"><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Geef titel besluit op</span></h4>
   <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
   <br>
   <p>Korte openbare beschrijving:</p>
-  <p property="eli:description"><span class="mark-highlight-manual">Geef korte beschrijving op</span></p>
+  <p property="eli:description"><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Geef korte beschrijving op</span></p>
   <br>
 
   <p>Citeeropschrift:</p>
-  <p property="eli:title_short"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
+  <p property="eli:title_short"><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Geef citeeropschrift op</span></p>
   <br>
 
   <!-- VARIABLE -->
@@ -26,26 +26,26 @@
 
   <div property="besluit:motivering" lang="nl">
     <p>
-      <span class="mark-highlight-manual">De/Het</span>
+      <span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">De/Het</span>
       <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}">geef bestuursorgaan op</span>,
     </p>
     <br>
 
     <h5>Bevoegdheid</h5>
     <ul class="bullet-list">
-      <li><span class="mark-highlight-manual">Voeg bevoegdheden in</span></li>
+      <li><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voeg bevoegdheden in</span></li>
     </ul>
     <br>
 
     <h5>Juridische context</h5>
     <ul class="bullet-list">
-      <li><span class="mark-highlight-manual">Voeg juridische context in</span></li>
+      <li><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voeg juridische context in</span></li>
     </ul>
     <br>
 
     <h5>Feitelijke context en argumentatie</h5>
     <ul class="bullet-list">
-      <li><span class="mark-highlight-manual">Voeg context en argumentatie in</span></li>
+      <li><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voeg context en argumentatie in</span></li>
     </ul>
   </div>
   <br>
@@ -65,7 +65,7 @@
       <div property="eli:number">Artikel 1</div>
       <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <div property="prov:value">
-        <span class="mark-highlight-manual">Voer inhoud in</span>
+        <span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voer inhoud in</span>
       </div>
     </div>
     <br>
