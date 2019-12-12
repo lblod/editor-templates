@@ -44,6 +44,15 @@
   <p>
     Locatie: <span class="mark-highlight-manual">Voer naam locatie in</span>, <span class="mark-highlight-manual">Voer naam zaal in</span>.
   </p>
+  <p>
+    Gestart op:
+    <span property="prov:startedAtTime" datatype="dateplugin:currentDateTime" content=""></span>
+  </p>
+  <p>
+    Beëindigd  op:
+    <span property="prov:endedAtTime" datatype="dateplugin:currentDateTime" content=""></span>
+  </p>
+
   <br>
   <br>
 
