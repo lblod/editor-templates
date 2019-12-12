@@ -5,10 +5,10 @@
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
   <div>
-    <h4 class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Titel van het agendapunt</h4>
+    <h4 class="mark-highlight-manual">Titel van het agendapunt</h4>
     <br>
     <div>
-      <p><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Geef vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst.</span></p>
+      <p><span class="mark-highlight-manual">Geef vrije tekst in voor bijvoorbeeld vraag, antwoord, amendement, mededeling of tussenkomst.</span></p>
     </div>
     <br>
   </div>

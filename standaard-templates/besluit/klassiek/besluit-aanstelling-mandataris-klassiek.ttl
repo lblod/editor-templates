@@ -11,11 +11,11 @@
   <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
   <br>
   <p>Korte openbare beschrijving:</p>
-  <p property="eli:description"><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Geef korte beschrijving op</span></p>
+  <p property="eli:description"><span class="mark-highlight-manual">Geef korte beschrijving op</span></p>
   <br>
 
   <p>Citeeropschrift:</p>
-  <p property="eli:title_short"><span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Geef citeeropschrift op</span></p>
+  <p property="eli:title_short"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
   <br>
 
   <!-- VARIABLE -->
@@ -27,21 +27,21 @@
 
   <div property="besluit:motivering" lang="nl">
     <p>
-      <span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">De/Het</span>
+      <span class="mark-highlight-manual">De/Het</span>
       <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}">geef bestuursorgaan op</span>,
     </p>
     <br>
 
     <div>
       <ul class="bullet-list">
-        <li>Gelet op <span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voeg juridische grond in</span>;</li>
+        <li>Gelet op <span class="mark-highlight-manual">Voeg juridische grond in</span>;</li>
       </ul>
     </div>
 
     <br>
     <div>
       <ul class="bullet-list">
-        <li>Overwegende dat <span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Voeg motivering in</span>;</li>
+        <li>Overwegende dat <span class="mark-highlight-manual">Voeg motivering in</span>;</li>
       </ul>
     </div>
   </div>
@@ -54,8 +54,10 @@
       <div property="eli:number">Enig artikel</div>
       <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
       <div property="prov:value">
-         <div property="mandaat:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateBoundUuid('mandataris')}" typeof="mandaat:Mandataris">&nbsp;
-         <span class="mark-highlight-manual" property="http://lblod.data.gift/vocabularies/editor/isLumpNode">Geef naam, functie, startdatum, ... op</span>
+         <div property="ext:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateBoundUuid('mandataris')}" typeof="mandaat:Mandataris">
+            De voorgedragen kandidaat <span class="mark-highlight-manual">geeft naam persoon op </span> wordt verkozen verklaard als
+            <span class="mark-highlight-manual">geef functie op</span> met ingang van <span class="mark-highlight-manual">geef start op</span>
+            <span class="mark-highlight-manual">geef einde op</span>
          </div>
       </div>
     </div>
