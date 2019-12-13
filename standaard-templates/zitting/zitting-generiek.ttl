@@ -42,7 +42,7 @@
   </p>
 
   <p>
-    Locatie: <span class="mark-highlight-manual">Voer naam locatie in</span>, <span class="mark-highlight-manual">Voer naam zaal in</span>.
+    Locatie: <span property="prov:atLocation"> <span class="mark-highlight-manual">Voer naam locatie in</span> </span>, <span class="mark-highlight-manual">Voer naam zaal in</span>.
   </p>
   <p>
     Gestart op:
