@@ -6,7 +6,7 @@
 
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitNieuweStijl">
   <p>Openbare titel besluit:</p>
-  <h4 class="h4" property="eli:title"><span class="mark-highlight-manual">Geef titel besluit op</span></h4>
+  <h4 class="h4" property="eli:title" datatype="xsd:string"><span class="mark-highlight-manual">Geef titel besluit op</span></h4>
   <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
   <br>
   <p>Korte openbare beschrijving:</p>
@@ -14,7 +14,7 @@
   <br>
 
   <p>Citeeropschrift:</p>
-  <p property="eli:title_short"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
+  <p property="eli:title_short" datatype="xsd:string"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
   <br>
 
   <!-- VARIABLE -->

@@ -7,7 +7,7 @@
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateBoundUuid('besluit')}"
   typeof="besluit:Besluit ext:BesluitKlassiekeStijl mandaat:Aanstellingsbesluit">
   <p>Openbare titel besluit:</p>
-  <h5 class="h4" property="eli:title">Aanstelling mandataris</h5>
+  <h5 class="h4" property="eli:title" datatype="xsd:string">Aanstelling mandataris</h5>
   <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
   <br>
   <p>Korte openbare beschrijving:</p>
@@ -15,7 +15,7 @@
   <br>
 
   <p>Citeeropschrift:</p>
-  <p property="eli:title_short"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
+  <p property="eli:title_short" datatype="xsd:string"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
   <br>
 
   <!-- VARIABLE -->
