@@ -50,7 +50,7 @@
   <p class="u-spacer--small">Beslist,</p>
   <div property="prov:value" datatype="xsd:string">
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-      <div property="eli:number">Artikel 1</div>
+      <div property="eli:number" datatype="xsd:string">Artikel 1</div>
       <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
       <div property="prov:value" datatype="xsd:string"><span class="mark-highlight-manual">Voer inhoud in</span></div>
     </div>
