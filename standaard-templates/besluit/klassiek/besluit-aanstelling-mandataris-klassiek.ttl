@@ -55,7 +55,7 @@
       <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
       <div property="prov:value" datatype="xsd:string">
          <div property="ext:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateBoundUuid('mandataris')}" typeof="mandaat:Mandataris">
-            De voorgedragen kandidaat <span class="mark-highlight-manual">geef naam, datum start, datum einde en functie op</span>
+            De voorgedragen kandidaat... <span class="mark-highlight-manual">geef naam, datum start, datum einde en functie op</span>
          </div>
       </div>
     </div>
