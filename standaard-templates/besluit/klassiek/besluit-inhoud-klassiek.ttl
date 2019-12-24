@@ -7,7 +7,7 @@
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitKlassiekeStijl">
   <p>Openbare titel besluit:</p>
   <h5 class="h4" property="eli:title"><span class="mark-highlight-manual">Geef titel besluit op</span></h5>
-  <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
+  <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
   <br>
   <p>Korte openbare beschrijving:</p>
   <p property="eli:description"><span class="mark-highlight-manual">Geef korte beschrijving op</span></p>
@@ -51,7 +51,7 @@
   <div property="prov:value" datatype="xsd:string">
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
       <div property="eli:number">Artikel 1</div>
-      <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD">&nbsp;</span>
+      <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
       <div property="prov:value"><span class="mark-highlight-manual">Voer inhoud in</span></div>
     </div>
     <br>
