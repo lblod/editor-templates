@@ -10,7 +10,7 @@
   <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
   <br>
   <p>Korte openbare beschrijving:</p>
-  <p property="eli:description"><span class="mark-highlight-manual">Geef korte beschrijving op</span></p>
+  <p property="eli:description" datatype="xsd:string"><span class="mark-highlight-manual">Geef korte beschrijving op</span></p>
   <br>
 
   <p>Citeeropschrift:</p>
