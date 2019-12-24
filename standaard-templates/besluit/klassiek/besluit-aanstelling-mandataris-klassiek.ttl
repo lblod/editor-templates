@@ -53,7 +53,7 @@
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
       <div property="eli:number">Enig artikel</div>
       <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
-      <div property="prov:value">
+      <div property="prov:value" datatype="xsd:string">
          <div property="ext:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateBoundUuid('mandataris')}" typeof="mandaat:Mandataris">
             De voorgedragen kandidaat <span class="mark-highlight-manual">geeft naam persoon op </span> wordt verkozen verklaard als
             <span class="mark-highlight-manual">geef functie op</span> met ingang van <span class="mark-highlight-manual">geef start op</span>
