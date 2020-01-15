@@ -5,7 +5,7 @@
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateBoundUuid('besluit')}"
-  typeof="besluit:Besluit ext:BesluitKlassiekeStijl mandaat:Aanstellingsbesluit">
+  typeof="besluit:Besluit besluittype:fece1b0e-1746-4d32-8dd8-052e073da388 mandaat:Aanstellingsbesluit">
   <p>Openbare titel besluit:</p>
   <h5 class="h4" property="eli:title" datatype="xsd:string">Aanstelling mandataris</h5>
   <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
