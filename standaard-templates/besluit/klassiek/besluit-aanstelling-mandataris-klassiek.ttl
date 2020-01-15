@@ -5,7 +5,7 @@
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateBoundUuid('besluit')}"
-  typeof="besluit:Besluit besluittype:fece1b0e-1746-4d32-8dd8-052e073da388 mandaat:Aanstellingsbesluit">
+  typeof="besluit:Besluit besluittype:fece1b0e-1746-4d32-8dd8-052e073da388 ext:BesluitKlassiekeStijl">
   <p>Openbare titel besluit:</p>
   <h5 class="h4" property="eli:title" datatype="xsd:string">Aanstelling mandataris</h5>
   <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
@@ -48,13 +48,14 @@
   <br>
   <br>
 
+ <meta property="mandaat:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateBoundUuid('mandataris')}">
   <p class="u-spacer--small">Beslist,</p>
   <div property="prov:value" datatype="xsd:string">
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
       <div property="eli:number" datatype="xsd:string">Enig artikel</div>
       <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
       <div property="prov:value" datatype="xsd:string">
-         <div property="ext:bekrachtigtAanstellingVan" resource="http://data.lblod.info/id/mandatarissen/${generateBoundUuid('mandataris')}" typeof="mandaat:Mandataris">
+         <div resource="http://data.lblod.info/id/mandatarissen/${generateBoundUuid('mandataris')}" typeof="mandaat:Mandataris">
             De voorgedragen kandidaat... <span class="mark-highlight-manual">geef naam, datum start, datum einde en functie op</span>
          </div>
       </div>
