@@ -2,11 +2,12 @@
   <http://purl.org/dc/terms/title> "Generiek besluit (klassieke stijl)";
   <http://mu.semte.ch/vocabularies/core/uuid> "39c31a7e-2ba9-11e9-88cf-83ebfda837dc";
   <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#BehandelingVanAgendapunt>;
+  <http://mu.semte.ch/vocabularies/ext/disabledInContext> <http://data.vlaanderen.be/ns/besluit#Besluit>
   <http://mu.semte.ch/vocabularies/ext/templateContent> """
 
 <div property="prov:generated" resource="http://data.lblod.info/id/besluiten/${generateUuid()}" typeof="besluit:Besluit ext:BesluitKlassiekeStijl">
   <p>Openbare titel besluit:</p>
-  <h5 class="h4" property="eli:title" datatype="xsd:string"><span class="mark-highlight-manual">Geef titel besluit op</span></h5>
+  <h5 class="h4" property="eli:title" datatype="xsd:string"><span class="mark-highlight-manual">Geef openbare titel besluit op</span></h5>
   <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
   <br>
   <p>Korte openbare beschrijving:</p>
@@ -17,17 +18,9 @@
   <p property="eli:title_short" datatype="xsd:string"><span class="mark-highlight-manual">Geef citeeropschrift op</span></p>
   <br>
 
-  <!-- VARIABLE -->
-  <div class="ext_variable" typeof="ext:Variable" resource="http://variables/${generateUuid()}">
-    <div property="ext:idInSnippet" content="${generateBoundUuid('bestuursorgaan-label-in-besluit')}">0</div>
-    <div property="ext:intentionUri" content="http://zitting/bestuursorgaan-label-for-further-use">a</div>
-    <div property="ext:variableState" content="initialized">initialized</div>
-  </div>
-
   <div property="besluit:motivering" lang="nl">
     <p>
-      <span class="mark-highlight-manual">De/Het</span>
-      <span id="${generateBoundUuid('bestuursorgaan-label-in-besluit')}">geef bestuursorgaan op</span>,
+      <span class="mark-highlight-manual">geef bestuursorgaan op</span>,
     </p>
     <br>
 
@@ -55,7 +48,7 @@
       <div property="prov:value" datatype="xsd:string"><span class="mark-highlight-manual">Voer inhoud in</span></div>
     </div>
     <br>
-    <div>Voeg nieuw artikel in</div>
+    <div class="mark-highlight-manual">Voeg nieuw artikel in</div> <!-- Plugin en rdfa nakijken -->
     <br>
   </div>
 </div>
