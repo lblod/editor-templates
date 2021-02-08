@@ -1,0 +1,10 @@
+<http://lblod.info/templates/39c31a7e-2ba9-11e9-88cf-83ebfda837dc> a <http://mu.semte.ch/vocabularies/ext/Template>;
+  <http://purl.org/dc/terms/title> "Generiek besluit (klassieke stijl)";
+  <http://mu.semte.ch/vocabularies/core/uuid> "39c31a7e-2ba9-11e9-88cf-83ebfda837dc";
+  <http://mu.semte.ch/vocabularies/ext/activeInContext> <http://data.vlaanderen.be/ns/besluit#Besluit>;
+  <http://mu.semte.ch/vocabularies/ext/disabledInContext> <http://data.vlaanderen.be/ns/besluit#Artikel>;
+  <http://mu.semte.ch/vocabularies/ext/templateContent> """
+  <p>Citeeropschrift:</p>
+  <p property=\"eli:title_short\" datatype=\"xsd:string\"><span class=\"mark-highlight-manual\">Geef citeeropschrift op</span></p>
+  """;
+<http://mu.semte.ch/vocabularies/ext/templateMatches> "citeeropschrift".
