@@ -22,7 +22,7 @@
 
     <h5>Bevoegdheid</h5>
     <ul class="bullet-list">
-      <li><span class="mark-highlight-manual">Rechtsgrond die bepaalt dat dit orgaan bevoegd is.</span></li>
+      <li><span class="mark-highlight-manual">Rechtsgrond die bepaald dat dit orgaan bevoegd is.</span></li>
     </ul>
     <br>
 
@@ -44,7 +44,7 @@
 
   <div property="prov:value" datatype="xsd:string">
     <div property="eli:has_part" resource="http://data.lblod.info/artikels/${generateUuid()}" typeof="besluit:Artikel">
-      <div property="eli:number" datatype="xsd:string">Artikel 1</div>
+      <div>Artikel <span property="eli:number" datatype="xsd:string">1</span></div>
       <span style="display:none;" property="eli:language" resource="http://publications.europa.eu/resource/authority/language/NLD" typeof="skos:Concept">&nbsp;</span>
       <div property="prov:value" datatype="xsd:string">
         <span class="mark-highlight-manual">Voer inhoud in</span>
