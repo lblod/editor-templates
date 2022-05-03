@@ -38,11 +38,11 @@
 
    <h5>Juridische context</h5>
    <ul class=\"bullet-list\">
-     <li><a href=\"https://codex.vlaanderen.be/doc/document/1009730\">Nieuwe gemeentewet</a>&nbsp;(KB 24/06/1988)</li>
+     <li><a class=\"annotation\" property=\"eli:cites\" typeof=\"eli:LegalExpression\" href=\"https://codex.vlaanderen.be/doc/document/1009730\">Nieuwe gemeentewet</a>&nbsp;(KB 24/06/1988)</li>
      <li>decreet <a class=\"annotation\" href=\"https://codex.vlaanderen.be/doc/document/1029017\" property=\"eli:cites\" typeof=\"eli:LegalExpression\">over het lokaal bestuur</a> van 22/12/2017</li>
      <li>wet <a class=\"annotation\" href=\"https://codex.vlaanderen.be/doc/document/1009628\" property=\"eli:cites\" typeof=\"eli:LegalExpression\">betreffende de politie over het wegverkeer (wegverkeerswet - Wet van 16 maart 1968)</a></li>
-     <li>wegcode - Koninklijk Besluit <a class=\"annotation\" href=\"https://codex.vlaanderen.be/doc/document/1036242\" property=\"eli.cites\" typeof=\"eli:LegalExpression\">van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg.</a></li>
-     <li>code van de wegbeheerder - ministerieel besluit van 11 oktober 1976 houdende de minimumafmetingen en de bijzondere plaatsingsvoorwaarden van de verkeerstekens</li>
+     <li>wegcode - Koninklijk Besluit <a class=\"annotation\" href=\"https://codex.vlaanderen.be/doc/document/1036242\" property=\"eli:cites\" typeof=\"eli:LegalExpression\">van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg.</a></li>
+     <li>code van de wegbeheerder - <a class=\"annotation\" href=\"https://codex.vlaanderen.be/doc/document/1035575\" property=\"eli:cites\" typeof=\"eli:LegalExpression\">ministerieel besluit van 11 oktober 1976 houdende de minimumafmetingen en de bijzondere plaatsingsvoorwaarden van de verkeerstekens</a></li>
    </ul>
    <br>
    <em>specifiek voor aanvullende reglementen op het wegverkeer  (= politieverordeningen m.b.t. het wegverkeer voor wat betreft permanente of periodieke verkeerssituaties)</em>
